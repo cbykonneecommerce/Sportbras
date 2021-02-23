@@ -1,0 +1,79 @@
+{
+    "flex-layout.row#promos": {
+      "children": [
+        "flex-layout.col#promos1",
+        "flex-layout.col#promos2",
+        "flex-layout.col#promos3"
+      ],
+      "props": {
+        "blockClass": "promos",
+        "marginTop": "6",
+        "marginBottom": "8",
+        "horizontalAlign": "center"
+      }
+    },
+  
+    "flex-layout.col#promos1": {
+      "children": [
+        
+        "link#deal1"
+      ],
+      "props":{
+        "horizontalAlign": "center"
+      }
+    },
+  
+    "link#deal1": {
+      "props": {
+        "label": "PEÇAS EM ATÉ R$ 99,00",
+        "href": "",
+        "displayMode": "button",
+        "buttonProps":{
+            "variant": "primary"
+        },
+        "blockClass": "deals"
+      }
+    },
+    "flex-layout.col#promos2": {
+      "children": [
+        
+        "link#deal2"
+      ],
+      "props":{
+        "horizontalAlign": "center"
+      }
+    },
+   
+    "link#deal2": {
+        "props": {
+            "label": "DUAS PEÇAS POR R$ 99,00",
+            "href": "",
+            "displayMode": "button",
+            "buttonProps":{
+                "variant": "primary"
+            },
+            "blockClass": "deals"
+          }
+    },
+    "flex-layout.col#promos3": {
+      "children": [
+        
+        "link#deal3"
+      ],
+      "props":{
+        "horizontalAlign": "center"
+      }
+    },
+   
+    "link#deal3": {
+        "props": {
+            "label": "TRÊS PEÇAS POR R$ 99,00",
+            "href": "",
+            "displayMode": "button",
+            "buttonProps":{
+                "variant": "primary"
+            },
+            "blockClass": "deals"
+          }
+    }
+  }

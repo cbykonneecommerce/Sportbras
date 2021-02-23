@@ -1,0 +1,35 @@
+.contentItem{
+    margin-top: 2em;
+}
+
+.listContainer{
+    border-bottom: solid 2px #808080;
+}
+
+.listItem--tab-style-item :global(.vtex-button){
+    background: none;
+    color: #333;
+    font-size: 18px;
+    line-height: 120%;
+    position: relative;
+    border-radius: 0;
+    padding-bottom: 5px;
+    min-height: 0;
+    width: 100%;
+    font-weight: 600;
+  
+}
+
+:global(.vtex-tab-layout-0-x-listItem--tab-style-item){
+    width: 48%; 
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.listItemActive--tab-style-item :global(.vtex-button){
+border-color: none !important;
+border: none;
+border-bottom: solid 3px #ED1C24;
+color: #ED1C24;
+}

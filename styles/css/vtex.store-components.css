@@ -1,0 +1,22 @@
+/*.skuSelectorTextContainer{
+    text-align: center;
+}*/
+
+.skuSelectorSubcontainer{
+    margin-bottom: 5px;
+}
+
+.sellingPrice{
+    color:#BDBDBD;
+    font-weight: 500;
+}
+
+.shippingContainer{
+    margin-top: -15px;
+}
+
+.productDescriptionTitle{
+    display: none;
+}
+
+

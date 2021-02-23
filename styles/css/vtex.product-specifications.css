@@ -1,0 +1,11 @@
+.groupName{
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent){
+    margin-bottom: 1em;
+}
+
+.specificationName{
+    font-weight: bold;
+}

@@ -1,0 +1,162 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#bannersprincipais",
+      "__fold__",
+      "flex-layout.row#promos",
+      "flex-layout.row#brands",
+      "flex-layout.row#novidades-title",
+      "flex-layout.row#novidades-shelf",
+      "list-context.product-list#novidades",
+      "flex-layout.row#promocoesimg",
+      "flex-layout.row#novidades2-title",
+      "flex-layout.row#novidades2-shelf",
+      "__fold__",
+      "flex-layout.row#bigbanner",
+      "flex-layout.row#mais-vendidos-title",
+      "flex-layout.row#mais-vendidos-shelf",
+      "sandbox#insta"
+    ]
+  },
+  "list-context.image-list#bannersprincipais": {
+    "children": ["slider-layout#bannersprincipais"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "/arquivos/Main-banner.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "/arquivos/Main-banner.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#bannersprincipais": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "blockClass": "carousel"
+    }
+  },
+  "flex-layout.row#brands": {
+    "children": ["slider-layout#brands"]
+  },
+  "flex-layout.row#novidades-title": {
+    "children": ["rich-text#novidades"]
+  },
+  "rich-text#novidades": {
+    "props": {
+      "text": "Novidades",
+      "font": "t-heading-2",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sectorTitle"
+    }
+  },
+  "flex-layout.row#novidades-shelf": {
+    "children": ["list-context.product-list#novidades"],
+    "props":{
+      "preventVerticalStretch":true
+    }
+  },
+  "list-context.product-list#novidades": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "paginationDotsVisibility": "never",
+      "collection": "138"
+    }
+  },
+
+  "flex-layout.row#novidades2-title": {
+    "children": ["rich-text#novidades2"]
+  },
+  "rich-text#novidades2": {
+    "props": {
+      "text": "Novidades",
+      "font": "t-heading-2",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sectorTitle"
+    }
+  },
+  "flex-layout.row#novidades2-shelf": {
+    "children": ["list-context.product-list#novidades2"]
+  },
+  "list-context.product-list#novidades2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "paginationDotsVisibility": "never",
+      "category": "9"
+    }
+  },
+
+
+
+  "flex-layout.row#bigbanner": {
+    "children": ["image#bigbanner"],
+    "props": {
+      "marginTop": "8",
+      "marginBottom": "8",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "image#bigbanner":{
+    "props": {
+      "src": "/arquivos/Rectangle4.png",
+    "maxWidth":"100%",
+    "link":""
+    }
+  },
+
+
+  "flex-layout.row#mais-vendidos-title": {
+    "children": ["rich-text#mais-vendidos"]
+  },
+  "rich-text#mais-vendidos": {
+    "props": {
+      "text": "Mais Vendidos",
+      "font": "t-heading-2",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sectorTitle"
+    }
+  },
+  "flex-layout.row#mais-vendidos-shelf": {
+    "children": ["list-context.product-list#mais-vendidos"]
+  },
+  "list-context.product-list#mais-vendidos": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "paginationDotsVisibility": "never",
+      "collection": "139"
+    }
+  },
+
+  "sandbox#insta":{
+    "props": {
+      "width": "100%",
+      "height": "auto",
+      "initialContent": "<h1 style=\"text-align:center;\">Insta aqui testar depois</h1>",
+      "allowCookies": false
+    }
+  }
+}

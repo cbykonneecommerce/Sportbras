@@ -1,0 +1,15 @@
+.quantitySelectorTitle, .quantitySelectorStepper{
+    display: inline-block !important;
+}
+
+.quantitySelectorTitle{
+    margin-right: 1em;
+}
+
+.quantitySelectorContainer{
+    display: block !important;
+}
+
+.quantitySelectorStepper .vtex-numeric-stepper__plus-button{
+    border-radius: 0px !important;
+}

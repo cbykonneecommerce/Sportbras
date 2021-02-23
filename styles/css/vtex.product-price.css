@@ -1,0 +1,10 @@
+.sellingPrice{
+    text-align: center;
+    margin-bottom: 1em;
+    color: #4F4F4F
+}
+.sellingPriceValue{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #4F4F4F !important;
+}

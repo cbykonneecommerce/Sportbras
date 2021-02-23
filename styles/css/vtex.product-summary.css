@@ -1,0 +1,21 @@
+.nameContainer{
+    text-align: center;
+    justify-content: center !important;
+}
+
+.productBrand{
+    color: black !important
+}
+
+.skuSelectorInternalBox{
+    border-color: #D92F2F !important;
+}
+
+
+.element:hover {
+    
+}
+
+.nameContainer{
+    min-height: 4.5em;
+}

@@ -1,0 +1,7 @@
+.paragraph--sectorTitle::before{
+    content:url('/arquivos/title-img.png'); 
+    position:relative; 
+    z-index:100000; 
+    left: 10px;
+    top: 14px;
+}

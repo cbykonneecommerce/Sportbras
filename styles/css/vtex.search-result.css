@@ -1,0 +1,43 @@
+:global(.vtex-checkbox__inner-container){
+    border-color: #E63E45;
+}
+.filterTitle{
+    color: #333;
+    font-weight: 700;
+}
+
+:global(.vtex-search-result-3-x-filtersWrapper){
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+:global(.vtex-search-result-3-x-filter__container--cor-){
+    order: 1
+}
+
+:global(.vtex-search-result-3-x-filter__container--tamanho-){
+    order: 2
+}
+
+:global(.vtex-search-result-3-x-filter__container--brand){
+    order: 3
+}
+
+:global(.vtex-search-result-3-x-filter__container--priceRange){
+    order: 4
+}
+:global(.vtex-search-result-3-x-filter__container--category-1){
+    order: 5
+}
+:global(.vtex-search-result-3-x-filter__container--category-2){
+    order: 6
+}
+
+:global(.vtex-search-result-3-x-filter__container--category-3){
+    order: 7
+}
+
+.filter__container--title{
+    display: none;
+}
+
