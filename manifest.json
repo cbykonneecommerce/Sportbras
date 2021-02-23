@@ -1,6 +1,6 @@
 {
   "vendor": "sportbras",
-  "name": "minimumtheme",
+  "name": "sportbras-theme",
   "version": "0.3.0",
   "builders": {
     "styles": "2.x",
