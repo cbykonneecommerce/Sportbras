@@ -1,0 +1,8 @@
+{
+  "rich-text#copyright": {
+    "props": {
+      "text": "2020 - SPORTBRAS- Razão Social: Sportbras Loja LTDA - Todos os Direitos Reservados | CNPJ: 10.691.721/0001-49",
+      "blockClass": "copyright__text"
+    }
+  }
+}

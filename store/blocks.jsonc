@@ -44,7 +44,12 @@
           "tablet": 3,
           "phone": 2
         },
-        "infinite": true
+        "infinite": true,
+        "showPaginationDots": "never",
+        "autoplay":{
+          "timeout": 4000,
+          "stopOnHover": true
+        }
       }
     },
     "product-summary.shelf": {
@@ -63,10 +68,16 @@
         "props":{
           "showVariationsLabels": "variation",
           "visibility": "always",
+          "blockClass": "summarySku",
+          "maxItems": 70,
           "displayMode":"slider",
           "hideImpossibleCombinations": true,
           "sliderDisplayThreshold": 3,
-          "thumbnailImage": "thumbnail"
+          "sliderItemsPerPage":{
+            "desktop": 3,
+            "phone": 2
+          },
+          "thumbnailImage": "principal"
         }
       },
 
@@ -88,6 +99,15 @@
         "showBadge": true,
         "aspectRatio": "1:1",
         "maxHeight": 220
+      }
+    },
+
+    "flex-layout.row#newsletterRow":{
+      "children": ["newsletter-form"],
+      "props":{
+        "preventVerticalStretch":true,
+        "horizontalAlign": "center",
+        "blockClass": "newslettercontent"
       }
     },
   

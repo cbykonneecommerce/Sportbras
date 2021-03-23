@@ -1,7 +1,26 @@
 .paragraph--sectorTitle::before{
     content:url('/arquivos/title-img.png'); 
     position:relative; 
-    z-index:100000; 
+    z-index:100; 
     left: 10px;
     top: 14px;
+}
+
+.container--newsletterTitle :global(.vtex-rich-text-0-x-paragraph){
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.container--newsletterTitle{
+    background-color: #E0E0E0;
+}
+
+.paragraph--footer-sobre{
+    color: #4F4F4F;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--payment__image), :global(.vtex-rich-text-0-x-paragraph--social__image){
+    margin: 0 25px 25px 0;
 }

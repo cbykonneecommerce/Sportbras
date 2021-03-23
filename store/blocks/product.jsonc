@@ -8,7 +8,9 @@
       "__fold__",
       "flex-layout.row#productbanners",
       "flex-layout.row#specs",
-      "flex-layout.row#reviews"
+      "flex-layout.row#reviews",
+      "rich-text#newsletter",
+      "flex-layout.row#newsletterRow"
     ]
   },
 

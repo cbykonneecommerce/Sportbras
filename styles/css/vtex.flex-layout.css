@@ -1,0 +1,12 @@
+.flexRow--newslettercontent{
+    background-color: #E0E0E0;
+    padding-bottom: 1em;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--flags__list), :global(.vtex-flex-layout-0-x-flexRowContent--social__row) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

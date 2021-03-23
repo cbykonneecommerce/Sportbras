@@ -1,0 +1,168 @@
+// First accordion
+{
+  "vtex.menu@2.x:menu#linkList-container-mobile": {
+    "children": ["menu-item#linkList-footer-toggle"],
+    "props": {
+        "orientation": "vertical",
+        "blockClass": ""
+    }
+  },
+
+  "menu-item#linkList-footer-toggle": {
+    "props": {
+      "id": "linkList-footer-toggle",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "linkList-footer-toggle",
+      "itemProps": {
+          "type": "internal",
+          "noFollow": true,
+          "tagTitle": "Institucional",
+          "text": "ATENDIMENTO"
+      }
+    },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#listLink-footer-accordion"
+      ]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#listLink-footer-accordion": {
+    "children": ["vtex.menu@2.x:menu#listLink-footer-menu"]
+  },
+
+  "vtex.menu@2.x:menu#listLink-footer-menu": {
+    "props": {
+        "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-item-0",
+      "menu-item#footer-item-1",
+      "menu-item#footer-item-2",
+      "menu-item#footer-item-3"
+    
+    ]
+  },
+
+//Second Accordion
+
+
+
+"vtex.menu@2.x:menu#linkList-container-mobile-2": {
+  "children": ["menu-item#linkList-footer-toggle-2"],
+  "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+  }
+},
+
+"menu-item#linkList-footer-toggle-2": {
+  "props": {
+    "id": "linkList-footer-toggle-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "blockClass": "linkList-footer-toggle",
+    "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Institucional",
+        "text": "SERVIÇOS ONLINE"
+    }
+  },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#listLink-footer-accordion-2"
+    ]
+},
+
+"vtex.menu@2.x:submenu.accordion#listLink-footer-accordion-2": {
+  "children": ["vtex.menu@2.x:menu#listLink-footer-menu-2"]
+},
+
+"vtex.menu@2.x:menu#listLink-footer-menu-2": {
+  "props": {
+      "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#footer-item-0",
+    "menu-item#footer-item-1",
+    "menu-item#footer-item-2",
+    "menu-item#footer-item-3"
+  
+  ]
+},
+
+
+
+//SOBRE
+
+"vtex.menu@2.x:menu#linkList-container-mobile-3": {
+  "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-sobre-footer",
+      "items": [
+        {
+          "id": "footer-item-0",
+          "blockClass": "footer-sobre__menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "href": "/quem-somos",
+              "noFollow": false,
+              "tagTitle": "Quem somos",
+              "text": "Quem somos"
+          }
+      },
+      {
+        "id": "footer-item-1",
+        "blockClass": "footer-sobre__menu-item",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/nossas-lojas",
+            "noFollow": false,
+            "tagTitle": "Nossas lojas",
+            "text": "Nossas lojas"
+        }
+    },
+    {
+      "id": "footer-item-2",
+      "blockClass": "footer-sobre__menu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/politica-de-devolucao",
+          "noFollow": false,
+          "tagTitle": "Política de Devolução e Troca",
+          "text": "Política de Devolução e Troca"
+      }
+  },
+  {
+    "id": "footer-item-3",
+    "blockClass": "footer-sobre__menu-item",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "href": "/compravendacondicoes",
+        "noFollow": false,
+        "tagTitle": "Política de Forma de Pagamento",
+        "text": "Política de Forma de Pagamento"
+    }
+}
+      ]
+  }
+}
+
+}
+
+
+
+

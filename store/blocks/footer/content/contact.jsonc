@@ -1,0 +1,46 @@
+{
+
+  "flex-layout.col#contact-container":{
+    "children": [
+      "flex-layout.row#contact"
+    ],
+    "props": {
+      "blockClass": "contact-container",
+      "preventHorizontalStretch": true,
+       "fullWidth": true
+    }
+  },
+
+
+  "flex-layout.row#contact" : {
+    "children": [
+      "info-card#contact-0",
+      "info-card#contact-1"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "contact__row"
+    }
+  },
+
+  "info-card#contact-0": {
+    "props": {
+      "imageUrl": "https://niazi.vtexassets.com/assets/vtex/assets-builder/niazi.niazi-theme/0.0.101/icons/icon-phone-red.svg",
+      "headline": "SAC",
+      "subhead": "(11) 3385-2700",
+      "textPosition": "right",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#contact-1": {
+    "props": {
+      "imageUrl": "https://niazi.vtexassets.com/assets/vtex/assets-builder/niazi.niazi-theme/0.0.101/icons/icon-mail-red.svg",
+      "headline": "**E-mail**",
+      "subhead": "sac@niazi.com.br",
+      "textPosition": "right",
+      "callToActionMode": "none",
+      "blockClass": "no-margin-r",
+      "textMode": "rich-text"
+    }
+  }
+}

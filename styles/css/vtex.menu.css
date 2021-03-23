@@ -1,0 +1,15 @@
+:global(.vtex-menu-2-x-styledLinkContent--menu-sobre-footer){
+    justify-content: center;
+}
+
+.styledLinkContent--linkList-footer-toggle{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+:global(.vtex-menu-2-x-menuItemInnerDiv--linkList-footer-toggle){
+    background-color: #F3F3F3;
+    margin-bottom:8px;
+    margin-top:8px;
+}

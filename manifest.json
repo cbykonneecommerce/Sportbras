@@ -56,7 +56,8 @@
     "vtex.sandbox": "0.x",
     "vtex.product-specifications": "1.x",
     "vtex.product-review-interfaces": "1.x",
-    "vtex.search": "2.x"
+    "vtex.search": "2.x",
+    "vtex.store-newsletter": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

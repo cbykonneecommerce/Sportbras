@@ -1,0 +1,59 @@
+{
+  "flex-layout.col#social-container":{
+    "children": [
+      "flex-layout.row#social-0",
+      "flex-layout.row#social-1"
+    ],
+    "props": {
+      "blockClass": "social-container",
+      "preventHorizontalStretch": true,
+       "fullWidth": true
+    }
+  },
+
+  
+  "flex-layout.row#social-0":{
+    "children": [
+      "rich-text#social"    
+    ]
+  },
+  "flex-layout.row#social-1":{
+    "children": [
+      "rich-text#socialImage-0",
+      "rich-text#socialImage-1",
+      "rich-text#socialImage-2"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "social__row"
+    }
+  },
+
+  "rich-text#social": {
+    "props": {
+      "font": "t-heading-5",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER",
+      "blockClass": "footer-sobre",
+      "text": "REDES SOCIAIS"
+    } 
+  },
+  "rich-text#socialImage-0": {
+    "props": {
+      "text": "[![Icone facebook](/arquivos/fb.svg 'Acesse o facebook')](https://www.facebook.com/Niazi-Chohfi-135405756531088/)",
+      "blockClass": ["social__image","facebook"]
+    }
+  },
+  "rich-text#socialImage-1": {
+    "props": {
+      "text": "[![Icone twitter](/arquivos/twitter.svg 'Acesse o twitter')](https://twitter.com/niazi_chohfi)",
+      "blockClass": ["social__image","twitter"]
+    }
+  },
+  "rich-text#socialImage-2": {
+    "props": {
+      "text": "[![Icone instagram](/arquivos/ig.svg 'Acesse o instagram')](https://www.instagram.com/niazi_chohfi/)",
+      "blockClass": ["social__image","instagram","no-margin-r"]
+    }
+  }
+}

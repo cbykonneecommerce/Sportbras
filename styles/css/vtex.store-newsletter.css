@@ -1,0 +1,41 @@
+
+
+:global(.vtex-styleguide-9-x-input){
+    text-align: center;
+}
+
+
+.formSubmitContainer{
+margin-top: 8px;
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button){
+    border-color: none !important;
+}
+
+
+@media (min-width: 700px) {
+    :global(.vtex-store-newsletter-1-x-newsletterForm){
+        display: flex;
+        align-items: stretch;
+        
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nameInputContainer,  :global(.vtex-store-newsletter-1-x-emailInputContainer){
+        width: 20% !important;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+}
+
+@media (max-width: 700px) {
+
+    :global(.vtex-store-newsletter-1-x-formSubmitContainer){
+        text-align: center;
+    }
+}
+
+

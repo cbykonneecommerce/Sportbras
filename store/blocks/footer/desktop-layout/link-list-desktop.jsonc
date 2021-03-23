@@ -1,0 +1,29 @@
+{
+  "flex-layout.col#linkList-container-desktop":{
+    "children": [
+      "flex-layout.row#linkList-footer-desktop-0",
+      "vtex.menu@2.x:menu#linkList-footer-desktop-1"
+    ],
+    "props": {
+      "blockClass": "linkList-container",
+      "preventHorizontalStretch": true,
+       "fullWidth": true
+    }
+  },
+  "flex-layout.row#linkList-footer-desktop-0":{
+    "children": [
+      "rich-text#linkList-footer-title-0"   
+    ]
+  },
+  "vtex.menu@2.x:menu#linkList-footer-desktop-1": {
+    "props": {
+        "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-item-0",
+      "menu-item#footer-item-1",
+      "menu-item#footer-item-2",
+      "menu-item#footer-item-3"
+    ]
+  }
+}
