@@ -1,0 +1,57 @@
+{
+  "slider-layout#politicas": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "rich-text#politica1",
+      "rich-text#politica2",
+      "rich-text#politica3",
+      "rich-text#politica4"
+    ]
+  },
+
+  "rich-text#politica1": {
+    "props": {
+      "text": "![RETIRE NA LOJA](/arquivos/b1.svg) **RETIRE NA LOJA**",
+      "font": "t-heading-5",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER",
+      "blockClass": "footer-politicas-list"
+    }
+  },
+  "rich-text#politica2": {
+    "props": {
+      "text": "![PARCELE EM ATÉ 3X](/arquivos/b2.svg) **PARCELE EM ATÉ 3X**",
+      "font": "t-heading-5",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER",
+      "blockClass": "footer-politicas-list"
+    }
+  },
+  "rich-text#politica3": {
+    "props": {
+      "text": "![30 DIAS PARA TROCA](/arquivos/b3.svg) **30 DIAS PARA TROCA**",
+      "font": "t-heading-5",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER",
+      "blockClass": "footer-politicas-list"
+    }
+  },
+  "rich-text#politica4": {
+    "props": {
+      "text": "![ATENDIMENTO ONLINE](/arquivos/b4.svg) **ATENDIMENTO ONLINE**",
+      "font": "t-heading-5",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER",
+      "blockClass": "footer-politicas-list"
+    }
+  }
+}

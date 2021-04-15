@@ -1,0 +1,138 @@
+{
+    /* col12 ROW1 */
+
+    "menu-item#col12-row1": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu" ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "ÁRVORES",
+                "href": "/natal/%C3%81rvores-de-Natal"
+            }
+        }
+    },
+    "menu-item#col12-row2": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu" ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "BOLAS",
+                "href": "/natal/Bolas-Natalinas"
+            }
+        }
+    },
+
+    "menu-item#col12-row3": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu" ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "LATAS DECORATIVAS",
+                "href": "/natal/Latas-Decorativas"
+            }
+        }
+    },
+    "menu-item#col12-row4": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu" ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "ENFEITES",
+                "href": "/NATAL/Guirlandas---Enfeites-de-Porta"
+            }
+        }
+    },
+
+    "menu-item#col12-row5": {
+      "props": {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "GUIRLANDA",
+              "href": "/NATAL/Guirlandas---Enfeites-de-Porta"
+          }
+      }
+  },
+
+  "menu-item#col12-row6": {
+    "props": {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "INFLÁVEL",
+            "href": "/NATAL/Inflaveis"
+        }
+      }
+  },
+
+  "menu-item#col12-row7": {
+    "props": {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "PISCA E LUMINOSOS",
+            "href": "/NATAL/Leds--Piscas---Luminosos"
+        }
+    }
+  },
+
+  "menu-item#col12-row8": {
+    "props": {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "PRESÉPIOS",
+            "href": "/NATAL/presepios"
+        }
+      }
+    },
+
+
+    "menu-item#col12-all": {
+      "props": {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "TODOS",
+              "href": "/NATAL"
+          }
+        }
+      }
+
+}

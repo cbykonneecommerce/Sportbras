@@ -1,0 +1,11 @@
+.headerRowBackground--main-menu{
+    background-color: #F2F2F2;
+}
+
+:global(.vtex-store-header-2-x-headerStickyRow--main-menu){
+    height: 46px;
+}
+
+:global(.vtex-store-header-2-x-headerRowContainer--main-header){
+    padding-top: 1em;
+}

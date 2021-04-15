@@ -1,0 +1,216 @@
+{
+    /* COL5 ROW1 */
+
+    "menu-item#col5-row1": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "COBERTORES",
+                "href": "/cama/cobertores"
+            }
+        }
+    },
+
+
+    "menu-item#col5-row2": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "COLCHAS",
+                "href": "/cama/colchas"
+            }
+        }
+
+    },
+
+    "menu-item#col5-row3": {
+      "props": {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "EDREDOM",
+              "href": "/cama/edredom"
+          }
+      }
+  },
+
+  "menu-item#col5-row4": {
+    "props": {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "JOGO DE CAMA",
+            "href": "/cama/jogo-de-cama"
+        }
+    }
+},
+
+"menu-item#col5-row5": {
+  "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "LENÇOL AVULSO",
+          "href": "/cama/lencol-avulso"
+      }
+  }
+},
+
+
+"menu-item#col5-row6": {
+  "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "PANTUFAS",
+          "href": "/cama/pantufas"
+      }
+  }
+},
+
+"menu-item#col5-row7": {
+  "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "FRONHA DE TRAVESSEIRO",
+          "href": "/cama/fronha-de-travesseiro"
+      }
+  }
+},
+
+"menu-item#col5-row8": {
+  "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "PORTA TRAVESSEIROS",
+          "href": "/cama/porta-travesseiros"
+      }
+  }
+},
+
+"menu-item#col5-row9": {
+  "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "PROTETOR DE COLCHÃO",
+          "href": "/cama/protetor-de-colchao"
+      }
+  }
+},
+
+"menu-item#col5-row10": {
+  "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "SAIA PARA BOX",
+          "href": "/cama/saia-para-box"
+      }
+  }
+},
+
+"menu-item#col5-row11": {
+  "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "TRAVESSEIRO",
+          "href": "/cama/travesseiro"
+      }
+  }
+},
+
+"menu-item#col5-row12": {
+  "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "CAPA PROTETORA DE TRAVESSEIROS",
+          "href": "/cama/capa-protetora-de-travesseiro"
+      }
+  }
+},
+
+"menu-item#col5-row13": {
+  "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "ALMOFADAS DE PESCOÇO",
+          "href": "/cama/almofada-de-pescoco"
+      }
+  }
+},
+    "menu-item#col5-all": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "all"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TODOS",
+                "href": "/cama"
+            }
+        }
+
+    }
+}

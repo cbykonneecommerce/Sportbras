@@ -3,9 +3,12 @@
 {
   "rich-text#linkList-footer-title-0": {
     "props": {
-      "blockClass": "footer__title",
-      "text": "Institucional"
-    } 
+      "font": "t-heading-5",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "footer-sobre",
+      "text": "SOBRE A SPORTBRAS"
+    }
   },
   "menu-item#footer-item-0": {
     "props": {

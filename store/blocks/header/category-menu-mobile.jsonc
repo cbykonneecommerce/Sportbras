@@ -1,0 +1,741 @@
+{
+    "vtex.menu@2.x:menu#category-menu-01--mob": {
+        "children": [
+            "menu-item#all--mob",
+            "menu-item#utensilios--mob",
+            "menu-item#tapetes--mob",
+            "menu-item#decoracao--mob",
+            "menu-item#tecidos--mob",
+            "menu-item#cama--mob",
+            "menu-item#mesa--mob",
+            "menu-item#banho--mob",
+            "menu-item#artesanato--mob",
+            "menu-item#pet--mob",
+            "menu-item#moda--mob",
+            "menu-item#hotelaria--mob",
+            "menu-item#brinquedos--mob",
+            "menu-item#natal--mob",
+            "menu-item#festa--mob"
+        ],
+        "props": {
+            "blockClass": "category-menu-mobile",
+            "orientation": "vertical"
+        }
+    },
+    // ----------------- TODAS AS CATEGORIAS ITEM -------------------
+    "menu-item#all--mob": {
+        "props": {
+            "id": "toplevel-1-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "mob__toplevel1",
+
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "TODAS AS CATEGORIAS",
+                "text": "TODAS AS CATEGORIAS"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col1--mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col1--mob": {
+        "children": ["vtex.menu@2.x:menu#submenuMain-col1--mob"],
+        "props": {
+            //"blockClass": "allSubmenuBlock",
+            // "width": "230"
+        }
+    },
+    "vtex.menu@2.x:menu#submenuMain-col1--mob": {
+        "children": [
+            "menu-item#col1-row1--mob",
+            "menu-item#col1-row2--mob",
+            "menu-item#col1-row3--mob",
+            "menu-item#col1-row4--mob",
+            "menu-item#col1-row5--mob",
+            "menu-item#col1-row6--mob",
+            "menu-item#col1-row7--mob",
+            "menu-item#col1-row8--mob",
+            "menu-item#col1-row9--mob",
+            "menu-item#col1-row10--mob"
+            // "menu-item#col1-all--mob"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    //-- ALL SUBMENUS  ------------------------------
+
+    // ------------ TAPETES ITEM -----------------
+    "menu-item#tapetes--mob": {
+        "props": {
+            "id": "menu-item-category-tapetes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "mob__toplevel1",
+            /*    "iconProps": {
+                "id": "menu-icon-tapetes",
+                "size": 30,
+                "viewBox": "0 0 30 30"
+                // "activeClassName": "rebel-pink",
+                // "mutedClassName": "c-action-primary"
+            }, */
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "TAPETES",
+                "text": "TAPETES"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col2--mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col2--mob": {
+        "children": ["vtex.menu@2.x:menu#submenuMain-col2--mob"],
+        "props": {
+            /*   "blockClass": "allSubmenuBlock",
+            "width": "230" */
+        }
+    },
+    "vtex.menu@2.x:menu#submenuMain-col2--mob": {
+        "children": [
+            "menu-item#col2-row1--mob",
+            "menu-item#col2-row2--mob",
+            "menu-item#col2-row3--mob",
+            "menu-item#col2-row4--mob",
+            "menu-item#col2-row5--mob",
+            "menu-item#col2-all--mob"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    // --------------------- DECORAÇÃO ITEM --------------------------
+    "menu-item#decoracao--mob": {
+        "props": {
+            "id": "menu-item-category-decoracao",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "mob__toplevel1",
+            /*    "iconProps": {
+                "id": "menu-icon-decoracao",
+                "size": 30,
+                "viewBox": "0 0 18 29"
+                // "activeClassName": "rebel-pink",
+                // "mutedClassName": "c-action-primary"
+            }, */
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "DECORAÇÃO",
+                "text": "DECORAÇÃO"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col3--mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col3--mob": {
+        "children": ["vtex.menu@2.x:menu#submenuMain-col3--mob"],
+        "props": {
+            /*  "blockClass": "allSubmenuBlock",
+            "width": "230" */
+        }
+    },
+    "vtex.menu@2.x:menu#submenuMain-col3--mob": {
+        "children": [
+            "menu-item#col3-row1--mob",
+            "menu-item#col3-row2--mob",
+            "menu-item#col3-row3--mob",
+            "menu-item#col3-row4--mob",
+            "menu-item#col3-row5--mob",
+            "menu-item#col3-row6--mob",
+            "menu-item#col3-row7--mob",
+            "menu-item#col3-row8--mob",
+            "menu-item#col3-row9--mob",
+            "menu-item#col3-row10--mob",
+            "menu-item#col3-all--mob"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    // ----------- TECIDOS  ITEM ------------------
+    "menu-item#tecidos--mob": {
+        "props": {
+            "id": "menu-item-category-tecidos--mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "mob__toplevel1",
+            /*  "iconProps": {
+                "id": "menu-icon-tecidos",
+                "size": 30,
+                "viewBox": "0 0 30 30"
+                // "activeClassName": "rebel-pink",
+                // "mutedClassName": "c-action-primary"
+            }, */
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "TECIDOS",
+                "text": "TECIDOS"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col4--mob"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col4--mob": {
+        "children": ["vtex.menu@2.x:menu#submenuMain-col4--mob"],
+        "props": {
+            /*     "blockClass": "allSubmenuBlock",
+            "width": "230" */
+        }
+    },
+    "vtex.menu@2.x:menu#submenuMain-col4--mob": {
+        "children": [
+            "menu-item#col4-row1--mob",
+            "menu-item#col4-row2--mob",
+            "menu-item#col4-row3--mob",
+            "menu-item#col4-row4--mob",
+            "menu-item#col4-row5--mob",
+            "menu-item#col4-row6--mob",
+            "menu-item#col4-row7--mob",
+            "menu-item#col4-all--mob"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    // ------------ CAMA ITEM -----------------
+    "menu-item#cama--mob": {
+        "props": {
+            "id": "menu-item-category-cama",
+            "type": "custom",
+            "blockClass": "mob__toplevel1",
+            /*  "iconProps": {
+                "id": "menu-icon-cama",
+                "size": 30,
+                "viewBox": "0 0 30 30"
+                // "activeClassName": "rebel-pink",
+                // "mutedClassName": "c-action-primary"
+            }, */
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "CAMA",
+                "text": "CAMA"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col5--mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col5--mob": {
+        "children": ["vtex.menu@2.x:menu#submenuMain-col5--mob"],
+        "props": {
+            /*  "blockClass": "allSubmenuBlock",
+            "width": "230" */
+        }
+    },
+    "vtex.menu@2.x:menu#submenuMain-col5--mob": {
+        "children": [
+            "menu-item#col5-row1--mob",
+            "menu-item#col5-row2--mob",
+            "menu-item#col5-row3--mob",
+            "menu-item#col5-row4--mob",
+            "menu-item#col5-row5--mob",
+            "menu-item#col5-row6--mob",
+            "menu-item#col5-row7--mob",
+            "menu-item#col5-row8--mob",
+            "menu-item#col5-row9--mob",
+            "menu-item#col5-row10--mob",
+            "menu-item#col5-row11--mob",
+            "menu-item#col5-row12--mob",
+            "menu-item#col5-row13--mob",
+            "menu-item#col5-all--mob"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    // ----------- MESA ITEM ------------------
+    "menu-item#mesa--mob": {
+        "props": {
+            "id": "menu-item-category-mesa",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "mob__toplevel1",
+            /*   "iconProps": {
+                "id": "menu-icon-mesa",
+                "size": 30,
+                "viewBox": "0 0 30 30"
+                // "activeClassName": "rebel-pink",
+                // "mutedClassName": "c-action-primary"
+            }, */
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "MESA",
+                "text": "MESA"
+            }
+        },
+
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col6--mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col6--mob": {
+        "children": ["vtex.menu@2.x:menu#submenuMain-col6--mob"],
+        "props": {
+            /*    "blockClass": "allSubmenuBlock",
+            "width": "230" */
+        }
+    },
+    "vtex.menu@2.x:menu#submenuMain-col6--mob": {
+        "children": [
+            "menu-item#col6-row1--mob",
+            "menu-item#col6-row2--mob",
+            "menu-item#col6-row3--mob",
+            "menu-item#col6-row4--mob",
+            "menu-item#col6-row5--mob",
+            "menu-item#col6-row6--mob",
+            "menu-item#col6-row7--mob",
+            "menu-item#col6-all--mob"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    // ------------ BANHO  ITEM ---------------
+    "menu-item#banho--mob": {
+        "props": {
+            "id": "menu-item-category-banho",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "mob__toplevel1",
+            /*   "iconProps": {
+                "id": "menu-icon-banho",
+                "size": 30,
+                "viewBox": "0 0 30 28"
+                // "activeClassName": "rebel-pink",
+                // "mutedClassName": "c-action-primary"
+            }, */
+            "itemProps": {
+                "type": "internal",
+                "href": "/banho",
+                "noFollow": true,
+                "tagTitle": "BANHO",
+                "text": "BANHO"
+            }
+        },
+
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col7--mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col7--mob": {
+        "children": ["vtex.menu@2.x:menu#submenuMain-col7--mob"],
+        "props": {
+            /*   "blockClass": "allSubmenuBlock",
+            "width": "230" */
+        }
+    },
+    "vtex.menu@2.x:menu#submenuMain-col7--mob": {
+        "children": [
+            "menu-item#col7-row1--mob",
+            "menu-item#col7-row2--mob",
+            "menu-item#col7-row3--mob",
+            "menu-item#col7-row4--mob",
+            "menu-item#col7-row5--mob",
+            "menu-item#col7-row6--mob",
+            "menu-item#col7-row7--mob",
+            "menu-item#col7-row8--mob",
+            "menu-item#col7-row9--mob",
+            "menu-item#col7-row10--mob",
+            "menu-item#col7-row11--mob",
+            "menu-item#col7-all--mob"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    // -----------  UTENSÍLIO DOMÉSTICO  ITEM ---------------
+    "menu-item#utensilios--mob": {
+        "props": {
+            "id": "menu-item-category-utensilio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "mob__toplevel1",
+            /*  "iconProps": {
+                "id": "menu-icon-utensilios",
+                "size": 30,
+                "viewBox": "0 0 30 30"
+                // "activeClassName": "rebel-pink",
+                // "mutedClassName": "c-action-primary"
+            }, */
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "UTILIDADES DOMÉSTICAS",
+                "text": "UTILIDADES DOMÉSTICAS"
+            }
+        },
+
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col8--mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col8--mob": {
+        "children": ["vtex.menu@2.x:menu#submenuMain-col8--mob"],
+        "props": {
+            /*  "blockClass": "allSubmenuBlock",
+            "width": "230" */
+        }
+    },
+    "vtex.menu@2.x:menu#submenuMain-col8--mob": {
+        "children": [
+            "menu-item#col8-row1--mob",
+            "menu-item#col8-row2--mob",
+            "menu-item#col8-row3--mob",
+            "menu-item#col8-row4--mob",
+            "menu-item#col8-row5--mob",
+            "menu-item#col8-row6--mob",
+            "menu-item#col8-row7--mob",
+            "menu-item#col8-row8--mob",
+            "menu-item#col8-row9--mob",
+            "menu-item#col8-row10--mob",
+            "menu-item#col8-row11--mob",
+            "menu-item#col8-row12--mob",
+            "menu-item#col8-row13--mob",
+            "menu-item#col8-row14--mob",
+            "menu-item#col8-row15--mob",
+            "menu-item#col8-row16--mob",
+            "menu-item#col8-all--mob"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    // ---------------  ARTESANATO  ITEM -------------
+    "menu-item#artesanato--mob": {
+        "props": {
+            "id": "menu-item-category-artesanato",
+            "type": "custom",
+            "blockClass": "mob__toplevel1",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "ARTESANATO",
+                "text": "ARTESANATO"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col9--mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col9--mob": {
+        "children": ["vtex.menu@2.x:menu#submenuMain-col9--mob"],
+        "props": {
+            /*  "blockClass": "allSubmenuBlock",
+            "width": "230" */
+        }
+    },
+    "vtex.menu@2.x:menu#submenuMain-col9--mob": {
+        "children": [
+            "menu-item#col9-row1--mob",
+            "menu-item#col9-row2--mob",
+            "menu-item#col9-row3--mob",
+            "menu-item#col9-row4--mob",
+            "menu-item#col9-row5--mob",
+            "menu-item#col9-row6--mob",
+            "menu-item#col9-row7--mob",
+            "menu-item#col9-row8--mob",
+            "menu-item#col9-all--mob"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    // ---------------  PET  ITEM -------------
+    "menu-item#pet--mob": {
+        "props": {
+            "id": "menu-item-category-pet",
+            "type": "custom",
+            "blockClass": "mob__toplevel1",
+            "iconId": null,
+            "highlight": false,
+            /*  "iconProps": {
+                "id": "menu-icon-pet",
+                "size": 30,
+                "viewBox": "0 0 30 30"
+                // "activeClassName": "rebel-pink",
+                // "mutedClassName": "c-action-primary"
+            }, */
+            "itemProps": {
+                "type": "internal",
+                "href": "/pet",
+                "noFollow": true,
+                "tagTitle": "PET",
+                "text": "PET"
+            }
+        },
+
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col10--mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col10--mob": {
+        "children": ["vtex.menu@2.x:menu#submenuMain-col10--mob"],
+        "props": {
+            /*  "blockClass": "allSubmenuBlock",
+            "width": "230" */
+        }
+    },
+    "vtex.menu@2.x:menu#submenuMain-col10--mob": {
+        "children": [
+            "menu-item#col10-row1--mob",
+            "menu-item#col10-row2--mob",
+            "menu-item#col10-all--mob"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    // ---------------  MODA  ITEM -------------
+    "menu-item#moda--mob": {
+        "props": {
+            "id": "menu-item-category-moda",
+            "blockClass": "mob__toplevel1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            /*  "iconProps": {
+                "id": "menu-icon-moda",
+                "size": 30,
+                "viewBox": "0 0 28 30"
+                // "activeClassName": "rebel-pink",
+                // "mutedClassName": "c-action-primary"
+            }, */
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "LINGERIE",
+                "text": "LINGERIE"
+            }
+        },
+
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col11--mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col11--mob": {
+        "children": ["vtex.menu@2.x:menu#submenuMain-col11--mob"],
+        "props": {
+            /*   "blockClass": "allSubmenuBlock",
+            "width": "230" */
+        }
+    },
+    "vtex.menu@2.x:menu#submenuMain-col11--mob": {
+        "children": [
+            "menu-item#col11-row1--mob",
+            "menu-item#col11-row2--mob",
+            "menu-item#col11-row3--mob",
+            "menu-item#col11-row4--mob",
+            "menu-item#col11-all--mob"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+
+
+      // ---------------  HOTELARIA  ITEM -------------
+      "menu-item#hotelaria--mob": {
+        "props": {
+            "id": "menu-item-category-moda",
+            "blockClass": "mob__toplevel1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            /*  "iconProps": {
+                "id": "menu-icon-moda",
+                "size": 30,
+                "viewBox": "0 0 28 30"
+                // "activeClassName": "rebel-pink",
+                // "mutedClassName": "c-action-primary"
+            }, */
+            "itemProps": {
+                "type": "internal",
+                "href": "/hotelaria",
+                "noFollow": true,
+                "tagTitle": "HOTELARIA",
+                "text": "HOTELARIA"
+            }
+        },
+
+        "blocks": []
+    },
+
+
+    // ---------------  BRINQUEDOS  ITEM -------------
+    "menu-item#brinquedos--mob": {
+        "props": {
+            "id": "menu-item-category-moda",
+            "blockClass": "mob__toplevel1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            /*  "iconProps": {
+                            "id": "menu-icon-moda",
+                            "size": 30,
+                            "viewBox": "0 0 28 30"
+                            // "activeClassName": "rebel-pink",
+                            // "mutedClassName": "c-action-primary"
+                        }, */
+            "itemProps": {
+                "type": "internal",
+                "href": "/brinquedos",
+                "noFollow": true,
+                "tagTitle": "BRINQUEDOS",
+                "text": "BRINQUEDOS"
+            }
+        },
+
+        "blocks": []
+    },
+
+        // ---------------  NATAL  ITEM -------------
+        "menu-item#natal--mob": {
+          "props": {
+              "id": "menu-item-category-moda",
+              "blockClass": "mob__toplevel1",
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              /*  "iconProps": {
+                      "id": "menu-icon-moda",
+                      "size": 30,
+                      "viewBox": "0 0 28 30"
+                      // "activeClassName": "rebel-pink",
+                      // "mutedClassName": "c-action-primary"
+                  }, */
+              "itemProps": {
+                  "type": "internal",
+                  "href": "/natal",
+                  "noFollow": true,
+                  "tagTitle": "NATAL",
+                  "text": "NATAL"
+              }
+          },
+
+          "blocks": [
+            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col12--mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col12--mob": {
+        "children": ["vtex.menu@2.x:menu#submenuMain-col12--mob"],
+        "props": {
+            /*   "blockClass": "allSubmenuBlock",
+            "width": "230" */
+        }
+    },
+    "vtex.menu@2.x:menu#submenuMain-col12--mob": {
+        "children": [
+            "menu-item#col12-row1--mob",
+            "menu-item#col12-row2--mob",
+            "menu-item#col12-row3--mob",
+            "menu-item#col12-row4--mob",
+            "menu-item#col12-all--mob"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+
+
+
+            // ---------------  FESTA  ITEM -------------
+            "menu-item#festa--mob": {
+              "props": {
+                  "id": "menu-item-category-festa",
+                  "blockClass": "mob__toplevel1",
+                  "type": "custom",
+                  "iconId": null,
+                  "highlight": false,
+                  /*  "iconProps": {
+                          "id": "menu-icon-moda",
+                          "size": 30,
+                          "viewBox": "0 0 28 30"
+                          // "activeClassName": "rebel-pink",
+                          // "mutedClassName": "c-action-primary"
+                      }, */
+                  "itemProps": {
+                      "type": "internal",
+                      "href": "/festa",
+                      "noFollow": true,
+                      "tagTitle": "FESTA",
+                      "text": "FESTA"
+                  }
+              },
+
+              "blocks": [
+                "vtex.menu@2.x:submenu.accordion#all-submenu-block-col13--mob"
+            ]
+        },
+        "vtex.menu@2.x:submenu.accordion#all-submenu-block-col13--mob": {
+            "children": ["vtex.menu@2.x:menu#submenuMain-col13--mob"],
+            "props": {
+                /*   "blockClass": "allSubmenuBlock",
+                "width": "230" */
+            }
+        },
+        "vtex.menu@2.x:menu#submenuMain-col13--mob": {
+            "children": [
+                "menu-item#col13-row1--mob",
+                "menu-item#col13-row2--mob",
+                "menu-item#col13-row3--mob",
+                "menu-item#col13-row4--mob",
+                "menu-item#col13-all--mob"
+            ],
+            "props": {
+                "orientation": "vertical"
+            }
+        }
+
+}

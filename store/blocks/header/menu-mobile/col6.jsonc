@@ -1,0 +1,118 @@
+{
+    /* COL6 ROW1 - MOB */
+
+    "menu-item#col6-row1--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Pano de Copa",
+                "href": "/mesa/pano-de-copa"
+            }
+        }
+    },
+
+    "menu-item#col6-row2--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Jogo Americano",
+                "href": "/mesa/jogo-americano"
+            }
+        }
+    },
+    "menu-item#col6-row3--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Toalha de Mesa",
+                "href": "/mesa/toalhas-de-mesa"
+            }
+        }
+    },
+    "menu-item#col6-row4--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Trilhos de Mesa",
+                "href": "/mesa/trilhos-de-mesa"
+            }
+        }
+    },
+    "menu-item#col6-row5--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Guardanapos",
+                "href": "/mesa/guardanapos"
+            }
+        }
+    },
+    "menu-item#col6-row6--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Porta Guardanapo",
+                "href": "/mesa/porta-guardanapo"
+            }
+        }
+    },
+    "menu-item#col6-row7--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Sousplat",
+                "href": "/mesa/sousplat"
+            }
+        }
+    },
+
+    "menu-item#col6-all--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Todos",
+                "href": "/mesa"
+            }
+        }
+    }
+}

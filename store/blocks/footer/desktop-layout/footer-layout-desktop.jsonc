@@ -4,10 +4,24 @@
       "blockClass": ["footer", "desktop"]
     },
     "children": [
+      "flex-layout.row#footer-container-politicas-desktop",
       "flex-layout.row#footer-container-0-desktop",
       "flex-layout.row#footer-container-1-desktop"
     ]
   },
+
+  "flex-layout.row#footer-container-politicas-desktop": {
+    "props": {
+      "blockClass": "footer__politicas"
+    },
+    "children": ["slider-layout#politicas"]
+  },
+
+
+
+
+
+
   "flex-layout.row#footer-container-0-desktop": {
     "props": {
       "blockClass": "footer__content"
@@ -32,8 +46,8 @@
   },
   "flex-layout.col#footer-0-box-1":{
     "children": [
-      "flex-layout.col#contact-container",
-      "flex-layout.col#social-container"
+      "flex-layout.col#contact-container"
+      
     ],
     "props": {
         "blockClass": ["footer__content-col","footer__content-col--desktop-1"],
@@ -43,7 +57,7 @@
   },
   "flex-layout.col#footer-0-box-2":{
     "children": [
-      "flex-layout.col#payment-container"
+      "flex-layout.col#servicos-container"
     ],
     "props": {
         "blockClass": ["footer__content-col","footer__content-col--desktop-2"],
@@ -53,8 +67,9 @@
   },
   "flex-layout.col#footer-0-box-3":{
     "children": [
-      "flex-layout.col#security-container",
-      "flex-layout.col#powered-container"
+      "flex-layout.col#payment-container",
+      "flex-layout.col#social-container"
+      
     ],
     "props": {
         "blockClass": ["footer__content-col","footer__content-col--desktop-3"],
@@ -69,7 +84,8 @@
       "blockClass": "footer__copyright"
     },
     "children": [
-      "rich-text#copyright"
+      "rich-text#copyright",
+      "flex-layout.col#powered-container"
     ]
   }  
 }

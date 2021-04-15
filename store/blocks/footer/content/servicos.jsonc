@@ -1,0 +1,82 @@
+{
+
+    "flex-layout.col#servicos-container":{
+      "children": [
+        "flex-layout.row#servicos-title",
+        "vtex.menu@2.x:menu#servicos-footer-desktop-1"
+      ],
+      "props": {
+        "blockClass": "linkList-container",
+        "preventHorizontalStretch": true,
+         "fullWidth": true
+      }
+    },
+    "flex-layout.row#servicos-title":{
+      "children": [
+        "rich-text#servicos-title-0"   
+      ]
+    },
+  
+    "rich-text#servicos-title-0":{
+      "props": {
+        "font": "t-heading-5",
+        "textPosition": "LEFT",
+        "textAlign": "LEFT",
+        "blockClass": "footer-sobre",
+        "text": "SERVIÇOS ONLINE"
+      }
+    },
+  
+    "vtex.menu@2.x:menu#servicos-footer-desktop-1": {
+      "props": {
+          "orientation": "vertical",
+          "blockClass": "menu-footer",
+          "items":[
+            {
+              "id": "footer-item-acc-4",
+              "blockClass": "footer-sobre__menu-item",
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "href": "/retire-loja",
+                  "noFollow": false,
+                  "tagTitle": "Retire na Loja",
+                  "text": "Retire na Loja"
+              }
+          },
+          {
+            "id": "footer-item-acc-5",
+            "blockClass": "footer-sobre__menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/politicas-comerciais",
+                "noFollow": false,
+                "tagTitle": "Políticas Comerciais",
+                "text": "Políticas Comerciais"
+            }
+        },
+        {
+          "id": "footer-item-acc-6",
+          "blockClass": "footer-sobre__menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "href": "/newsletter",
+              "noFollow": false,
+              "tagTitle": "Newsletter",
+              "text": "Newsletter"
+          }
+      }
+          ]
+      }
+    }
+    
+  }
+  

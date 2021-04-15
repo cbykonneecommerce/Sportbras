@@ -19,4 +19,16 @@
     display: none;
 }
 
+.searchBarIcon--external-search{
+    background-color: white;
+}
 
+:global(.vtex-store-components-3-x-externalSearchButtonWrapper){
+    border: none;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group){
+    border-color: #4F4F4F;
+    border-width: 1px;
+    border-radius: 10px;
+}

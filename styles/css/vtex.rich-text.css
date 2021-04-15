@@ -24,3 +24,25 @@
 :global(.vtex-rich-text-0-x-paragraph--payment__image), :global(.vtex-rich-text-0-x-paragraph--social__image){
     margin: 0 25px 25px 0;
 }
+
+
+:global(.vtex-rich-text-0-x-image--footer-politicas-list){
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+:global(.vtex-rich-text-0-x-image--cbyk){
+    width: 65px;
+    margin-left: 20px;
+}
+:global(.vtex-rich-text-0-x-image--vtex){
+    width: 90px;
+    margin-left: 20px;
+}
+
+
+@media (min-width: 1100px) {
+    :global(.vtex-rich-text-0-x-container--footer-sobre){
+        justify-content: left !important;
+    }
+}

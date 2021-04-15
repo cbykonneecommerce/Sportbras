@@ -1,0 +1,508 @@
+{
+    /* COL9 ROW1 - MOB */
+
+    "menu-item#col9-row1--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "MDF",
+                "href": "/artesanato/mdf"
+            }
+        }
+    },
+
+    "menu-item#col9-row2--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Bandejas",
+                "href": "/artesanato/bandejas"
+            }
+        }
+    },
+    "menu-item#col9-row3--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Pincéis",
+                "href": "/artesanato/pinceis"
+            }
+        }
+    },
+
+    "menu-item#col9-row4--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "LINHAS",
+                "href": "/artesanato/linha"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#col9-row4--mob"]
+    },
+    "vtex.menu@2.x:submenu.accordion#col9-row4--mob": {
+        "children": ["vtex.menu@2.x:menu#col9-row4-submenu--mob"],
+        "props": {
+            "blockClass": "sub-2-nav",
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col9-row4-submenu--mob": {
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "CROCHÊ E TRICÔ",
+                        "href": "/artesanato/linha/croche-e-trico"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "AMIGURUMI",
+                        "href": "/artesanato/linha/amigurumi"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "BARBANTE",
+                        "href": "/artesanato/linha/barbante"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "COSTURAR",
+                        "href": "/artesanato/linha/costurar"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "BORDAR",
+                        "href": "/artesanato/linha/bordar"
+                    }
+                }
+            ]
+        }
+    },
+
+
+
+
+
+
+
+
+
+    "menu-item#col9-row5--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "AGULHAS",
+                "href": "/artesanato/agulha"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#col9-row5--mob"]
+    },
+    "vtex.menu@2.x:submenu.accordion#col9-row5--mob": {
+        "children": ["vtex.menu@2.x:menu#col9-row5-submenu--mob"],
+        "props": {
+            "blockClass": "sub-2-nav",
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col9-row5-submenu--mob": {
+        "props": {
+            "orientation": "vertical",
+            "items": [
+
+                {
+                  "type": "custom",
+                  "id": "",
+                  "blockClass":  ["submenu-level-2--mob", "subcategory"],
+                  "highlight": false,
+                  "itemProps": {
+                      "type": "internal",
+                      "noFollow": false,
+                      "text": "CROCHÊ",
+                      "href": "/artesanato/agulha/croche"
+                  }
+              },
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass":  ["submenu-level-2--mob", "subcategory"],
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "TRICÔ",
+                    "href": "/artesanato/agulha/trico"
+                }
+            }
+            ]
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "menu-item#col9-row6--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "AVIAMENTOS",
+                "href": "/artesanato/aviamentos"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#col9-row6--mob"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#col9-row6--mob": {
+        "children": ["vtex.menu@2.x:menu#col9-row6-submenu--mob"],
+        "props": {
+            "blockClass": "sub-2-nav",
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col9-row6-submenu--mob": {
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "PASSAMANARIAS",
+                        "href": "/artesanato/aviamentos/passamanarias"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "CORDÃO",
+                        "href": "/artesanato/aviamentos/cordao"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "ELÁSTICO",
+                        "href": "/artesanato/aviamentos/elastico"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "PONTO CURVA",
+                        "href": "/artesanato/aviamentos/ponto-curva"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "POMPOM",
+                        "href": "/artesanato/aviamentos/pompom"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "SIANINHA",
+                        "href": "/artesanato/aviamentos/sianinha"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "RENDA",
+                        "href": "/artesanato/aviamentos/renda"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "VIES",
+                        "href": "/artesanato/aviamentos/vies"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "ALCA",
+                        "href": "/artesanato/aviamentos/alca"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "CADARÇO",
+                        "href": "/artesanato/aviamentos/cadarco"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": ["submenu-level-2--mob", "subcategory"],
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "GALÃO",
+                        "href": "/artesanato/aviamentos/galao"
+                    }
+                }
+            ]
+        }
+    },
+
+
+
+
+
+
+
+
+
+    "menu-item#col9-row7--mob": {
+      "props": {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu--mob",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "FITAS",
+              "href": "/artesanato/fitas"
+          }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#col9-row7--mob"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#col9-row7--mob": {
+      "children": ["vtex.menu@2.x:menu#col9-row7-submenu--mob"],
+      "props": {
+          "blockClass": "sub-2-nav",
+          "width": "auto"
+      }
+  },
+
+  "vtex.menu@2.x:menu#col9-row7-submenu--mob": {
+      "props": {
+          "orientation": "vertical",
+          "items": [
+
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": ["submenu-level-2--mob", "subcategory"],
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "FITA DE CETIM",
+                    "href": "/artesanato/fitas/fita-de-cetim"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": ["submenu-level-2--mob", "subcategory"],
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "FITA METALIZADA",
+                  "href": "/artesanato/fitas/fita-metalizada"
+              }
+          },
+
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu-level-2--mob", "subcategory"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "APOSTILA",
+                "href": "/artesanato/fitas/apostila"
+            }
+        }
+
+          ]
+      }
+  },
+
+
+
+
+
+
+  "menu-item#col9-row8--mob": {
+    "props": {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu--mob",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "FIBRA SILICONADA",
+            "href": "/artesanato/fibra-siliconada"
+        }
+    }
+},
+
+
+
+
+    "menu-item#col9-all--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TODOS",
+                "href": "/artesanato"
+            }
+        }
+        //  "blocks": ["vtex.menu@2.x:submenu#col9-row3"]
+    }
+}

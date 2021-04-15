@@ -2,45 +2,94 @@
 
   "flex-layout.col#contact-container":{
     "children": [
-      "flex-layout.row#contact"
+      "flex-layout.row#contact-title",
+      "vtex.menu@2.x:menu#contact-footer-desktop-1"
     ],
     "props": {
-      "blockClass": "contact-container",
+      "blockClass": "linkList-container",
       "preventHorizontalStretch": true,
        "fullWidth": true
     }
   },
-
-
-  "flex-layout.row#contact" : {
+  "flex-layout.row#contact-title":{
     "children": [
-      "info-card#contact-0",
-      "info-card#contact-1"
-    ],
+      "rich-text#contact-title-0"   
+    ]
+  },
+
+  "rich-text#contact-title-0":{
     "props": {
-      "preventHorizontalStretch": true,
-      "blockClass": "contact__row"
+      "font": "t-heading-5",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "footer-sobre",
+      "text": "ATENDIMENTO"
     }
   },
 
-  "info-card#contact-0": {
+  "vtex.menu@2.x:menu#contact-footer-desktop-1": {
     "props": {
-      "imageUrl": "https://niazi.vtexassets.com/assets/vtex/assets-builder/niazi.niazi-theme/0.0.101/icons/icon-phone-red.svg",
-      "headline": "SAC",
-      "subhead": "(11) 3385-2700",
-      "textPosition": "right",
-      "callToActionMode": "none"
-    }
-  },
-  "info-card#contact-1": {
-    "props": {
-      "imageUrl": "https://niazi.vtexassets.com/assets/vtex/assets-builder/niazi.niazi-theme/0.0.101/icons/icon-mail-red.svg",
-      "headline": "**E-mail**",
-      "subhead": "sac@niazi.com.br",
-      "textPosition": "right",
-      "callToActionMode": "none",
-      "blockClass": "no-margin-r",
-      "textMode": "rich-text"
+        "orientation": "vertical",
+        "blockClass": "menu-footer",
+        "items":[
+          {
+            "id": "footer-item-acc-0",
+            "blockClass": "footer-sobre__menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/faq",
+                "noFollow": false,
+                "tagTitle": "FAQ",
+                "text": "FAQ"
+            }
+        },
+        {
+          "id": "footer-item-acc-1",
+          "blockClass": "footer-sobre__menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "href": "mailto:contato@sportbras.com.br",
+              "noFollow": false,
+              "tagTitle": "email",
+              "text": "contato@sportbras.com.br"
+          }
+      },
+      {
+        "id": "footer-item-acc-2",
+        "blockClass": "footer-sobre__menu-item",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "tel:112927694",
+            "noFollow": false,
+            "tagTitle": "numero",
+            "text": "(11) 2292-7694"
+        }
+    },
+    {
+      "id": "footer-item-acc-3",
+      "blockClass": "footer-sobre__menu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/fale-conosco",
+          "noFollow": false,
+          "tagTitle": "Fale Conosco",
+          "text": "Fale Conosco"
+      }
+  }
+        ]
     }
   }
+  
 }

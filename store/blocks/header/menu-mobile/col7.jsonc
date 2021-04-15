@@ -1,0 +1,195 @@
+{
+    /* COL7 ROW1 - MOB */
+
+    "menu-item#col7-row1--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "JOGO DE BANHO",
+                "href": "/banho/jogo-de-banho"
+            }
+        }
+    },
+
+    /* COL7 ROW2 - MOB */
+    "menu-item#col7-row2--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TOALHA DE BANHO",
+                "href": "/banho/toalha-de-banho"
+            }
+        }
+    },
+
+    /* COL7 ROW3 - MOB */
+    "menu-item#col7-row3--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TOALHA DE LAVABO",
+                "href": "/banho/toalha-de-lavabo"
+            }
+        }
+    },
+
+    /* COL7 ROW4 - MOB */
+    "menu-item#col7-row4--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TOALHA DE PRAIA",
+                "href": "/banho/toalha-de-praia"
+            }
+        }
+    },
+
+    /* COL7 ROW5 - MOB */
+    "menu-item#col7-row5--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TOALHA DE ROSTO",
+                "href": "/banho/toalha-de-rosto"
+            }
+        }
+    },
+
+    /* COL7 ROW6 - MOB */
+    "menu-item#col7-row6--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TOALHAS INFANTIS",
+                "href": "/banho/toalhas-infantis"
+            }
+        }
+    },
+
+    /* COL7 ROW7 - MOB */
+    "menu-item#col7-row7--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TOALHAS de PISO",
+                "href": "/banho/toalhas-de-piso"
+            }
+        }
+    },
+
+    /* COL7 ROW8 - MOB */
+    "menu-item#col7-row8--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TOUCAS DE BANHO",
+                "href": "/banho/toucas-de-banho"
+            }
+        }
+    },
+
+    /* COL7 ROW9 - MOB */
+    "menu-item#col7-row9--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TOALHAS DE CLUBE",
+                "href": "/banho/toalhas-de-clube"
+            }
+        }
+    },
+
+    /* COL7 ROW10 - MOB */
+    "menu-item#col7-row10--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "ROUPÃO",
+                "href": "/banho/roupao"
+            }
+        }
+    },
+
+    /* COL7 ROW11 - MOB */
+    "menu-item#col7-row11--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TOLHAS FITNESS",
+                "href": "/banho/toalhas-fitness"
+            }
+        }
+    },
+
+    /* COL7 ALL - MOB */
+
+    "menu-item#col7-all--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TODOS",
+                "href": "/banho"
+            }
+        }
+    }
+}

@@ -1,0 +1,202 @@
+{
+    /* COL10 ROW1 - MOB */
+
+    "menu-item#col10-row1--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "GATOS",
+                "href": "/pet/gatos"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#col10-row1--mob"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#col10-row1--mob": {
+        "children": ["vtex.menu@2.x:menu#col10-row1-submenu--mob"],
+        "props": {
+            "blockClass": "sub-2-nav",
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col10-row1-submenu--mob": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": ["submenu-level-2--mob", "subcategory"],
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "Acessórios para Alimentação",
+                    "href": "/pet/gatos/acessorios-para-alimentacao"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": ["submenu-level-2--mob", "subcategory"],
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "Brinquedos",
+                  "href": "/pet/gatos/brinquedos"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu-level-2--mob", "subcategory"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Conforto",
+                "href": "/pet/gatos/conforto"
+            }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "blockClass": ["submenu-level-2--mob", "subcategory"],
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "Higiene & Beleza",
+              "href": "/pet/gatos/higiene-e-beleza"
+          }
+      }
+            ]
+        }
+    },
+
+
+
+
+    /* COL10 ROW2 - MOB */
+
+    "menu-item#col10-row2--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "CACHORROS",
+                "href": "/pet/cachorros"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#col10-row2--mob"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#col10-row2--mob": {
+        "children": ["vtex.menu@2.x:menu#col10-row2-submenu--mob"],
+        "props": {
+            "blockClass": "sub-2-nav",
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col10-row2-submenu--mob": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": ["submenu-level-2--mob", "subcategory"],
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "CONFORTO",
+                    "href": "pet/cachorros/conforto"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": ["submenu-level-2--mob", "subcategory"],
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "TRANSPORTE",
+                  "href": "pet/cachorros/transporte"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu-level-2--mob", "subcategory"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Higiene & Beleza",
+                "href": "/pet/cachorros/higiene-e-beleza"
+            }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "blockClass": ["submenu-level-2--mob", "subcategory"],
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "Acessórios para Alimentação",
+              "href": "/pet/cachorros/acessorios-para-alimentacao"
+          }
+      },
+      {
+        "type": "custom",
+        "id": "",
+        "blockClass": ["submenu-level-2--mob", "subcategory"],
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "BRINQUEDOS",
+            "href": "/pet/cachorros/brinquedos"
+        }
+    }
+
+            ]
+        }
+    },
+
+
+
+
+    /* COL10 ALL - MOB */
+
+    "menu-item#col10-all--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Todos",
+                "href": "/pet"
+            }
+        }
+        //  "blocks": ["vtex.menu@2.x:submenu#col10-row3"]
+    }
+}

@@ -1,0 +1,592 @@
+{
+    /* COL4 ROW1 */
+
+    "menu-item#col4-row1": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "with-container"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "ARTESANATO",
+                "href": "/tecidos/artesanato"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col4-row1"]
+    },
+
+    "vtex.menu@2.x:submenu#col4-row1": {
+        "children": ["vtex.menu@2.x:menu#col4-row1-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col4-row1-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "TRICOLINE",
+                        "href": "/tecidos/artesanato/tricoline"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "TNT",
+                        "href": "/tecidos/artesanato/tnt"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "FRALDA",
+                        "href": "/tecidos/artesanato/fralda"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "JULTA",
+                        "href": "/tecidos/artesanato/julta"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "FELTRO",
+                        "href": "/tecidos/artesanato/feltro"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "BORDADO INGLÊS",
+                        "href": "/tecidos/artesanato/bordado-ingles"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "MANTA TÊRMICA",
+                        "href": "/tecidos/artesanato/manta-termica"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "ALGODÃO CRÚ",
+                        "href": "/tecidos/artesanato/algodao-cru"
+                    }
+                }
+            ]
+        }
+    },
+
+    /* COL4 ROW2 */
+
+    "menu-item#col4-row2": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "with-container"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "DECORAÇÃO",
+                "href": "/tecidos/decoracao"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col4-row2"]
+    },
+
+    "vtex.menu@2.x:submenu#col4-row2": {
+        "children": ["vtex.menu@2.x:menu#col4-row2-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col4-row2-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "ALGODÃO",
+                        "href": "/tecidos/decoracao/algodao"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "GORGURÃO",
+                        "href": "/tecidos/decoracao/gorgurao"
+                    }
+                },
+
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "BANDEIRA DO BRASIL",
+                        "href": "/tecidos/decoracao/bandeira-do-brasil"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "JACQUARD",
+                        "href": "/tecidos/decoracao/jacquard"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "GORGURINHO",
+                        "href": "/tecidos/decoracao/gorgurinho"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "ACQUABLOCK",
+                        "href": "/decoracao/tecido%20acquablock?fuzzy=0&initialMap=ft&initialQuery=tecido%20acquablock&map=category-2,ft&operator=and"
+                    }
+                }
+            ]
+        }
+    },
+
+    /* COL4 ROW3 */
+
+    "menu-item#col4-row3": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "with-container"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "CAMA",
+                "href": "/tecidos/cama"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col4-row3"]
+    },
+
+    "vtex.menu@2.x:submenu#col4-row3": {
+        "children": ["vtex.menu@2.x:menu#col4-row3-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col4-row3-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "PERCAL",
+                        "href": "/tecidos/cama/percal"
+                    }
+                }
+            ]
+        }
+    },
+
+    /* COL4 ROW4 */
+
+    "menu-item#col4-row4": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "with-container"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "MESA",
+                "href": "/tecidos/mesa"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col4-row4"]
+    },
+
+    "vtex.menu@2.x:submenu#col4-row4": {
+        "children": ["vtex.menu@2.x:menu#col4-row4-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col4-row4-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "PLÁSTICO",
+                        "href": "/tecidos/mesa/plastico"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "JACQUARD",
+                        "href": "/mesa/jacquard?_q=Jacquard&fuzzy=0&initialMap=ft&initialQuery=jacquard&map=category-2,ft&operator=and"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "OXFORD MESA",
+                        "href": "/mesa/oxford-mesa"
+                    }
+                }
+            ]
+        }
+    },
+
+    /* COL4 ROW5 */
+
+    "menu-item#col4-row5": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "with-container"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "MODA",
+                "href": "/tecidos/moda"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col4-row5"]
+    },
+
+    "vtex.menu@2.x:submenu#col4-row5": {
+        "children": ["vtex.menu@2.x:menu#col4-row5-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col4-row5-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "OXFORD",
+                        "href": "/tecidos/moda/oxford"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "FLANELA",
+                        "href": "/tecidos/moda/flanela"
+                    }
+                }
+            ]
+        }
+    },
+
+    /* COL4 ROW6 */
+
+    "menu-item#col4-row6": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "with-container"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "CORTINA",
+                "href": "/tecidos/cortina"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col4-row6"]
+    },
+
+    "vtex.menu@2.x:submenu#col4-row6": {
+        "children": ["vtex.menu@2.x:menu#col4-row6-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col4-row6-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "Forro para Cortina",
+                        "href": "/tecidos/cortina/forro-para-cortina"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "BLACKOUT",
+                        "href": "/tecidos/cortina/blackout"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "CORTINAS LISAS",
+                        "href": "/tecidos/cortina/cortinas-lisas"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "blockClass": "submenu-level-2",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "text": "CORTINAS TRABALHADAS",
+                        "href": "/tecidos/cortina/cortinas-trabalhadas"
+                    }
+                }
+            ]
+        }
+    },
+
+
+
+
+
+/* COL4 ROW7 */
+
+"menu-item#col4-row7": {
+  "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": ["submenu", "with-container"],
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "BANHO",
+          "href": "/tecidos/banho"
+      }
+  },
+  "blocks": ["vtex.menu@2.x:submenu#col4-row7"]
+},
+
+"vtex.menu@2.x:submenu#col4-row7": {
+  "children": ["vtex.menu@2.x:menu#col4-row7-submenu"],
+  "props": {
+      "blockClass": [
+          "allSubmenuBlock",
+          "SubmenuBlock",
+          "submenu-position-1"
+      ],
+      "width": "auto"
+  }
+},
+
+"vtex.menu@2.x:menu#col4-row7-submenu": {
+  "props": {
+      "orientation": "vertical",
+      "items": [
+          {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "TECIDO FELPUDO",
+                  "href": "/tecidos/banho/tecido-felpudo"
+              }
+          }
+      ]
+  }
+},
+
+
+
+
+    /* COL4 ALL */
+    "menu-item#col4-all": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "all"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TODOS",
+                "href": "/tecidos"
+            }
+        }
+        //  "blocks": ["vtex.menu@2.x:submenu#col1-row3"]
+    }
+}

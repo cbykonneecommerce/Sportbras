@@ -1,0 +1,200 @@
+{
+    /* COL1 ROW1 */
+
+    "menu-item#col1-row1": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "itens-title"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TAPETES",
+                "href": "/tapetes"
+            }
+        }
+    },
+    "menu-item#col1-row2": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "DECORAÇÃO",
+                "href": "/decoracao"
+            }
+        }
+    },
+
+    "menu-item#col1-row3": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TECIDOS",
+                "href": "/tecidos"
+            }
+        }
+    },
+
+    "menu-item#col1-row4": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "CAMA",
+                "href": "/cama"
+            }
+        }
+    },
+
+    "menu-item#col1-row5": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "MESA",
+                "href": "/mesa"
+            }
+        }
+    },
+
+    "menu-item#col1-row6": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "BANHO",
+                "href": "/banho"
+            }
+        }
+    },
+
+    "menu-item#col1-row7": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "UTILIDADES DOMÉSTICAS",
+                "href": "/ud"
+            }
+        }
+    },
+
+    "menu-item#col1-row8": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "ARTESANATO",
+                "href": "/artesanato"
+            }
+        }
+    },
+
+    "menu-item#col1-row9": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "PETSHOP",
+                "href": "/petshop"
+            }
+        }
+    },
+
+    "menu-item#col1-row10": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "MODA",
+                "href": "/moda"
+            }
+        }
+    },
+
+    "menu-item#col1-row11": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "HOTELARIA",
+                "href": "/hotelaria"
+            }
+        }
+        // "blocks": ["vtex.menu@2.x:submenu#col1-row11"]
+    },
+
+    "menu-item#col1-row12": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "NATAL",
+                "href": "/natal"
+            }
+        }
+        // "blocks": ["vtex.menu@2.x:submenu#col1-row11"]
+    },
+
+    "menu-item#col1-row13": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "BRINQUEDPS",
+                "href": "/brinquedos"
+            }
+        }
+        // "blocks": ["vtex.menu@2.x:submenu#col1-row11"]
+    }
+}

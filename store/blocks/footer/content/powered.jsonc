@@ -6,13 +6,14 @@
     "props": {
       "blockClass": "powered-container",
       "preventHorizontalStretch": true,
-       "fullWidth": true
+      "width": "30%"
     }
   },
 
 
   "flex-layout.row#powered" : {
     "children": [
+      "rich-text#poweredby",
       "rich-text#poweredImage-0",
       "rich-text#poweredImage-1"
     ],
@@ -21,15 +22,21 @@
       "blockClass": "powered__row"
     }
   },
+  "rich-text#poweredby": {
+    "props": {
+      "text": "**Powered By**",
+      "blockClass": ["powered__title"]
+    }
+  },
   "rich-text#poweredImage-0": {
     "props": {
-      "text": "[![Logo CBYK ONNE](/arquivos/cbykonne-logo-grey.png 'Acesse a CBYK ONNE')](https://weonne.com/)",
+      "text": "[![Logo CBYK ONNE](/arquivos/logo-cbyk.svg 'Acesse a CBYK ONNE')](https://weonne.com/)",
       "blockClass": ["powered__image","cbyk"]
     }
   },
   "rich-text#poweredImage-1": {
     "props": {
-      "text": "[![Logo vtex](/arquivos/powered-vtex.png 'Acesse a Vtex')](https://vtex.com/)",
+      "text": "[![Logo vtex](/arquivos/VTEX_logo.svg 'Acesse a Vtex')](https://vtex.com/)",
       "blockClass": ["powered__image","vtex","no-margin-r"]
     }
   }

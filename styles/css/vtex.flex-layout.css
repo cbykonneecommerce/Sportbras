@@ -10,3 +10,26 @@
     justify-content: center;
 }
 
+.flexRow--footer__politicas{
+    background-color: #F2F2F2;
+}
+
+
+@media (min-width: 1125px) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--social__row), :global(.vtex-flex-layout-0-x-flexRowContent--flags__list){
+        justify-content: left !important;
+    }
+    :global(.vtex-flex-layout-0-x-flexCol--filterCol){
+        width: 230px;
+    }
+}
+
+
+@media (max-width: 1125px) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--powered__row){
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+

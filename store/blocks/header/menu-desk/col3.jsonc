@@ -1,0 +1,303 @@
+{
+    /* COL3 ROW1 */
+
+    "menu-item#col3-row1": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "CORTINAS",
+                "href": "/decoracao/cortinas"
+            }
+        }
+    },
+
+    "menu-item#col3-row2": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "ACESSÓRIOS PARA CORTINA",
+                "href": "/decoracao/acessorios-para-cortinas"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col3-row2"]
+    },
+
+    "vtex.menu@2.x:submenu#col3-row2": {
+        "children": ["vtex.menu@2.x:menu#col3-row2-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col3-row2-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "VARÃO AVULSO",
+                    "href": "/decoracao/acessorios-para-cortinas/varao-avulso"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "ABRAÇADEIRA / PINGENTE",
+                  "href": "/decoracao/acessorios-para-cortinas/abracadeira---pingente"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "CONECTORES & JUNÇÕES",
+                "href": "/decoracao/acessorios-para-cortinas/conectores---juncoes"
+            }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu-level-2",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "KIT VARÁO",
+              "href": "/decoracao/acessorios-para-cortinas/kit-varao"
+          }
+      },
+      {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu-level-2",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "BRAÇADEIRAS",
+            "href": "/decoracao/acessorios-para-cortinas/bracadeiras"
+        }
+    },
+    {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu-level-2",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "PONTEIRAS",
+          "href": "/decoracao/acessorios-para-cortinas/ponteiras"
+      }
+  },
+  {
+    "type": "custom",
+    "id": "",
+    "blockClass": "submenu-level-2",
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "ILHÓS / ARGOLA",
+        "href": "/decoracao/acessorios-para-cortinas/ilhos---argola"
+    }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "PRESILHA",
+      "href": "/decoracao/acessorios-para-cortinas/presilha"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "TRILHO",
+      "href": "/decoracao/acessorios-para-cortinas/trilho"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "SUPORTE",
+      "href": "/decoracao/acessorios-para-cortinas/suporte"
+  }
+}
+            ]
+        }
+    },
+
+
+    "menu-item#col3-row3": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "CAPA DE ALMOFADA",
+                "href": "/decoracao/capa-de-almofada"
+            }
+        }
+    },
+    "menu-item#col3-row4": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "CAPA PARA SOFÁ",
+                "href": "/decoracao/capa-para-sofa"
+            }
+        }
+    },
+    "menu-item#col3-row5": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "ENCHIMENTO DE ALMOFADA",
+                "href": "/decoracao/enchimento-almofada"
+            }
+        }
+    },
+    "menu-item#col3-row6": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "FUTON E ASSENTO DE CADEIRA",
+                "href": "/decoracao/futon-e-assento-de-cadeira"
+            }
+        }
+    },
+    "menu-item#col3-row7": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "MANTAS E XALÉS",
+                "href": "/decoracao/mantas-e-xales"
+            }
+        }
+    },
+    "menu-item#col3-row8": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "PUFFS E BANQUETAS",
+                "href": "/decoracao/puffs-e-banquetas"
+            }
+        }
+    },
+    "menu-item#col3-row9": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "PERSIANAS PARA JANELAS",
+                "href": "/decoracao/persianas-para-janela"
+            }
+        }
+    },
+    "menu-item#col3-row10": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "ALMOFADAS",
+                "href": "/decoracao/almofadas"
+            }
+        }
+    },
+
+    "menu-item#col3-all": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "all"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TODOS",
+                "href": "/decoracao"
+            }
+        }
+    }
+}

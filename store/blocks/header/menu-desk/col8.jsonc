@@ -1,0 +1,2445 @@
+{
+    /* COL8 ROW1 */
+
+    "menu-item#col8-row1": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "HIGIENE",
+                "href": "/ud/higiene"
+            }
+        }
+    },
+
+    /* COL8 ROW2*/
+
+    "menu-item#col8-row2": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "BAR",
+                "href": "/ud/bar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row2"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row2": {
+        "children": ["vtex.menu@2.x:menu#col8-row2-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row2-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "ABRIDOR",
+                    "href": "/ud/bar/abridor"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "BALDE DE GELO",
+                  "href": "/ud/bar/balde-de-gelo"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "CHAMPANHEIRA",
+                "href": "/ud/bar/champanheira"
+            }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu-level-2",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "COQUETELEIRA",
+              "href": "/ud/bar/coqueteleira"
+          }
+      },
+      {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu-level-2",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "KIT CAIPIRINHA",
+            "href": "/ud/bar/kit-caipirinha"
+        }
+    },
+    {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu-level-2",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "ARTIGO PARA VINHO",
+          "href": "/ud/bar/artigo-para-vinho"
+      }
+  },
+  {
+    "type": "custom",
+    "id": "",
+    "blockClass": "submenu-level-2",
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "GELO ARTIFICIAL",
+        "href": "/ud/bar/gelo-artificial"
+    }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "TÉRMICOS",
+      "href": "/ud/bar/termicos"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "CANUDOS",
+      "href": "/ud/bar/canudos"
+  }
+}
+            ]
+        }
+    },
+
+
+
+
+    /* COL8 ROW3 */
+
+    "menu-item#col8-row3": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Para Cozinhar",
+                "href": "/ud/para-cozinhar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row3"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row3": {
+        "children": ["vtex.menu@2.x:menu#col8-row3-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row3-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "Jogo de Panelas",
+                    "href": "/ud/para-cozinhar/jogo-de-panelas"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "Panelas de Pressão",
+                  "href": "/ud/para-cozinhar/panelas-de-pressao"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Panelas Avulsas",
+                "href": "/ud/para-cozinhar/panelas-avulsas"
+            }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu-level-2",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "Caçarolas e Caldeirões",
+              "href": "/ud/para-cozinhar/panelas-avulsas"
+          }
+      },
+      {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu-level-2",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "Frigideiras",
+            "href": "/ud/para-cozinhar/frigideiras"
+        }
+    },
+    {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu-level-2",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "Panquequeiras",
+          "href": "/ud/para-cozinhar/panquequeiras"
+      }
+  },
+  {
+    "type": "custom",
+    "id": "",
+    "blockClass": "submenu-level-2",
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Formas,Assadeiras & Refratários",
+        "href": "/ud/para-cozinhar/formas-assadeiras---refratarios"
+    }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Wok e Cozi Vapore",
+      "href": "/ud/para-cozinhar/wok-e-cozi-vapore"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Pipoqueira",
+      "href": "/ud/para-cozinhar/pipoqueira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Omeleteira",
+      "href": "/ud/para-cozinhar/omeleteira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Espagueteira",
+      "href": "/ud/para-cozinhar/espagueteira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Tostadeiras",
+      "href": "/ud/para-cozinhar/tostadeiras"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Acessórios para Cozinhar",
+      "href": "/ud/para-cozinhar/acessórios-para-cozinhar"
+  }
+}
+            ]
+        }
+    },
+
+
+
+
+    /* COL8 ROW4 */
+
+    "menu-item#col8-row4": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Para Preparar",
+                "href": "/ud/para-preparar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row4"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row4": {
+        "children": ["vtex.menu@2.x:menu#col8-row4-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row4-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "Jogo de Panelas",
+                    "href": "/ud/para-preparar/medidores"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "Timer&Maçarico",
+                  "href": "/ud/para-preparar/timer-macarico"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Tigelas",
+                "href": "/ud/para-preparar/tigelas"
+            }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu-level-2",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "Abridor",
+              "href": "/ud/para-preparar/abridor"
+          }
+      },
+      {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu-level-2",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "Escorredo de Massa & Arroz",
+            "href": "/ud/para-preparar/escorredo-de-massa---arroz"
+        }
+    },
+    {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu-level-2",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "Espremedores",
+          "href": "/ud/para-preparar/espremedores"
+      }
+  },
+  {
+    "type": "custom",
+    "id": "",
+    "blockClass": "submenu-level-2",
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Acessórios para Preparar",
+        "href": "/ud/para-preparar/acessorios-para-preparar"
+    }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Ralador & Peneiras",
+      "href": "/ud/para-preparar/ralador---peneiras"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Tabuas",
+      "href": "/ud/para-preparar/tabuas"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Pincel",
+      "href": "/ud/para-preparar/pincel"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Cortador & Fatiador",
+      "href": "/ud/para-preparar/cortador---fatiador"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Rolo de Massa",
+      "href": "/ud/para-preparar/rolo-de-massa"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Tampa para Microondas",
+      "href": "/ud/para-preparar/tampa-para-microondas"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Centrifuga&Processador Manual",
+      "href": "/ud/para-preparar/centrifuga-processador-manual"
+  }
+}         ]
+        }
+    },
+
+
+
+
+    /* COL8 ROW5 */
+
+    "menu-item#col8-row5": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Para Servir",
+                "href": "/ud/para-servir"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row5"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row5": {
+        "children": ["vtex.menu@2.x:menu#col8-row5-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row5-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "Fondue e Acessórios",
+                    "href": "/ud/para-servir/fondue-e-acessorios"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "Copos",
+                  "href": "/ud/para-servir/copos"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Açucareiros",
+                "href": "/ud/para-servir/acucareiros"
+            }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu-level-2",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "Aparelhos de Jantar",
+              "href": "/ud/para-servir/aparelhos-de-jantar"
+          }
+      },
+      {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu-level-2",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "Bandejas",
+            "href": "/ud/para-servir/bandejas"
+        }
+    },
+    {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu-level-2",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "Canecas & Xícaras",
+          "href": "/ud/para-servir/canecas---xicaras"
+      }
+  },
+  {
+    "type": "custom",
+    "id": "",
+    "blockClass": "submenu-level-2",
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Faqueiros",
+        "href": "/ud/para-servir/Faqueiros"
+    }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Galheiros",
+      "href": "/ud/para-servir/Galheiros"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Jarras & Garrafas",
+      "href": "/ud/para-servir/jarras---garrafas"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Porta Frios",
+      "href": "/ud/para-servir/porta-frios"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Taças",
+      "href": "/ud/para-servir/tacas"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Molheiras",
+      "href": "/ud/para-servir/molheiras"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Boleiras & Queijeira",
+      "href": "/ud/para-servir/boleiras---queijeira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Porta Copos & Guardanapos",
+      "href": "/ud/para-servir/porta-copos---guardanapos"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Jg de Sobremesa",
+      "href": "/ud/para-servir/jg-de-sobremesa"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Pratos Avulsos",
+      "href": "/ud/para-servir/pratos-avulsos"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Saladeiras",
+      "href": "/ud/para-servir/saladeiras"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Bowl e Consomê",
+      "href": "/ud/para-servir/bowl-e-consome"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Bule & Garrafas Térmico",
+      "href": "/ud/para-servir/bule---garrafas-termico"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Bule & Chaleira",
+      "href": "/ud/para-servir/bule---chaleira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Petisqueiras e Travessas",
+      "href": "/ud/para-servir/petisqueiras-e-travessas"
+  }
+},
+
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Rechaud & Ramequim",
+      "href": "/ud/para-servir/rechaud---ramequim"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Suqueira",
+      "href": "/ud/para-servir/suqueira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Descanso de Panela",
+      "href": "/ud/para-servir/descanso-de-panela"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Balde de Gelo",
+      "href": "/ud/para-servir/balde-de-gelo"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Talheres Avulsos",
+      "href": "/ud/para-servir/talheres-avulsos"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Sousplat",
+      "href": "/ud/para-servir/sousplat"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Colher para Sorvete",
+      "href": "/ud/para-servir/colher-para-sorvete"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Jogo de Sobremesa",
+      "href": "/ud/para-servir/jogo-de-sobremesa"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Acessórios para Servir",
+      "href": "/ud/para-servir/acessorios-para-servir"
+  }
+}
+]
+        }
+    },
+
+
+
+
+
+    /* COL8 ROW6 */
+
+    "menu-item#col8-row6": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Para Armazenar",
+                "href": "/ud/para-armazenar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row6"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row6": {
+        "children": ["vtex.menu@2.x:menu#col8-row6-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row6-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "Potes",
+                    "href": "/ud/para-armazenar/potes"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "Marmita",
+                  "href": "/ud/para-armazenar/marmita"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Porta Mantimentos",
+                "href": "/ud/para-armazenar/porta-mantimentos"
+            }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu-level-2",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "Queijeira",
+              "href": "/ud/para-armazenar/queijeira"
+          }
+      },
+      {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu-level-2",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "Mantegueira",
+            "href": "/ud/para-armazenar/mantegueira"
+        }
+    },
+    {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu-level-2",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "Porta Pão",
+          "href": "/ud/para-armazenar/porta-pao"
+      }
+  },
+  {
+    "type": "custom",
+    "id": "",
+    "blockClass": "submenu-level-2",
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Acessórios para Armazenar",
+        "href": "/ud/para-armazenar/acessorios-para-armazenar"
+    }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Porta Capsula",
+      "href": "/ud/para-armazenar/porta-capsula"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Fruteira",
+      "href": "/ud/para-armazenar/fruteira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Farinheiros",
+      "href": "/ud/para-armazenar/farinheiros"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Lata",
+      "href": "/ud/para-armazenar/lata"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Estojo para Faqueiro",
+      "href": "/ud/para-armazenar/estojo-para-faqueiro"
+  }
+}
+            ]
+        }
+    },
+
+
+    /* COL8 ROW7 */
+
+    "menu-item#col8-row7": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Para Limpar",
+                "href": "/ud/para-limpar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row7"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row7": {
+        "children": ["vtex.menu@2.x:menu#col8-row7-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row7-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "Lixeiras",
+                    "href": "/ud/para-limpar/lixeiras"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "Escova Sanitária",
+                  "href": "/ud/para-limpar/escova-sanitaria"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Bacia & Baldes",
+                "href": "/ud/para-limpar/bacia---baldes"
+            }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu-level-2",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "Rodo",
+              "href": "/ud/para-limpar/rodo"
+          }
+      },
+      {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu-level-2",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "Rodo",
+            "href": "/ud/para-limpar/mop"
+        }
+    },
+    {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu-level-2",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "Espanador",
+          "href": "/ud/para-limpar/espanador"
+      }
+  },
+  {
+    "type": "custom",
+    "id": "",
+    "blockClass": "submenu-level-2",
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Vassoura",
+        "href": "/ud/para-limpar/vassoura"
+    }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Esponja e Escova",
+      "href": "/ud/para-limpar/esponja-e-escova"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Panos",
+      "href": "/ud/para-limpar/panos"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Luva",
+      "href": "/ud/para-limpar/luva"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Acessórios para Limpar",
+      "href": "/ud/para-limpar/acessorios-para-limpar"
+  }
+}
+
+            ]
+        }
+    },
+
+
+
+
+    /* COL8 ROW8 */
+
+    "menu-item#col8-row8": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Para Organizar",
+                "href": "/ud/para-organizar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row8"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row8": {
+        "children": ["vtex.menu@2.x:menu#col8-row8-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row8-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "Cesto",
+                    "href": "/ud/para-organizar/cesto"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "Cabides",
+                  "href": "/ud/para-organizar/cabides"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Sacos de Armazenagem",
+                "href": "/ud/para-organizar/sacos-de-armazenagem"
+            }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu-level-2",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "Organizadores",
+              "href": "/ud/para-organizar/organizadores"
+          }
+      },
+      {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu-level-2",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "Sapateiras",
+            "href": "/ud/para-organizar/sapateiras"
+        }
+    },
+    {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu-level-2",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "Banheiro",
+          "href": "/ud/para-organizar/banheiro"
+      }
+  },
+  {
+    "type": "custom",
+    "id": "",
+    "blockClass": "submenu-level-2",
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Maquiagem",
+        "href": "/ud/para-organizar/maquiagem"
+    }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Escorredor",
+      "href": "/ud/para-organizar/escorredor"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Prateleira",
+      "href": "/ud/para-organizar/prateleira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Suporte",
+      "href": "/ud/para-organizar/suporte"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Caixa Organizadora",
+      "href": "/ud/para-organizar/caixa-organizadora"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "Cozinha",
+      "href": "/ud/para-organizar/cozinha"
+  }
+}
+            ]
+        }
+    },
+
+
+
+    /* COL8 ROW9 */
+
+    "menu-item#col8-row9": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "ELETROPORTÁTEIS",
+                "href": "/ud/eletroportateis"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row9"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row9": {
+        "children": ["vtex.menu@2.x:menu#col8-row9-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row9-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "BATEDEIRAS",
+                    "href": "/ud/eletroportateis/batedeiras"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "CAFETEIRAS",
+                  "href": "/ud/eletroportateis/cafeteiras"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "ESPREMEDORES",
+                "href": "/ud/eletroportateis/espremedores"
+            }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu-level-2",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "FERRO DE PASSAR",
+              "href": "/ud/eletroportateis/ferro-de-passar"
+          }
+      },
+      {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu-level-2",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "GRILL",
+            "href": "/ud/eletroportateis/grill"
+        }
+    },
+
+    {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu-level-2",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "LIQUIDIFICADORES E BLENDER",
+          "href": "/ud/eletroportateis/liquidificadores-e-blender"
+      }
+  },
+  {
+    "type": "custom",
+    "id": "",
+    "blockClass": "submenu-level-2",
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "MIXER",
+        "href": "/ud/eletroportateis/mixer"
+    }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "PANELAS ELÉTRICAS",
+      "href": "/ud/eletroportateis/panelas-eletricas"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "SANDUICHEIRAS",
+      "href": "/ud/eletroportateis/sanduicheiras"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "AQUECEDORES",
+      "href": "/ud/eletroportateis/aquecedores"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "PIPOQUEIRA",
+      "href": "/ud/eletroportateis/pipoqueira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "TORRADEIRA",
+      "href": "/ud/eletroportateis/torradeira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "VENTILADOR E CIRCULADOR",
+      "href": "/ud/eletroportateis/ventilador-e-circulador"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "UMIDIFICAFORES",
+      "href": "/ud/eletroportateis/umidificadores"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "ASPIRADORES DE PÓ",
+      "href": "/ud/eletroportateis/aspiradores-de-po"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "PROCESSADOR",
+      "href": "/ud/eletroportateis/processador"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "CREPEIRA",
+      "href": "/ud/eletroportateis/crepeira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "CHURRASQUEIRA",
+      "href": "/ud/eletroportateis/churrasqueira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "OMELETEIRA",
+      "href": "/ud/eletroportateis/omeleteira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "PARAFUSADEIRA",
+      "href": "/ud/eletroportateis/parafusadeira"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "SECADOR",
+      "href": "/ud/eletroportateis/secador"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "PRANCHA",
+      "href": "/ud/eletroportateis/prancha"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "CHALEIRAS",
+      "href": "/ud/eletroportateis/Chaleiras"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "ESCOVA ALISADORA E MODELADORA",
+      "href": "/ud/eletroportateis/escova-alisadora-e-modeladora"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "MODELADOR DE CACHOS",
+      "href": "/ud/eletroportateis/modelador-de-cachos"
+  }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "BARBEADOR E CORTADOR DE CABELO",
+      "href": "/ud/eletroportateis/barbeador-e-cortador-de-cabelo"
+  }
+}
+]
+        }
+    },
+
+
+
+    /* COL8 ROW10 */
+
+    "menu-item#col8-row10": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "LAVANDERIA - LAVAR",
+                "href": "/ud/lavanderia-lavar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row10"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row10": {
+        "children": ["vtex.menu@2.x:menu#col8-row10-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row10-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "CESTO DE ROUPA",
+                    "href": "/ud/lavanderia-lavar/cesto-de-roupa"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "PORTA SABÃO",
+                  "href": "/ud/lavanderia-lavar/porta-sabao"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "SACO DE LAVAR",
+                "href": "/ud/lavanderia-lavar/saco-de-lavar"
+            }
+        }
+            ]
+        }
+    },
+
+
+
+    /* COL8 ROW11 */
+
+    "menu-item#col8-row11": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "LAVANDERIA - SECAR",
+                "href": "/ud/lavanderia-secar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row11"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row11": {
+        "children": ["vtex.menu@2.x:menu#col8-row11-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row11-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "VARAL",
+                    "href": "/ud/lavanderia-secar/varal"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "PRENDEDOR DE ROUPA",
+                  "href": "/ud/lavanderia-secar/prendedor-de-roupa"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "CAPA PARA MAQUINA",
+                "href": "/ud/lavanderia-secar/capa-para-maquina"
+            }
+        }
+            ]
+        }
+    },
+
+
+
+    /* COL8 ROW12 */
+
+    "menu-item#col8-row12": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "LAVANDERIA - PASSAR",
+                "href": "/ud/lavanderia-passar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row12"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row12": {
+        "children": ["vtex.menu@2.x:menu#col8-row12-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row12-submenu": {
+        "props": {
+            "orientation": "vertical",
+          "items":[
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "CAPA PARA TABUA",
+                  "href": "/ud/lavanderia-passar/capa-para-tabua"
+              }
+          }
+          ]
+        }
+    },
+
+
+
+    /* COL8 ROW13 */
+
+    "menu-item#col8-row13": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "PARA CORTAR",
+                "href": "/ud/para-cortar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row13"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row13": {
+        "children": ["vtex.menu@2.x:menu#col8-row13-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row13-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "FACA",
+                    "href": "/ud/para-cortar/faca"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "CEPO",
+                  "href": "/ud/para-cortar/cepo"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TESOURA",
+                "href": "/ud/para-cortar/tesoura"
+            }
+        }
+            ]
+        }
+    },
+
+
+
+    /* COL8 ROW14 */
+
+    "menu-item#col8-row14": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "PARA ASSAR",
+                "href": "/ud/para-assar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row14"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row14": {
+        "children": ["vtex.menu@2.x:menu#col8-row14-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row14-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "ASSADEIRA",
+                    "href": "/ud/para-assar/assadeira"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "FORMA",
+                  "href": "/ud/para-assar/forma"
+              }
+          }
+            ]
+        }
+    },
+
+
+
+
+    /* COL8 ROW15 */
+
+    "menu-item#col8-row15": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "PARA MEXER",
+                "href": "/ud/para-mexer"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row15"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row15": {
+        "children": ["vtex.menu@2.x:menu#col8-row15-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row15-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "COLHER",
+                    "href": "/ud/para-mexer/colher"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "ESPATULAS",
+                  "href": "/ud/para-mexer/espatulas"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "CONCHA",
+                "href": "/ud/para-mexer/concha"
+            }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "blockClass": "submenu-level-2",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "text": "BATEDOR E AMASSADOR",
+              "href": "/ud/para-mexer/batedor-e-amassador"
+          }
+      },
+      {
+        "type": "custom",
+        "id": "",
+        "blockClass": "submenu-level-2",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "text": "ESCUMADEIRA",
+            "href": "/ud/para-mexer/escumadeira"
+        }
+    },
+    {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu-level-2",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "GARFO TRINCHANTE",
+          "href": "/ud/para-mexer/garfo-trinchante"
+      }
+  },
+  {
+    "type": "custom",
+    "id": "",
+    "blockClass": "submenu-level-2",
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "PEGADOR",
+        "href": "/ud/para-mexer/pegador"
+    }
+},
+{
+  "type": "custom",
+  "id": "",
+  "blockClass": "submenu-level-2",
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "noFollow": false,
+      "text": "JOGOS DE UTENSÍLIOS",
+      "href": "/ud/para-mexer/jogos-de-utensilios"
+  }
+}
+
+            ]
+        }
+    },
+
+
+
+    /* COL8 ROW16 */
+
+    "menu-item#col8-row16": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": [ "submenu", "with-container" ] ,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "PARA TEMPERAR",
+                "href": "/ud/para-temperar"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#col8-row16"]
+    },
+
+    "vtex.menu@2.x:submenu#col8-row16": {
+        "children": ["vtex.menu@2.x:menu#col8-row16-submenu"],
+        "props": {
+            "blockClass": [
+                "allSubmenuBlock",
+                "SubmenuBlock",
+                "submenu-position-1"
+            ],
+            "width": "auto"
+        }
+    },
+
+    "vtex.menu@2.x:menu#col8-row16-submenu": {
+        "props": {
+            "orientation": "vertical",
+            "items":[
+              {
+                "type": "custom",
+                "id": "",
+                "blockClass": "submenu-level-2",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "text": "PORTA CONDIMENTO",
+                    "href": "/ud/para-temperar/porta-condimento"
+                }
+            },
+            {
+              "type": "custom",
+              "id": "",
+              "blockClass": "submenu-level-2",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "noFollow": false,
+                  "text": "MOEDOR",
+                  "href": "/ud/para-temperar/moedor"
+              }
+          },
+          {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu-level-2",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "SALEIRO&PIMENTEIRO",
+                "href": "/ud/para-temperar/saleiro---pimenteiro"
+            }
+        }
+            ]
+        }
+    },
+
+
+
+    /* COL8 all*/
+
+    "menu-item#col8-all": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "all"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "TODOS",
+                "href": "/ud"
+            }
+        }
+        //  "blocks": ["vtex.menu@2.x:submenu#col1-row3"]
+    }
+}

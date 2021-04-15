@@ -1,0 +1,91 @@
+{
+    /* COL2 ROW1 - MOB */
+
+    "menu-item#col2-row1--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Tapetes para Sala/Quarto",
+                "href": "/tapetes/tapetes-para-sala-quarto"
+            }
+        }
+    },
+
+    "menu-item#col2-row2--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Capacho",
+                "href": "/tapetes/capacho"
+            }
+        }
+    },
+    "menu-item#col2-row3--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Tapetes para Banheiro",
+                "href": "/tapetes/tapetes-para-banheiro"
+            }
+        }
+    },
+
+    "menu-item#col2-row4--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Tapetes para Cozinha",
+                "href": "/tapetes/tapetes-para-cozinha"
+            }
+        }
+    },
+    "menu-item#col2-row5--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Acessórios para Tapetes",
+                "href": "tapetes/acessorios-para-tapetes"
+            }
+        }
+    },
+
+    "menu-item#col2-all--mob": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": "submenu--mob",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Todos",
+                "href": "/tapetes"
+            }
+        }
+    }
+}

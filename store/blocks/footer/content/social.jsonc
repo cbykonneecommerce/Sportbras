@@ -14,7 +14,10 @@
   
   "flex-layout.row#social-0":{
     "children": [
-      "rich-text#social"    
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+          
     ]
   },
   "flex-layout.row#social-1":{
@@ -29,11 +32,32 @@
     }
   },
 
+  "responsive-layout.desktop":{
+    "children": ["rich-text#socialdesktop"]
+  },
+
+  "responsive-layout.tablet":{
+    "children": ["rich-text#social"]
+  },
+  "responsive-layout.phone":{
+    "children": ["rich-text#social"]
+  },
+
   "rich-text#social": {
     "props": {
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",
+      "blockClass": "footer-sobre",
+      "text": "REDES SOCIAIS"
+    } 
+  },
+
+  "rich-text#socialdesktop": {
+    "props": {
+      "font": "t-heading-5",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
       "blockClass": "footer-sobre",
       "text": "REDES SOCIAIS"
     } 
