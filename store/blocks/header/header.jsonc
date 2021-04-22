@@ -158,7 +158,7 @@
         //"optionsTitle": "Elija una de las opciones para confirmar su identidad",
         // "providerPasswordButtonLabel": "Ingresar con mail y contraseña",
         "showIconProfile": true,
-        "iconLabel": "MINHA CONTA",
+        "iconLabel": "ENTRE OU CADASTRE-SE",
         "labelClasses": "login__header"
         /* "accountOptionLinks": [
                   {
@@ -186,9 +186,9 @@
         "autocomplete-result-list.v2"
       ],
       "props": {
-        "iconClasses": "icon-default",
+        "iconClasses": "hpa-search",
         "placeholder": "O que você está procurando?",
-        "maxWidth": 795,
+        "maxWidth": 685,
         "displayMode": "search-and-clear-buttons",
         "autocompleteAlignment": "left",
         "openAutocompleteOnFocus": true

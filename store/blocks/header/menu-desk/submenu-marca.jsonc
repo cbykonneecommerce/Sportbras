@@ -1,0 +1,21 @@
+{
+    "vtex.menu@2.x:menu#submenu-cat-marcas-col1":{
+        "props":{
+            "orientation": "vertical",
+            "items": [
+                {
+                  "type": "custom",
+                  "id": "",
+                  "blockClass": "sub-cat-title",
+                  "highlight": false,
+                  "itemProps": {
+                      "type": "internal",
+                      "noFollow": false,
+                      "text": "ADIDAS",
+                      "href": "/marcas/adidas"
+                  }
+              }
+            ]
+        }
+    }
+}

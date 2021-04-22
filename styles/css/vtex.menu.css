@@ -28,3 +28,13 @@
 :global(.vtex-store-header-2-x-headerRow--main-header) {
     padding-bottom: 1em;
 }
+
+
+.styledLinkContent--allCategoryBlock{
+    color:#828282;
+    font-family: "DINPro";
+}
+
+.styledLinkContent--allCategoryBlock:hover{
+    color: #4F4F4F
+}
