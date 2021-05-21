@@ -68,15 +68,15 @@
         "props":{
           "showVariationsLabels": "variation",
           "visibility": "always",
+          "showValueForVariation": "image",
+          "initialSelection": "image",
+          "visibleVariations":["Cor:"],
           "blockClass": "summarySku",
           "maxItems": 70,
-          "displayMode":"slider",
+          "displayMode":"default",
           "hideImpossibleCombinations": true,
-          "sliderDisplayThreshold": 3,
-          "sliderItemsPerPage":{
-            "desktop": 3,
-            "phone": 2
-          },
+          "imageHeight": 15,
+          "imageWidth": 15,
           "thumbnailImage": "principal"
         }
       },
