@@ -1,0 +1,344 @@
+{
+    "vtex.menu@2.x:menu#submenu-cat-homens-col1":{
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"row-menu-col",
+        "children":[
+            "menu-item#subcat-homens-1"
+        ],
+            "items": [
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Bolas",
+                        "href": "/homens/acessorios/bolas"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Bonés e Viseiras",
+                        "href": "/homens/acessorios/bones-e-viseiras"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Luvas",
+                        "href": "/homens/acessorios/luvas"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Meias",
+                        "href": "/homens/acessorios/meias"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Meiões",
+                        "href": "/homens/acessorios/meioes"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Mochilas e Malas",
+                        "href": "/homens/acessorios/mochila-e-malas"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Óculos e Relógios",
+                        "href": "/homens/acessorios/oculos-e-relogios"
+                    }
+                }
+              
+            ]
+        }
+    },
+
+    "menu-item#subcat-homens-1": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "subcat-title"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "ACESSÓRIOS",
+                "href": "/homens/acessorios"
+            }
+        }
+    },
+
+
+
+    "vtex.menu@2.x:menu#submenu-cat-homens-col2":{
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"row-menu-col",
+            "children":[
+                "menu-item#subcat-homens-2"
+            ],
+            "items": [
+      
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Chinelos e Sandálias",
+                        "href": "/homens/calçados/chinelos-e-sandalias"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Chuteiras de Campo",
+                        "href": "/homens/calçados/chuteiras-campo"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Chuteiras de Salão",
+                        "href": "/homens/calçados/chuteiras-salao"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Chuteiras Society",
+                        "href": "/homens/calçados/chuteiras-society"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Tênis",
+                        "href": "/homens/calçados/tenis"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Tênis de Performance",
+                        "href": "/homens/calçados/tenis-de-performance"
+                    }
+                }
+                
+                
+            ]
+        }
+    },
+    "menu-item#subcat-homens-2": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "subcat-title"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "CALÇADOS",
+                "href": "/homens/calçados"
+            }
+        }
+    },
+
+
+
+
+    "vtex.menu@2.x:menu#submenu-cat-homens-col3":{
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"row-menu-col",
+            "children":[
+                "menu-item#subcat-homens-3"
+            ],
+            "items": [
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Agasalhos",
+                        "href": "/homens/roupas/agasalhos"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Bermudas",
+                        "href": "/homens/roupas/bermudas"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Calças",
+                        "href": "/homens/roupas/calças"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Camisetas",
+                        "href": "/homens/roupas/camisetas"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Camisetas de Futebol",
+                        "href": "/homens/roupas/camisetas-de-futebol"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Casacos e Jaquetas",
+                        "href": "/homens/roupas/casacos-e-jaquetas"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Moletons",
+                        "href": "/homens/roupas/moletons"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Shorts",
+                        "href": "/homens/roupas/shorts"
+                    }
+                }
+              
+            ]
+        }
+    },
+
+    "menu-item#subcat-homens-3": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "subcat-title"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "ROUPAS",
+                "href": "/homens/roupas"
+            }
+        }
+    }
+    
+}

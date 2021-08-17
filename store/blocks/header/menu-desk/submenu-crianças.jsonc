@@ -1,0 +1,76 @@
+{
+    "vtex.menu@2.x:menu#submenu-cat-crianças-col1":{
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"row-menu-col",
+      
+            "items": [
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Acessórios",
+                        "href": "/crianças/acessorios"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Calçados",
+                        "href": "/crianças/calçados"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Infantil",
+                        "href": "/crianças/infantil"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Juvenil",
+                        "href": "/crianças/juvenil"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Roupas",
+                        "href": "/crianças/Roupas"
+                    }
+                }
+            ]
+        }
+    }
+
+
+
+    
+    
+}
