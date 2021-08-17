@@ -45,8 +45,8 @@
 
     "vtex.menu@2.x:submenu#moda-submenu-block":{
         "props": {
-           
-            "width": "100%"
+            "width": "100%",
+            "blockClass":"main-menu-row-desk"
         },
 "children":[
     "flex-layout.row#marcas"
@@ -56,15 +56,38 @@
         "props":{
             "blockClass": [
               "menu-content-area"
-            ]  
+            ],
+            "paddingTop": 6,
+            "colGap": 3
         },
     
-        "children":["flex-layout.col#marcas"]
+        "children":["flex-layout.col#marcas1","flex-layout.col#marcas2","flex-layout.col#marcas3"]
     },
 
-    "flex-layout.col#marcas":{
+    "flex-layout.col#marcas1":{
+      "props":{
+          "width": "20%"
+      },
         "children":[
             "vtex.menu@2.x:menu#submenu-cat-marcas-col1"
+        ]
+    },
+    "flex-layout.col#marcas2":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-marcas-col2"
+        ]
+    },
+    "flex-layout.col#marcas3":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-marcas-col3"
         ]
     },
   
@@ -97,450 +120,593 @@
     // ------------ ESPORTE ITEM -----------------
     "menu-item#esporte": {
         "props": {
-            "id": "menu-item-category-tapetes",
+            "id": "menu-item-category-all",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
             "highlight": false,
-            "blockClass": ["allCategoryBlock", "department-menu"],
-          
+            "blockClass": [
+                "allCategoryBlock",
+                "highlightCategoryBlock",
+                "department-menu",
+                "removeBorderRight"
+            ],
+         
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "#",
                 "noFollow": true,
                 "tagTitle": "ESPORTE",
                 "text": "ESPORTE"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#all-submenu-block-col2"]
-    },
-    "vtex.menu@2.x:submenu#all-submenu-block-col2": {
-        "children": ["vtex.menu@2.x:menu#submenuMain-col2"],
-        "props": {
-            "blockClass": "allSubmenuBlock",
-            "width": "230"
-        }
-    },
-    "vtex.menu@2.x:menu#submenuMain-col2": {
-        "children": [
-            "image#banner-tapete-menu",
-            "menu-item#col2-row1",
-            "menu-item#col2-row2",
-            "menu-item#col2-row3",
-            "menu-item#col2-row4",
-            "menu-item#col2-row5",
-            "menu-item#col2-all"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+        "blocks": ["vtex.menu@2.x:submenu#esporte-submenu-block"]
     },
 
-    "image#banner-tapete-menu": {
+    "vtex.menu@2.x:submenu#esporte-submenu-block":{
         "props": {
-            "src": "/arquivos/tapete-single.png",
-            "maxWidth": "85%",
-            "link": "",
-            "blockClass": "menu-banner"
-        }
+            "width": "100%",
+            "blockClass":"main-menu-row-desk"
+        },
+"children":[
+    "flex-layout.row#esporte"
+]
+    },
+    "flex-layout.row#esporte":{
+        "props":{
+            "blockClass": [
+              "menu-content-area"
+            ],
+            "paddingTop": 6,
+            "colGap": 3
+        },
+    
+        "children":["flex-layout.col#esporte1","flex-layout.col#esporte2","flex-layout.col#esporte3"]
+    },
+
+    "flex-layout.col#esporte1":{
+      "props":{
+          "width": "20%"
+      },
+        "children":[
+            "vtex.menu@2.x:menu#submenu-cat-esporte-col1"
+        ]
+    },
+    "flex-layout.col#esporte2":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-esporte-col2"
+        ]
+    },
+    "flex-layout.col#esporte3":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-esporte-col3"
+        ]
     },
 
     // --------------------- MULHERES ITEM --------------------------
     "menu-item#mulheres": {
         "props": {
-            "id": "menu-item-category-decoracao",
+            "id": "menu-item-category-all",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
             "highlight": false,
-            "blockClass": ["allCategoryBlock", "department-menu"],
+            "blockClass": [
+                "allCategoryBlock",
+                "highlightCategoryBlock",
+                "department-menu",
+                "removeBorderRight"
+            ],
          
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "#",
                 "noFollow": true,
                 "tagTitle": "MULHERES",
                 "text": "MULHERES"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#all-submenu-block-col3"]
-    },
-    "vtex.menu@2.x:submenu#all-submenu-block-col3": {
-        "children": ["vtex.menu@2.x:menu#submenuMain-col3"],
-        "props": {
-            "blockClass": "allSubmenuBlock",
-            "width": "230"
-        }
-    },
-    "vtex.menu@2.x:menu#submenuMain-col3": {
-        "children": [
-            "image#banner-decoracao-menu",
-            "menu-item#col3-row1",
-            "menu-item#col3-row2",
-            "menu-item#col3-row3",
-            "menu-item#col3-row4",
-            "menu-item#col3-row5",
-            "menu-item#col3-row6",
-            "menu-item#col3-row7",
-            "menu-item#col3-row8",
-            "menu-item#col3-row9",
-            "menu-item#col3-row10",
-            "menu-item#col3-all"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+        "blocks": ["vtex.menu@2.x:submenu#mulheres-submenu-block"]
     },
 
-    "image#banner-decoracao-menu": {
+    "vtex.menu@2.x:submenu#mulheres-submenu-block":{
         "props": {
-            "src": "/arquivos/decoracao-single.png",
-            "maxWidth": "85%",
-            "link": "",
-            "blockClass": "menu-banner"
-        }
+            "width": "100%",
+            "blockClass":"main-menu-row-desk"
+        },
+"children":[
+    "flex-layout.row#mulheres"
+]
+    },
+    "flex-layout.row#mulheres":{
+        "props":{
+            "blockClass": [
+              "menu-content-area"
+            ],
+            "paddingTop": 6,
+            "colGap": 3
+        },
+    
+        "children":["flex-layout.col#mulheres1","flex-layout.col#mulheres2","flex-layout.col#mulheres3"]
+    },
+
+    "flex-layout.col#mulheres1":{
+      "props":{
+          "width": "20%"
+      },
+        "children":[
+            "vtex.menu@2.x:menu#submenu-cat-mulheres-col1"
+        ]
+    },
+    "flex-layout.col#mulheres2":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-mulheres-col2"
+        ]
+    },
+    "flex-layout.col#mulheres3":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-mulheres-col3"
+        ]
     },
 
     // ----------- HOMENS  ITEM ------------------
     "menu-item#homens": {
         "props": {
-            "id": "menu-item-category-tecidos",
+            "id": "menu-item-category-all",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
             "highlight": false,
-            "blockClass": ["allCategoryBlock", "department-menu"],
+            "blockClass": [
+                "allCategoryBlock",
+                "highlightCategoryBlock",
+                "department-menu",
+                "removeBorderRight"
+            ],
          
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "#",
                 "noFollow": true,
                 "tagTitle": "HOMENS",
                 "text": "HOMENS"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#all-submenu-block-col4"]
-    },
-    "vtex.menu@2.x:submenu#all-submenu-block-col4": {
-        "children": ["vtex.menu@2.x:menu#submenuMain-col4"],
-        "props": {
-            "blockClass": "allSubmenuBlock",
-            "width": "230"
-        }
-    },
-    "vtex.menu@2.x:menu#submenuMain-col4": {
-        "children": [
-            "image#banner-tecido-menu",
-            "menu-item#col4-row1",
-            "menu-item#col4-row2",
-            "menu-item#col4-row3",
-            "menu-item#col4-row4",
-            "menu-item#col4-row5",
-            "menu-item#col4-row6",
-            "menu-item#col4-row7",
-            "menu-item#col4-all"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+        "blocks": ["vtex.menu@2.x:submenu#homens-submenu-block"]
     },
 
-    "image#banner-tecido-menu": {
+    "vtex.menu@2.x:submenu#homens-submenu-block":{
         "props": {
-            "src": "/arquivos/tecido-single.png",
-            "maxWidth": "85%",
-            "link": "",
-            "blockClass": "menu-banner"
-        }
+            "width": "100%",
+            "blockClass":"main-menu-row-desk"
+        },
+"children":[
+    "flex-layout.row#homens"
+]
+    },
+    "flex-layout.row#homens":{
+        "props":{
+            "blockClass": [
+              "menu-content-area"
+            ],
+            "paddingTop": 6,
+            "colGap": 3
+        },
+    
+        "children":["flex-layout.col#homens1","flex-layout.col#homens2","flex-layout.col#homens3"]
+    },
+
+    "flex-layout.col#homens1":{
+      "props":{
+          "width": "20%"
+      },
+        "children":[
+            "vtex.menu@2.x:menu#submenu-cat-homens-col1"
+        ]
+    },
+    "flex-layout.col#homens2":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-homens-col2"
+        ]
+    },
+    "flex-layout.col#homens3":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-homens-col3"
+        ]
     },
 
     // ------------ ACESSORIOS ITEM -----------------
     "menu-item#acessorios": {
         "props": {
-            "id": "menu-item-category-cama",
+            "id": "menu-item-category-all",
             "type": "custom",
             "experimentalOptimizeRendering": true,
-            "blockClass": ["allCategoryBlock", "department-menu"],
-         
             "iconId": null,
             "highlight": false,
+            "blockClass": [
+                "allCategoryBlock",
+                "highlightCategoryBlock",
+                "department-menu",
+                "removeBorderRight"
+            ],
+         
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "#",
                 "noFollow": true,
                 "tagTitle": "ACESSÓRIOS",
                 "text": "ACESSÓRIOS"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#all-submenu-block-col5"]
+        "blocks": ["vtex.menu@2.x:submenu#acessorios-submenu-block"]
     },
-    "vtex.menu@2.x:submenu#all-submenu-block-col5": {
-        "children": ["vtex.menu@2.x:menu#submenuMain-col5"],
+
+    "vtex.menu@2.x:submenu#acessorios-submenu-block":{
         "props": {
-            "blockClass": "allSubmenuBlock",
-            "width": "230"
-        }
+            "width": "100%",
+            "blockClass":"main-menu-row-desk"
+        },
+"children":[
+    "flex-layout.row#acessorios"
+]
     },
-    "vtex.menu@2.x:menu#submenuMain-col5": {
-        "children": [
-            "image#banner-cama-menu",
-            "menu-item#col5-row1",
-            "menu-item#col5-row2",
-            "menu-item#col5-row3",
-            "menu-item#col5-row4",
-            "menu-item#col5-row5",
-            "menu-item#col5-row6",
-            "menu-item#col5-row7",
-            "menu-item#col5-row8",
-            "menu-item#col5-row9",
-            "menu-item#col5-row10",
-            "menu-item#col5-row11",
-            "menu-item#col5-row12",
-            "menu-item#col5-row13",
-            "menu-item#col5-all"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+    "flex-layout.row#acessorios":{
+        "props":{
+            "blockClass": [
+              "menu-content-area"
+            ],
+            "paddingTop": 6,
+            "colGap": 3
+        },
+    
+        "children":["flex-layout.col#acessorios1","flex-layout.col#acessorios2","flex-layout.col#acessorios3"]
     },
-    "image#banner-cama-menu": {
-        "props": {
-            "src": "/arquivos/cama-single.png",
-            "maxWidth": "85%",
-            "link": "",
-            "blockClass": "menu-banner"
-        }
+
+    "flex-layout.col#acessorios1":{
+      "props":{
+          "width": "20%"
+      },
+        "children":[
+            "vtex.menu@2.x:menu#submenu-cat-acessorios-col1"
+        ]
+    },
+    "flex-layout.col#acessorios2":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-acessorios-col2"
+        ]
+    },
+    "flex-layout.col#acessorios3":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-acessorios-col3"
+        ]
     },
 
     // ----------- CALÇADOS ITEM ------------------
     "menu-item#calçados": {
         "props": {
-            "id": "menu-item-category-mesa",
+            "id": "menu-item-category-all",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
             "highlight": false,
-            "blockClass": ["allCategoryBlock", "department-menu"],
-      
+            "blockClass": [
+                "allCategoryBlock",
+                "highlightCategoryBlock",
+                "department-menu",
+                "removeBorderRight"
+            ],
+         
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "#",
                 "noFollow": true,
                 "tagTitle": "CALÇADOS",
                 "text": "CALÇADOS"
             }
         },
+        "blocks": ["vtex.menu@2.x:submenu#calçados-submenu-block"]
+    },
 
-        "blocks": ["vtex.menu@2.x:submenu#all-submenu-block-col6"]
-    },
-    "vtex.menu@2.x:submenu#all-submenu-block-col6": {
-        "children": ["vtex.menu@2.x:menu#submenuMain-col6"],
+    "vtex.menu@2.x:submenu#calçados-submenu-block":{
         "props": {
-            "blockClass": "allSubmenuBlock",
-            "width": "230"
-        }
+            "width": "100%",
+            "blockClass":"main-menu-row-desk"
+        },
+"children":[
+    "flex-layout.row#calçados"
+]
     },
-    "vtex.menu@2.x:menu#submenuMain-col6": {
-        "children": [
-            "image#banner-mesa-menu",
-            "menu-item#col6-row1",
-            "menu-item#col6-row2",
-            "menu-item#col6-row3",
-            "menu-item#col6-row4",
-            "menu-item#col6-row5",
-            "menu-item#col6-row6",
-            "menu-item#col6-row7",
-            "menu-item#col6-all"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+    "flex-layout.row#calçados":{
+        "props":{
+            "blockClass": [
+              "menu-content-area"
+            ],
+            "paddingTop": 6,
+            "colGap": 3
+        },
+    
+        "children":["flex-layout.col#calçados1","flex-layout.col#calçados2","flex-layout.col#calçados3"]
     },
-    "image#banner-mesa-menu": {
-        "props": {
-            "src": "/arquivos/mesa-single.png",
-            "maxWidth": "85%",
-            "link": "",
-            "blockClass": "menu-banner"
-        }
+
+    "flex-layout.col#calçados1":{
+      "props":{
+          "width": "20%"
+      },
+        "children":[
+            "vtex.menu@2.x:menu#submenu-cat-calçados-col1"
+        ]
+    },
+    "flex-layout.col#calçados2":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-calçados-col2"
+        ]
+    },
+    "flex-layout.col#calçados3":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-calçados-col3"
+        ]
     },
 
     // ------------ CRIANÇAS  ITEM ---------------
     "menu-item#crianças": {
         "props": {
-            "id": "menu-item-category-banho",
+            "id": "menu-item-category-all",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
             "highlight": false,
-            "blockClass": ["allCategoryBlock", "department-menu"],
-       
+            "blockClass": [
+                "allCategoryBlock",
+                "highlightCategoryBlock",
+                "department-menu",
+                "removeBorderRight"
+            ],
+         
             "itemProps": {
                 "type": "internal",
-                "href": "/banho",
+                "href": "#",
                 "noFollow": true,
                 "tagTitle": "CRIANÇAS",
                 "text": "CRIANÇAS"
             }
         },
+        "blocks": ["vtex.menu@2.x:submenu#crianças-submenu-block"]
+    },
 
-        "blocks": ["vtex.menu@2.x:submenu#all-submenu-block-col7"]
-    },
-    "vtex.menu@2.x:submenu#all-submenu-block-col7": {
-        "children": ["vtex.menu@2.x:menu#submenuMain-col7"],
+    "vtex.menu@2.x:submenu#crianças-submenu-block":{
         "props": {
-            "blockClass": "allSubmenuBlock",
-            "width": "230"
-        }
+            "width": "100%",
+            "blockClass":"main-menu-row-desk"
+        },
+"children":[
+    "flex-layout.row#crianças"
+]
     },
-    "vtex.menu@2.x:menu#submenuMain-col7": {
-        "children": [
-            "image#banner-banho-menu",
-            "menu-item#col7-row1",
-            "menu-item#col7-row2",
-            "menu-item#col7-row3",
-            "menu-item#col7-row4",
-            "menu-item#col7-row5",
-            "menu-item#col7-row6",
-            "menu-item#col7-row7",
-            "menu-item#col7-row8",
-            "menu-item#col7-row9",
-            "menu-item#col7-row10",
-            "menu-item#col7-row11",
-            "menu-item#col7-all"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+    "flex-layout.row#crianças":{
+        "props":{
+            "blockClass": [
+              "menu-content-area"
+            ],
+            "paddingTop": 6,
+            "colGap": 3
+        },
+    
+        "children":["flex-layout.col#crianças1","flex-layout.col#crianças2","flex-layout.col#crianças3"]
     },
-    "image#banner-banho-menu": {
-        "props": {
-            "src": "/arquivos/banho-single.png",
-            "maxWidth": "85%",
-            "link": "",
-            "blockClass": "menu-banner"
-        }
+
+    "flex-layout.col#crianças1":{
+      "props":{
+          "width": "20%"
+      },
+        "children":[
+            "vtex.menu@2.x:menu#submenu-cat-crianças-col1"
+        ]
+    },
+    "flex-layout.col#crianças2":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-crianças-col2"
+        ]
+    },
+    "flex-layout.col#crianças3":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-crianças-col3"
+        ]
     },
 
     // ----------- ROUPAS  ITEM ---------------
     "menu-item#roupas": {
         "props": {
-            "id": "menu-item-category-utensilio",
+            "id": "menu-item-category-all",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
             "highlight": false,
-            "blockClass": ["allCategoryBlock", "department-menu"],
-        
+            "blockClass": [
+                "allCategoryBlock",
+                "highlightCategoryBlock",
+                "department-menu",
+                "removeBorderRight"
+            ],
+         
             "itemProps": {
                 "type": "internal",
-                "href": "/utilidades-domesticas",
+                "href": "#",
                 "noFollow": true,
                 "tagTitle": "ROUPAS",
                 "text": "ROUPAS"
             }
         },
+        "blocks": ["vtex.menu@2.x:submenu#roupas-submenu-block"]
+    },
 
-        "blocks": ["vtex.menu@2.x:submenu#all-submenu-block-col8"]
-    },
-    "vtex.menu@2.x:submenu#all-submenu-block-col8": {
-        "children": ["vtex.menu@2.x:menu#submenuMain-col8"],
+    "vtex.menu@2.x:submenu#roupas-submenu-block":{
         "props": {
-            "blockClass": "allSubmenuBlock",
-            "width": "230"
-        }
+            "width": "100%",
+            "blockClass":"main-menu-row-desk"
+        },
+"children":[
+    "flex-layout.row#roupas"
+]
     },
-    "vtex.menu@2.x:menu#submenuMain-col8": {
-        "children": [
-            "image#banner-ud-menu",
-            "menu-item#col8-row1",
-            "menu-item#col8-row2",
-            "menu-item#col8-row3",
-            "menu-item#col8-row4",
-            "menu-item#col8-row5",
-            "menu-item#col8-row6",
-            "menu-item#col8-row7",
-            "menu-item#col8-row8",
-            "menu-item#col8-row9",
-            "menu-item#col8-row10",
-            "menu-item#col8-row11",
-            "menu-item#col8-row12",
-            "menu-item#col8-row13",
-            "menu-item#col8-row14",
-            "menu-item#col8-row15",
-            "menu-item#col8-row16",
-            "menu-item#col8-all"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+    "flex-layout.row#roupas":{
+        "props":{
+            "blockClass": [
+              "menu-content-area"
+            ],
+            "paddingTop": 6,
+            "colGap": 3
+        },
+    
+        "children":["flex-layout.col#roupas1","flex-layout.col#roupas2","flex-layout.col#roupas3"]
     },
-    "image#banner-ud-menu": {
-        "props": {
-            "src": "/arquivos/doemstico-single.png",
-            "maxWidth": "85%",
-            "link": "",
-            "blockClass": "menu-banner"
-        }
+
+    "flex-layout.col#roupas1":{
+      "props":{
+          "width": "20%"
+      },
+        "children":[
+            "vtex.menu@2.x:menu#submenu-cat-roupas-col1"
+        ]
+    },
+    "flex-layout.col#roupas2":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-roupas-col2"
+        ]
+    },
+    "flex-layout.col#roupas3":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-roupas-col3"
+        ]
     },
 
     // ---------------  OUTLET  ITEM -------------
     "menu-item#outlet": {
         "props": {
-            "id": "menu-item-category-artesanato",
+            "id": "menu-item-category-all",
             "type": "custom",
             "experimentalOptimizeRendering": true,
-            "blockClass": [
-                "allCategoryBlock",
-                "department-menu",
-                "department-outlet"
-            ],
             "iconId": null,
             "highlight": false,
-        
+            "blockClass": [
+                "allCategoryBlock",
+                "highlightCategoryBlock",
+                "department-menu",
+                "removeBorderRight"
+            ],
+         
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "#",
                 "noFollow": true,
                 "tagTitle": "OUTLET",
                 "text": "OUTLET"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#all-submenu-block-col9"]
+        "blocks": ["vtex.menu@2.x:submenu#outlet-submenu-block"]
     },
 
-    "vtex.menu@2.x:submenu#all-submenu-block-col9": {
-        "children": ["vtex.menu@2.x:menu#submenuMain-col9"],
+    "vtex.menu@2.x:submenu#outlet-submenu-block":{
         "props": {
-            "blockClass": "allSubmenuBlock",
-            "width": "230"
-        }
+            "width": "100%",
+            "blockClass":"main-menu-row-desk"
+        },
+"children":[
+    "flex-layout.row#outlet"
+]
     },
-    "vtex.menu@2.x:menu#submenuMain-col9": {
-        "children": [
-            "image#banner-artesanato-menu",
-            "menu-item#col9-row6",
-            "menu-item#col9-row7",
-            "menu-item#col9-row4",
-            "menu-item#col9-row1",
-            "menu-item#col9-row2",
-            "menu-item#col9-row3",
-            "menu-item#col9-row5",
-            "menu-item#col9-row8",
-            "menu-item#col9-all"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+    "flex-layout.row#outlet":{
+        "props":{
+            "blockClass": [
+              "menu-content-area"
+            ],
+            "paddingTop": 6,
+            "colGap": 3
+        },
+    
+        "children":["flex-layout.col#outlet1","flex-layout.col#outlet2","flex-layout.col#outlet3"]
     },
 
-    "image#banner-artesanato-menu": {
-        "props": {
-            "src": "/arquivos/artesanato-single.png",
-            "maxWidth": "85%",
-            "link": "",
-            "blockClass": "menu-banner"
-        }
+    "flex-layout.col#outlet1":{
+      "props":{
+          "width": "20%"
+      },
+        "children":[
+            "vtex.menu@2.x:menu#submenu-cat-outlet-col1"
+        ]
+    },
+    "flex-layout.col#outlet2":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-outlet-col2"
+        ]
+    },
+    "flex-layout.col#outlet3":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-outlet-col3"
+        ]
     }
 
    

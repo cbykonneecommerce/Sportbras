@@ -70,10 +70,10 @@
           "visibility": "always",
           "showValueForVariation": "image",
           "initialSelection": "image",
-          "visibleVariations":["Cor:"],
+        /*  "visibleVariations":["Cor:","Tamanho:"],*/
           "blockClass": "summarySku",
           "maxItems": 70,
-          "displayMode":"default",
+          "displayMode":"slider",
           "hideImpossibleCombinations": true,
           "imageHeight": 15,
           "imageWidth": 15,

@@ -21,9 +21,6 @@
     padding-bottom: 1rem;
 }
 
-:global(.vtex-menu-2-x-styledLinkContainer--allCategoryBlock) {
-    padding-bottom: 0px !important;
-}
 
 :global(.vtex-store-header-2-x-headerRow--main-header) {
     padding-bottom: 1em;
@@ -35,6 +32,23 @@
     font-family: "DINPro";
 }
 
+.styledLinkContainer--allCategoryBlock{
+    padding-bottom: 12px;
+}
+
 .styledLinkContent--allCategoryBlock:hover{
     color: #4F4F4F
+}
+
+.styledLinkContent--subcat-title{
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.menuContainer--row-menu-col .styledLinkContainer{
+    margin-bottom: 1em;
+}
+
+.submenuWrapper--main-menu-row-desk{
+    background-color: #F2F2F2;
 }

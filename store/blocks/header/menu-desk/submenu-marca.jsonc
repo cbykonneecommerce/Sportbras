@@ -2,19 +2,252 @@
     "vtex.menu@2.x:menu#submenu-cat-marcas-col1":{
         "props":{
             "orientation": "vertical",
+            "blockClass":"row-menu-col",
+            "items": [
+              {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Acessórios",
+                    "href": "/marcas/adidas/acessorios"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Chuteiras",
+                    "href": "/marcas/adidas/chuteiras"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Roupas",
+                    "href": "/marcas/adidas/roupas"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Tênis",
+                    "href": "/marcas/adidas/tenis"
+                }
+            }
+              
+            ]
+        },
+        "children":[
+            "menu-item#subcat-marcas-1"
+        ]
+    },
+
+    "menu-item#subcat-marcas-1": {
+        "props": {
+            "type": "custom",
+            "id": "",
+            "blockClass": ["submenu", "subcat-title"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "Adidas",
+                "href": "/marcas/adidas"
+            }
+        }
+    },
+
+
+    "vtex.menu@2.x:menu#submenu-cat-marcas-col2":{
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"row-menu-col",
+            "items": [
+              {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Asics",
+                    "href": "/marcas/asics"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Cavalera",
+                    "href": "/marcas/cavalera"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Havaianas",
+                    "href": "/marcas/havaianas"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Kappa",
+                    "href": "/marcas/kappa"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Lacoste",
+                    "href": "/marcas/lacoste"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Mizuno",
+                    "href": "/marcas/mizuno"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "New Balance",
+                    "href": "/marcas/new-balance"
+                }
+            }
+            
+              
+            ]
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-cat-marcas-col3":{
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"row-menu-col",
             "items": [
                 {
-                  "type": "custom",
-                  "id": "",
-                  "blockClass": "sub-cat-title",
-                  "highlight": false,
-                  "itemProps": {
-                      "type": "internal",
-                      "noFollow": false,
-                      "text": "ADIDAS",
-                      "href": "/marcas/adidas"
-                  }
-              }
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Nike",
+                        "href": "/marcas/nike"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Olimpikus",
+                        "href": "/marcas/olimpikus"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Penalty",
+                        "href": "/marcas/penalty"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Puma",
+                        "href": "/marcas/puma"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Rainha",
+                        "href": "/marcas/rainha"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Topper",
+                        "href": "/marcas/topper"
+                    }
+                }
+              
             ]
         }
     }

@@ -4,8 +4,19 @@
 
 :global(.vtex-store-header-2-x-headerStickyRow--main-menu){
     height: 46px;
+    background-color: #F2F2F2;
 }
 
 :global(.vtex-store-header-2-x-headerRowContainer--main-header){
     padding-top: 1em;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--mainMenu){
+    width: 100%;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--mainMenu) :global(.vtex-menu-2-x-menuContainer--mainMenu){
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
 }

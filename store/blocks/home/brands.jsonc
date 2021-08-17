@@ -2,7 +2,7 @@
 
 {
     "slider-layout#brands": {
-        "children": ["image#brand1","image#brand2","image#brand3","image#brand4","image#brand5","image#brand6"],
+        "children": ["image#brand1","image#brand2","image#brand3","image#brand4","image#brand5","image#brand6","image#brand7","image#brand8","image#brand9","image#brand10"],
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
@@ -21,37 +21,61 @@
       
       "image#brand1": {
         "props": {
-          "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png"
+          "src": "assets/marcas-banners/Adidas-140x110.png"
         
         }
       },
       "image#brand2": {
         "props": {
-          "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square2.png"
+          "src": "assets/marcas-banners/Asics-140x110.png"
         
         }
       },
       "image#brand3": {
         "props": {
-          "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square3.png"
+          "src": "assets/marcas-banners/Mizuno-140x110.png"
         
         }
       },
       "image#brand4": {
         "props": {
-          "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png"
+          "src": "assets/marcas-banners/New-balance-140x110.png"
         
         }
       },
       "image#brand5": {
         "props": {
-          "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png"
+          "src": "assets/marcas-banners/Nike-140x110.png"
         
         }
       },
       "image#brand6": {
         "props": {
-          "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png"
+          "src": "assets/marcas-banners/Olympikus-140x110.png"
+        
+        }
+      },
+      "image#brand7": {
+        "props": {
+          "src": "assets/marcas-banners/Penalty-140x110.png"
+        
+        }
+      },
+      "image#brand8": {
+        "props": {
+          "src": "assets/marcas-banners/Puma-140x110.png"
+        
+        }
+      },
+      "image#brand9": {
+        "props": {
+          "src": "assets/marcas-banners/Rainha-140x110.png"
+        
+        }
+      },
+      "image#brand10": {
+        "props": {
+          "src": "assets/marcas-banners/Topper-140x110.png"
         
         }
       }
