@@ -1,16 +1,16 @@
 {
     "vtex.menu@2.x:menu#category-menu-01": {
         "children": [
-            "menu-item#marcas",
-            "menu-item#esporte",
-            "menu-item#mulheres",
-            "menu-item#homens",
             "menu-item#acessorios",
-            "menu-item#calçados",
+            "menu-item#calcados",
             "menu-item#crianças",
+            "menu-item#homens",
+            "menu-item#marcas",
+            "menu-item#mulheres",
             "menu-item#roupas",
+            "menu-item#peças-unicas",
             "menu-item#outlet"
-           
+            
         ],
         "props": {
             "blockClass": "mainMenu",
@@ -34,7 +34,7 @@
          
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/marcas",
                 "noFollow": true,
                 "tagTitle": "MARCAS",
                 "text": "MARCAS"
@@ -91,181 +91,10 @@
         ]
     },
   
-    /*
-    "vtex.menu@2.x:submenu#all-submenu-block-col1": {
-        "children": [
-            "vtex.menu@2.x:menu#submenuMain-col1-unique",
-            "vtex.menu@2.x:menu#submenuMain-col2-unique",
-            "vtex.menu@2.x:menu#submenuMain-col3-unique",
-            "vtex.menu@2.x:menu#submenuMain-col4-unique",
-            "vtex.menu@2.x:menu#submenuMain-col5-unique",
-            "vtex.menu@2.x:menu#submenuMain-col6-unique"
-        ],
-        "props": {
-            "blockClass": "allSubmenuBlock-unique",
-            "width": "230"
-        }
-    },*/
 
 
-    
-
-
-
-
- 
-
-    //-- ALL SUBMENUS  ------------------------------
-
-    // ------------ ESPORTE ITEM -----------------
-    "menu-item#esporte": {
-        "props": {
-            "id": "menu-item-category-all",
-            "type": "custom",
-            "experimentalOptimizeRendering": true,
-            "iconId": null,
-            "highlight": false,
-            "blockClass": [
-                "allCategoryBlock",
-                "highlightCategoryBlock",
-                "department-menu",
-                "removeBorderRight"
-            ],
-         
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "ESPORTE",
-                "text": "ESPORTE"
-            }
-        },
-        "blocks": ["vtex.menu@2.x:submenu#esporte-submenu-block"]
-    },
-
-    "vtex.menu@2.x:submenu#esporte-submenu-block":{
-        "props": {
-            "width": "100%",
-            "blockClass":"main-menu-row-desk"
-        },
-"children":[
-    "flex-layout.row#esporte"
-]
-    },
-    "flex-layout.row#esporte":{
-        "props":{
-            "blockClass": [
-              "menu-content-area"
-            ],
-            "paddingTop": 6,
-            "colGap": 3
-        },
-    
-        "children":["flex-layout.col#esporte1","flex-layout.col#esporte2","flex-layout.col#esporte3"]
-    },
-
-    "flex-layout.col#esporte1":{
-      "props":{
-          "width": "20%"
-      },
-        "children":[
-            "vtex.menu@2.x:menu#submenu-cat-esporte-col1"
-        ]
-    },
-    "flex-layout.col#esporte2":{
-        "props":{
-            "width": "20%"
-        },
-        "children":[
-       
-            "vtex.menu@2.x:menu#submenu-cat-esporte-col2"
-        ]
-    },
-    "flex-layout.col#esporte3":{
-        "props":{
-            "width": "20%"
-        },
-        "children":[
-       
-            "vtex.menu@2.x:menu#submenu-cat-esporte-col3"
-        ]
-    },
-
-    // --------------------- MULHERES ITEM --------------------------
-    "menu-item#mulheres": {
-        "props": {
-            "id": "menu-item-category-all",
-            "type": "custom",
-            "experimentalOptimizeRendering": true,
-            "iconId": null,
-            "highlight": false,
-            "blockClass": [
-                "allCategoryBlock",
-                "highlightCategoryBlock",
-                "department-menu",
-                "removeBorderRight"
-            ],
-         
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "MULHERES",
-                "text": "MULHERES"
-            }
-        },
-        "blocks": ["vtex.menu@2.x:submenu#mulheres-submenu-block"]
-    },
-
-    "vtex.menu@2.x:submenu#mulheres-submenu-block":{
-        "props": {
-            "width": "100%",
-            "blockClass":"main-menu-row-desk"
-        },
-"children":[
-    "flex-layout.row#mulheres"
-]
-    },
-    "flex-layout.row#mulheres":{
-        "props":{
-            "blockClass": [
-              "menu-content-area"
-            ],
-            "paddingTop": 6,
-            "colGap": 3
-        },
-    
-        "children":["flex-layout.col#mulheres1","flex-layout.col#mulheres2","flex-layout.col#mulheres3"]
-    },
-
-    "flex-layout.col#mulheres1":{
-      "props":{
-          "width": "20%"
-      },
-        "children":[
-            "vtex.menu@2.x:menu#submenu-cat-mulheres-col1"
-        ]
-    },
-    "flex-layout.col#mulheres2":{
-        "props":{
-            "width": "20%"
-        },
-        "children":[
-       
-            "vtex.menu@2.x:menu#submenu-cat-mulheres-col2"
-        ]
-    },
-    "flex-layout.col#mulheres3":{
-        "props":{
-            "width": "20%"
-        },
-        "children":[
-       
-            "vtex.menu@2.x:menu#submenu-cat-mulheres-col3"
-        ]
-    },
-
-    // ----------- HOMENS  ITEM ------------------
+      // ----------------- HOMENS ITEM -------------------
+     
     "menu-item#homens": {
         "props": {
             "id": "menu-item-category-all",
@@ -282,7 +111,7 @@
          
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/homens",
                 "noFollow": true,
                 "tagTitle": "HOMENS",
                 "text": "HOMENS"
@@ -326,7 +155,8 @@
         },
         "children":[
        
-            "vtex.menu@2.x:menu#submenu-cat-homens-col2"
+            "vtex.menu@2.x:menu#submenu-cat-homens-col2",
+            "vtex.menu@2.x:menu#submenu-cat-homens-col2b"
         ]
     },
     "flex-layout.col#homens3":{
@@ -339,8 +169,9 @@
         ]
     },
 
-    // ------------ ACESSORIOS ITEM -----------------
-    "menu-item#acessorios": {
+
+    // ----------------- CALÇADOS ITEM -------------------
+    "menu-item#calcados": {
         "props": {
             "id": "menu-item-category-all",
             "type": "custom",
@@ -356,99 +187,25 @@
          
             "itemProps": {
                 "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "ACESSÓRIOS",
-                "text": "ACESSÓRIOS"
-            }
-        },
-        "blocks": ["vtex.menu@2.x:submenu#acessorios-submenu-block"]
-    },
-
-    "vtex.menu@2.x:submenu#acessorios-submenu-block":{
-        "props": {
-            "width": "100%",
-            "blockClass":"main-menu-row-desk"
-        },
-"children":[
-    "flex-layout.row#acessorios"
-]
-    },
-    "flex-layout.row#acessorios":{
-        "props":{
-            "blockClass": [
-              "menu-content-area"
-            ],
-            "paddingTop": 6,
-            "colGap": 3
-        },
-    
-        "children":["flex-layout.col#acessorios1","flex-layout.col#acessorios2","flex-layout.col#acessorios3"]
-    },
-
-    "flex-layout.col#acessorios1":{
-      "props":{
-          "width": "20%"
-      },
-        "children":[
-            "vtex.menu@2.x:menu#submenu-cat-acessorios-col1"
-        ]
-    },
-    "flex-layout.col#acessorios2":{
-        "props":{
-            "width": "20%"
-        },
-        "children":[
-       
-            "vtex.menu@2.x:menu#submenu-cat-acessorios-col2"
-        ]
-    },
-    "flex-layout.col#acessorios3":{
-        "props":{
-            "width": "20%"
-        },
-        "children":[
-       
-            "vtex.menu@2.x:menu#submenu-cat-acessorios-col3"
-        ]
-    },
-
-    // ----------- CALÇADOS ITEM ------------------
-    "menu-item#calçados": {
-        "props": {
-            "id": "menu-item-category-all",
-            "type": "custom",
-            "experimentalOptimizeRendering": true,
-            "iconId": null,
-            "highlight": false,
-            "blockClass": [
-                "allCategoryBlock",
-                "highlightCategoryBlock",
-                "department-menu",
-                "removeBorderRight"
-            ],
-         
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
+                "href": "/calcados",
                 "noFollow": true,
                 "tagTitle": "CALÇADOS",
                 "text": "CALÇADOS"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#calçados-submenu-block"]
+        "blocks": ["vtex.menu@2.x:submenu#calcados-submenu-block"]
     },
 
-    "vtex.menu@2.x:submenu#calçados-submenu-block":{
+    "vtex.menu@2.x:submenu#calcados-submenu-block":{
         "props": {
             "width": "100%",
             "blockClass":"main-menu-row-desk"
         },
 "children":[
-    "flex-layout.row#calçados"
+    "flex-layout.row#calcados"
 ]
     },
-    "flex-layout.row#calçados":{
+    "flex-layout.row#calcados":{
         "props":{
             "blockClass": [
               "menu-content-area"
@@ -457,37 +214,34 @@
             "colGap": 3
         },
     
-        "children":["flex-layout.col#calçados1","flex-layout.col#calçados2","flex-layout.col#calçados3"]
+        "children":["flex-layout.col#calcados1","flex-layout.col#calcados2"]
     },
 
-    "flex-layout.col#calçados1":{
+    "flex-layout.col#calcados1":{
       "props":{
           "width": "20%"
       },
         "children":[
-            "vtex.menu@2.x:menu#submenu-cat-calçados-col1"
+            "vtex.menu@2.x:menu#submenu-cat-calcados-col1"
         ]
     },
-    "flex-layout.col#calçados2":{
+    "flex-layout.col#calcados2":{
         "props":{
             "width": "20%"
         },
         "children":[
        
-            "vtex.menu@2.x:menu#submenu-cat-calçados-col2"
+            "vtex.menu@2.x:menu#submenu-cat-calcados-col2"
         ]
     },
-    "flex-layout.col#calçados3":{
-        "props":{
-            "width": "20%"
-        },
-        "children":[
-       
-            "vtex.menu@2.x:menu#submenu-cat-calçados-col3"
-        ]
-    },
+  
 
-    // ------------ CRIANÇAS  ITEM ---------------
+
+
+
+
+
+    // ----------------- CRIANÇAS ITEM -------------------
     "menu-item#crianças": {
         "props": {
             "id": "menu-item-category-all",
@@ -504,7 +258,7 @@
          
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/criancas",
                 "noFollow": true,
                 "tagTitle": "CRIANÇAS",
                 "text": "CRIANÇAS"
@@ -531,7 +285,7 @@
             "colGap": 3
         },
     
-        "children":["flex-layout.col#crianças1","flex-layout.col#crianças2","flex-layout.col#crianças3"]
+        "children":["flex-layout.col#crianças1","flex-layout.col#crianças2"]
     },
 
     "flex-layout.col#crianças1":{
@@ -539,7 +293,8 @@
           "width": "20%"
       },
         "children":[
-            "vtex.menu@2.x:menu#submenu-cat-crianças-col1"
+          "vtex.menu@2.x:menu#submenu-cat-crianças-col1",
+          "vtex.menu@2.x:menu#submenu-cat-crianças-col1b"
         ]
     },
     "flex-layout.col#crianças2":{
@@ -551,18 +306,10 @@
             "vtex.menu@2.x:menu#submenu-cat-crianças-col2"
         ]
     },
-    "flex-layout.col#crianças3":{
-        "props":{
-            "width": "20%"
-        },
-        "children":[
-       
-            "vtex.menu@2.x:menu#submenu-cat-crianças-col3"
-        ]
-    },
 
-    // ----------- ROUPAS  ITEM ---------------
-    "menu-item#roupas": {
+    // ----------------- MULHERES ITEM -------------------
+     
+    "menu-item#mulheres": {
         "props": {
             "id": "menu-item-category-all",
             "type": "custom",
@@ -578,7 +325,170 @@
          
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/mulheres",
+                "noFollow": true,
+                "tagTitle": "MULHERES",
+                "text": "MULHERES"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#mulheres-submenu-block"]
+    },
+
+    "vtex.menu@2.x:submenu#mulheres-submenu-block":{
+        "props": {
+            "width": "100%",
+            "blockClass":"main-menu-row-desk"
+        },
+"children":[
+    "flex-layout.row#mulheres"
+]
+    },
+    "flex-layout.row#mulheres":{
+        "props":{
+            "blockClass": [
+              "menu-content-area"
+            ],
+            "paddingTop": 6,
+            "colGap": 3
+        },
+    
+        "children":["flex-layout.col#mulheres1","flex-layout.col#mulheres2","flex-layout.col#mulheres3"]
+    },
+
+    "flex-layout.col#mulheres1":{
+      "props":{
+          "width": "20%"
+      },
+        "children":[
+            "vtex.menu@2.x:menu#submenu-cat-mulheres-col1"
+        ]
+    },
+    "flex-layout.col#mulheres2":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-mulheres-col2",
+            "vtex.menu@2.x:menu#submenu-cat-mulheres-col2b"
+        ]
+    },
+    "flex-layout.col#mulheres3":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-mulheres-col3"
+        ]
+    },
+
+
+    // ----------------- ACESSÓRIOS ITEM -------------------
+     
+    "menu-item#acessorios": {
+        "props": {
+            "id": "menu-item-category-all",
+            "type": "custom",
+            "experimentalOptimizeRendering": true,
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "allCategoryBlock",
+                "highlightCategoryBlock",
+                "department-menu",
+                "removeBorderRight"
+            ],
+         
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios",
+                "noFollow": true,
+                "tagTitle": "ACESSÓRIOS",
+                "text": "ACESSÓRIOS"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#acessorios-submenu-block"]
+    },
+
+    "vtex.menu@2.x:submenu#acessorios-submenu-block":{
+        "props": {
+            "width": "100%",
+            "blockClass":"main-menu-row-desk"
+        },
+"children":[
+    "flex-layout.row#acessorios"
+]
+    },
+    "flex-layout.row#acessorios":{
+        "props":{
+            "blockClass": [
+              "menu-content-area"
+            ],
+            "paddingTop": 6,
+            "colGap": 3
+        },
+    
+        "children":["flex-layout.col#acessorios1","flex-layout.col#acessorios2","flex-layout.col#acessorios3","flex-layout.col#acessorios4"]
+    },
+
+    "flex-layout.col#acessorios1":{
+      "props":{
+          "width": "20%"
+      },
+        "children":[
+            "vtex.menu@2.x:menu#submenu-cat-acessorios-col1"
+        ]
+    },
+    "flex-layout.col#acessorios2":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-acessorios-col2",
+            "vtex.menu@2.x:menu#submenu-cat-acessorios-col2b"
+        ]
+    },
+    "flex-layout.col#acessorios3":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-acessorios-col3"
+        ]
+    },
+    "flex-layout.col#acessorios4":{
+        "props":{
+            "width": "20%"
+        },
+        "children":[
+       
+            "vtex.menu@2.x:menu#submenu-cat-acessorios-col4"
+        ]
+    },
+
+
+
+     // ----------------- ROUPAS ITEM -------------------
+     "menu-item#roupas": {
+        "props": {
+            "id": "menu-item-category-all",
+            "type": "custom",
+            "experimentalOptimizeRendering": true,
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "allCategoryBlock",
+                "highlightCategoryBlock",
+                "department-menu",
+                "removeBorderRight"
+            ],
+         
+            "itemProps": {
+                "type": "internal",
+                "href": "/roupas",
                 "noFollow": true,
                 "tagTitle": "ROUPAS",
                 "text": "ROUPAS"
@@ -634,80 +544,65 @@
             "vtex.menu@2.x:menu#submenu-cat-roupas-col3"
         ]
     },
-
-    // ---------------  OUTLET  ITEM -------------
-    "menu-item#outlet": {
-        "props": {
-            "id": "menu-item-category-all",
-            "type": "custom",
-            "experimentalOptimizeRendering": true,
-            "iconId": null,
-            "highlight": false,
-            "blockClass": [
-                "allCategoryBlock",
-                "highlightCategoryBlock",
-                "department-menu",
-                "removeBorderRight"
-            ],
-         
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "OUTLET",
-                "text": "OUTLET"
-            }
-        },
-        "blocks": ["vtex.menu@2.x:submenu#outlet-submenu-block"]
-    },
-
-    "vtex.menu@2.x:submenu#outlet-submenu-block":{
-        "props": {
-            "width": "100%",
-            "blockClass":"main-menu-row-desk"
-        },
-"children":[
-    "flex-layout.row#outlet"
-]
-    },
-    "flex-layout.row#outlet":{
-        "props":{
-            "blockClass": [
-              "menu-content-area"
-            ],
-            "paddingTop": 6,
-            "colGap": 3
-        },
+ 
     
-        "children":["flex-layout.col#outlet1","flex-layout.col#outlet2","flex-layout.col#outlet3"]
-    },
 
-    "flex-layout.col#outlet1":{
-      "props":{
-          "width": "20%"
-      },
-        "children":[
-            "vtex.menu@2.x:menu#submenu-cat-outlet-col1"
-        ]
-    },
-    "flex-layout.col#outlet2":{
-        "props":{
-            "width": "20%"
-        },
-        "children":[
-       
-            "vtex.menu@2.x:menu#submenu-cat-outlet-col2"
-        ]
-    },
-    "flex-layout.col#outlet3":{
-        "props":{
-            "width": "20%"
-        },
-        "children":[
-       
-            "vtex.menu@2.x:menu#submenu-cat-outlet-col3"
-        ]
+
+
+
+      // ----------------- PEÇAS ÚNICAS ITEM -------------------
+  "menu-item#peças-unicas": {
+    "props": {
+        "id": "menu-item-category-all",
+        "type": "custom",
+        "experimentalOptimizeRendering": true,
+        "iconId": null,
+        "highlight": false,
+        "blockClass": [
+            "allCategoryBlock",
+            "highlightCategoryBlock",
+            "department-menu",
+            "removeBorderRight"
+        ],
+     
+        "itemProps": {
+            "type": "internal",
+            "href": "/pecas-unicas",
+            "noFollow": true,
+            "tagTitle": "PEÇAS ÚNICAS",
+            "text": "PEÇAS ÚNICAS"
+        }
     }
+},
 
-   
+
+
+  // ----------------- OUTLET ITEM -------------------
+  "menu-item#outlet": {
+    "props": {
+        "id": "menu-item-category-all",
+        "type": "custom",
+        "experimentalOptimizeRendering": true,
+        "iconId": null,
+        "highlight": false,
+        "blockClass": [
+            "allCategoryBlock",
+            "highlightCategoryBlock",
+            "department-menu",
+            "removeBorderRight"
+        ],
+     
+        "itemProps": {
+            "type": "internal",
+            "href": "/outlet",
+            "noFollow": true,
+            "tagTitle": "OUTLET",
+            "text": "OUTLET"
+        }
+    }
 }
+}
+
+
+
+

@@ -21,6 +21,10 @@
     margin-bottom: 0.5em;
 }
 
+.paragraph--newsletterTitle{
+padding-top: 8px;
+}
+
 :global(.vtex-rich-text-0-x-paragraph--payment__image), :global(.vtex-rich-text-0-x-paragraph--social__image){
     margin: 0 25px 25px 0;
 }

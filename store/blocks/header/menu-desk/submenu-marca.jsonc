@@ -12,8 +12,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Acessórios",
-                    "href": "/marcas/adidas/acessorios"
+                    "text": "361°",
+                    "href": "/marcas/361"
                 }
             },
             {
@@ -24,8 +24,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Chuteiras",
-                    "href": "/marcas/adidas/chuteiras"
+                    "text": "Adidas",
+                    "href": "/marcas/adidas"
                 }
             },
             {
@@ -36,8 +36,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Roupas",
-                    "href": "/marcas/adidas/roupas"
+                    "text": "Asics",
+                    "href": "/marcas/asics"
                 }
             },
             {
@@ -48,15 +48,87 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Tênis",
-                    "href": "/marcas/adidas/tenis"
+                    "text": "Cavalera",
+                    "href": "/marcas/Cavalera"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Disney",
+                    "href": "/marcas/disney"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Fila",
+                    "href": "/marcas/fila"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Havaianas",
+                    "href": "/marcas/havaianas"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Hering",
+                    "href": "/marcas/hering"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Kappa",
+                    "href": "/marcas/kappa"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Lacoste",
+                    "href": "/marcas/lacoste"
                 }
             }
               
             ]
         },
         "children":[
-            "menu-item#subcat-marcas-1"
+           /* "menu-item#subcat-marcas-1"*/
         ]
     },
 
@@ -89,8 +161,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Asics",
-                    "href": "/marcas/asics"
+                    "text": "Malwee",
+                    "href": "/marcas/malwee"
                 }
             },
             {
@@ -101,44 +173,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Cavalera",
-                    "href": "/marcas/cavalera"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Havaianas",
-                    "href": "/marcas/havaianas"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Kappa",
-                    "href": "/marcas/kappa"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Lacoste",
-                    "href": "/marcas/lacoste"
+                    "text": "Marvel",
+                    "href": "/marcas/marvel"
                 }
             },
             {
@@ -161,8 +197,80 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
+                    "text": "Mormaii",
+                    "href": "/marcas/mormaii"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "NBA",
+                    "href": "/marcas/nba"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
                     "text": "New Balance",
-                    "href": "/marcas/new-balance"
+                    "href": "/marcas/new--balance"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "New Era",
+                    "href": "/marcas/new-era"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Nike",
+                    "href": "/marcas/nike"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Oakley",
+                    "href": "/marcas/oakley"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Olympikus",
+                    "href": "/marcas/olympikus"
                 }
             }
             
@@ -183,32 +291,20 @@
                         "type": "internal",
                         "noFollow": false,
                         "blockClass": "sub-cat-item",
-                        "text": "Nike",
-                        "href": "/marcas/nike"
-                    }
-                },
-                {
-                    "type": "custom",
-                    "id": "",
-                    "highlight": false,
-                    "itemProps": {
-                        "type": "internal",
-                        "noFollow": false,
-                        "blockClass": "sub-cat-item",
-                        "text": "Olimpikus",
-                        "href": "/marcas/olimpikus"
-                    }
-                },
-                {
-                    "type": "custom",
-                    "id": "",
-                    "highlight": false,
-                    "itemProps": {
-                        "type": "internal",
-                        "noFollow": false,
-                        "blockClass": "sub-cat-item",
                         "text": "Penalty",
                         "href": "/marcas/penalty"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Polo",
+                        "href": "/marcas/polo"
                     }
                 },
                 {
@@ -243,8 +339,80 @@
                         "type": "internal",
                         "noFollow": false,
                         "blockClass": "sub-cat-item",
+                        "text": "Rebook",
+                        "href": "/marcas/rebook"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Red Bull",
+                        "href": "/marcas/red-bull"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Speedo",
+                        "href": "/marcas/speedo"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
                         "text": "Topper",
                         "href": "/marcas/topper"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Umbro",
+                        "href": "/marcas/umbro"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Under Armour",
+                        "href": "/marcas/under-armour"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Vans",
+                        "href": "/marcas/vans"
                     }
                 }
               

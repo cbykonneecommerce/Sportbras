@@ -1,5 +1,5 @@
 {
-    "vtex.menu@2.x:menu#submenu-cat-crianças-col1":{
+    "vtex.menu@2.x:menu#submenu-cat-calcados-col1":{
         "props":{
             "orientation": "vertical",
             "blockClass":"row-menu-col",
@@ -12,8 +12,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Botas infantis",
-                    "href": "/crianças/calçados/botas-infantis"
+                    "text": "Botas de trilha",
+                    "href": "/calcados/botas-de-trilha"
                 }
             },
             {
@@ -24,35 +24,101 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Tênis infantis",
-                    "href": "/crianças/calçados/tenis-infantis"
+                    "text": "Calçados de academia",
+                    "href": "/calcados/calcados-de-academia"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Calçados de basquete",
+                    "href": "/calcados/calcados-de-basquete"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Calçados de corrida",
+                    "href": "/calcados/calcados-de-corrida"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Calçados de skate",
+                    "href": "/calcados/calcados-de-skate"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Chinelos de dedo e slide",
+                    "href": "/calcados/chinelos-de-dedo-e-slide"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Meias e meiões",
+                    "href": "/calcados/meias-e-meioes"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Papetes",
+                    "href": "/calcados/papetes"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Sapatênis e casual",
+                    "href": "/calcados/sapatenis-e-casual"
                 }
             }
-        
             ]
-        },
-            "children":[
-                "menu-item#subcat-crianças-1"
-            ]
-        
-    },
-
-    "menu-item#subcat-crianças-1": {
-        "props": {
-            "type": "custom",
-            "id": "",
-            "blockClass": ["submenu", "subcat-title"],
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "noFollow": false,
-                "text": "Calçados",
-                "href": "/crianças/calçados"
-            }
         }
     },
 
-    "vtex.menu@2.x:menu#submenu-cat-crianças-col1b":{
+
+
+    "vtex.menu@2.x:menu#submenu-cat-calcados-col2":{
         "props":{
             "orientation": "vertical",
             "blockClass":"row-menu-col",
@@ -66,7 +132,7 @@
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
                     "text": "Campo",
-                    "href": "/crianças/calçados/chuteiras-infantis/campo"
+                    "href": "/calcados/chuteiras/campo"
                 }
             },
             {
@@ -78,7 +144,7 @@
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
                     "text": "Futsal",
-                    "href": "/crianças/calçados/chuteiras-infantis/futsal"
+                    "href": "/calcados/chuteiras/futsal"
                 }
             },
             {
@@ -90,141 +156,17 @@
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
                     "text": "Society",
-                    "href": "/crianças/calçados/chuteiras-infantis/society"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Tênis infantis",
-                    "href": "/crianças/calçados/chuteiras-infantis/tenis-infantis"
-                }
-            }
-        
-            ]
-        },
-            "children":[
-                "menu-item#subcat-crianças-1b"
-            ]
-    },
-
-    "menu-item#subcat-crianças-1b": {
-        "props": {
-            "type": "custom",
-            "id": "",
-            "blockClass": ["submenu", "subcat-title"],
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "noFollow": false,
-                "text": "Chuteiras infantis",
-                "href": "/crianças/calçados/chuteiras-infantis"
-            }
-        }
-    },
-
-    "vtex.menu@2.x:menu#submenu-cat-crianças-col2":{
-        "props":{
-            "orientation": "vertical",
-            "blockClass":"row-menu-col",
-            "items": [
-              {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Agasalhos e moletons",
-                    "href": "/crianças/roupas/agasalhos-e-moletons"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Bermudas",
-                    "href": "/crianças/roupas/bermudas"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Calças",
-                    "href": "/crianças/roupas/calças"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Camisas de time",
-                    "href": "/crianças/roupas/camisas-de-time"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Camisetas infantis",
-                    "href": "/crianças/roupas/camisetas-infantis"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Meias e meiões",
-                    "href": "/crianças/roupas/meias-e-meioes"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Shorts",
-                    "href": "/crianças/roupas/shorts"
+                    "href": "/calcados/chuteiras/society"
                 }
             }
             ]
         },
         "children":[
-            "menu-item#subcat-crianças-2"
+            "menu-item#subcat-calcados-2"
         ]
     },
 
-    "menu-item#subcat-crianças-2": {
+    "menu-item#subcat-calcados-2": {
         "props": {
             "type": "custom",
             "id": "",
@@ -233,8 +175,8 @@
             "itemProps": {
                 "type": "internal",
                 "noFollow": false,
-                "text": "Roupas",
-                "href": "/crianças/roupas"
+                "text": "Chuteiras",
+                "href": "/calcados/chuteiras"
             }
         }
     }
