@@ -64,7 +64,7 @@
   },
   "rich-text#socialImage-0": {
     "props": {
-      "text": "[![Icone facebook](/arquivos/fb.svg 'Acesse o facebook')](https://www.facebook.com/Niazi-Chohfi-135405756531088/)",
+      "text": "[![Icone facebook](/arquivos/fb.svg 'Acesse o facebook')](https://www.facebook.com/gruposportbras)",
       "blockClass": ["social__image","facebook"]
     }
   },
@@ -76,7 +76,7 @@
   },
   "rich-text#socialImage-2": {
     "props": {
-      "text": "[![Icone instagram](/arquivos/ig.svg 'Acesse o instagram')](https://www.instagram.com/niazi_chohfi/)",
+      "text": "[![Icone instagram](/arquivos/ig.svg 'Acesse o instagram')](https://www.instagram.com/gruposportbras)",
       "blockClass": ["social__image","instagram","no-margin-r"]
     }
   }

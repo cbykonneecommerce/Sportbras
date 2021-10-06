@@ -2,7 +2,7 @@
     display: none;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent){
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecification){
     margin-bottom: 1em;
 }
 

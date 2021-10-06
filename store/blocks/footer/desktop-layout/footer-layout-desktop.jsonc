@@ -41,7 +41,8 @@
     "props": {
       "blockClass": ["footer__content-col","footer__content-col--desktop-0"],
         "verticalAlign": "top",
-        "width": "25%"
+        "width": "25%",
+        "marginRight": 6
     }
   },
   "flex-layout.col#footer-0-box-1":{
@@ -52,7 +53,8 @@
     "props": {
         "blockClass": ["footer__content-col","footer__content-col--desktop-1"],
         "verticalAlign": "top",
-        "width": "25%"
+        "width": "25%",
+        "marginRight": 6
     }
   },
   "flex-layout.col#footer-0-box-2":{
@@ -62,7 +64,8 @@
     "props": {
         "blockClass": ["footer__content-col","footer__content-col--desktop-2"],
         "verticalAlign": "top",
-        "width": "25%"
+        "width": "25%",
+        "marginRight": 6
     }
   },
   "flex-layout.col#footer-0-box-3":{
@@ -74,7 +77,8 @@
     "props": {
         "blockClass": ["footer__content-col","footer__content-col--desktop-3"],
         "verticalAlign": "top",
-        "width": "25%"
+        "width": "25%",
+        "marginRight": 6
     }
   },
 

@@ -7,10 +7,25 @@
 }
 
 .sellingPrice{
-    color:#BDBDBD;
+    color:#555555;
     font-weight: 500;
+    display: inline-block;
 }
 
+.installmentsPrice{
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+:global(.vtex-store-components-3-x-price_installment){
+    color: #D92F2F;
+}
+
+.frameAround, .skuSelectorInternalBox{
+    border-radius: 0;
+}
 .shippingContainer{
     margin-top: -15px;
 }
