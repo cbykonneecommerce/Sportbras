@@ -80,7 +80,9 @@
   },
   "flex-layout.col#footer-1-box-2":{
     "children": [
-      "flex-layout.col#social-container"
+     /* "flex-layout.col#social-container"*/
+     "flex-layout.row#social-0",
+     "flex-layout.row#social-1"
     ],
     "props": {
         "blockClass": ["footer__content-col","footer__content-col--mobile-2"],

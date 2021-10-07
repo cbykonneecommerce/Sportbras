@@ -38,3 +38,14 @@
     }
 }
 
+
+@media (min-width: 1200px) {
+    .flexRowContent--social-icons-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        width: 100% !important;
+    }
+
+    .flexRowContent--social-icons-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth):not(:first-child){
+        display: none;
+    }
+   }
+

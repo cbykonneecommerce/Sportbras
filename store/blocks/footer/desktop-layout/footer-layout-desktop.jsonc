@@ -70,14 +70,19 @@
   },
   "flex-layout.col#footer-0-box-3":{
     "children": [
-      "flex-layout.col#payment-container",
-      "flex-layout.col#social-container"
+      /*"flex-layout.col#payment-container",*/
+      /*"flex-layout.row#social-container"*/
+      "flex-layout.row#payment-0",
+      "flex-layout.row#payment-1",
+      "flex-layout.row#social-0",
+      "flex-layout.row#social-1"
       
     ],
     "props": {
         "blockClass": ["footer__content-col","footer__content-col--desktop-3"],
         "verticalAlign": "top",
-        "width": "25%",
+        "fullWidth": true,
+        /*"width": "25%",*/
         "marginRight": 6
     }
   },

@@ -58,7 +58,7 @@
         "product-summary-name",
         "product-summary-image#shelf",
         "product-summary-space",
-        "product-summary-sku-selector",
+       /* "product-summary-sku-selector",*/
         "product-list-price",
         "product-selling-price",
         "add-to-cart-button"

@@ -1,15 +1,6 @@
+
 {
-  "flex-layout.col#social-container":{
-    "children": [
-      "flex-layout.row#social-0",
-      "flex-layout.row#social-1"
-    ],
-    "props": {
-      "blockClass": "social-container",
-      "preventHorizontalStretch": true,
-       "fullWidth": true
-    }
-  },
+  
 
   
   "flex-layout.row#social-0":{
@@ -18,7 +9,13 @@
       "responsive-layout.tablet",
       "responsive-layout.phone"
           
-    ]
+    ],
+    "props": {
+      
+      "preventHorizontalStretch": false,
+       "fullWidth": true,
+       "blockClass": ["social-icons-row","social-container"]
+    }
   },
   "flex-layout.row#social-1":{
     "children": [
@@ -33,7 +30,10 @@
   },
 
   "responsive-layout.desktop":{
-    "children": ["rich-text#socialdesktop"]
+    "children": ["rich-text#socialdesktop"],
+    "props":{
+      "blockClass":"social-title"
+    }
   },
 
   "responsive-layout.tablet":{
