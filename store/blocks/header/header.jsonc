@@ -71,7 +71,7 @@
     "header-layout.mobile": {
       // "children": ["header-row#1-mobile", "header-row#2mobile"]
       "children": [
-        "header-row#1-mobile"
+        "header-row#1-mobile", "header-row#2mobile"
       ]
     },
     "header-row#1-mobile": {
