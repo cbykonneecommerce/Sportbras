@@ -20,7 +20,7 @@
 }
 
 :global(.vtex-store-components-3-x-price_installment){
-    color: #D92F2F;
+    color: #EA002A;
 }
 
 .frameAround, .skuSelectorInternalBox{
@@ -46,4 +46,8 @@
     border-color: #4F4F4F;
     border-width: 1px;
     border-radius: 10px;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorTextContainer){
+    margin-top: 1em;
 }

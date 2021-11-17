@@ -129,12 +129,14 @@
     },
     "drawer#menu-mobile": {
       "children": [
-        "vtex.menu@2.x:menu#category-menu-01--mob"
+       
+       "vtex.menu@2.x:menu#category-menu-01--mob"
       ],
       "props": {
         "blockClass": "menu-mobile"
       }
     },
+
     /*   "drawer": {
           "children": ["flex-layout.row#drawer"],
           "props": {

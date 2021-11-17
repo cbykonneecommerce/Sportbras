@@ -20,11 +20,13 @@
 
 .container--newsletterTitle :global(.vtex-rich-text-0-x-paragraph){
     margin-bottom: 10px;
-    margin-top: 10px
+    margin-top: 10px;
+    font-family: "Intelo";
+    font-weight: 700;
 }
 
 .container--newsletterTitle{
-    background-color: #E0E0E0;
+    background-color: #DBDBDB;
 }
 
 .paragraph--footer-sobre{
@@ -47,6 +49,10 @@ padding-top: 8px;
     margin-right: 10px;
 }
 
+.footer-politicas-list{
+    font-family: "Intelo" !important;
+}
+
 :global(.vtex-rich-text-0-x-image--cbyk){
     width: 65px;
     margin-left: 20px;
@@ -62,3 +68,11 @@ padding-top: 8px;
         justify-content: left !important;
     }
 }
+
+@media (max-width: 1100px) {
+    .paragraph--sectorTitle{
+        font-size: 1.5rem;
+    }
+}
+
+

@@ -8,9 +8,7 @@
       "__fold__",
       "flex-layout.row#productbanners",
       "flex-layout.row#specs",
-      "flex-layout.row#reviews",
-      "rich-text#newsletter",
-      "flex-layout.row#newsletterRow"
+      "flex-layout.row#reviews"
     ]
   },
 
@@ -21,7 +19,7 @@
       "orderBy": "OrderByTopSaleDESC",
       "productList": {
         "maxItems": 10,
-        "itemsPerPage": 5,
+        "itemsPerPage": 4,
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
@@ -104,7 +102,8 @@
       "product-price#product-details",
       "sku-selector",
       "product-quantity",
-      "flex-layout.row#buy-button"
+      "flex-layout.row#buy-button",
+      "availability-subscriber"
     ]
   },
   "sku-selector":{

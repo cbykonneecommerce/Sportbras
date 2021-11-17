@@ -8,6 +8,7 @@
 
 .quantitySelectorContainer{
     display: block !important;
+    margin-top: 2em;
 }
 
 .quantitySelectorStepper .vtex-numeric-stepper__plus-button{

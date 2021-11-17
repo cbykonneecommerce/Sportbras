@@ -1,14 +1,41 @@
 :global(.vtex-checkbox__inner-container){
-    border-color: #E63E45;
+    border-color: #EA002A;
 }
 .filterTitle{
     color: #333;
     font-weight: 700;
 }
 
+:global(.vtex-search-result-3-x-filterItem) :global(.vtex-checkbox__line-container){
+    display: flex;
+    align-items: center;
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore) :global(.vtex-button){
+    background-color: white;
+    color: #C6C6C6;
+    border-color: #C6C6C6;
+    font-size: 22px;
+    padding: 6px 40px;
+    margin-top: 1em;
+}
+
 :global(.vtex-search-result-3-x-filtersWrapper){
     display: flex !important;
     flex-direction: column !important;
+}
+
+:global(.vtex-search-result-3-x-filterBreadcrumbsText), :global(.vtex-search-result-3-x-filterBreadcrumbsItemName){
+    font-family: "Intelo";
+}
+
+
+@media (min-width: 1100px) {
+    :global(.vtex-search-result-3-x-progressBarContainer){
+        text-align: center;
+        margin-left: 14em;
+        margin-top: 2em;
+    }
 }
 
 :global(.vtex-search-result-3-x-filter__container--cor-){

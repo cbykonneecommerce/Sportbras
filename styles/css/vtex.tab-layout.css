@@ -30,6 +30,6 @@
 .listItemActive--tab-style-item :global(.vtex-button){
 border-color: none !important;
 border: none;
-border-bottom: solid 3px #ED1C24;
-color: #ED1C24;
+border-bottom: solid 3px #EA002A;
+color: #EA002A;
 }

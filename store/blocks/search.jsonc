@@ -65,8 +65,7 @@
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result",
-      "search-products-progress-bar",
-      "newsletter-form"
+      "search-products-progress-bar"
     ],
     "props": {
       "pagination": "show-more",
@@ -158,9 +157,7 @@
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore",
-      "search-products-progress-bar",
-      "rich-text#newsletter",
-      "flex-layout.row#newsletterRow"
+      "search-products-progress-bar"
     ],
     "props": {
       "pagination": "show-more",

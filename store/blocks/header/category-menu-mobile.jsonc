@@ -1,75 +1,118 @@
 {
     "vtex.menu@2.x:menu#category-menu-01--mob": {
         "children": [
-            "menu-item#all--mob",
-            "menu-item#utensilios--mob",
-            "menu-item#tapetes--mob",
-            "menu-item#decoracao--mob",
-            "menu-item#tecidos--mob",
-            "menu-item#cama--mob",
-            "menu-item#mesa--mob",
-            "menu-item#banho--mob",
-            "menu-item#artesanato--mob",
-            "menu-item#pet--mob",
-            "menu-item#moda--mob",
-            "menu-item#hotelaria--mob",
-            "menu-item#brinquedos--mob",
-            "menu-item#natal--mob",
-            "menu-item#festa--mob"
+            "menu-item#acessorios-mob",
+            "menu-item#calcados-mob"
+          /*  "menu-item#crianças-mob",
+            "menu-item#homens-mob",
+            "menu-item#marcas-mob",
+            "menu-item#mulheres-mob",
+            "menu-item#roupas-mob",
+            "menu-item#peças-unicas-mob",
+            "menu-item#outlet-mob"*/
         ],
         "props": {
             "blockClass": "category-menu-mobile",
             "orientation": "vertical"
         }
     },
-    // ----------------- TODAS AS CATEGORIAS ITEM -------------------
-    "menu-item#all--mob": {
-        "props": {
-            "id": "toplevel-1-mob",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass": "mob__toplevel1",
 
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "TODAS AS CATEGORIAS",
-                "text": "TODAS AS CATEGORIAS"
-            }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu.accordion#all-submenu-block-col1--mob"
-        ]
-    },
-    "vtex.menu@2.x:submenu.accordion#all-submenu-block-col1--mob": {
-        "children": ["vtex.menu@2.x:menu#submenuMain-col1--mob"],
-        "props": {
-            //"blockClass": "allSubmenuBlock",
-            // "width": "230"
+
+ // ----------------- ACESSORIOS ITEM -------------------
+ "menu-item#acessorios-mob": {
+    "props": {
+        "id": "toplevel-1-mob",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "mob__toplevel1",
+
+        "itemProps": {
+            "type": "internal",
+            "href": "/acessorios",
+            "noFollow": true,
+            "tagTitle": "ACESSÓRIOS",
+            "text": "ACESSÓRIOS"
         }
     },
-    "vtex.menu@2.x:menu#submenuMain-col1--mob": {
-        "children": [
-            "menu-item#col1-row1--mob",
-            "menu-item#col1-row2--mob",
-            "menu-item#col1-row3--mob",
-            "menu-item#col1-row4--mob",
-            "menu-item#col1-row5--mob",
-            "menu-item#col1-row6--mob",
-            "menu-item#col1-row7--mob",
-            "menu-item#col1-row8--mob",
-            "menu-item#col1-row9--mob",
-            "menu-item#col1-row10--mob"
-            // "menu-item#col1-all--mob"
-        ],
-        "props": {
-            "orientation": "vertical"
+    "blocks": [
+        "vtex.menu@2.x:submenu.accordion#acessorios-submenu-block-mob"
+    ]
+},
+
+"vtex.menu@2.x:submenu.accordion#acessorios-submenu-block-mob": {
+    "children": ["vtex.menu@2.x:menu#submenu-cat-acessorios-mob"],
+    "props": {
+        //"blockClass": "allSubmenuBlock",
+        // "width": "230"
+    }
+},
+
+
+
+
+ // ----------------- CALÇADOS ITEM -------------------
+ "menu-item#calcados-mob": {
+    "props": {
+        "id": "toplevel-1-mob",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "mob__toplevel1",
+
+        "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "CALÇADOS",
+            "text": "CALÇADOS"
         }
     },
+    "blocks": [
+        "vtex.menu@2.x:submenu.accordion#calcados-submenu-block-mob"
+    ]
+},
 
-    //-- ALL SUBMENUS  ------------------------------
+"vtex.menu@2.x:submenu.accordion#calcados-submenu-block-mob": {
+    "children": ["vtex.menu@2.x:menu#submenu-cat-calcados-mob"],
+    "props": {
+        //"blockClass": "allSubmenuBlock",
+        // "width": "230"
+    }
+},
+
+ // ----------------- CRIANÇAS ITEM -------------------
+ "menu-item#crianças-mob": {
+    "props": {
+        "id": "toplevel-1-mob",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "mob__toplevel1",
+
+        "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "CALÇADOS",
+            "text": "CALÇADOS"
+        }
+    },
+    "blocks": [
+        "vtex.menu@2.x:submenu.accordion#crianças-submenu-block-mob"
+    ]
+},
+
+"vtex.menu@2.x:submenu.accordion#crianças-submenu-block-mob": {
+    "children": ["vtex.menu@2.x:menu#submenu-cat-crianças-mob"],
+    "props": {
+        //"blockClass": "allSubmenuBlock",
+        // "width": "230"
+    }
+},
+
+
+ 
 
     // ------------ TAPETES ITEM -----------------
     "menu-item#tapetes--mob": {

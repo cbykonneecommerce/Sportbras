@@ -4,6 +4,8 @@
       "blockClass": ["footer", "desktop"]
     },
     "children": [
+      "rich-text#newsletter",
+      "flex-layout.row#newsletterRow",
       "flex-layout.row#footer-container-politicas-desktop",
       "flex-layout.row#footer-container-0-desktop",
       "flex-layout.row#footer-container-1-desktop"

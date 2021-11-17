@@ -8,7 +8,7 @@
 }
 
 :global(.vtex-menu-2-x-menuItemInnerDiv--linkList-footer-toggle) {
-    background-color: #F3F3F3;
+    background-color: #EDEFF2;
     margin-bottom: 8px;
     margin-top: 8px;
 }
@@ -50,5 +50,5 @@
 }
 
 .submenuWrapper--main-menu-row-desk{
-    background-color: #F2F2F2;
+    background-color: #EDEFF2;
 }

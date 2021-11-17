@@ -15,10 +15,7 @@
       "flex-layout.row#mais-vendidos-title",
       "flex-layout.row#mais-vendidos-shelf",
       "flex-layout.row#insta-title",
-      "flex-layout.row#insta",
-    
-      "rich-text#newsletter",
-      "flex-layout.row#newsletterRow"
+      "flex-layout.row#insta"
     ]
   },
   "list-context.image-list#bannersprincipais": {
