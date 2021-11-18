@@ -2,9 +2,9 @@
     "vtex.menu@2.x:menu#category-menu-01--mob": {
         "children": [
             "menu-item#acessorios-mob",
-            "menu-item#calcados-mob"
-          /*  "menu-item#crianças-mob",
-            "menu-item#homens-mob",
+            "menu-item#calcados-mob",
+           "menu-item#crianças-mob"
+           /*  "menu-item#homens-mob",
             "menu-item#marcas-mob",
             "menu-item#mulheres-mob",
             "menu-item#roupas-mob",
@@ -94,8 +94,8 @@
             "type": "internal",
             "href": "#",
             "noFollow": true,
-            "tagTitle": "CALÇADOS",
-            "text": "CALÇADOS"
+            "tagTitle": "CRIANÇAS",
+            "text": "CRIANÇAS"
         }
     },
     "blocks": [
