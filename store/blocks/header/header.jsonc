@@ -82,7 +82,6 @@
         "drawer#search-bar",
         /*"rich-text#icon-link-natal",
         "image#icon-link-black-friday",*/
-        "login",
         "minicart.v2"
       ],
       "props": {
@@ -129,8 +128,9 @@
     },
     "drawer#menu-mobile": {
       "children": [
-       
+        "login",
        "vtex.menu@2.x:menu#category-menu-01--mob"
+       
       ],
       "props": {
         "blockClass": "menu-mobile"

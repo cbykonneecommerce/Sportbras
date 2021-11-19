@@ -52,3 +52,23 @@
 .submenuWrapper--main-menu-row-desk{
     background-color: #EDEFF2;
 }
+
+.menuContainerNav--category-menu-mobile, .submenuAccordion--allSubmenuBlock :global(.vtex-menu-2-x-menuContainerNav){
+    width: 100%;
+}
+
+.styledLinkContent--mob__toplevel1{
+    font-weight: 600;
+}
+
+.menuContainer--category-menu-mobile .accordionIcon--isOpen {
+    transform: translateY(-50%) rotate(180deg);
+    content: url(/arquivos/arrow-menus.svg);
+    width: 16px;
+  }
+  
+  .menuContainer--category-menu-mobile .accordionIcon--isClosed {
+    transform: translateY(-50%) rotate(0deg);
+    content: url(/arquivos/arrow-menus.svg);
+    width: 16px;
+  }
