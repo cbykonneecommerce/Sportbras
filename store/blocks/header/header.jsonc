@@ -77,9 +77,10 @@
     "header-row#1-mobile": {
       "children": [
         "drawer#menu-mobile",
+        "header-spacer",
         "logo#mobile",
-        "header-force-center",
-        "drawer#search-bar",
+        "header-spacer",
+      /*  "drawer#search-bar",
         /*"rich-text#icon-link-natal",
         "image#icon-link-black-friday",*/
         "minicart.v2"

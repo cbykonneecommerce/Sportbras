@@ -2,3 +2,13 @@
     width: 30px;
     height: 30px;
 }
+
+@media (max-width: 700px) {
+    :global(.vtex-login-2-x-container){
+        float: none;
+        margin-bottom: 1em;
+    }
+    :global(.vtex-login-2-x-label){
+        display: block;
+    }
+}
