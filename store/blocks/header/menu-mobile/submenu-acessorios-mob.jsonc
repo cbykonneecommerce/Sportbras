@@ -13,7 +13,8 @@
       // "menu-item#col1-all--mob"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "submenu"
     }
   },
 
@@ -22,10 +23,11 @@
       "type": "custom",
       "id": "",
       "highlight": false,
+       "blockClass": "submenu",
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "blockClass": "sub-cat-item",
+        "blockClass": "submenu",
         "text": "Caneleiras",
         "href": "/acessorios/Caneleiras"
       }
@@ -36,6 +38,7 @@
       "type": "custom",
       "id": "",
       "highlight": false,
+      "blockClass": "submenu",
       "itemProps": {
         "type": "internal",
         "noFollow": false,
@@ -50,6 +53,7 @@
       "type": "custom",
       "id": "",
       "highlight": false,
+      "blockClass": "submenu",
       "itemProps": {
         "type": "internal",
         "noFollow": false,
@@ -64,6 +68,7 @@
       "type": "custom",
       "id": "",
       "highlight": false,
+      "blockClass": "submenu",
       "itemProps": {
         "type": "internal",
         "noFollow": false,
@@ -78,6 +83,7 @@
       "type": "custom",
       "id": "",
       "highlight": false,
+      "blockClass": "submenu",
       "itemProps": {
         "type": "internal",
         "noFollow": false,
@@ -355,10 +361,10 @@
       "type": "custom",
       "id": "",
       "highlight": false,
+      "blockClass": "submenu",
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "blockClass": "sub-cat-item",
         "text": "Todos",
         "href": "/acessorios"
       }

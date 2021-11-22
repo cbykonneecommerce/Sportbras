@@ -3,6 +3,7 @@
      
         "props": {
           "orientation": "vertical",
+          "blockClass": "submenu",
           "items":[
             {
                 "type": "custom",

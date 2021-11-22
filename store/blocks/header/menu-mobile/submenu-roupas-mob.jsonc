@@ -2,6 +2,7 @@
   "vtex.menu@2.x:menu#submenu-cat-roupas-mob": {
     "props": {
       "orientation": "vertical",
+      "blockClass": "submenu",
       "items": [
         {
           "type": "custom",

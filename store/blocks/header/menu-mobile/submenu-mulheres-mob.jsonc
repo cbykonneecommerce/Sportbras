@@ -523,10 +523,10 @@
         "type": "custom",
         "id": "",
         "highlight": false,
+        "blockClass": "submenu",
         "itemProps": {
           "type": "internal",
           "noFollow": false,
-          "blockClass": "sub-cat-item",
           "text": "Todos",
           "href": "/mulheres"
         }
