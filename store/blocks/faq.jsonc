@@ -12,7 +12,6 @@
         "blockClass": "Institutionalrow"
       },
         "children": [
-          "flex-layout.col#menu-institucional",
             "flex-layout.col#institutional-faq"
         ]
     },
