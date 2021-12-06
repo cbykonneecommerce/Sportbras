@@ -80,3 +80,21 @@
   .styledLinkContent--submenu{
     font-size: 18px;
   }
+
+
+  .styledLinkContent--submenu--inst{
+    color: #6F6F6F;
+    border: solid 1px #ED1C24;
+    border-radius: 5px;
+    padding: 20px 12px;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+  }
+  .styledLinkContent--submenu--inst:hover{
+    color: #FFFFFF !important;
+    background-color: #ED1C24;
+    -webkit-transition: 0.4s all;
+    transition: 0.4s all;
+   
+  }

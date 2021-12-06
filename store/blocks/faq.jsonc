@@ -1,177 +1,360 @@
 {
     "store.custom#faq": {
-      "children": [
-        "flex-layout.row#faq"
+        "blocks": [
+            "flex-layout.row#institutional-Content-faq"
+        ]
+    },
+  
+    "flex-layout.row#institutional-Content-faq": {
+      "props":{
+        "marginTop": 8,
+        "marginBottom": 8,
+        "blockClass": "Institutionalrow"
+      },
+        "children": [
+          "flex-layout.col#menu-institucional",
+            "flex-layout.col#institutional-faq"
+        ]
+    },
+  
+    "flex-layout.col#menu-institucional":{
+      "props":{
+        "blockClass": "Institutionaltitleblock1",
+        "preventVerticalStretch": true,
+        "width": "25%"
+      },
+      "children":[
+        "vtex.menu@2.x:menu#menu-institucional"
+  
       ]
     },
-  
-    "flex-layout.row#faq": {
-      "props": {
-        "blockClass": "faq"
+    "flex-layout.col#institutional-faq": {
+      "props":{
+        "blockClass": "Institutionaltitleblock2",
+        "preventVerticalStretch": true,
+        "paddingLeft": 10
       },
-      "children": [
-        "flex-layout.col#faq"
-      ]
-    },
-  
-    "flex-layout.col#faq": {
-      "children": [
-        "rich-text#faq",
-        "disclosure-layout-group#group"
-      ]
-    },
-    "rich-text#faq": {
-      "props": {
-        "text": "## FAQ"
-      }
-    },
-  
-    "disclosure-layout-group#group": {
-      "children": [
-        "disclosure-layout#first",
-        "disclosure-layout#second",
-        "disclosure-layout#third",
-        "disclosure-layout#fourth"
-      ]
-    },
-  
-    "disclosure-layout#first": {
-      "props": {
-        "animated": true
-      },
-      "children": ["disclosure-trigger#first", "disclosure-content#first"]
-    },
-    "disclosure-trigger#first": {
-      "props": {
-        "blockClass": "question",
-        "as": "div"
-      },
-      "children": ["disclosure-state-indicator", "rich-text#question1"]
-    },
-    "disclosure-content#first": {
-      "props": {
-        "blockClass": "answer"
-      },
-      "children": ["rich-text#answer1"]
-    },
-    "rich-text#question1": {
-      "props": {
-        "text": "How can I change my shipping address?"
-      }
-    },
-    "rich-text#answer1": {
-      "props": {
-        "text": "Call us at the number (212) 1234-1234."
-      }
-    },
-  
-    "disclosure-layout#second": {
-      "props": {
-        "animated": true
-      },
-      "children": ["disclosure-trigger#second", "disclosure-content#second"]
-    },
-    "disclosure-trigger#second": {
-      "props": {
-        "blockClass": "question",
-        "as": "div"
-      },
-      "children": ["disclosure-state-indicator", "rich-text#question2"]
-    },
-    "disclosure-content#second": {
-      "props": {
-        "blockClass": "answer"
-      },
-      "children": ["rich-text#answer2"]
-    },
-    "rich-text#question2": {
-      "props": {
-        "text": "How can I track my order?"
-      }
-    },
-    "rich-text#answer2": {
-      "props": {
-        "text": "After logging into your account, you can find this info at the link Orders."
-      }
+        "children": [
+          "rich-text#institutionalMain-title",
+          "disclosure-layout-group#faq"
+        ]
     },
   
   
-    "disclosure-layout#third": {
+  
+  
+    "rich-text#institutionalMain-title": {
       "props": {
-        "animated": true
-      },
-      "children": ["disclosure-trigger#third", "disclosure-content#third"]
+          "text": "TITULO AQUI",
+          "blockClass": "InstitutionalTitle"
+      }
+  },
+  
+  
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  },
+  
+  
+  "disclosure-layout-group#faq": {
+    "children": ["disclosure-layout#troca-e-devolucao", "disclosure-layout#pagamentos", "disclosure-layout#entregas", "disclosure-layout#outras-duvidas"]
+  },
+  
+  "disclosure-layout#troca-e-devolucao": {
+    "props": {
+      "animated": true
     },
-    "disclosure-trigger#third": {
-      "props": {
-        "blockClass": "question",
-        "as": "div"
-      },
-      "children": ["disclosure-state-indicator", "rich-text#question3"]
+    "children": ["disclosure-trigger#troca-e-devolucao", "disclosure-content#troca-e-devolucao"]
+  },
+  "disclosure-trigger#troca-e-devolucao": {
+    "props": {
+      "blockClass": "store-title",
+      "as": "div"
     },
-    "disclosure-content#third": {
-      "props": {
-        "blockClass": "answer"
-      },
-      "children": ["rich-text#answer3"]
+    "children": ["rich-text#troca-e-devolucao","disclosure-state-indicator"]
+  },
+  
+  "rich-text#troca-e-devolucao": {
+    "props": {
+      "text": "#### Troca e devolução"
+    }
+  },
+  "disclosure-content#troca-e-devolucao": {
+    "props": {
+      "blockClass": "answer"
     },
-    "rich-text#question3": {
+    "children": ["flex-layout.row#troca-e-devolucao"]
+  },
+  
+  "flex-layout.row#troca-e-devolucao":{
+    "children":["flex-layout.col#troca-e-devolucao"]
+  },
+  
+  "flex-layout.col#troca-e-devolucao":{
+  "children":["rich-text#troca-e-devolucao-texto"]
+  },
+  
+  "rich-text#troca-e-devolucao-texto": {
+    "props": {
+      "text": ""
+    }
+  },
+  
+
+
+
+  "disclosure-layout#pagamentos": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#pagamentos", "disclosure-content#pagamentos"]
+  },
+  "disclosure-trigger#pagamentos": {
+    "props": {
+      "blockClass": "store-title",
+      "as": "div"
+    },
+    "children": ["rich-text#pagamentos","disclosure-state-indicator"]
+  },
+  
+  "rich-text#pagamentos": {
+    "props": {
+      "text": "#### Troca e devolução"
+    }
+  },
+  "disclosure-content#pagamentos": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["flex-layout.row#pagamentos"]
+  },
+  
+  "flex-layout.row#pagamentos":{
+    "children":["flex-layout.col#pagamentos"]
+  },
+  
+  "flex-layout.col#pagamentos":{
+  "children":["rich-text#pagamentos-texto"]
+  },
+  
+  "rich-text#pagamentos-texto": {
+    "props": {
+      "text": "aaaaa"
+    }
+  },
+
+
+
+
+
+  
+  "disclosure-layout#entregas": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#entregas", "disclosure-content#entregas"]
+  },
+  "disclosure-trigger#entregas": {
+    "props": {
+      "blockClass": "store-title",
+      "as": "div"
+    },
+    "children": ["rich-text#entregas","disclosure-state-indicator"]
+  },
+  
+  "rich-text#entregas": {
+    "props": {
+      "text": "#### Troca e devolução"
+    }
+  },
+  "disclosure-content#entregas": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["flex-layout.row#entregas"]
+  },
+  
+  "flex-layout.row#entregas":{
+    "children":["flex-layout.col#entregas"]
+  },
+  
+  "flex-layout.col#entregas":{
+  "children":["rich-text#entregas-texto"]
+  },
+  
+  "rich-text#entregas-texto": {
+    "props": {
+      "text": "aaaaa"
+    }
+  },
+
+
+
+
+
+  "disclosure-layout#outras-duvidas": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#outras-duvidas", "disclosure-content#outras-duvidas"]
+  },
+  "disclosure-trigger#outras-duvidas": {
+    "props": {
+      "blockClass": "store-title",
+      "as": "div"
+    },
+    "children": ["rich-text#outras-duvidas","disclosure-state-indicator"]
+  },
+  
+  "rich-text#outras-duvidas": {
+    "props": {
+      "text": "#### Troca e devolução"
+    }
+  },
+  "disclosure-content#outras-duvidas": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["flex-layout.row#outras-duvidas"]
+  },
+  
+  "flex-layout.row#outras-duvidas":{
+    "children":["flex-layout.col#outras-duvidas"]
+  },
+  
+  "flex-layout.col#outras-duvidas":{
+  "children":["rich-text#outras-duvidas-texto"]
+  },
+  
+  "rich-text#outras-duvidas-texto": {
+    "props": {
+      "text": "aaaaa"
+    }
+  },
+
+
+
+  
+  "vtex.menu@2.x:menu#menu-institucional":{
+    "children": [
+      "menu-item#quem-somos",
+      "menu-item#troca-e-dev",
+      "menu-item#formas-pagamento",
+      "menu-item#pol-privacidade",
+      "menu-item#pol-cookies",
+      "menu-item#faq"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-inst"
+  }
+  },
+  
+  
+    "menu-item#quem-somos": {
       "props": {
-        "text": "How can I change my shipping address?"
+        "id": "menu-item-quem-somos",
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "submenu--inst",
+        "itemProps": {
+          "type": "internal",
+          "href": "/quem-somos",
+          "noFollow": false,
+          "tagTitle": "quem-somos",
+          "text": "Quem Somos"
+        }
       }
     },
-    "rich-text#answer3": {
+    "menu-item#troca-e-dev": {
       "props": {
-        "text": "Call us at the number (212) 1234-1234."
+        "id": "menu-item-troca-e-dev",
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "submenu--inst",
+        "itemProps": {
+          "type": "internal",
+          "href": "/troca-e-devolucao",
+          "noFollow": false,
+          "tagTitle": "Troca e Devolução",
+          "text": "Troca e Devolução"
+        }
+      }
+    },
+    "menu-item#formas-pagamento": {
+      "props": {
+        "id": "menu-item-formas-pagamento",
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "submenu--inst",
+        "itemProps": {
+          "type": "internal",
+          "href": "/formas-de-pagamento",
+          "noFollow": false,
+          "tagTitle": "formas de pagamento",
+          "text": "Formas de Pagamento"
+        }
+      }
+    },
+    "menu-item#pol-privacidade": {
+      "props": {
+        "id": "menu-item-pol-privacidade",
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "submenu--inst",
+        "itemProps": {
+          "type": "internal",
+          "href": "/politica-de-privacidade",
+          "noFollow": false,
+          "tagTitle": "pol-privacidade",
+          "text": "Política de Privacidade"
+        }
       }
     },
   
-  
-    "disclosure-layout#fourth": {
+    "menu-item#pol-cookies": {
       "props": {
-        "animated": true
-      },
-      "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
-    },
-    "disclosure-trigger#fourth": {
-      "props": {
-        "blockClass": "question",
-        "as": "div"
-      },
-      "children": ["disclosure-state-indicator", "rich-text#question4"]
-    },
-    "disclosure-content#fourth": {
-      "props": {
-        "blockClass": "answer"
-      },
-      "children": ["rich-text#answer2"]
-    },
-    "rich-text#question4": {
-      "props": {
-        "text": "How can I track my order?"
-      }
-    },
-    "rich-text#answer4": {
-      "props": {
-        "text": "After logging into your account, you can find this info at the link Orders."
+        "id": "menu-item-pol-cookies",
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "submenu--inst",
+        "itemProps": {
+          "type": "internal",
+          "href": "/politica-de-cookies",
+          "noFollow": false,
+          "tagTitle": "condicoes-compra",
+          "text": "Política de Cookies"
+        }
       }
     },
   
-  
-    "disclosure-state-indicator": {
+    "menu-item#faq": {
       "props": {
-        "Show": "icon-caret#down",
-        "Hide": "icon-caret#up"
-      }
-    },
-    "icon-caret#down": {
-      "props": {
-        "orientation": "down"
-      }
-    },
-    "icon-caret#up": {
-      "props": {
-        "orientation": "up"
+        "id": "menu-item-faq",
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "submenu--inst",
+        "itemProps": {
+          "type": "internal",
+          "href": "/faq",
+          "noFollow": false,
+          "tagTitle": "faq",
+          "text": "Perguntas Frequentes"
+        }
       }
     }
   }
+  
