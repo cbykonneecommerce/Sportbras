@@ -45,7 +45,8 @@
       "props":{
         "blockClass": "Institutionaltitleblock1",
         "preventVerticalStretch": true,
-        "width": "25%"
+        "horizontalAlign": "center",
+        "width": "30%"
       },
       "children":[
         "vtex.menu@2.x:menu#menu-institucional"

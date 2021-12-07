@@ -35,6 +35,14 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
+    }
+
+    .flexRowContent--footer__content{
+        flex-wrap: wrap;
+    }
+    .flexRowContent--footer__content :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        width: 100% !important;
     }
 }
 
