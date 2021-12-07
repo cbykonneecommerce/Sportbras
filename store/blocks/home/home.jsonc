@@ -85,7 +85,7 @@
   },
   "rich-text#novidades2": {
     "props": {
-      "text": "Novidades",
+      "text": "Ofertas",
       "font": "t-heading-2",
       "textPosition": "LEFT",
       "textAlign": "LEFT",

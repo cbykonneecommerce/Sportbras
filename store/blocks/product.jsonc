@@ -323,6 +323,9 @@
   }
 },
   "flex-layout.row#reviews":{
+    "props":{
+      "marginBottom": 3
+    },
     "children":["product-reviews"]
   }
 }

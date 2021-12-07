@@ -15,7 +15,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": false,
-        "maxItemsPerPage": 10,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
