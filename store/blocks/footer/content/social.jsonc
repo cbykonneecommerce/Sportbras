@@ -70,7 +70,7 @@
   },
   "rich-text#socialImage-1": {
     "props": {
-      "text": "[![Icone twitter](/arquivos/twitter.svg 'Acesse o twitter')](https://twitter.com/niazi_chohfi)",
+      "text": "[![Icone twitter](/arquivos/twitter.svg 'Acesse o twitter')](https://twitter.com/)",
       "blockClass": ["social__image","twitter"]
     }
   },
