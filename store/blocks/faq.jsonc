@@ -20,8 +20,7 @@
     "flex-layout.col#institutional-faq": {
       "props":{
         "blockClass": "Institutionaltitleblock2",
-        "preventVerticalStretch": true,
-        "paddingLeft": 10
+        "preventVerticalStretch": true
       },
         "children": [
           "rich-text#institutionalMain-title",
