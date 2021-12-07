@@ -20,6 +20,7 @@
 }
 
 
+
 @media (min-width: 1125px) {
     :global(.vtex-flex-layout-0-x-flexRowContent--social__row), :global(.vtex-flex-layout-0-x-flexRowContent--flags__list){
         justify-content: left !important;

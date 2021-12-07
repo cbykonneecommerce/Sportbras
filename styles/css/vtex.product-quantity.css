@@ -4,6 +4,38 @@
 
 .quantitySelectorTitle{
     margin-right: 1em;
+    color: #4F4F4F;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.quantitySelectorContainer{
+    display: block !important;
+}
+
+.quantitySelectorStepper .vtex-numeric-stepper__plus-button{
+    border-radius: 0px !important;
+}
+
+:global(.vtex-numeric-stepper__minus-button__text), :global(.vtex-numeric-stepper__plus-button__text) {
+    font-size: 1.5rem;
+}
+
+:global(.vtex-numeric-stepper__plus-button-container), :global(.vtex-numeric-stepper__minus-button-container){
+    z-index: 1;
+}
+
+
+
+
+
+
+.quantitySelectorTitle, .quantitySelectorStepper{
+    display: inline-block !important;
+}
+
+.quantitySelectorTitle{
+    margin-right: 1em;
 }
 
 .quantitySelectorContainer{

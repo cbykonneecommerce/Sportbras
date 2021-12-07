@@ -12,3 +12,7 @@
         display: block;
     }
 }
+
+:global(.vtex-login-2-x-container) :global(.vtex-button){
+    background-color: transparent !important;
+}

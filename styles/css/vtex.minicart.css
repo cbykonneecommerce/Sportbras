@@ -2,3 +2,7 @@
     width: 35px;
     height: 35px;
 }
+
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button) {
+    background-color: transparent !important;
+}

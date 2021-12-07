@@ -17,6 +17,10 @@
 
 }
 
+.paragraph--sectorTitle-mob{
+    margin-left: 1.5rem;
+    font-size: 1.4rem;
+}
 
 .container--newsletterTitle :global(.vtex-rich-text-0-x-paragraph){
     margin-bottom: 10px;

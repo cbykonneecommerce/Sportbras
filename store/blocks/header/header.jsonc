@@ -130,11 +130,21 @@
     "drawer#menu-mobile": {
       "children": [
         "login",
+        "rich-text#menu-mob-title",
        "vtex.menu@2.x:menu#category-menu-01--mob"
        
       ],
       "props": {
         "blockClass": "menu-mobile"
+      }
+    },
+
+    "rich-text#menu-mob-title":{
+      "props": {
+        "text": "Todas as Categorias",
+        "textPosition": "LEFT",
+        "textAlign": "LEFT",
+        "blockClass": "sectorTitle-mob"
       }
     },
 
