@@ -3,7 +3,8 @@
     "blocks": [
       "list-context.image-list#bannersprincipais",
       "__fold__",
-      "flex-layout.row#promos",
+     /* "flex-layout.row#promos",*/
+     "slider-layout#politicas",
       "flex-layout.row#brands",
       "flex-layout.row#novidades-title",
       "flex-layout.row#novidades-shelf",
@@ -51,6 +52,9 @@
     }
   },
   "flex-layout.row#brands": {
+    "props":{
+      "marginTop": 5
+    },
     "children": ["slider-layout#brands"]
   },
   "flex-layout.row#novidades-title": {
@@ -58,7 +62,7 @@
   },
   "rich-text#novidades": {
     "props": {
-      "text": "Novidades",
+      "text": "NOVIDADES",
       "font": "t-heading-2",
       "textPosition": "LEFT",
       "textAlign": "LEFT",
@@ -76,7 +80,8 @@
     "children": ["slider-layout#shelf"],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
-      "collection": "138"
+      "collection": "142",
+      "maxItems": 12
     }
   },
 
@@ -85,7 +90,7 @@
   },
   "rich-text#novidades2": {
     "props": {
-      "text": "Ofertas",
+      "text": "OFERTAS",
       "font": "t-heading-2",
       "textPosition": "LEFT",
       "textAlign": "LEFT",
@@ -100,7 +105,8 @@
     "children": ["slider-layout#shelf"],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
-      "category": "9"
+      "collection": "142",
+      "maxItems": 12
     }
   },
 
@@ -129,7 +135,7 @@
   },
   "rich-text#mais-vendidos": {
     "props": {
-      "text": "Mais Vendidos",
+      "text": "MAIS VENDIDOS",
       "font": "t-heading-2",
       "textPosition": "LEFT",
       "textAlign": "LEFT",
@@ -144,7 +150,8 @@
     "children": ["slider-layout#shelf"],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
-      "collection": "139"
+      "collection": "142",
+      "maxItems": 12
     }
   },
 

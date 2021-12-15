@@ -34,20 +34,7 @@
                 "text": "Quem somos"
             }
         },
-        {
-          "id": "footer-item-1",
-          "blockClass": "footer-sobre__menu-item",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-              "type": "internal",
-              "href": "/nossas-lojas",
-              "noFollow": false,
-              "tagTitle": "Nossas lojas",
-              "text": "Nossas lojas"
-          }
-      },
+      
       {
         "id": "footer-item-2",
         "blockClass": "footer-sobre__menu-item",
@@ -58,8 +45,8 @@
             "type": "internal",
             "href": "/troca-e-devolucao",
             "noFollow": false,
-            "tagTitle": "Política de Devolução e Troca",
-            "text": "Política de Devolução e Troca"
+            "tagTitle": "Política de Troca e Devolução",
+            "text": "Política de Troca e Devolução"
         }
     },
     {
@@ -75,7 +62,35 @@
           "tagTitle": "Política de Forma de Pagamento",
           "text": "Política de Forma de Pagamento"
       }
+  },
+  {
+    "id": "footer-item-4",
+    "blockClass": "footer-sobre__menu-item",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "Política de Privacidade",
+        "text": "Política de Privacidade"
+    }
+},
+{
+  "id": "footer-item-5",
+  "blockClass": "footer-sobre__menu-item",
+  "type": "custom",
+  "iconId": null,
+  "highlight": false,
+  "itemProps": {
+      "type": "internal",
+      "href": "/politica-de-cookies",
+      "noFollow": false,
+      "tagTitle": "Política de Cookies",
+      "text": "Política de Cookies"
   }
+}
         ]
     }
   }

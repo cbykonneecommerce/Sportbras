@@ -23,7 +23,7 @@
       "textPosition": "LEFT",
       "textAlign": "LEFT",
       "blockClass": "footer-sobre",
-      "text": "ATENDIMENTO"
+      "text": "AJUDA E SUPORTE"
     }
   },
 
@@ -42,8 +42,8 @@
                 "type": "internal",
                 "href": "/faq",
                 "noFollow": false,
-                "tagTitle": "FAQ",
-                "text": "FAQ"
+                "tagTitle": "FAQ - Perguntas frequentes",
+                "text": "FAQ - Perguntas frequentes"
             }
         },
         {
@@ -54,40 +54,12 @@
           "highlight": false,
           "itemProps": {
               "type": "internal",
-              "href": "mailto:contato@sportbras.com.br",
+              "href": "mailto:sac@ecommercesportbras.com",
               "noFollow": false,
               "tagTitle": "email",
-              "text": "contato@sportbras.com.br"
+              "text": "sac@ecommercesportbras.com"
           }
-      },
-      {
-        "id": "footer-item-acc-2",
-        "blockClass": "footer-sobre__menu-item",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-            "type": "internal",
-            "href": "tel:112927694",
-            "noFollow": false,
-            "tagTitle": "numero",
-            "text": "(11) 2292-7694"
-        }
-    },
-    {
-      "id": "footer-item-acc-3",
-      "blockClass": "footer-sobre__menu-item",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-          "type": "internal",
-          "href": "/fale-conosco",
-          "noFollow": false,
-          "tagTitle": "Fale Conosco",
-          "text": "Fale Conosco"
       }
-  }
         ]
     }
   }

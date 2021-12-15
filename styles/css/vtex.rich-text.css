@@ -6,7 +6,7 @@
     top: 14px;
 }
 
-.paragraph--sectorTitle::after{
+/*.paragraph--sectorTitle::after{
     content:url('/arquivos/title-img.png'); 
     position:relative; 
     z-index:100; 
@@ -15,7 +15,7 @@
     transform: rotate(-180deg);
     display: inline-block;
 
-}
+}*/
 
 .paragraph--sectorTitle-mob{
     margin-left: 1.5rem;

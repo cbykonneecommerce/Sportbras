@@ -8,7 +8,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": "carousel-policies"
     },
     "children": [
       "rich-text#politica1",

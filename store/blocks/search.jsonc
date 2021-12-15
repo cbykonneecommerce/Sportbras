@@ -15,7 +15,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": false,
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 24,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -100,7 +100,8 @@
     "children": ["filter-navigator.v3"],
     "props": {
       "blockClass": "filterCol",
-      "width": "30%"
+      "width": "30%",
+      "paddingLeft": 5
     }
   },
   "flex-layout.col#content": {

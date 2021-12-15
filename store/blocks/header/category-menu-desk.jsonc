@@ -106,7 +106,7 @@
     "image#marcasbanner": {
         "props": {
           "src": "/arquivos/Rectangle1.png",
-          "maxHeight": 480
+          "maxHeight": 355
         }
       },
 
@@ -201,7 +201,7 @@
     "image#imagemHomens": {
         "props": {
           "src": "/arquivos/Rectangle1.png",
-          "maxHeight": 480
+          "maxHeight": 355
         }
       },
 
@@ -284,7 +284,7 @@
     "image#imagemCalcados": {
         "props": {
           "src": "/arquivos/Rectangle1.png",
-          "maxHeight": 480
+          "maxHeight": 355
         }
       },
 
@@ -372,7 +372,7 @@
     "image#imagemCriancas": {
         "props": {
           "src": "/arquivos/Rectangle1.png",
-          "maxHeight": 480
+          "maxHeight": 355
         }
       },
 
@@ -466,7 +466,7 @@
     "image#imagemMulheres": {
         "props": {
           "src": "/arquivos/Rectangle1.png",
-          "maxHeight": 480
+          "maxHeight": 355
         }
       },
 
@@ -570,7 +570,7 @@
     "image#imagemAcessorio": {
         "props": {
           "src": "/arquivos/Rectangle1.png",
-          "maxHeight": 480
+          "maxHeight": 355
         }
       },
 
@@ -664,7 +664,7 @@
     "image#imagemRoupas": {
         "props": {
           "src": "/arquivos/Rectangle1.png",
-          "maxHeight": 480
+          "maxHeight": 355
         }
       },
 

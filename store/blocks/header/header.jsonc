@@ -38,7 +38,8 @@
       "props": {
         //"title": "Logo",
         "href": "/",
-        "url": "/arquivos/logo.svg"
+        "url": "assets/icons/new-logo.svg",
+        "width": "197"
       }
     },
     /*     "minicart": {
@@ -190,8 +191,8 @@
       "props": {
         // "title": "Logo",
         "href": "/",
-        "url": "/arquivos/logo.svg",
-        "width": "120"
+        "url": "assets/icons/new-logo.svg",
+        "width": "150"
       }
     },
     "search-bar": {

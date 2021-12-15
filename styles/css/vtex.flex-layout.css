@@ -28,6 +28,10 @@
     :global(.vtex-flex-layout-0-x-flexCol--filterCol){
         width: 230px;
     }
+
+    .flexRowContent--footer__content, .flexRowContent--footer__copyright{
+padding-left: 2em;
+    }
 }
 
 
