@@ -19,3 +19,11 @@
 .nameContainer{
     min-height: 4.5em;
 }
+
+
+@media (max-width: 1100px) {
+    :global(.vtex-product-summary-2-x-element) {
+        padding: 8px;
+    }
+}
+

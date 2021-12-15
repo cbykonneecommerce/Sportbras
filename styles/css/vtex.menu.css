@@ -19,6 +19,7 @@
 
 :global(.vtex-menu-2-x-styledLinkContainer--menu-footer) {
     padding-bottom: 1rem;
+    margin-left: 0;
 }
 
 
