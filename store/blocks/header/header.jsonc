@@ -202,7 +202,7 @@
       "props": {
         "iconClasses": "hpa-search",
         "placeholder": "O que você está procurando?",
-        "maxWidth": 685,
+        "maxWidth": 680,
         "displayMode": "search-and-clear-buttons",
         "autocompleteAlignment": "left",
         "openAutocompleteOnFocus": true

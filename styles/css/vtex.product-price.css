@@ -1,10 +1,44 @@
 .sellingPrice{
-    text-align: center;
+    text-align: left;
     margin-bottom: 1em;
     color: #4F4F4F
 }
 .sellingPriceValue{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: #4F4F4F !important;
+    font-family: "StretchPro";
+}
+
+.sellingPriceValue::before{
+    content: "Por: ";
+    font-size: 10px;
+}
+
+.listPrice{
+    text-align: left;
+    color: #BDBDBD;
+}
+
+.listPrice::before{
+    content: "De: ";
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .sellingPriceValue{
+        font-size: 13px;
+    }
+    .sellingPriceValue::before{
+        content: "Por: ";
+        font-size: 8px;
+    }
+
+    .listPrice::before{
+        content: "De: ";
+        font-size: 11px;
+    }
+    .listPrice{
+        font-size: 12px;
+    } 
 }

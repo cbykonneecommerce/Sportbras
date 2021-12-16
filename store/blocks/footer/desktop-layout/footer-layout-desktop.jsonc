@@ -95,8 +95,17 @@
       "blockClass": "footer__copyright"
     },
     "children": [
-      "rich-text#copyright",
+      "flex-layout.col#footer-1-box-copy",
       "flex-layout.col#powered-container"
     ]
-  }  
+  },
+  
+  "flex-layout.col#footer-1-box-copy":{
+    "props":{
+      "width":"90%"
+    },
+    "children":[
+      "rich-text#copyright"
+    ]
+  }
 }

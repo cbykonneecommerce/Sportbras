@@ -11,6 +11,8 @@
     align-items: center;
 }
 
+
+
 :global(.vtex-search-result-3-x-buttonShowMore) :global(.vtex-button){
     background-color: white;
     color: #C6C6C6;
@@ -38,7 +40,7 @@
     }
 }
 
-:global(.vtex-search-result-3-x-filter__container--cor-){
+/*:global(.vtex-search-result-3-x-filter__container--cor-){
     order: 1
 }
 
@@ -62,7 +64,7 @@
 
 :global(.vtex-search-result-3-x-filter__container--category-3){
     order: 7
-}
+}*/
 
 .filter__container--title{
     display: none;
@@ -70,5 +72,6 @@
 
 .galleryTitle--layout{
     font-size: 33px;
+    text-transform: uppercase;
 }
 

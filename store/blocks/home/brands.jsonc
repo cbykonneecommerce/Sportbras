@@ -21,61 +21,61 @@
       
       "image#brand1": {
         "props": {
-          "src": "assets/marcas-banners/Adidas-140x110.png"
+          "src": "assets/marcas-banners/all-black/Adidas-140x110.png"
         
         }
       },
       "image#brand2": {
         "props": {
-          "src": "assets/marcas-banners/Asics-140x110.png"
+          "src": "assets/marcas-banners/all-black/Asics-140x110.png"
         
         }
       },
       "image#brand3": {
         "props": {
-          "src": "assets/marcas-banners/Mizuno-140x110.png"
+          "src": "assets/marcas-banners/all-black/Mizuno-140x110.png"
         
         }
       },
       "image#brand4": {
         "props": {
-          "src": "assets/marcas-banners/New-balance-140x110.png"
+          "src": "assets/marcas-banners/all-black/New-balance-140x110.png"
         
         }
       },
       "image#brand5": {
         "props": {
-          "src": "assets/marcas-banners/Nike-140x110.png"
+          "src": "assets/marcas-banners/all-black/Nike-140x110.png"
         
         }
       },
       "image#brand6": {
         "props": {
-          "src": "assets/marcas-banners/Olympikus-140x110.png"
+          "src": "assets/marcas-banners/all-black/Olympikus-140x110.png"
         
         }
       },
       "image#brand7": {
         "props": {
-          "src": "assets/marcas-banners/Penalty-140x110.png"
+          "src": "assets/marcas-banners/all-black/Penalty-140x110.png"
         
         }
       },
       "image#brand8": {
         "props": {
-          "src": "assets/marcas-banners/Puma-140x110.png"
+          "src": "assets/marcas-banners/all-black/Puma-140x110.png"
         
         }
       },
       "image#brand9": {
         "props": {
-          "src": "assets/marcas-banners/Rainha-140x110.png"
+          "src": "assets/marcas-banners/all-black/Rainha-140x110.png"
         
         }
       },
       "image#brand10": {
         "props": {
-          "src": "assets/marcas-banners/Topper-140x110.png"
+          "src": "assets/marcas-banners/all-black/Topper-140x110.png"
         
         }
       }

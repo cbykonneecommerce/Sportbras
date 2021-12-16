@@ -27,7 +27,9 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24
       }
     }
   },
@@ -37,7 +39,9 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24
       }
     }
   },
@@ -47,7 +51,9 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24
       }
     }
   },
@@ -65,7 +71,9 @@
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result",
-      "search-products-progress-bar"
+      "search-products-progress-bar",
+      "flex-layout.row#promos-search",
+      "flex-layout.row#promocoesimg"
     ],
     "props": {
       "pagination": "show-more",
@@ -74,11 +82,33 @@
         "mode1": "small",
         "mode2": "normal"
       },
-      "HiddenFacets":{
+      "HiddenFacets": {
         "categories": true
       }
     }
   },
+
+  "flex-layout.row#promos-search": {
+    "children": ["flex-layout.col#promos-search-content"]
+  },
+
+  "flex-layout.col#promos-search-content": {
+    "children": [
+      "rich-text#promos-search"
+
+    ]
+  },
+
+  "rich-text#promos-search": {
+    "props": {
+      "text": "PROMOÇÕES NA LOJA",
+      "font": "t-heading-2",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": ["sectorTitle", "promo-search"]
+    }
+  },
+
   "flex-layout.row#searchbread": {
     "children": ["breadcrumb.search"],
     "props": {
@@ -158,7 +188,9 @@
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore",
-      "search-products-progress-bar"
+      "search-products-progress-bar",
+      "flex-layout.row#promos-search",
+      "flex-layout.row#promocoesimg"
     ],
     "props": {
       "pagination": "show-more",
@@ -166,9 +198,8 @@
         "mode1": "small",
         "mode2": "normal"
       },
-      "HiddenFacets":{
+      "HiddenFacets": {
         "categories": true
-
       }
     }
   },
@@ -239,10 +270,9 @@
     "blocks": ["product-summary.shelf"],
     "props": {
       "maxItemsPerRow": {
-        "desktop": 4, 
+        "desktop": 4,
         "mobile": 2
       }
-     
-  }
+    }
   }
 }

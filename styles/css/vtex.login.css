@@ -3,6 +3,9 @@
     height: 30px;
 }
 
+:global(.vtex-login-2-x-label){
+    font-weight: 600;
+}
 @media (max-width: 700px) {
     :global(.vtex-login-2-x-container){
         float: none;

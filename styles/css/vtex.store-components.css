@@ -56,12 +56,17 @@
     margin-top: 1em;
 }
 
-
+.discountInsideContainer{
+    border-radius: 2px;
+    padding: 4px 14px;
+}
 
 
 @media (max-width: 700px) {
     :global(.vtex-store-components-3-x-logoContainer){
         margin-left: 25px;
     }
+
+
     
 }
