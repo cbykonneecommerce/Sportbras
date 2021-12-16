@@ -8,19 +8,30 @@
 
 .sellingPrice{
     color:#555555;
+    font-size: 25pt;
     font-weight: 500;
     display: inline-block;
 }
 
+:global(.vtex-store-components-3-x-listPriceLabel), :global(.vtex-store-components-3-x-listPriceValue){
+    font-size: 14pt;
+}
+
 .installmentsPrice{
-    font-size: 20px;
+    font-size: 17pt;
     font-weight: 600;
     display: inline-block;
     margin-left: 10px;
 }
 
+.savingPriceValue{
+    color: #EA002A;
+    font-size: 12pt;
+}
+
 :global(.vtex-store-components-3-x-price_installment){
     color: #EA002A;
+    font-size: 17pt;
 }
 
 :global(.vtex-store-components-3-x-searchBarContainer){
@@ -31,7 +42,7 @@
     border-radius: 0;
 }
 .shippingContainer{
-    margin-top: -15px;
+    margin-top: -23px;
 }
 
 .productDescriptionTitle{
@@ -67,6 +78,9 @@
         margin-left: 25px;
     }
 
+    .shippingContainer{
+        margin-top: 23px;
+    }
 
     
 }

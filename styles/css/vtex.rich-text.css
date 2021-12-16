@@ -89,6 +89,10 @@ padding-top: 8px;
         font-size: 1.5rem;
         line-height: 2.6rem;
     }
+   .wrapper--promo-search .paragraph--sectorTitle{
+        font-size: 1.2rem;
+        line-height: 2.6rem;
+    }
 }
 
 
