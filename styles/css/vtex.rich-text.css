@@ -1,9 +1,9 @@
-.paragraph--sectorTitle::before{
-    content:url('/arquivos/title-img.png'); 
-    position:relative; 
-    z-index:100; 
-    left: 10px;
-    top: 14px;
+.paragraph--sectorTitle::before {
+  content: url("/arquivos/title-img.png");
+  position: relative;
+  z-index: 100;
+  left: 10px;
+  top: 14px;
 }
 
 /*.paragraph--sectorTitle::after{
@@ -17,82 +17,106 @@
 
 }*/
 
-.paragraph--sectorTitle-mob{
-    margin-left: 1.5rem;
-    font-size: 1.4rem;
+.paragraph--sectorTitle-mob {
+  margin-left: 1.5rem;
+  font-size: 1.4rem;
 }
 
-.container--newsletterTitle :global(.vtex-rich-text-0-x-paragraph){
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-family: "Intelo";
-    font-weight: 700;
+.container--newsletterTitle :global(.vtex-rich-text-0-x-paragraph) {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: "Intelo";
+  font-weight: 700;
 }
 
-.container--newsletterTitle{
-    background-color: #DBDBDB;
+.container--newsletterTitle {
+  background-color: #dbdbdb;
 }
 
-.paragraph--footer-sobre{
-    color: #4F4F4F;
-    font-weight: bold;
-    margin-bottom: 0.5em;
+.paragraph--footer-sobre {
+  color: #4f4f4f;
+  font-weight: bold;
+  margin-bottom: 0.5em;
 }
 
-.paragraph--newsletterTitle{
-padding-top: 8px;
+.paragraph--newsletterTitle {
+  padding-top: 8px;
 }
 
-:global(.vtex-rich-text-0-x-paragraph--payment__image), :global(.vtex-rich-text-0-x-paragraph--social__image){
-    margin: 0 25px 25px 0;
+:global(.vtex-rich-text-0-x-paragraph--payment__image),
+:global(.vtex-rich-text-0-x-paragraph--social__image) {
+  margin: 0 25px 25px 0;
 }
 
-
-:global(.vtex-rich-text-0-x-image--footer-politicas-list){
-    margin-bottom: -5px;
-    margin-right: 10px;
+.image--footer-politicas-list {
+  max-width: 90px;
 }
 
-.footer-politicas-list{
-    font-family: "Intelo" !important;
+.container--footer-politicas-list,
+.wrapper--footer-politicas-list {
+  width: 100%;
 }
 
-:global(.vtex-rich-text-0-x-image--cbyk){
-    width: 65px;
-    margin-left: 20px;
+.headingLevel2--InstitutionalTitle {
+  text-transform: uppercase;
 }
-:global(.vtex-rich-text-0-x-image--vtex){
-    width: 90px;
-    margin-left: 20px;
+.wrapper--InstitutionalText {
+  padding-right: 60px;
 }
 
-
-.paragraph--InstitutionalTitle, .headingLevel2--InstitutionalTitle{
-    color: #F00;
-    font-family: "StretchPro";
+:global(.vtex-rich-text-0-x-image--footer-politicas-list) {
+  margin-right: 10px;
 }
 
-.paragraph--InstitutionalText{
-    color: #4F4F4F;
-    font-size: 18px;
+.paragraph--footer-politicas-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.footer-politicas-list {
+  font-family: "Intelo" !important;
+}
+
+:global(.vtex-rich-text-0-x-image--cbyk) {
+  width: 65px;
+  margin-left: 20px;
+}
+:global(.vtex-rich-text-0-x-image--vtex) {
+  width: 90px;
+  margin-left: 20px;
+}
+
+.paragraph--InstitutionalTitle,
+.headingLevel2--InstitutionalTitle {
+  color: #f00;
+  font-family: "StretchPro";
+}
+
+.paragraph--InstitutionalText {
+  color: #4f4f4f;
+  font-size: 18px;
+}
 
 @media (min-width: 1100px) {
-    :global(.vtex-rich-text-0-x-container--footer-sobre){
-        justify-content: left !important;
-    }
+  :global(.vtex-rich-text-0-x-container--footer-sobre) {
+    justify-content: left !important;
+  }
 }
 
 @media (max-width: 1100px) {
-    .paragraph--sectorTitle{
-        font-size: 1.5rem;
-        line-height: 2.6rem;
-    }
-   .wrapper--promo-search .paragraph--sectorTitle{
-        font-size: 1.2rem;
-        line-height: 2.6rem;
-    }
+  .paragraph--sectorTitle {
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+  }
+  .wrapper--promo-search .paragraph--sectorTitle {
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+  }
 }
 
-
+@media screen and (max-width: 768px) {
+  .wrapper--InstitutionalText {
+    padding-right: 0px;
+  }
+}

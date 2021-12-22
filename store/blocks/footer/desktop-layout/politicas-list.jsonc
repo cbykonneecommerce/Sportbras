@@ -20,7 +20,7 @@
 
   "rich-text#politica1": {
     "props": {
-      "text": "![RETIRE NA LOJA](/arquivos/b1.svg) **RETIRE NA LOJA**",
+      "text": "![RETIRE NA LOJA](/arquivos/melhores-precos.svg) **MELHORES PREÇOS**",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",
@@ -29,7 +29,7 @@
   },
   "rich-text#politica2": {
     "props": {
-      "text": "![PARCELE EM ATÉ 3X](/arquivos/b2.svg) **PARCELE EM ATÉ 3X**",
+      "text": "![PARCELE EM ATÉ 3X](/arquivos/parcelamentos.svg) **PARCELE EM ATÉ 6X**",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",
@@ -38,7 +38,7 @@
   },
   "rich-text#politica3": {
     "props": {
-      "text": "![30 DIAS PARA TROCA](/arquivos/b3.svg) **30 DIAS PARA TROCA**",
+      "text": "![30 DIAS PARA TROCA](/arquivos/troca-gratis.svg) **TROCA GRÁTIS**",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",
@@ -47,7 +47,7 @@
   },
   "rich-text#politica4": {
     "props": {
-      "text": "![ATENDIMENTO ONLINE](/arquivos/b4.svg) **ATENDIMENTO ONLINE**",
+      "text": "![ATENDIMENTO ONLINE](/arquivos/melhores-marcas.svg) **MELHORES MARCAS**",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",

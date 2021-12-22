@@ -22,8 +22,11 @@
     padding-top: 1rem;
 }
 
-
-
+.containerNormal :global(.vtex-button) {
+    margin: 0 auto;
+    background-color: #D92F2F;
+    border: none;
+}
 
 :global(.vtex-product-summary-2-x-containerNormal):hover{
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);

@@ -1,44 +1,79 @@
-.sellingPrice{
-    text-align: left;
-    margin-bottom: 1em;
-    color: #4F4F4F
+.sellingPrice {
+  text-align: left;
+  margin-bottom: 1em;
+  color: #4f4f4f;
 }
-.sellingPriceValue{
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #4F4F4F !important;
-    font-family: "StretchPro";
-}
-
-.sellingPriceValue::before{
-    content: "Por: ";
-    font-size: 10px;
+.sellingPriceValue {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #4f4f4f !important;
+  font-family: "StretchPro";
 }
 
-.listPrice{
-    text-align: left;
-    color: #BDBDBD;
+.sellingPriceValue::before {
+  content: "Por: ";
+  font-size: 14px;
+  font-family: "DINpro", sans-serif;
+  font-weight: normal;
 }
 
-.listPrice::before{
-    content: "De: ";
-    font-size: 14px;
+.listPrice {
+  text-align: left;
+  min-height: 16px;
+  color: #bdbdbd;
+}
+
+.listPrice::before {
+  content: "De: ";
+  font-size: 14px;
+}
+
+.installments--pdp-installments {
+  position: relative;
+  top: -5px;
+  margin-left: 10px;
+}
+
+.installments--pdp-installments {
+  font-weight: bold;
+  font-family: "Intelo", sans-serif;
+  font-size: 20px;
+  color: #555555;
+}
+
+.savings {
+  font-size: 12pt;
+  font-family: "Intelo", sans-serif;
+  color: #d92f2f;
+}
+
+.currencyContainer--pdp-installments,
+.installmentsNumber--pdp-installments,
+.installmentsNumber--pdp-installments::after {
+  content: "x";
+  color: #d92f2f;
+  font-weight: bold;
 }
 
 @media (max-width: 700px) {
-    .sellingPriceValue{
-        font-size: 13px;
-    }
-    .sellingPriceValue::before{
-        content: "Por: ";
-        font-size: 8px;
-    }
+  .installments--pdp-installments {
+    top: 0px;
+    margin-left: 0px;
+  }
 
-    .listPrice::before{
-        content: "De: ";
-        font-size: 11px;
-    }
-    .listPrice{
-        font-size: 12px;
-    } 
+  .sellingPriceValue {
+    font-size: 13px;
+  }
+  .sellingPriceValue::before {
+    content: "Por: ";
+    font-size: 8px;
+  }
+
+  .listPrice::before {
+    content: "De: ";
+    font-size: 11px;
+  }
+  .listPrice {
+    font-size: 12px;
+  }
 }

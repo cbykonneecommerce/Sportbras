@@ -1,3 +1,9 @@
 .slideChildrenContainer--carousel-policies{
     background-color: #EDEFF2;
 }
+
+@media screen and (min-width: 1025px) {
+    .slideChildrenContainer--slider-shelf--default {
+        padding: 10px;
+    }
+}

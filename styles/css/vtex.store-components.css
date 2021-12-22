@@ -2,85 +2,119 @@
     text-align: center;
 }*/
 
-.skuSelectorSubcontainer{
-    margin-bottom: 5px;
+.skuSelectorSubcontainer {
+  margin-bottom: 5px;
 }
 
-.sellingPrice{
-    color:#555555;
-    font-size: 25pt;
-    font-weight: 500;
-    display: inline-block;
+.sellingPrice {
+  color: #555555;
+  font-size: 25pt;
+  font-weight: 500;
+  display: inline-block;
 }
 
-:global(.vtex-store-components-3-x-listPriceLabel), :global(.vtex-store-components-3-x-listPriceValue){
-    font-size: 14pt;
+:global(.vtex-store-components-3-x-listPrice) {
+  font-family: "Intelo", sans-serif;
+  font-size: 20px;
 }
 
-.installmentsPrice{
-    font-size: 17pt;
-    font-weight: 600;
-    display: inline-block;
-    margin-left: 10px;
+:global(.vtex-store-components-3-x-listPriceLabel),
+:global(.vtex-store-components-3-x-listPriceValue) {
+  font-size: 14pt;
+  padding: 0px;
+  margin-right: 5px;
 }
 
-.savingPriceValue{
-    color: #EA002A;
-    font-size: 12pt;
+:global(.vtex-store-components-3-x-price_sellingPriceLabel) {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 4px;
+  font-family: "Intelo", sans-serif;
+  font-size: 20px;
 }
 
-:global(.vtex-store-components-3-x-price_installment){
-    color: #EA002A;
-    font-size: 17pt;
+:global(.vtex-store-components-3-x-price_sellingPriceLabel)::after {
+  content: ":";
+  display: block;
+  margin-right: 5px;
+  font-family: "Intelo", sans-serif;
+  font-size: 20px;
 }
 
-:global(.vtex-store-components-3-x-searchBarContainer){
-    padding: 4px 0px;
+:global(.vtex-store-components-3-x-listPriceValue) {
+  margin-right: 5px;
 }
 
-.frameAround, .skuSelectorInternalBox{
-    border-radius: 0;
-}
-.shippingContainer{
-    margin-top: -23px;
-}
-
-.productDescriptionTitle{
-    display: none;
+.installmentsPrice {
+  font-size: 17pt;
+  font-weight: 600;
+  display: inline-block;
+  margin-left: 10px;
 }
 
-.searchBarIcon--external-search{
-    background-color: white;
+.savingPriceValue {
+  color: #ea002a;
+  font-size: 12pt;
+  font-family: "Intelo", sans-serif;
 }
 
-:global(.vtex-store-components-3-x-externalSearchButtonWrapper){
-    border: none;
+:global(.vtex-store-components-3-x-price_installment) {
+  color: #ea002a;
+  font-size: 17pt;
 }
 
-:global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group){
-    border-color: #4F4F4F;
-    border-width: 1px;
-    border-radius: 10px;
+:global(.vtex-store-components-3-x-searchBarContainer) {
+  padding: 4px 0px;
 }
 
-:global(.vtex-store-components-3-x-skuSelectorTextContainer){
-    margin-top: 1em;
+.frameAround,
+.skuSelectorInternalBox {
+  border-radius: 0;
+}
+.shippingContainer {
+  margin-top: -23px;
 }
 
-.discountInsideContainer{
-    border-radius: 2px;
-    padding: 4px 14px;
+.productDescriptionTitle {
+  display: none;
 }
 
+.searchBarIcon--external-search {
+  background-color: white;
+}
+
+:global(.vtex-store-components-3-x-externalSearchButtonWrapper) {
+  border: none;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-input-prefix__group) {
+  border-color: #4f4f4f;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorTextContainer) {
+  margin-top: 1em;
+}
+
+.discountInsideContainer {
+  border-radius: 2px;
+  padding: 4px 14px;
+}
+
+.price_sellingPriceContainer {
+  display: flex;
+  align-items: center;
+}
 
 @media (max-width: 700px) {
-    :global(.vtex-store-components-3-x-logoContainer){
-        margin-left: 25px;
-    }
+  :global(.vtex-store-components-3-x-logoContainer) {
+    margin-left: 25px;
+  }
 
-    .shippingContainer{
-        margin-top: 23px;
-    }
-
-    
+  .shippingContainer {
+    margin-top: 23px;
+  }
 }

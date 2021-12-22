@@ -1,6 +1,6 @@
-.cartIcon{
-    width: 35px;
-    height: 35px;
+.cartIcon {
+  width: 35px;
+  height: 35px;
 }
 
 /*.cartIcon::after{
@@ -13,5 +13,10 @@
 }*/
 
 :global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button) {
-    background-color: transparent !important;
+  background-color: transparent !important;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+  font-family: "StretchPro", sans-serif;
+  font-size: 12px;
 }

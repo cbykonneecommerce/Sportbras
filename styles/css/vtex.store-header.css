@@ -20,3 +20,11 @@
     align-items: stretch;
     justify-content: space-between;
 }
+
+:global(.vtex-checkout-summary-0-x-price) {
+    font-family: 'StretchPro', sans-serif;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-loginLink) {
+    padding-left: 0px;
+}
