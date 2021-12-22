@@ -62,6 +62,7 @@
 }
 .wrapper--InstitutionalText {
   padding-right: 60px;
+  text-align: justify;
 }
 
 :global(.vtex-rich-text-0-x-image--footer-politicas-list) {
