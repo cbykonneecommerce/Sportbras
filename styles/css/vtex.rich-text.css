@@ -47,10 +47,23 @@ padding-top: 8px;
     margin: 0 25px 25px 0;
 }
 
+.image--footer-politicas-list {
+    max-width: 90px;
+}
+
+.container--footer-politicas-list,
+.wrapper--footer-politicas-list {
+    width: 100%;
+}
 
 :global(.vtex-rich-text-0-x-image--footer-politicas-list){
-    margin-bottom: -5px;
     margin-right: 10px;
+}
+
+.paragraph--footer-politicas-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-politicas-list{

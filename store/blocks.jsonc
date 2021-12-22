@@ -7,129 +7,134 @@
  * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
  * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
  */
- {
-    "store.orderplaced": {
-      "blocks": ["order-placed"]
-    },
-  
-    "store.account": {
-      "blocks": ["my-account"],
-      "parent": {
-        "challenge": "challenge.profile"
-      }
-    },
-  
-    "store.login": {
-      "blocks": ["login-content#default"]
-    },
-  
-    "login-content#default": {
-      "props": {
-        "isInitialScreenOptionOnly": false,
-        "defaultOption": 1,
-        "showPasswordVerificationIntoTooltip": true
-      }
-    },
-    "product-price": {
-      "props": {
-        "showSavings": true,
-        "showInstallments": true
-      }
-    },
-
-    "slider-layout#shelf": {
-      "props": {
-        "itemsPerPage": {
-          "desktop": 4,
-          "tablet": 3,
-          "phone": 2
-        },
-        "infinite": true,
-        "showPaginationDots": "never",
-        "autoplay":{
-          "timeout": 4000,
-          "stopOnHover": true
-        }
-      }
-    },
-    "product-summary.shelf": {
-      "children": [
-        
-        "product-summary-name",
-        "product-summary-image#shelf",
-        "product-summary-space",
-       /* "product-summary-sku-selector",*/
-        "product-list-price",
-        "product-selling-price",
-        "add-to-cart-button"
+{
+  "store.orderplaced": {
+    "blocks": [
+      "order-placed"
+    ]
+  },
+  "store.account": {
+    "blocks": [
+      "my-account"
+    ],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+  "store.login": {
+    "blocks": [
+      "login-content#default"
+    ]
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showInstallments": true
+    }
+  },
+  "slider-layout#shelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showPaginationDots": "never"
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image#shelf",
+      "product-summary-space",
+      "flex-layout.col#summary-bottom--col"
+    ]
+  },
+  "flex-layout.col#summary-bottom--col": {
+    "props": {
+      "blockClass": [
+        "summary-cottom"
       ]
     },
-    "product-summary-sku-selector": {
-        "props":{
-          "showVariationsLabels": "variation",
-          "visibility": "always",
-          "showValueForVariation": "image",
-          "initialSelection": "image",
-        /*  "visibleVariations":["Cor:","Tamanho:"],*/
-          "blockClass": "summarySku",
-          "maxItems": 70,
-          "displayMode":"slider",
-          "hideImpossibleCombinations": true,
-          "imageHeight": 15,
-          "imageWidth": 15,
-          "thumbnailImage": "principal"
-        }
-      },
-
-      "product-summary-price": {
-        "props": {
-            "labelSellingPrice": "Por",
-            "labelListPrice": "De"
-        }
-    },
-    
-      "add-to-cart-button":{
-          "props":{
-              "text": "COMPRAR"
-          }
-      },
-    
-    "product-summary-image#shelf": {
-      "props": {
-        "showBadge": true,
-        "aspectRatio": "1:1",
-        "maxHeight": 220
-      }
-    },
-
-    "flex-layout.row#newsletterRow":{
-      "children": ["newsletter-form"],
-      "props":{
-        "preventVerticalStretch":true,
-        "horizontalAlign": "center",
-        "blockClass": "newslettercontent"
-      }
-    },
-  
-    
-  
-    
-  
-    "store.product-review-form": {
-      "blocks": ["product-review-form"]
-    },
-    "store.not-found#product": {
-      "blocks": ["rich-text#not-found"]
-    },
-    "rich-text#not-found": {
-      "props": {
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "**PAGE NOT FOUND**",
-        "font": "t-heading-1"
-      }
-    },
-    "store.not-found#search": {
-      "blocks": ["rich-text#not-found"]
+    "children": [
+      "product-list-price",
+      "product-selling-price",
+      "add-to-cart-button"
+    ]
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "showVariationsLabels": "variation",
+      "visibility": "always",
+      "showValueForVariation": "image",
+      "initialSelection": "image",
+      /*  "visibleVariations":["Cor:","Tamanho:"],*/
+      "blockClass": "summarySku",
+      "maxItems": 70,
+      "displayMode": "slider",
+      "hideImpossibleCombinations": true,
+      "imageHeight": 15,
+      "imageWidth": 15,
+      "thumbnailImage": "principal"
     }
+  },
+  "product-summary-price": {
+    "props": {
+      "labelSellingPrice": "Por",
+      "labelListPrice": "De"
+    }
+  },
+  "add-to-cart-button": {
+    "props": {
+      "text": "COMPRAR"
+    }
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": true,
+      "aspectRatio": "1:1",
+      "maxHeight": 220
+    }
+  },
+  "flex-layout.row#newsletterRow": {
+    "children": [
+      "newsletter-form"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center",
+      "blockClass": "newslettercontent"
+    }
+  },
+  "store.product-review-form": {
+    "blocks": [
+      "product-review-form"
+    ]
+  },
+  "store.not-found#product": {
+    "blocks": [
+      "rich-text#not-found"
+    ]
+  },
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PAGE NOT FOUND**",
+      "font": "t-heading-1"
+    }
+  },
+  "store.not-found#search": {
+    "blocks": [
+      "rich-text#not-found"
+    ]
   }
+}

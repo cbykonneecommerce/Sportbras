@@ -6,6 +6,7 @@
      /* "flex-layout.row#promos",*/
      "slider-layout#politicas",
       "flex-layout.row#brands",
+      "__fold__.experimentalLazyImages",
       "flex-layout.row#novidades-title",
       "flex-layout.row#novidades-shelf",
       "flex-layout.row#promocoesimg",
