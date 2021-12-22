@@ -41,6 +41,7 @@
   },
   "slider-layout#shelf": {
     "props": {
+      "blockClass": ["slider-shelf--default"],
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
