@@ -22,20 +22,16 @@
     margin-left: 0;
 }
 
-
-:global(.vtex-store-header-2-x-headerRow--main-header) {
-    padding-bottom: 1em;
-}
-
-
 .styledLinkContent--allCategoryBlock{
     color:#828282;
     font-family: "StretchPro";
     font-size: 0.7rem;
+    margin: 0px;
 }
 
 .styledLinkContainer--allCategoryBlock{
     padding-bottom: 12px;
+    margin: 0px;
 }
 
 .styledLinkContent--allCategoryBlock:hover{

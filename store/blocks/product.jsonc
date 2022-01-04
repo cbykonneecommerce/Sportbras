@@ -76,7 +76,7 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
-      "width": "60%",
+      "width": "50%",
       "rowGap": 0
     }
   },
@@ -120,7 +120,7 @@
 
   "product-installments#default": {
     "props": {
-      "message": "Ou {installmentsNumber} de {installmentValue} sem juros",
+      "message": "ou {installmentsNumber} de {installmentValue} sem juros",
       "blockClass": ["pdp-installments"]
     }
   },

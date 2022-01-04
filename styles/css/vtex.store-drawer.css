@@ -5,3 +5,7 @@
 .openIconContainer--menu-mobile{
     padding-top: 1.5em;
 }
+
+.openIconContainer {
+    padding: 0px;
+}

@@ -118,3 +118,17 @@
     margin-top: 23px;
   }
 }
+
+/* ]COntainer global */
+
+.container {
+  max-width: 1200px;
+}
+
+.searchBarContainer {
+  max-width: 550px !important;
+}
+
+.sizeDesktop {
+  padding: 0px;
+}
