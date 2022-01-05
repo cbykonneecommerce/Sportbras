@@ -21,6 +21,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-collapse": "^5.0.1",
     "@vtex/prettier-config": "^0.1.4",
     "eslint": "^7.12.1",
     "eslint-config-vtex": "^12.3.2",
@@ -29,5 +30,8 @@
     "lint-staged": "^10.1.1",
     "prettier": "^2.0.2",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "react-collapse": "^5.1.1"
   }
 }
