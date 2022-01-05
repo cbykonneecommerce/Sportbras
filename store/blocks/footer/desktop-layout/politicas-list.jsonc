@@ -8,6 +8,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
       "blockClass": "carousel-policies"
     },
     "children": [
@@ -17,7 +18,6 @@
       "rich-text#politica4"
     ]
   },
-
   "rich-text#politica1": {
     "props": {
       "text": "![RETIRE NA LOJA](/arquivos/melhores-precos.svg) **MELHORES PREÇOS**",

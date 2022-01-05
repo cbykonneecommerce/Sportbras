@@ -1,104 +1,125 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-sobre-footer) {
-    justify-content: center;
+  justify-content: center;
 }
 
 .styledLinkContent--linkList-footer-toggle {
-    margin-top: 1em;
-    margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 :global(.vtex-menu-2-x-menuItemInnerDiv--linkList-footer-toggle) {
-    background-color: #EDEFF2;
-    margin-bottom: 8px;
-    margin-top: 8px;
+  background-color: #edeff2;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .styledLinkContent--menu-footer {
-    font-size: 19px;
+  font-size: 18px;
+  color: #4f4f4f;
+  letter-spacing: 0.19px;
+  font-family: "DINPro-Medium", sans-serif;
+  margin: 0px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContainer--menu-footer) {
-    padding-bottom: 1rem;
-    margin-left: 0;
+  padding-bottom: 1rem;
+  margin-left: 0;
 }
 
-.styledLinkContent--allCategoryBlock{
-    color:#828282;
-    font-family: "StretchPro";
-    font-size: 0.7rem;
-    margin: 0px;
+.styledLinkContent--allCategoryBlock {
+  color: #828282;
+  font-family: "DINPro-Medium", sans-serif;
+  font-size: 0.9rem;
+  margin: 0px;
+  font-weight: bold;
 }
 
-.styledLinkContainer--allCategoryBlock{
-    padding-bottom: 12px;
-    margin: 0px;
+.styledLinkContainer--allCategoryBlock {
+  padding-bottom: 12px;
+  margin: 0px;
 }
 
-.styledLinkContent--allCategoryBlock:hover{
-    color: #4F4F4F
+.styledLinkContent--allCategoryBlock:hover {
+  color: #4f4f4f;
 }
 
-.styledLinkContent--subcat-title{
-    font-size: 23px;
-    font-weight: 600;
+.styledLinkContent--subcat-title {
+  font-size: 23px;
+  font-weight: 600;
 }
 
-.menuContainer--row-menu-col .styledLinkContainer{
-    margin-bottom: 1em;
+.menuContainer--row-menu-col .styledLinkContainer {
+  margin-bottom: 1em;
 }
 
-.submenuWrapper--main-menu-row-desk{
-    background-color: #EDEFF2;
+.menuContainer--row-menu-col .styledLinkContainer {
+  margin: 0px;
+  margin-bottom: 1em;
 }
 
-.menuContainerNav--category-menu-mobile, .submenuAccordion--allSubmenuBlock :global(.vtex-menu-2-x-menuContainerNav){
-    width: 100%;
+.submenuWrapper--main-menu-row-desk {
+  background-color: #edeff2;
 }
 
-.styledLinkContent--mob__toplevel1{
-    font-weight: 600;
+.menuContainerNav--category-menu-mobile,
+.submenuAccordion--allSubmenuBlock :global(.vtex-menu-2-x-menuContainerNav) {
+  width: 100%;
+}
+
+.styledLinkContent--mob__toplevel1 {
+  font-weight: 600;
 }
 
 .menuContainer--category-menu-mobile .accordionIcon--isOpen {
-    transform: translateY(-50%) rotate(180deg);
-    content: url(/arquivos/arrow-menus.svg);
-    transition: 0.3s;
-    width: 16px;
-    margin-top: 10px;
-  }
-  
-  .menuContainer--category-menu-mobile .accordionIcon--isClosed {
-    transform: translateY(-50%) rotate(0deg);
-    content: url(/arquivos/arrow-menus.svg);
-    transition: 0.3s;
-    width: 16px;
-    margin-top: 10px;
-  }
+  transform: translateY(-50%) rotate(180deg);
+  content: url(/arquivos/arrow-menus.svg);
+  transition: 0.3s;
+  width: 16px;
+  margin-top: 10px;
+}
 
-  .styledLinkContent--submenu{
-    font-size: 18px;
-  }
+.menuContainer--category-menu-mobile .accordionIcon--isClosed {
+  transform: translateY(-50%) rotate(0deg);
+  content: url(/arquivos/arrow-menus.svg);
+  transition: 0.3s;
+  width: 16px;
+  margin-top: 10px;
+}
 
+.styledLinkContent--submenu {
+  font-size: 18px;
+}
 
-  .styledLinkContent--submenu--inst{
-    color: #6F6F6F;
-    border: solid 1px #ED1C24;
-    border-radius: 5px;
-    padding: 20px 12px;
-    justify-content: center;
-    text-transform: uppercase;
-    margin-bottom: 0.5em;
-  }
-  .styledLinkContent--submenu--inst:hover{
-    color: #FFFFFF !important;
-    background-color: #ED1C24;
-    -webkit-transition: 0.4s all;
-    transition: 0.4s all;
-   
-  }
+.styledLinkContent--submenu--inst {
+  color: #6f6f6f;
+  border: solid 1px #ed1c24;
+  border-radius: 5px;
+  padding: 20px 12px;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+.styledLinkContent--submenu--inst:hover {
+  color: #ffffff !important;
+  background-color: #ed1c24;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
 
-  @media (min-width: 760px) and (max-width: 1100px) {
-    .styledLinkContent--submenu--inst{
+.submenu--main-menu-row-desk {
+  justify-content: flex-start;
+}
+
+.styledLinkContent--hightlight {
+  color: #ed1c24;
+}
+
+.styledLinkContent--hightlight:hover {
+  color: #ed1c24;
+}
+
+@media (min-width: 760px) and (max-width: 1100px) {
+  .styledLinkContent--submenu--inst {
     font-size: 11px;
-      }
+  }
 }

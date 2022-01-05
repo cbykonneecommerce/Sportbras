@@ -1,35 +1,46 @@
-.contentItem{
-    margin-top: 2em;
+.contentItem {
+  margin-top: 2em;
 }
 
-.listContainer{
-    border-bottom: solid 2px #808080;
+.listContainer {
+  border-bottom: solid 1px #808080;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
-.listItem--tab-style-item :global(.vtex-button){
-    background: none;
-    color: #333;
-    font-size: 18px;
-    line-height: 120%;
-    position: relative;
-    border-radius: 0;
-    padding-bottom: 5px;
-    min-height: 0;
-    width: 100%;
-    font-weight: 600;
-  
+.listItem--tab-style-item :global(.vtex-button) {
+  background: none;
+  color: #333;
+  font-size: 18px;
+  line-height: 120%;
+  position: relative;
+  border-radius: 0;
+  padding-bottom: 5px;
+  min-height: 0;
+  width: 100%;
+  font-weight: 600;
 }
 
-:global(.vtex-tab-layout-0-x-listItem--tab-style-item){
-    width: 47%; 
-    text-align: center;
-    padding-bottom: 0;
-    margin-bottom: 0;
+:global(.vtex-tab-layout-0-x-listItem--tab-style-item) {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
-.listItemActive--tab-style-item :global(.vtex-button){
-border-color: none !important;
-border: none;
-border-bottom: solid 3px #EA002A;
-color: #EA002A;
+.listItemActive--tab-style-item :global(.vtex-button) {
+  border-color: none !important;
+  border: none;
+  border-bottom: solid 3px #ea002a;
+  color: #ea002a;
+}
+
+@media screen and (max-width: 768px) {
+  .listItem--tab-style-item :global(.vtex-button) {
+    font-size: 14px;
+  }
 }

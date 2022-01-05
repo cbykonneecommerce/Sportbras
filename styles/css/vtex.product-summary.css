@@ -1,51 +1,71 @@
-.nameContainer{
-    text-align: center;
-    justify-content: center !important;
+.nameContainer {
+  text-align: center;
+  justify-content: center !important;
 }
 
-.productBrand{
-    color: black !important;
-    font-weight: 600;
+.productBrand {
+  color: black !important;
+  font-weight: 600;
 }
 
-.skuSelectorInternalBox{
-    border-color: #EA002A !important;
+.skuSelectorInternalBox {
+  border-color: #ea002a !important;
 }
-
 
 .element:hover {
-    
 }
 
-.nameContainer{
-    min-height: 4.5em;
-    padding-top: 1rem;
+.nameContainer {
+  min-height: 4.5em;
+  padding-top: 1rem;
 }
 
 .containerNormal :global(.vtex-button) {
-    margin: 0 auto;
-    background-color: #D92F2F;
-    border: none;
+  margin: 0 auto;
+  background-color: #d92f2f;
+  border: none;
 }
 
-:global(.vtex-product-summary-2-x-containerNormal):hover{
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+:global(.vtex-product-summary-2-x-containerNormal):hover {
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
 }
-
 
 @media (max-width: 1100px) {
-    :global(.vtex-product-summary-2-x-element) {
-        padding: 8px;
-       
-    }
+  :global(.vtex-product-summary-2-x-element) {
+    padding: 8px;
+  }
 }
 
 @media (min-width: 1100px) {
-    :global(.vtex-product-summary-2-x-containerNormal){
-        padding: 12px;
-        -webkit-transition: 0.4s all;
-        transition: 0.4s all;
-    }
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    padding: 12px;
+    -webkit-transition: 0.4s all;
+    transition: 0.4s all;
+  }
 }
 
+.element {
+  padding: 0px;
+}
 
+.productBrand {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: "";
+  letter-spacing: 0.2px;
+  font-family: "DINPro-Medium", sans-serif;
+  height: 40px;
+  display: block;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  :global(.vtex-product-summary-2-x-containerNormal):hover {
+    box-shadow: none;
+  }
+
+  .productBrand {
+    height: 30px;
+    font-size: 14px;
+  }
+}

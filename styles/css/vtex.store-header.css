@@ -30,6 +30,44 @@
   padding-left: 0px;
 }
 
+.headerStickyRow--main-header-mobile,
 .headerStickyRow--main-header {
   border-bottom: 1px solid#dedede;
+}
+
+:global(.vtex-address-form__postalCode) {
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+}
+
+:global(.vtex-numeric-stepper__plus-button),
+:global(.vtex-numeric-stepper__minus-button) {
+  border-radius: 0px;
+}
+
+:global(.vtex-address-form__postalCode-forgottenURL) {
+  display: none;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-reviewsHeading) {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

@@ -1,0 +1,38 @@
+.link {
+  text-transform: uppercase;
+}
+
+.caretIcon {
+  display: none;
+}
+
+.container {
+  margin-top: 34px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.arrow::before {
+  content: "/";
+  font-size: 15px;
+  color: #828282;
+  display: block;
+  font-family: "DINPro-Medium", sans-serif;
+}
+
+.homeLink {
+  padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .term,
+  .link {
+    font-size: 12px;
+  }
+}

@@ -15,6 +15,15 @@ margin-top: 8px;
     border-color: none !important;
 }
 
+.newsletterForm :global(.vtex-input-prefix__group) {
+    border: none;
+}
+
+.newsletterForm :global(.vtex-styleguide-9-x-input) {
+    border: 1px solid #4f4f4f;
+    border-radius: 10px;
+}
+
 
 @media (min-width: 700px) {
     :global(.vtex-store-newsletter-1-x-newsletterForm){

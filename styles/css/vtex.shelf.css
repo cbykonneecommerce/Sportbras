@@ -1,5 +1,26 @@
-.title{
-    text-align: left;
-    color: #333 !important;
-    justify-content: normal;
+.title {
+  text-align: left;
+  justify-content: normal;
+  color: black;
+  font-family: "Intelo", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.title::before {
+  content: url(/arquivos/title-img.png);
+  position: relative;
+  z-index: 100;
+  left: 10px;
+  top: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 14px;
+  }
+
+  .slide--related--shelf {
+    margin: 0px 12px;
+  }
 }

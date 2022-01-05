@@ -20,3 +20,8 @@
   font-family: "StretchPro", sans-serif;
   font-size: 12px;
 }
+
+.openIconContainer,
+.minicartContainer :global(.vtex-button__label) {
+  padding-right: 0px;
+}

@@ -3,8 +3,8 @@
     "blocks": [
       "list-context.image-list#bannersprincipais",
       "__fold__",
-     /* "flex-layout.row#promos",*/
-     "slider-layout#politicas",
+      /* "flex-layout.row#promos",*/
+      "slider-layout#politicas",
       "flex-layout.row#brands",
       "__fold__.experimentalLazyImages",
       "flex-layout.row#novidades-title",
@@ -21,7 +21,10 @@
     ]
   },
   "list-context.image-list#bannersprincipais": {
-    "children": ["slider-layout#bannersprincipais"],
+    "title": "banner principal",
+    "children": [
+      "slider-layout#bannersprincipais"
+    ],
     "props": {
       "height": 720,
       "images": [
@@ -37,6 +40,7 @@
     }
   },
   "slider-layout#bannersprincipais": {
+    "title": "Slider principal",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -53,15 +57,23 @@
     }
   },
   "flex-layout.row#brands": {
-    "props":{
-      "marginTop": 5
+    "title": "Slider marcas",
+    "props": {
+      "marginTop": 5,
+      "blockClass": "brand-slider"
     },
-    "children": ["slider-layout#brands"]
+    "children": [
+      "slider-layout#brands"
+    ]
   },
   "flex-layout.row#novidades-title": {
-    "children": ["rich-text#novidades"]
+    "title": "Texto novidades",
+    "children": [
+      "rich-text#novidades"
+    ]
   },
   "rich-text#novidades": {
+    "title": "Novidades Texto",
     "props": {
       "text": "NOVIDADES",
       "font": "t-heading-2",
@@ -71,25 +83,36 @@
     }
   },
   "flex-layout.row#novidades-shelf": {
-    "children": ["list-context.product-list#novidades"],
-    "props":{
-      "preventVerticalStretch":true
+    "title": "Novidades Prateleira",
+    "children": [
+      "list-context.product-list#novidades"
+    ],
+    "props": {
+      "preventVerticalStretch": true
     }
   },
   "list-context.product-list#novidades": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#shelf"],
+    "title": "Novidades Prateleira -  produtos",
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf"
+    ],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "collection": "142",
       "maxItems": 12
     }
   },
-
   "flex-layout.row#novidades2-title": {
-    "children": ["rich-text#novidades2"]
+    "title": "Novidades titulo",
+    "children": [
+      "rich-text#novidades2"
+    ]
   },
   "rich-text#novidades2": {
+    "title": "Novidades Texto",
     "props": {
       "text": "OFERTAS",
       "font": "t-heading-2",
@@ -99,40 +122,47 @@
     }
   },
   "flex-layout.row#novidades2-shelf": {
-    "children": ["list-context.product-list#novidades2"]
+    "title": "Novidades Shelf",
+    "children": [
+      "list-context.product-list#novidades2"
+    ]
   },
   "list-context.product-list#novidades2": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#shelf"],
+    "title": "Novidades Lista de produtos",
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf"
+    ],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "collection": "142",
       "maxItems": 12
     }
   },
-
-
-
   "flex-layout.row#bigbanner": {
-    "children": ["image#bigbanner"],
+    "children": [
+      "image#bigbanner"
+    ],
     "props": {
+      "blockClass": "gigbanner",
       "marginTop": "8",
       "marginBottom": "8",
       "horizontalAlign": "center"
     }
   },
-
-  "image#bigbanner":{
+  "image#bigbanner": {
     "props": {
       "src": "/arquivos/Rectangle4.png",
-    "maxWidth":"100%",
-    "link":""
+      "maxWidth": "100%",
+      "link": ""
     }
   },
-
-
   "flex-layout.row#mais-vendidos-title": {
-    "children": ["rich-text#mais-vendidos"]
+    "children": [
+      "rich-text#mais-vendidos"
+    ]
   },
   "rich-text#mais-vendidos": {
     "props": {
@@ -144,20 +174,27 @@
     }
   },
   "flex-layout.row#mais-vendidos-shelf": {
-    "children": ["list-context.product-list#mais-vendidos"]
+    "children": [
+      "list-context.product-list#mais-vendidos"
+    ]
   },
   "list-context.product-list#mais-vendidos": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#shelf"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf"
+    ],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "collection": "142",
       "maxItems": 12
     }
   },
-
   "flex-layout.row#insta-title": {
-    "children": ["rich-text#insta"]
+    "children": [
+      "rich-text#insta"
+    ]
   },
   "rich-text#insta": {
     "props": {
@@ -168,11 +205,12 @@
       "blockClass": "sectorTitle"
     }
   },
-
   "flex-layout.row#insta": {
-    "children": ["sandbox#insta"]
+    "children": [
+      "sandbox#insta"
+    ]
   },
-  "sandbox#insta":{
+  "sandbox#insta": {
     "props": {
       "width": "100%",
       "height": "350px",

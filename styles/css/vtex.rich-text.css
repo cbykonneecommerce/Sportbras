@@ -31,12 +31,16 @@
 
 .container--newsletterTitle {
   background-color: #dbdbdb;
+  text-transform: uppercase;
 }
 
 .paragraph--footer-sobre {
   color: #4f4f4f;
   font-weight: bold;
   margin-bottom: 0.5em;
+  font-family: "DINPro-Medium", sans-serif;
+  letter-spacing: 0.27px;
+  margin-bottom: 23px;
 }
 
 .paragraph--newsletterTitle {
@@ -95,9 +99,29 @@
   font-family: "StretchPro";
 }
 
+.strong--footer-politicas-list {
+  font-family: "Intelo", sans-serif;
+  line-height: normal;
+  font-size: 16px;
+}
+
 .paragraph--InstitutionalText {
   color: #4f4f4f;
   font-size: 18px;
+}
+
+.paragraph--sectorTitle {
+  color: black;
+  font-family: "Intelo", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.paragraph--copyright__text {
+  color: #6f6f6f;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.15px;
+  font-size: 14px;
 }
 
 @media (min-width: 1100px) {
@@ -120,5 +144,15 @@
 @media screen and (max-width: 768px) {
   .wrapper--InstitutionalText {
     padding-right: 0px;
+  }
+
+  .paragraph--copyright__text {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .paragraph--sectorTitle,
+  .paragraph--newsletterTitle {
+    font-size: 14px;
   }
 }
