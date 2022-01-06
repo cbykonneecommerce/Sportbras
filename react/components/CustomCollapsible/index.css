@@ -1,3 +1,65 @@
-.customCollapsibleContainer {}
+.customCollapsibleContainer {
+}
 
-.customCollapsibleContainerText {}
+.customCollapsibleContainerText {
+}
+
+.customCollapsibleContainerItems {
+}
+
+.customCollapsibleContaineLabel {
+}
+
+.customCollapsibleContaineLabelPrefix {
+}
+
+.customCollapsibleContainer--custom {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.customCollapsibleContainerButtonSubItem {
+}
+
+.customCollapsibleContainerButton {
+}
+
+.customCollapsibleContainerButtonSubItem--custom,
+.customCollapsibleContainerButton--custom {
+  width: 100%;
+  background-color: #EBEBEB;
+  border: none;
+  padding: 30px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'StretchPro';
+  font-size: 18px;
+  cursor: pointer;
+  color: #333;
+  border-top: 1px solid #dedede;
+}
+
+.customCollapsibleContainerButtonSubItem--custom {
+  margin-bottom: 0px;
+  border: 1px solid #dedede;
+  background-color: #EBEBEB;
+  font-size: 16px;
+  padding: 15px 30px;
+}
+
+.customCollapsibleContainerItemParent {
+  margin-bottom: 10px;
+}
+
+.customCollapsibleContainerText {
+  padding: 15px 30px;
+  margin: 0px;
+  border-left: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  color: #6f6f6f;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.15px;
+  font-size: 16px;
+}

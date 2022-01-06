@@ -1,44 +1,35 @@
 {
-    "store.custom#faq": {
-        "blocks": [
-            "flex-layout.row#institutional-Content-faq"
-        ]
-    },
-  
-    "flex-layout.row#institutional-Content-faq": {
-      "props":{
-        "marginTop": 8,
-        "marginBottom": 8,
-        "blockClass": "Institutionalrow"
-      },
-        "children": [
-            "flex-layout.col#institutional-faq"
-        ]
-    },
-  
-    
-    "flex-layout.col#institutional-faq": {
-      "props":{
-        "blockClass": "Institutionaltitleblock2",
-        "preventVerticalStretch": true
-      },
-        "children": [
-          "rich-text#institutionalMain-title",
-          "disclosure-layout-group#faq"
-        ]
-    },
-  
-  
-  
-  
-    "rich-text#institutionalMain-title": {
-      "props": {
-          "text": "TITULO AQUI",
-          "blockClass": "InstitutionalTitle"
-      }
+  "store.custom#faq": {
+    "blocks": [
+      "flex-layout.row#institutional-Content-faq"
+    ]
   },
-  
-  
+  "flex-layout.row#institutional-Content-faq": {
+    "props": {
+      "marginTop": 8,
+      "marginBottom": 8,
+      "blockClass": "Institutionalrow"
+    },
+    "children": [
+      "flex-layout.col#institutional-faq"
+    ]
+  },
+  "flex-layout.col#institutional-faq": {
+    "props": {
+      "blockClass": "Institutionaltitleblock2",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#institutionalMain-title",
+      "disclosure-layout-group#faq"
+    ]
+  },
+  "rich-text#institutionalMain-title": {
+    "props": {
+      "text": "TITULO AQUI",
+      "blockClass": "InstitutionalTitle"
+    }
+  },
   "disclosure-state-indicator": {
     "props": {
       "Show": "icon-caret#down",
@@ -55,26 +46,34 @@
       "orientation": "up"
     }
   },
-  
-  
   "disclosure-layout-group#faq": {
-    "children": ["disclosure-layout#troca-e-devolucao", "disclosure-layout#pagamentos", "disclosure-layout#entregas", "disclosure-layout#outras-duvidas"]
+    "children": [
+      // "disclosure-layout#troca-e-devolucao",
+      // "disclosure-layout#pagamentos",
+      // "disclosure-layout#entregas",
+      // "disclosure-layout#outras-duvidas",
+      "custom-collapsible#default-faq"
+    ]
   },
-  
   "disclosure-layout#troca-e-devolucao": {
     "props": {
       "animated": true
     },
-    "children": ["disclosure-trigger#troca-e-devolucao", "disclosure-content#troca-e-devolucao"]
+    "children": [
+      "disclosure-trigger#troca-e-devolucao",
+      "disclosure-content#troca-e-devolucao"
+    ]
   },
   "disclosure-trigger#troca-e-devolucao": {
     "props": {
       "blockClass": "store-title",
       "as": "div"
     },
-    "children": ["rich-text#troca-e-devolucao","disclosure-state-indicator"]
+    "children": [
+      "rich-text#troca-e-devolucao",
+      "disclosure-state-indicator"
+    ]
   },
-  
   "rich-text#troca-e-devolucao": {
     "props": {
       "text": "#### Troca e devolução"
@@ -84,40 +83,44 @@
     "props": {
       "blockClass": "answer"
     },
-    "children": ["flex-layout.row#troca-e-devolucao"]
+    "children": [
+      "flex-layout.row#troca-e-devolucao"
+    ]
   },
-  
-  "flex-layout.row#troca-e-devolucao":{
-    "children":["flex-layout.col#troca-e-devolucao"]
+  "flex-layout.row#troca-e-devolucao": {
+    "children": [
+      "flex-layout.col#troca-e-devolucao"
+    ]
   },
-  
-  "flex-layout.col#troca-e-devolucao":{
-  "children":["rich-text#troca-e-devolucao-texto"]
+  "flex-layout.col#troca-e-devolucao": {
+    "children": [
+      "rich-text#troca-e-devolucao-texto"
+    ]
   },
-  
   "rich-text#troca-e-devolucao-texto": {
     "props": {
       "text": "aaxcaa"
     }
   },
-  
-
-
-
   "disclosure-layout#pagamentos": {
     "props": {
       "animated": true
     },
-    "children": ["disclosure-trigger#pagamentos", "disclosure-content#pagamentos"]
+    "children": [
+      "disclosure-trigger#pagamentos",
+      "disclosure-content#pagamentos"
+    ]
   },
   "disclosure-trigger#pagamentos": {
     "props": {
       "blockClass": "store-title",
       "as": "div"
     },
-    "children": ["rich-text#pagamentos","disclosure-state-indicator"]
+    "children": [
+      "rich-text#pagamentos",
+      "disclosure-state-indicator"
+    ]
   },
-  
   "rich-text#pagamentos": {
     "props": {
       "text": "#### Troca e devolução"
@@ -127,42 +130,44 @@
     "props": {
       "blockClass": "answer"
     },
-    "children": ["flex-layout.row#pagamentos"]
+    "children": [
+      "flex-layout.row#pagamentos"
+    ]
   },
-  
-  "flex-layout.row#pagamentos":{
-    "children":["flex-layout.col#pagamentos"]
+  "flex-layout.row#pagamentos": {
+    "children": [
+      "flex-layout.col#pagamentos"
+    ]
   },
-  
-  "flex-layout.col#pagamentos":{
-  "children":["rich-text#pagamentos-texto"]
+  "flex-layout.col#pagamentos": {
+    "children": [
+      "rich-text#pagamentos-texto"
+    ]
   },
-  
   "rich-text#pagamentos-texto": {
     "props": {
       "text": "aaaaa"
     }
   },
-
-
-
-
-
-  
   "disclosure-layout#entregas": {
     "props": {
       "animated": true
     },
-    "children": ["disclosure-trigger#entregas", "disclosure-content#entregas"]
+    "children": [
+      "disclosure-trigger#entregas",
+      "disclosure-content#entregas"
+    ]
   },
   "disclosure-trigger#entregas": {
     "props": {
       "blockClass": "store-title",
       "as": "div"
     },
-    "children": ["rich-text#entregas","disclosure-state-indicator"]
+    "children": [
+      "rich-text#entregas",
+      "disclosure-state-indicator"
+    ]
   },
-  
   "rich-text#entregas": {
     "props": {
       "text": "#### Troca e devolução"
@@ -172,41 +177,44 @@
     "props": {
       "blockClass": "answer"
     },
-    "children": ["flex-layout.row#entregas"]
+    "children": [
+      "flex-layout.row#entregas"
+    ]
   },
-  
-  "flex-layout.row#entregas":{
-    "children":["flex-layout.col#entregas"]
+  "flex-layout.row#entregas": {
+    "children": [
+      "flex-layout.col#entregas"
+    ]
   },
-  
-  "flex-layout.col#entregas":{
-  "children":["rich-text#entregas-texto"]
+  "flex-layout.col#entregas": {
+    "children": [
+      "rich-text#entregas-texto"
+    ]
   },
-  
   "rich-text#entregas-texto": {
     "props": {
       "text": "aaaaa"
     }
   },
-
-
-
-
-
   "disclosure-layout#outras-duvidas": {
     "props": {
       "animated": true
     },
-    "children": ["disclosure-trigger#outras-duvidas", "disclosure-content#outras-duvidas"]
+    "children": [
+      "disclosure-trigger#outras-duvidas",
+      "disclosure-content#outras-duvidas"
+    ]
   },
   "disclosure-trigger#outras-duvidas": {
     "props": {
       "blockClass": "store-title",
       "as": "div"
     },
-    "children": ["rich-text#outras-duvidas","disclosure-state-indicator"]
+    "children": [
+      "rich-text#outras-duvidas",
+      "disclosure-state-indicator"
+    ]
   },
-  
   "rich-text#outras-duvidas": {
     "props": {
       "text": "#### Troca e devolução"
@@ -216,26 +224,196 @@
     "props": {
       "blockClass": "answer"
     },
-    "children": ["flex-layout.row#outras-duvidas"]
+    "children": [
+      "flex-layout.row#outras-duvidas"
+    ]
   },
-  
-  "flex-layout.row#outras-duvidas":{
-    "children":["flex-layout.col#outras-duvidas"]
+  "flex-layout.row#outras-duvidas": {
+    "children": [
+      "flex-layout.col#outras-duvidas"
+    ]
   },
-  
-  "flex-layout.col#outras-duvidas":{
-  "children":["rich-text#outras-duvidas-texto"]
+  "flex-layout.col#outras-duvidas": {
+    "children": [
+      "rich-text#outras-duvidas-texto"
+    ]
   },
-  
   "rich-text#outras-duvidas-texto": {
     "props": {
       "text": "aaaaa"
     }
+  },
+  "custom-collapsible#default-faq": {
+    "props": {
+      "blockClass": "custom",
+      "items": [
+        {
+          "title": "Troca e devoluções",
+          "description": "",
+          "subitems": [
+            {
+              "title": "Posso solicitar a troca de um produto?",
+              "description": "O “direito de arrependimento” está incluso no artigo 49 do Código brasileiro de Defesa do Consumidor. A lei prevê o direito de arrependimento na compra ou contratação fora de um estabelecimento comercial. Assim, quando o produto é entregue ou o serviço é executado, você pode não ter suas expectativas atendidas. Desse modo, a compra ou contratação pode ser cancelada. <br /><br /> Caso o produto não seja como imaginou ou não tenha servido, você pode solicitar a troca por outra cor/tamanho, ou ainda, pode realizar a troca por um vale-compra no valor pago pelo produto. <br /><br /> Regras gerais de troca O produto não pode conter sinais de uso inadequado, de dano acidental ou provocado, e desgaste natural em decorrência do uso e lavagem inadequada. Não serão aceitos produtos com embalagens abertas ou avariadas, embalados apenas em plástico bolha, sem embalagem ou sem identificação do pedido (DANFE)."
+            },
+            {
+              "title": "Em quanto tempo é possível trocar o produto?",
+              "description": "Em até 30 dias corridos após o recebimento do pedido, para receber o mesmo produto em outra cor/tamanho, ou ainda, solicitar a troca por um vale-compra no valor pago pelo produto e adquirir um novo item no site. <br /><br /> Para solicitar o cancelamento da compra e o estorno/reembolso do valor, o prazo é de até 7 dias corridos, após o recebimento do pedido."
+            },
+            {
+              "title": "Terei que pagar para trocar o produto?",
+              "description": "A primeira solicitação de troca simples (por tamanho, cor ou vale-compras) é feita sem custo algum para o cliente. Agora, se for a segunda solicitação de troca simples, a devolução do produto fica por conta do cliente e o frete de reenvio do novo produto será cobrado via boleto bancário ou cartão de crédito."
+            },
+            {
+              "title": "Como embalar o produto para troca ou devolução?",
+              "description": "É só seguir estes passos: <br /><br /> Embalagem: coloque o produto na embalagem original do avesso ou embrulhado com papel pardo. Se for frágil, proteja a embalagem original com papel ou caixa para evitar que seja danificado ou reutilize a caixa protetora enviada com o produto. Itens com notas fiscais diferentes precisam ser embalados separadamente. <br /><br /> Itens grandes: devem ser devolvidos desmontados, da maneira que foram entregues. <br /><br /> Manuais: coloque junto com o produto, além de lacres internos e externos, etiquetas e acessórios. Nota Fiscal: Não coloque a nota fiscal - DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) dentro da caixa, você vai precisar apresentá-la. Se for trocar mais de um item, verifique se eles possuem DANFE diferentes. Se sim, precisam ser embalados separadamente. Se você não tiver a Nota Fiscal, será necessário preencher o formulário de declaração de conteúdo. O modelo para impressão está disponível no site dos Correios, em <a href='http://www.correios.com.br/a-a-z/nota-fiscal.'>http://www.correios.com.br/a-a-z/nota-fiscal.</a>"
+            },
+            {
+              "title": "Recebi um produto diferente do comprado, o que devo fazer?",
+              "description": "Caso receba algum produto diferente do seu pedido, recuse a entrega e entre em contato imediatamente com a Central de Relacionamento - <a href='sac@ecommercesportbras.com'>sac@ecommercesportbras.com</a>. <br /><br /> Se identificar o erro após o recebimento, não tire as etiquetas e notifique imediatamente a Central de Relacionamento."
+            },
+            {
+              "title": "Como receber o dinheiro de volta quando cancelar uma compra?",
+              "description": "Após a solicitação de cancelamento, começa a contar o prazo de 10 dias úteis para aprovação da devolução dos valores, que acontece depois do recebimento e análise das condições do(s) produto(s). <br /><br />Os valores serão restituídos, de forma total ou parcial, da mesma forma de pagamento escolhida na compra: <br /><br />Cartão de Crédito: a administradora do cartão será notificada e o estorno ocorrerá de uma só vez, seja qual for o número de parcelas utilizado na compra. O prazo de ressarcimento depende da administradora do cartão, podendo ser na fatura seguinte ou na posterior. <br /><br /> Boleto Bancário: se o pagamento ainda não foi efetuado, o pedido será cancelado automaticamente no prazo de vencimento do boleto. Porém, se o boleto já foi pago, a restituição será efetuada por depósito bancário em até 10 dias úteis, exclusivamente na conta corrente do(a) comprador(a), que deve ser o titular.<br /><br /> Caso não tenha uma conta corrente que atenda às condições citadas, será enviada, no mesmo prazo, uma ordem de pagamento em nome do titular da compra, que poderá ser resgatada em qualquer agência do Banco do Brasil, basta apresentar um documento oficial com foto."
+            }
+          ]
+        },
+        {
+          "title": "Dúvidas sobre o vale-compra",
+          "description": null,
+          "subitems": [
+            {
+              "title": "O que é um Vale-Compra?",
+              "description": "O vale-compra é uma opção de troca oferecida no valor pago pelo produto para que você escolha outro item. Com validade de 1 (um) ano, é nominal, podendo ser utilizado somente pelo cliente devidamente identificado na loja. <br /><br /> Regra de valor: <br /><br /> 1) Se o valor do novo pedido for igual ao valor do vale-compra, você pode concluir a compra normalmente. <br /><br /> 2) Se o valor do novo pedido for maior que o do vale-compra, você poderá pagar a diferença utilizando o cartão de crédito e dessa forma, concluir a compra. <br /><br /> 3) Se o valor do seu pedido for inferior ao do vale-compra, você poderá escolher outros produtos para completar o valor ou receberá automaticamente um novo vale-compra com o saldo restante"
+            },
+            {
+              "title": "Após solicitar a troca, em quanto tempo o vale-compra será liberado?",
+              "description": "Após a chegada do pedido em nosso estoque, o produto recebido passa por um processo de análise que ocorre em até 5 dias úteis e, caso seja aprovado, seu vale-compra é liberado."
+            },
+            {
+              "title": "Compra utilizando dois vales trocas",
+              "description": "Todos os vales disponibilizados são de uso pessoal e intransferível, vinculado diretamente ao CPF do cliente que adquiriu a compra. Para utilização de dois vales no mesmo pedido, basta seguir os passos abaixo: <br /><br /> Escolha os produtos e adicione no carrinho, na opção de Vale Troca/Crédito inclua os dois vales separados por ',' (vírgula). O valor total dos produtos estará disponível no campo 'crédito'. <br /><br /> Em caso de dúvidas, entre em contato com a nosso SAC através do <a href='mailto:sac@ecommercesportbras.com'> sac@ecommercesportbras.com</a>"
+            },
+            {
+              "title": "O que é um vale trocas e como utilizo?",
+              "description": "Pensando em facilitar, a Sport Brás disponibiliza à você o vale-troca. <br /><br /> Sempre que solicitar a troca ou devolução de um produto aqui pelo site, colocamos à sua disposição a opção de receber um vale-trocas, no mesmo valor da compra.<br /><br /> 1. Selecione o produto que deseja adquirir em nosso site e clique em 'comprar'. <br /><br /> 2. Inclua os dados de acesso a sua conta. No campo 'VALE TROCA/CRÉDITO', informe o código do seu vale e clique em 'usar créditos'. <br /><br /> 3. Caso o valor da compra seja maior que o valor total do seu vale, pode-se completar a diferença utilizando-se uma das Formas de Pagamento disponíveis. <br /><br /> 4. Mas se o valor do seu vale troca for maior que o valor da compra, a diferença ficará em seu cadastro para que você possa utilizar em outras compras no site. <br /><br /> Vale lembrar: O seu vale trocas possui validade de 01 ano, à contar da data em que foi liberado :)"
+            }
+          ]
+        },
+        {
+          "title": "Cancelamentos",
+          "description": null,
+          "subitems": [
+            {
+              "title": "Cancelamento de Pedido",
+              "description": "1. Cancelamento de pedidos com forma de pagamento Boleto Bancário <br /><br /> Se seu pedido foi realizado com forma de pagamento 'Boleto Bancário' basta não realizar o pagamento do boleto que seu pedido será cancelado automaticamente.<br /><br /> 2. Cancelamento de pedidos com forma de pagamento Cartão de Crédito <br /><br /> Se você efetuou o pagamento pelo cartão de crédito e gostaria de cancelar, só é possível caso a Nota Fiscal ainda não tenha sido emitida. Neste caso, entre em contato com nossa equipe através do <a href='mailto:sac@ecommercesportbras.com'>sac@ecommercesportbras.com</a> para avaliarmos a possibilidade de realizar o cancelamento <br /><br /> 3. Cancelamento de pedidos quando já estão em trânsito pela transportadora <br /><br /> Infelizmente não conseguimos cancelar um pedido que já está em trânsito, sendo assim, pedimos gentilmente que recuse o recebimento do produto no momento da entrega e ao retornar para nosso centro de distribuição, prosseguiremos com o cancelamento de seu pedido."
+            },
+            {
+              "title": "Como faço para cancelar uma entrega?",
+              "description": "Para solicitar o cancelamento do pedido entre em contato com a nossa Central de Atendimento ao cliente que irá avaliar a possibilidade de realizá-lo."
+            }
+          ]
+        },
+        {
+          "title": "Pagamentos",
+          "description": "",
+          "subitems": [
+            {
+              "title": "Quais são as formas de pagamento?",
+              "description": "Cartões de Crédito/débito, Pix e Boleto."
+            },
+            {
+              "title": "Consigo efetuar o pagamento utilizando 2 cartões de crédito?",
+              "description": "Não aceitamos o pagamento utilizando 2 cartões de crédito."
+            },
+            {
+              "title": "Como funciona o pagamento com cartão de crédito?",
+              "description": "Não aceitamos como forma de pagamento cartões emitidos fora do Brasil. Lembrando que cartões internacionais emitidos no Brasil são aceitos normalmente. <br /><br /> VISA, MASTERCARD e HIPERCARD, com parcelamentos em até 6 (seis) vezes, parcelas mínimas de R$16,66."
+            }
+          ]
+        },
+        {
+          "title": "Entregas",
+          "description": "",
+          "subitems": [
+            {
+              "title": "Estou com dificuldades na entrega, como proceder?",
+              "description": "Queremos te ajudar a receber o seu pedido o quanto antes, para isso verifique a data de aprovação do pagamento de seu pedido e também se o endereço de entrega está correto. Reforçamos que é necessário um responsável maior de 18 anos portando documento com foto para receber o pedido. <br /><br />Se ainda assim estiver com dificuldades para receber o pedido fale com o nosso SAC através do e-mail <a href='mailto:sac@ecommercesportbras.com'>sac@ecommercesportbras.com</a>"
+            },
+            {
+              "title": "Eu não recebi meu pedido, até quando eu posso contestar?",
+              "description": "É muito importante que você nos avise caso não receba o seu pedido no prazo que combinamos! <br /><br /> Entre em contato conosco dentro de até 15 dias corridos para contestar a sua entrega, pois após este prazo, infelizmente não conseguimos dar sequência ao seu atendimento. Fale com o nosso SAC através do e-mail <a href='mailto:sac@ecommercesportbras.com'>sac@ecommercesportbras.com</a>"
+            },
+            {
+              "title": "O meu pedido foi devolvido à Sport Brás. O que será feito?",
+              "description": "Contate nosso atendimento informando se possui interesse no reenvio do produto, vale troca para uso exclusivo em nosso site ou cancelamento com restituição dos valores pagos. <br /><br /> Fale com o nosso SAC através do e-mail <a href='mailto:sac@ecommercesportbras.com'>sac@ecommercesportbras.com</a>"
+            },
+            {
+              "title": "Não recebi meu pedido, mas consta como 'Pedido entregue'. O que devo fazer?",
+              "description": "Caso conste no site como 'pedido entregue', mas você ainda não recebeu, antes verifique se: <br /><br /> ● O pedido foi recebido por outra pessoa autorizada, como por exemplo: recepção, secretária, vizinho. <br /><br /> ● Caso resida em apartamento ou condomínio, verifique com a portaria.<br /><br /> ● Verifique o endereço determinado para entrega.<br /><br /> Caso não tenha sucesso nas alternativas acima, entre em contato conosco através do e-mail <a href='mailto:sac@ecommercesportbras.com'>sac@ecommercesportbras.com</a>. Faremos toda a tratativa para identificar o que ocorreu com seu pedido!"
+            },
+            {
+              "title": "Recebi um produto diferente do que comprei. O que faço?",
+              "description": "Se identificar o erro no ato da entrega, recuse imediatamente o recebimento do pedido. <br /><br /> Caso tenha identificado após o recebimento, não retire as etiquetas e entre em contato com o nosso time através do e-mail <a href='mailto:sac@ecommercesportbras.com'>sac@ecommercesportbras.com</a>."
+            },
+            {
+              "title": "O que fazer caso não tenha ninguém para receber meu pedido (destinatário ausente)?",
+              "description": "Em caso de ausência de recebedor, são realizadas 2 tentativas de entrega em dias e horários diferentes com intervalos de até 2 dias úteis. <br /><br /> Caso a transportadora não tenha sucesso após as tentativas de entrega, o pedido retornará para o nosso Centro de Distribuição. Você será notificado no ato do recebimento e poderá optar pelo reenvio do item, Vale-trocas para utilização no site ou ressarcimento do valor pago."
+            },
+            {
+              "title": "Posso alterar meu endereço de entrega?",
+              "description": "É permitido que o endereço seja alterado desde que você não tenha pedido em andamento. Com o pedido realizado, não é possível alterar as informações de entrega, portanto, sempre confira se todos os dados estão corretos antes de finalizar a compra. <br /><br /> Neste caso, acesse seu cadastro (após ter feito login) e em seguida encontre no menu 'Alterar Dados Cadastrais' ou no momento em que for escolher o endereço de entrega do pedido no campo, 'Entregar em Outro Endereço'."
+            },
+            {
+              "title": "Por que ocorrem entregas parciais?",
+              "description": "Dependendo do produto adquirido e da quantidade, poderá ocorrer uma situação excepcional em que as entregas sejam realizadas separadamente."
+            },
+            {
+              "title": "Qual o valor do frete",
+              "description": "Para consultar o valor do frete digite o CEP no carrinho de compra. O frete é calculado de acordo com o peso e tamanho dos produtos, considerando o local da entrega. <br /><br /> Fique tranquilo, pois antes da finalização do pedido, o valor do frete será informado. No caso de alteração na quantidade dos itens no carrinho, o frete será recalculado."
+            },
+            {
+              "title": "Quem poderá receber o meu pedido?",
+              "description": "É necessário a presença de um responsável (maior de 18 anos) portando documento de identificação para receber a mercadoria e assinar o comprovante de entrega. <br /><br /> Caso resida em prédio ou condomínio, o produto será entregue para o porteiro no local."
+            },
+            {
+              "title": "Meu pedido pode atrasar na entrega?",
+              "description": "Trabalhamos intensivamente para evitar qualquer transtorno em sua experiência de compra. <br /><br /> Porém, atrasos na entrega podem ocorrer por inúmeros fatores, como: ausência de recebedor no local de entrega, recusa no recebimento por terceiros, trânsito e fenômenos como chuvas ou inundações."
+            }
+          ]
+        },
+        {
+          "title": "Outras Dúvidas",
+          "description": "",
+          "subitems": [
+            {
+              "title": "Esqueci a senha de acesso, o que faço?",
+              "description": "A Sport Brás, disponibiliza de forma fácil e rápida a sua nova senha. Para isso, acesse 'esqueci minha senha' e informe seu e-mail de cadastro, CPF ou CNPJ. Automaticamente será enviado ao seu e-mail a nova senha."
+            },
+            {
+              "title": "Como visualizo minha lista de favoritos no site?",
+              "description": "Após realizar o login no site, passe o mouse sobre a opção 'Meus Pedidos' que fica na parte superior da página abaixo do seu nome, e clique em 'Meus Favoritos'. <br /><br /> Nessa página você verá todos os itens que listou como favoritos, e você pode adicioná-los ao seu carrinho de compras, clicar no botão 'Comprar' para finalizar o pedido, ou até mesmo excluí-los de sua listagem."
+            },
+            {
+              "title": "O que fazer se meus dados cadastrais forem alterados sem minha permissão?",
+              "description": "Se você notar algo diferente em seu cadastro ou não reconhecer qualquer informação que esteja lá, entre em contato com a nossa equipe em até 1 dia útil através do e-mail <a href='mailto:sac@ecommercesportbras.com'>sac@ecommercesportbras.com</a>"
+            },
+            {
+              "title": "Dados cadastrais",
+              "description": "Seus dados cadastrais é o nosso vínculo, pois é através deles que a gente consegue te conhecer um pouco mais e te manter informado sobre o andamento do seu pedido, sobre promoções que combinam com você e sobre o que tá rolando de novo no nosso site! :) <br /><br /> É importante sempre mantê-los atualizados e a atualização você consegue fazer pelo site mesmo, basta realizar o login informando o CPF/CNPJ ou o seu e-mail e senha, clicar na opção 'Meu Cadastro' e logo após clicar na opção 'Alterar dados Cadastrais'. <br /><br /> Se você notar algo diferente em seu cadastro ou não reconhecer qualquer informação que esteja lá, entre em contato com a gente em até 1 dia útil para que possamos te ajudar. É importante que nos avise a tempo, porque após este prazo, não conseguiremos dar continuidade ao seu atendimento :( <br /><br /> O seu login de acesso é de uso pessoal e intransferível, não deve ser divulgado à terceiros."
+            }
+          ]
+        },
+        {
+          "title": "Institucional",
+          "description": null,
+          "subitems": [
+            {
+              "title": "Quem é a Sport Brás?",
+              "description": "A Sport Brás é uma empresa familiar com mais de 30 anos de experiência na venda de artigos esportivos, originada em um dos maiores centros comerciais de São Paulo, o Brás. <br /><br /> Nossas lojas físicas contam com uma imensa variedade de produtos, as melhores marcas do mercado e atendimento profissional, sempre pensando no bem estar dos nossos clientes. <br /><br /> Nosso atual desafio é ingressar no mercado de e-commerce com excelência, trazendo toda a reputação extremamente positiva dos mais de 30 anos de vendas, com os melhores produtos e preços. <br /><br /> Trabalhamos com os maiores e melhores fornecedores de produtos esportivos. Além disso, temos artigos para as mais variadas modalidades, do futebol à natação, do basquete ao crossfit. <br /><br />"
+            }
+          ]
+        }
+      ]
+    }
   }
-
-
-
-  
- 
-  }
-  
+}
