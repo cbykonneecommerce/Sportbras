@@ -27,7 +27,7 @@
 .customCollapsibleContainerButtonSubItem--custom,
 .customCollapsibleContainerButton--custom {
   width: 100%;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
   border: none;
   padding: 30px 30px;
   display: flex;
@@ -38,12 +38,13 @@
   cursor: pointer;
   color: #333;
   border-top: 1px solid #dedede;
+  text-align: left;
 }
 
 .customCollapsibleContainerButtonSubItem--custom {
   margin-bottom: 0px;
   border: 1px solid #dedede;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
   font-size: 16px;
   padding: 15px 30px;
 }
@@ -62,4 +63,14 @@
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.15px;
   font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .customCollapsibleContainerButton--custom {
+    font-size: 14px;
+  }
+
+  .customCollapsibleContainerButtonSubItem--custom {
+    font-size: 12px;
+  }
 }
