@@ -1,13 +1,13 @@
 {
     "vtex.menu@2.x:menu#category-menu-01--mob": {
         "children": [
-            "menu-item#acessorios-mob",
             "menu-item#calcados-mob",
-           "menu-item#crianças-mob",
-            "menu-item#homens-mob",
-            "menu-item#marcas-mob",
-             "menu-item#mulheres-mob",
             "menu-item#roupas-mob",
+            "menu-item#homens-mob",
+            "menu-item#mulheres-mob",
+            "menu-item#crianças-mob",
+            "menu-item#acessorios-mob",
+            "menu-item#marcas-mob",
             "menu-item#peças-unicas-mob",
             "menu-item#outlet-mob"
         ],

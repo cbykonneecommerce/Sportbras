@@ -30,7 +30,7 @@
   },
   "rich-text#poweredImage-0": {
     "props": {
-      "text": "[![Logo CBYK ONNE](/arquivos/logo-cbyk.svg 'Acesse a CBYK ONNE')](https://weonne.com/)",
+      "text": "[![Logo WEONNE](/arquivos/logo-weonne.svg 'Acesse a WEONNE')](https://weonne.com/)",
       "blockClass": ["powered__image","cbyk"]
     }
   },

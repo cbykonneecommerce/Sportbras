@@ -8,7 +8,7 @@
 
 .sellingPrice {
   color: #555555;
-  font-size: 25pt;
+  font-size: 21.5pt;
   font-weight: 500;
   display: inline-block;
 }
@@ -29,7 +29,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  top: 4px;
+  
   font-family: "Intelo", sans-serif;
   font-size: 20px;
 }
@@ -53,6 +53,10 @@
   margin-left: 10px;
 }
 
+:global(.vtex-store-components-3-x-content) {
+  color: #282828;
+}
+
 .savingPriceValue {
   color: #ea002a;
   font-size: 12pt;
@@ -64,6 +68,9 @@
   font-size: 17pt;
 }
 
+:global(.vtex-reviews-and-ratings-2-x-graphBar){
+  background: #ea002a;
+}
 :global(.vtex-store-components-3-x-searchBarContainer) {
   padding: 4px 0px;
 }
@@ -73,7 +80,8 @@
   border-radius: 0;
 }
 .shippingContainer {
-  margin-top: -23px;
+  margin-top: 39px;
+  margin-bottom: 37px;
 }
 
 .productDescriptionTitle {
@@ -119,6 +127,15 @@
     margin-top: 23px;
   }
 }
+
+@media (min-width: 900px) {
+  :global(.vtex-store-components-3-x-productBrand) {
+    font-size: 30px !important;
+  }
+
+ 
+}
+
 
 /* ]COntainer global */
 

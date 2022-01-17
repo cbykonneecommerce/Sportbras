@@ -20,7 +20,7 @@
   "flex-layout.row#social-1":{
     "children": [
       "rich-text#socialImage-0",
-      "rich-text#socialImage-1",
+     // "rich-text#socialImage-1",
       "rich-text#socialImage-2"
     ],
     "props": {

@@ -1,13 +1,13 @@
 {
     "vtex.menu@2.x:menu#category-menu-01": {
         "children": [
-            "menu-item#acessorios",
             "menu-item#calcados",
-            "menu-item#crianças",
-            "menu-item#homens",
-            "menu-item#marcas",
-            "menu-item#mulheres",
             "menu-item#roupas",
+            "menu-item#homens",
+            "menu-item#mulheres",
+            "menu-item#crianças",
+            "menu-item#acessorios",
+            "menu-item#marcas",
             "menu-item#peças-unicas",
             "menu-item#outlet"
         ],

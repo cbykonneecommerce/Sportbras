@@ -25,3 +25,8 @@
 .minicartContainer :global(.vtex-button__label) {
   padding-right: 0px;
 }
+
+:global(.vtex-minicart-2-x-minicartQuantityBadgeDefault){
+  top: -0.1rem;
+    right: -0.6rem;
+}

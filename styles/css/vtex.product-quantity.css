@@ -4,7 +4,8 @@
 
 .quantitySelectorTitle{
     margin-right: 1em;
-    color: #4F4F4F;
+    color: #9F9F9F;
+    text-transform: uppercase;
     font-weight: 400;
     font-size: 20px;
 }

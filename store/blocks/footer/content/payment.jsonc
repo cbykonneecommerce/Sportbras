@@ -17,10 +17,9 @@
   },
   "flex-layout.row#payment-1":{
     "children": [
+      "rich-text#paymentImage-2",
       "rich-text#paymentImage-0",
       "rich-text#paymentImage-1",
-      "rich-text#paymentImage-2",
-      "rich-text#paymentImage-3",
       "rich-text#paymentImage-4"
     ],
     "props": {
@@ -40,32 +39,26 @@
   },
   "rich-text#paymentImage-2": {
     "props": {
-      "text": "![Bandeira American Express](/arquivos/AMEX.svg 'Bandeira American Express')",
-      "blockClass": ["payment__image","amex"]
-    }
-  },
-  "rich-text#paymentImage-0": {
-    "props": {
       "text": "![Bandeira Visa](/arquivos/VISA.svg 'Bandeira Visa')",
       "blockClass": ["payment__image","visa"]
     }
   },
-  "rich-text#paymentImage-1": {
+  "rich-text#paymentImage-0": {
     "props": {
       "text": "![Bandeira Mastercard](/arquivos/MASTER.svg 'Bandeira Mastercard')",
       "blockClass": ["payment__image","mastercard"]
     }
   },
-  "rich-text#paymentImage-4": {
+  "rich-text#paymentImage-1": {
     "props": {
       "text": "![Bandeira Hipercard](/arquivos/HIPERCARD.svg 'Bandeira Hipercard')",
       "blockClass": ["payment__image","hipercard"]
     }
   },
-  "rich-text#paymentImage-3": {
+  "rich-text#paymentImage-4": {
     "props": {
-      "text": "![Bandeira Elo](/arquivos/ELO.svg 'Bandeira Elo')",
-      "blockClass": ["payment__image","elo"]
+      "text": "![Bandeira Hipercard](/arquivos/PIX.svg 'Bandeira PIX')",
+      "blockClass": ["payment__image","PIX"]
     }
   }
 }

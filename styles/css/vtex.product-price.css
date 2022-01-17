@@ -31,27 +31,27 @@
 .installments--pdp-installments {
   position: relative;
   top: -5px;
-  margin-left: 10px;
+  margin-left: 28px;
 }
 
 .installments--pdp-installments {
   font-weight: bold;
   font-family: "Intelo", sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   color: #555555;
 }
 
 .savings {
   font-size: 12pt;
   font-family: "Intelo", sans-serif;
-  color: #d92f2f;
+  color: #FF0000;
 }
 
 .currencyContainer--pdp-installments,
 .installmentsNumber--pdp-installments,
 .installmentsNumber--pdp-installments::after {
   content: "x";
-  color: #d92f2f;
+  color: #FF0000;
   font-weight: bold;
 }
 
