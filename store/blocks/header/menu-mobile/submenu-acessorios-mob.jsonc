@@ -136,6 +136,7 @@
     "props": {
       "type": "custom",
       "id": "",
+      "blockClass":"submenu",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -150,6 +151,7 @@
     "props": {
       "type": "custom",
       "id": "",
+      "blockClass":"submenu",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -164,6 +166,7 @@
     "props": {
       "type": "custom",
       "id": "",
+      "blockClass":"submenu",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -203,6 +206,7 @@
   "vtex.menu@2.x:menu#submenu-cat-acessorios-bola-futebol-mob-submenu": {
     "props": {
       "orientation": "vertical",
+      "blockClass":"submenu",
       "items": [
         {
           "type": "custom",
@@ -272,6 +276,7 @@
   "vtex.menu@2.x:menu#submenu-cat-acessorios-bone-mob-submenu":{
     "props": {
         "orientation": "vertical",
+        "blockClass":"submenu",
         "items":[
             {
                 "type": "custom",
@@ -328,6 +333,7 @@
   "vtex.menu@2.x:menu#submenu-cat-acessorios-luvas-mob-submenu":{
     "props": {
         "orientation": "vertical",
+        "blockClass":"submenu",
         "items":[
             {
                 "type": "custom",

@@ -4,8 +4,9 @@
       "blockClass": ["footer", "mobile"]
     },
     "children": [
-      "rich-text#newsletter",
       "flex-layout.row#newsletterRow",
+      "vtex.menu@2.x:menu#linkList-container-mobile",
+      "vtex.menu@2.x:menu#linkList-container-mobile-2",
       "flex-layout.row#footer-container-0-mobile",
       "flex-layout.row#footer-container-1-mobile"
     ]
@@ -15,8 +16,8 @@
       "blockClass": "footer__content"
     },
     "children": [
-      "flex-layout.col#footer-1-box-menu-1",
-      "flex-layout.col#footer-1-box-menu-2",
+     /* "flex-layout.col#footer-1-box-menu-1",
+      "flex-layout.col#footer-1-box-menu-2",*/
       "rich-text#sobre-footer",
       "flex-layout.col#footer-1-box-menu-3",
       "flex-layout.col#footer-1-box-1",
@@ -50,7 +51,7 @@
 
   "rich-text#sobre-footer":{
     "props": {
-      "text": "SOBRE",
+      "text": "SOBRE A SPORTBRAS",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",

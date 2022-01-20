@@ -50,7 +50,8 @@
       "menu-item#crianças-calcados-mob1":{
           "props":{
             "type": "custom",
-            "id": "",
+            "id": "", 
+            "blockClass":"submenu",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
@@ -66,6 +67,7 @@
         "props":{
             "type": "custom",
             "id": "",
+            "blockClass":"submenu",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
@@ -81,7 +83,7 @@
         "props":{
             "type": "custom",
             "id": "",
-            "blockClass": "submenu",
+            "blockClass":"submenu",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
@@ -106,6 +108,7 @@
       "vtex.menu@2.x:menu#submenu-cat-crianças-calcados-chuteiras-mob-submenu":{
         "props":{
             "orientation": "vertical",
+            "blockClass":"submenu",
             "items":[
                 {
                     "type": "custom",
@@ -182,6 +185,7 @@
       "vtex.menu@2.x:menu#submenu-cat-crianças-roupas-mob-submenu":{
         "props":{
             "orientation": "vertical",
+            "blockClass":"submenu",
             "items":[
                 {
                     "type": "custom",

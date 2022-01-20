@@ -108,13 +108,30 @@
   },
   "flex-layout.row#newsletterRow": {
     "children": [
-      "newsletter-form"
+      "flex-layout.col#newsletter-title",
+      "flex-layout.col#newsletter-proper"
+     
     ],
     "props": {
       "preventVerticalStretch": true,
       "horizontalAlign": "center",
       "blockClass": "newslettercontent"
     }
+  },
+
+  "flex-layout.col#newsletter-title":{
+    "props":{
+      "width": "33%"
+    },
+    "children":[
+      "rich-text#newsletter"
+    ]
+  },
+
+  "flex-layout.col#newsletter-proper":{
+"children":[
+  "newsletter-form"
+]
   },
   "store.product-review-form": {
     "blocks": [

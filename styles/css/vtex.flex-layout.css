@@ -1,6 +1,11 @@
 .flexRow--newslettercontent {
   background-color: #dbdbdb;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
+    padding-top: 1.5em;
+}
+
+.flexRowContent--powered__row{
+  align-items: center;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--flags__list),
@@ -13,7 +18,7 @@
 }
 
 .flexRow--footer__politicas {
-  background-color: #edeff2;
+  background-color: #E4E4E4;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--menu-content-area) {
@@ -102,7 +107,7 @@
 .flexCol--summary-cottom {
   max-width: 258px;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .flexColChild--summary-cottom {
@@ -116,7 +121,7 @@
 }
 
 .flexCol--summary-cottom :global(.vtex-button) {
-  margin-top: 20px !important;
+  margin-top: 7px !important;
 }
 
 .flexRowContent--product-price--details {

@@ -10,8 +10,8 @@
     "props": {
       "text": "Vamos manter contato!",
       "font": "t-heading-3",
-      "textPosition": "CENTER",
-      "textAlign": "CENTER",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
       "blockClass": "newsletterTitle"
     }
   },

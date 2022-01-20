@@ -111,6 +111,7 @@
   border-radius: 2px;
   padding: 4px 14px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .price_sellingPriceContainer {

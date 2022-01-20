@@ -43,6 +43,7 @@
   "vtex.menu@2.x:menu#submenu-cat-homens-acessorios-mob-submenu": {
     "props": {
       "orientation": "vertical",
+      "blockClass":"submenu",
       "items": [
         {
           "type": "custom",
@@ -136,7 +137,8 @@
 
   "vtex.menu@2.x:menu#submenu-cat-homens-calçados-mob-submenu": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"submenu"
     },
     "children": [
       "menu-item#homens-calçados-mob1",
@@ -155,6 +157,7 @@
     "props": {
       "type": "custom",
       "id": "",
+      "blockClass":"submenu",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -169,6 +172,7 @@
     "props": {
       "type": "custom",
       "id": "",
+      "blockClass":"submenu",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -183,6 +187,7 @@
     "props": {
       "type": "custom",
       "id": "",
+      "blockClass":"submenu",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -197,6 +202,7 @@
     "props": {
       "type": "custom",
       "id": "",
+      "blockClass":"submenu",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -211,6 +217,7 @@
     "props": {
       "type": "custom",
       "id": "",
+      "blockClass":"submenu",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -225,6 +232,7 @@
     "props": {
       "type": "custom",
       "id": "",
+      "blockClass":"submenu",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -239,6 +247,7 @@
     "props": {
       "type": "custom",
       "id": "",
+      "blockClass":"submenu",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -253,6 +262,7 @@
     "props": {
       "type": "custom",
       "id": "",
+      "blockClass":"submenu",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -267,6 +277,7 @@
     "props": {
       "type": "custom",
       "id": "",
+      "blockClass":"submenu",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -305,6 +316,7 @@
   "vtex.menu@2.x:menu#submenu-cat-homens-calçados-chuteira-mob-submenu":{
     "props": {
         "orientation": "vertical",
+        "blockClass":"submenu",
         "items": [
             {
                 "type": "custom",
@@ -377,6 +389,7 @@
   "vtex.menu@2.x:menu#submenu-cat-homens-roupas-mob-submenu": {
     "props": {
       "orientation": "vertical",
+      "blockClass":"submenu",
       "items": [
         {
             "type": "custom",

@@ -9,3 +9,11 @@
 .openIconContainer {
     padding: 0px;
 }
+
+.drawer--menu-mobile{
+    background-color: #D92F2F !important;
+}
+
+.closeIconContainer--menu-mobile{
+    justify-content: end;
+}

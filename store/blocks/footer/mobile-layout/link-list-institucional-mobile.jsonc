@@ -4,7 +4,7 @@
     "children": ["menu-item#linkList-footer-toggle"],
     "props": {
         "orientation": "vertical",
-        "blockClass": ""
+        "blockClass": "footer-accordion"
     }
   },
 
@@ -19,7 +19,7 @@
           "type": "internal",
           "noFollow": true,
           "tagTitle": "Institucional",
-          "text": "ATENDIMENTO"
+          "text": "AJUDA E SUPORTE"
       }
     },
       "blocks": [
@@ -76,7 +76,7 @@
   "children": ["menu-item#linkList-footer-toggle-2"],
   "props": {
       "orientation": "vertical",
-      "blockClass": ""
+      "blockClass":["footer-accordion", "second-accordion"]
   }
 },
 

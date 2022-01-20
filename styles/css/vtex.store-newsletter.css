@@ -4,7 +4,10 @@
     text-align: center;
 }
 
-
+:global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button){
+    background-color: #D92F2F;
+    border-color: #D92F2F;
+ }
 
 
 .formSubmitContainer{
@@ -29,24 +32,48 @@ margin-top: 8px;
     :global(.vtex-store-newsletter-1-x-newsletterForm){
         display: flex;
         align-items: stretch;
-        
+        margin-top: 10px;   
         max-width: 100%;
         flex-wrap: wrap;
-        justify-content: center;
+      /*  justify-content: center;*/
     }
 
     .nameInputContainer,  :global(.vtex-store-newsletter-1-x-emailInputContainer){
-        width: 20% !important;
+        width: 30% !important;
         margin-left: 0.5em;
         margin-right: 0.5em;
     }
+
+    :global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button){
+       width: 148%;
+    margin-left: 3em;
+    border-radius: 0px;
+    }
+ 
 }
 
 @media (max-width: 700px) {
 
     :global(.vtex-store-newsletter-1-x-formSubmitContainer){
         text-align: center;
+        width: 100%;
+        margin-top: 23px;
     }
+
+    .newsletterForm{
+        display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .emailInputContainer--newsletterInput, .nameInputContainer--newsletterInput{
+        width: 66%;
+    }
+
+    :global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button){
+        width: 66%;
+     }
 }
 
 

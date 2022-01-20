@@ -24,6 +24,7 @@
   margin: 0 auto;
   background-color: #d92f2f;
   border: none;
+  border-radius: 2px;
 }
 
 :global(.vtex-product-summary-2-x-containerNormal):hover {
@@ -49,12 +50,13 @@
 }
 
 .productBrand {
-  font-size: 18px;
+  font-size: 16px;
   text-transform: capitalize;
   font-family: "";
+  height: 56px;
   letter-spacing: 0.2px;
   font-family: "DINPro-Medium", sans-serif;
-  height: 40px;
+  margin-bottom: 24px;
   display: block;
   overflow: hidden;
 }
@@ -65,7 +67,12 @@
   }
 
   .productBrand {
-    height: 30px;
-    font-size: 14px;
+    height: 42px;
+    font-size: 12px;
+  }
+
+  .containerNormal :global(.vtex-button) {
+    margin: 4px auto;
+
   }
 }

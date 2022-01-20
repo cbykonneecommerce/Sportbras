@@ -1,10 +1,10 @@
 .headerRowBackground--main-menu {
-  background-color: #edeff2;
+  background-color: #F2F2F2;
 }
 
 :global(.vtex-store-header-2-x-headerStickyRow--main-menu) {
   height: 46px;
-  background-color: #edeff2;
+  background-color: #F2F2F2;
 }
 
 :global(.vtex-store-header-2-x-headerRowContainer--main-header) {
@@ -30,10 +30,7 @@
   padding-left: 0px;
 }
 
-.headerStickyRow--main-header-mobile,
-.headerStickyRow--main-header {
-  border-bottom: 1px solid#dedede;
-}
+
 
 :global(.vtex-address-form__postalCode) {
   padding-bottom: 0px;

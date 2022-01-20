@@ -4,9 +4,9 @@
   color: #4f4f4f;
 }
 .sellingPriceValue {
-  font-size: 1.2rem;
+  font-size: 16px;
   font-weight: 500;
-  color: #4f4f4f !important;
+  color: #000 !important;
   font-family: "StretchPro";
 }
 
@@ -62,16 +62,16 @@
   }
 
   .sellingPriceValue {
-    font-size: 13px;
+    font-size: 14px;
   }
   .sellingPriceValue::before {
     content: "Por: ";
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .listPrice::before {
     content: "De: ";
-    font-size: 11px;
+    font-size: 12px;
   }
   .listPrice {
     font-size: 12px;

@@ -130,7 +130,7 @@
     },
     "drawer#menu-mobile": {
       "children": [
-        "login",
+        "login#mob",
         "rich-text#menu-mob-title",
        "vtex.menu@2.x:menu#category-menu-01--mob"
        
@@ -167,6 +167,27 @@
         "fullWidth": true
       }
     },
+    "login#mob": {
+      "props": {
+        //"optionsTitle": "Elija una de las opciones para confirmar su identidad",
+        // "providerPasswordButtonLabel": "Ingresar con mail y contraseña",
+        "showIconProfile": false,
+        "iconLabel": "ENTRE OU CADASTRE-SE",
+        "labelClasses": "login__header"
+        /* "accountOptionLinks": [
+                  {
+                      "label": "Mi Cuenta",
+                      "path": "/account",
+                      "cssClass": "myAccountLink"
+                  },                {
+                      "label": "Mis Pedidos",
+                      "path": "/account#/orders",
+                      "cssClass": "myAccountLink"
+                  }
+              ] */
+      }
+    },
+
     "login": {
       "props": {
         //"optionsTitle": "Elija una de las opciones para confirmar su identidad",

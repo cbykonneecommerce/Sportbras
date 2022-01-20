@@ -10,10 +10,22 @@
     :global(.vtex-login-2-x-container){
         float: none;
         margin-bottom: 1em;
+        margin-top: -3em;
     }
     :global(.vtex-login-2-x-label){
         display: block;
+        color: white;
     }
+
+    :global(.vtex-login-2-x-label)::before{
+        content: url(/arquivos/white-user.svg);
+        position: relative;
+        z-index: 100;
+        left: -10px;
+        top: 7px;
+    }
+
+    
 }
 
 :global(.vtex-login-2-x-container) :global(.vtex-button){

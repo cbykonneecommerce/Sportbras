@@ -112,7 +112,6 @@
 
 .paragraph--sectorTitle {
   color: black;
-  font-family: "Intelo", sans-serif;
   font-size: 30px;
   text-transform: uppercase;
 }
@@ -153,6 +152,20 @@
 
   .paragraph--sectorTitle,
   .paragraph--newsletterTitle {
-    font-size: 14px;
+    font-size: 26px;
+  }
+
+  .container--newsletterTitle{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .paragraph--newsletterTitle{
+    font-size: 18px;
+  }
+
+  .paragraph--sectorTitle-mob{
+    font-weight: bold;
+    color: white
   }
 }
