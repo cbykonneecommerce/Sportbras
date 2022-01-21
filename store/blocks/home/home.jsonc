@@ -9,6 +9,7 @@
       "__fold__.experimentalLazyImages",
       "flex-layout.row#novidades-title",
       "flex-layout.row#novidades-shelf",
+      "flex-layout.row#promocoes-loja-title",
       "flex-layout.row#promocoesimg",
       "flex-layout.row#novidades2-title",
       "flex-layout.row#novidades2-shelf",
@@ -76,6 +77,23 @@
     "title": "Novidades Texto",
     "props": {
       "text": "NOVIDADES",
+      "font": "t-heading-2",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sectorTitle"
+    }
+  },
+
+  "flex-layout.row#promocoes-loja-title": {
+    "title": "Texto novidades",
+    "children": [
+      "rich-text#promocoes-loja-title"
+    ]
+  },
+  "rich-text#promocoes-loja-title": {
+    "title": "Novidades Texto",
+    "props": {
+      "text": "PROMOÇÕES NA LOJA",
       "font": "t-heading-2",
       "textPosition": "LEFT",
       "textAlign": "LEFT",

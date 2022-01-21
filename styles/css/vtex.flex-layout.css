@@ -107,7 +107,8 @@
 .flexCol--summary-cottom {
   max-width: 258px;
   margin: 0 auto;
-  justify-content: center;
+  margin-top: -3em;
+  justify-content: end;
 }
 
 .flexColChild--summary-cottom {
@@ -117,7 +118,7 @@
 
 .flexColChild--summary-cottom:empty {
   min-width: 16px;
-  height: 100% !important;
+ /* height: 100% !important;*/
 }
 
 .flexCol--summary-cottom :global(.vtex-button) {
@@ -152,4 +153,8 @@
   .flexRow--brand-slider :global(.vtex-store-components-3-x-imageElement) {
     max-width: 100px;
   } 
+
+  .flexCol--summary-cottom {
+    margin-top: -2em;
+  }
 }

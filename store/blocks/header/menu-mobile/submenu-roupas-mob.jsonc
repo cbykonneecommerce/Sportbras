@@ -171,6 +171,18 @@
             "text": "Roupas para academia",
             "href": "/roupas/roupas-para-academia"
           }
+        },
+        {
+          "type": "custom",
+          "id": "",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "blockClass": "sub-cat-item",
+            "text": "Todos",
+            "href": "/roupas"
+          }
         }
       ]
     }
