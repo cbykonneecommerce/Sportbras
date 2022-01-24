@@ -172,6 +172,7 @@
         //"optionsTitle": "Elija una de las opciones para confirmar su identidad",
         // "providerPasswordButtonLabel": "Ingresar con mail y contraseña",
         "showIconProfile": false,
+        "mirrorTooltipToRight": true,
         "iconLabel": "ENTRE OU CADASTRE-SE",
         "labelClasses": "login__header"
         /* "accountOptionLinks": [

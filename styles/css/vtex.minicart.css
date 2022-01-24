@@ -30,3 +30,15 @@
   top: -0.1rem;
     right: -0.6rem;
 }
+
+
+:global(.vtex-minicart-2-x-closeIcon){
+  content: " ";
+  left: 9px;
+  position: relative;
+  background-image: url(/arquivos/X-gray.svg);
+  margin-top: 10px;
+  padding-left: 9px;
+  background-size: 25px;
+  background-repeat: no-repeat;
+}

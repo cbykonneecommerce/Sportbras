@@ -11,7 +11,7 @@
       "menu-item#calcados-mob8",
       "menu-item#calcados-mob9",
       "menu-item#calcados-mob10",
-      "menu-item#acessorios-mobALL"
+      "menu-item#calcados-mobALL"
       // "menu-item#col1-all--mob"
     ],
     "props": {
@@ -224,5 +224,19 @@
             }
         ]
       }
+  },
+  "menu-item#calcados-mobALL": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "highlight": false,
+      "blockClass": "submenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Todos",
+        "href": "/calcados"
+      }
+    }
   }
 }

@@ -25,6 +25,23 @@
         top: 7px;
     }
 
+
+    :global(.vtex-login-2-x-profile){
+        display: block;
+        color: white;
+        max-width: 148px;
+        font-weight: 600;
+    }
+
+    :global(.vtex-login-2-x-profile)::before{
+        content: url(/arquivos/white-user.svg);
+        position: relative;
+        z-index: 100;
+        left: -10px;
+        top: 7px;
+    }
+
+
     
 }
 

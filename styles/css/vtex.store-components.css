@@ -127,6 +127,10 @@
   .shippingContainer {
     margin-top: 23px;
   }
+
+  :global(.vtex-search-2-x-biggy-autocomplete-wrapper){
+    width: 95vw;
+  }
 }
 
 @media (min-width: 900px) {

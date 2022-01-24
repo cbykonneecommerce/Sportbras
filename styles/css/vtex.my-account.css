@@ -1,0 +1,12 @@
+.userGreeting, :global(.vtex-my-account-1-x-userName){
+    color: #EF2A31;
+    font-weight: 600;
+}
+
+:global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button){
+    background-color: #DB0D15;
+    color: white;
+    font-weight: 600;
+    width: 32%;
+    padding: 7px 0px;
+}

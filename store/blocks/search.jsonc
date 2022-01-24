@@ -6,7 +6,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 24
       }
     }
   },
@@ -289,7 +290,9 @@
   "search-not-found-layout": {
     "children": [
       "flex-layout.row#searchbread",
-      "flex-layout.row#notfound"
+      "flex-layout.row#notfound",
+      "flex-layout.row#notfoundsuggestionsTitle",
+      "flex-layout.row#notfoundsuggestions"
     ]
   },
   "flex-layout.row#notfound": {
@@ -299,6 +302,39 @@
     "props": {
       "fullWidth": true
     }
+  },
+  "flex-layout.row#notfoundsuggestionsTitle":{
+    "children":[
+      "flex-layout.col#notfoundsuggestionsTitle"
+    ]
+  },
+
+  "flex-layout.col#notfoundsuggestionsTitle":{
+    "children":[
+      "rich-text#suggestionsTitle"
+    ]
+  },
+
+  "rich-text#suggestionsTitle": {
+    "title": "Sugestoes",
+    "props": {
+      "text": "SUGESTÕES",
+      "font": "t-heading-2",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sectorTitle"
+    }
+  },
+  "flex-layout.row#notfoundsuggestions":{
+    "children":[
+      "flex-layout.col#notFoundSuggestions"
+    ]
+  },
+
+  "flex-layout.col#notFoundSuggestions":{
+    "children":[
+      "list-context.product-list#novidades2"
+    ]
   },
   "breadcrumb": {
     "props": {
