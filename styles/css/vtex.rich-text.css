@@ -95,7 +95,7 @@
 
 .paragraph--InstitutionalTitle,
 .headingLevel2--InstitutionalTitle {
-  color: #f00;
+  color: #515151;
   font-family: "StretchPro";
 }
 
@@ -167,5 +167,15 @@
   .paragraph--sectorTitle-mob{
     font-weight: bold;
     color: white
+  }
+
+  .container--menu-institucional-dropdown{
+    border: 2px solid #ED1B34;
+    border-radius: 2px;
+    color: #ED1B34;
+  }
+
+  .paragraph--menu-institucional-dropdown{
+    margin: 10px;
   }
 }

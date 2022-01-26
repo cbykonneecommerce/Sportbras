@@ -10,16 +10,33 @@
 
 
     "responsive-layout.desktop#institutional-Content-desk": {
-        "children": [ "flex-layout.row#institutional-Content"]
+        "children": [ 
+          "flex-layout.row#institutional-Content-title",
+          "flex-layout.row#institutional-Content"]
       },
 
       "responsive-layout.mobile#institutional-Content-mob":{
         "children": [ "flex-layout.row#institutional-Content-mob"]
       },
+
+      "flex-layout.row#institutional-Content-title":{
+        "props":{
+          "marginTop": 4
+        },
+"children":[
+  "flex-layout.col#institutionalMain-title"
+]
+
+      },
+
+      "flex-layout.col#institutionalMain-title":{
+"children":[
+  "rich-text#institutionalMain-title"]
+      },
       
     "flex-layout.row#institutional-Content": {
       "props":{
-        "marginTop": 8,
+        "marginTop": 2,
         "marginBottom": 8,
         "blockClass": "Institutionalrow"
       },
@@ -36,18 +53,41 @@
           "blockClass": "Institutionalrow"
         },
           "children": [
-            "flex-layout.col#menu-institucional",
+            "overlay-trigger#institucional",
               "flex-layout.col#institutional1-mob"
               
           ]
       },
+        "overlay-trigger#institucional": {
+          "children": [
+            "rich-text#institucionalMenus",
+            "overlay-layout#institucional"    
+          ]
+        },
 
+        "rich-text#institucionalMenus": {
+          "props": {
+            "text": "Menu Institucional",
+            "blockClass": "menu-institucional-dropdown",
+            "textPosition": "CENTER",
+            "textAlign": "CENTER"
+          }
+        },
+
+        "overlay-layout#institucional":{
+          "props":{
+            "blockClass":"overlayinstitucional"
+          },
+          "children":[
+            "vtex.menu@2.x:menu#menu-institucional"
+          ]
+        },
     "flex-layout.col#menu-institucional":{
       "props":{
         "blockClass": "Institutionaltitleblock1",
         "preventVerticalStretch": true,
         "horizontalAlign": "center",
-        "width": "30%"
+        "width": "28%"
       },
       "children":[
         "vtex.menu@2.x:menu#menu-institucional"
@@ -58,10 +98,10 @@
       "props":{
         "blockClass": "Institutionaltitleblock2",
         "preventVerticalStretch": true,
-        "paddingLeft": 6
+        "paddingLeft": 2
       },
         "children": [
-          "rich-text#institutionalMain-title",
+         
             "rich-text#institutionalMain"
         ]
     },

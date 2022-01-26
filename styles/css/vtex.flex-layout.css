@@ -141,6 +141,10 @@
   flex-direction: column;
 }
 
+.flexColChild--Institutionaltitleblock1{
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .flexRow--footer__content {
     padding: 0px;
@@ -157,4 +161,6 @@
   .flexCol--summary-cottom {
     margin-top: -2em;
   }
+
+ 
 }
