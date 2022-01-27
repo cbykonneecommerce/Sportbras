@@ -145,6 +145,10 @@
   width: 100%;
 }
 
+.flexRowContent--brand-slider{
+  padding-top: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .flexRow--footer__content {
     padding: 0px;
@@ -162,5 +166,13 @@
     margin-top: -2em;
   }
 
+  .flexRow--gigbanner{
+    margin-top: 71px;
+    margin-bottom: 30px;
+  }
+
+  .flexRowContent--instagram-iframe :global(.vtex-sandbox-iframe){
+    height: 190px !important;
+  }
  
 }

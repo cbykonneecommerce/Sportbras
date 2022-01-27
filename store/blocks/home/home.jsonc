@@ -224,6 +224,9 @@
     }
   },
   "flex-layout.row#insta": {
+    "props":{
+      "blockClass": "instagram-iframe"
+    },
     "children": [
       "sandbox#insta"
     ]

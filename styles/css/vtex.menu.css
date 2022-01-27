@@ -173,6 +173,14 @@ padding: 13px 12px;
 margin: 0;
     margin-top: -7px;
   }
+
+  .menuItem--linkList-footer-toggle :global(.vtex-menu-2-x-styledLink){
+    font-size: 15px;
+  }
+
+  .menuItem--linkList-footer-toggle :global(.vtex-menu-2-x-styledLinkContainer){
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 760px) and (max-width: 1100px) {
