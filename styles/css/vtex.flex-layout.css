@@ -107,8 +107,9 @@
 .flexCol--summary-cottom {
   max-width: 258px;
   margin: 0 auto;
-  margin-top: -3em;
   justify-content: end;
+  z-index: 100;
+  height: auto;
 }
 
 .flexColChild--summary-cottom {
@@ -163,7 +164,7 @@
   } 
 
   .flexCol--summary-cottom {
-    margin-top: -2em;
+    margin: 0 auto;
   }
 
   .flexRow--gigbanner{

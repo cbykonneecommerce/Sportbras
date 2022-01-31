@@ -31,13 +31,16 @@
     right: -0.6rem;
 }
 
+.closeIconButton .closeIcon {
+  display: none;
+}
 
-:global(.vtex-minicart-2-x-closeIcon){
-  content: " ";
-  left: 9px;
-  position: relative;
+.closeIconContainer {
+  padding: 20px;
+}
+
+.closeIconButton {
   background-image: url(/arquivos/X-gray.svg);
-  padding-left: 9px;
   background-size: 25px;
   background-repeat: no-repeat;
 }
