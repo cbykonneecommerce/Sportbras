@@ -16,6 +16,14 @@ margin-top: 8px;
 
 :global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button){
     border-color: none !important;
+    font-family: "DINPro", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .newsletterForm :global(.vtex-input-prefix__group) {
@@ -31,11 +39,9 @@ margin-top: 8px;
 @media (min-width: 700px) {
     :global(.vtex-store-newsletter-1-x-newsletterForm){
         display: flex;
-        align-items: stretch;
         margin-top: 10px;   
         max-width: 100%;
-        flex-wrap: wrap;
-      /*  justify-content: center;*/
+        justify-content: flex-end;
     }
 
     .nameInputContainer,  :global(.vtex-store-newsletter-1-x-emailInputContainer){
@@ -45,9 +51,8 @@ margin-top: 8px;
     }
 
     :global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button){
-       width: 148%;
-    margin-left: 3em;
-    border-radius: 0px;
+        min-width: 230px;
+        border-radius: 0px;
     }
  
 }
@@ -62,9 +67,9 @@ margin-top: 8px;
 
     .newsletterForm{
         display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
     .emailInputContainer--newsletterInput, .nameInputContainer--newsletterInput{
@@ -76,4 +81,8 @@ margin-top: 8px;
      }
 }
 
-
+@media screen and (min-width: 768px) {
+    .nameInputContainer--newsletterInput {
+        margin-right: 2rem;
+    }
+}

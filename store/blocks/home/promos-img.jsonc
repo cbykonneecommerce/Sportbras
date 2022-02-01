@@ -6,8 +6,6 @@
             "flex-layout.col#promoimg3"
         ],"props": {
             "blockClass": "promos",
-            "marginTop": "2",
-            "marginBottom": "8",
             "horizontalAlign": "center"
           }
     },

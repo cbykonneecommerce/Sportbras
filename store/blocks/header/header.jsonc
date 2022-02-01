@@ -217,11 +217,40 @@
         "width": "200"
       }
     },
+
+    "autocomplete-result-list.v2": {
+      "props": {
+        "productLayout": "VERTICAL",
+        "maxSuggestedProducts": 2
+      },
+      "blocks": [
+        "product-summary.shelf#search"
+      ]
+    },
+
+    "product-summary.shelf#search": {
+      "props": {
+        "blockClass": ["search-shelf"]
+      },
+      "children": [
+        "product-summary-name#search",
+        "product-summary-image#shelf",
+        "flex-layout.col#summary-bottom--col"
+      ]
+    },
+
+    "product-summary-name#search": {
+      "props": {
+        "blockClass": ["search"]
+      }
+    },
+
     "search-bar": {
       "blocks": [
         "autocomplete-result-list.v2"
       ],
       "props": {
+        "productLayout": "VERTICAL",
         "iconClasses": "hpa-search",
         "placeholder": "O que você está procurando?",
         "maxWidth": 680,

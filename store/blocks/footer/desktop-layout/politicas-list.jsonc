@@ -2,7 +2,7 @@
   "slider-layout#politicas": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 5,
         "tablet": 3,
         "phone": 2
       },
@@ -38,11 +38,14 @@
   },
   "rich-text#politica3": {
     "props": {
-      "text": "![30 DIAS PARA TROCA](/arquivos/troca-gratis.svg) **TROCA GRÁTIS**",
+      "text": "![30 DIAS PARA TROCA](/arquivos/b3.svg) **TROCA GRÁTIS**",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",
-      "blockClass": "footer-politicas-list"
+      "blockClass": [
+        "footer-politicas-list",
+        "troca-gratis"
+      ]
     }
   },
   "rich-text#politica4": {

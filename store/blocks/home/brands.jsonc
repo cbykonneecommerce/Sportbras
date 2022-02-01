@@ -1,82 +1,100 @@
-
-
 {
-    "slider-layout#brands": {
-        "children": ["image#brand1","image#brand2","image#brand3","image#brand4","image#brand5","image#brand6","image#brand7","image#brand8","image#brand9","image#brand10"],
-        "props": {
-            "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 4,
-                "phone": 2
-              },
-              "infinite": true,
-              "showNavigationArrows": "always",
-              "showPaginationDots":"never",
-          "autoplay": {
-            "timeout": 4000,
-            "stopOnHover": true
-          }
-        }
+  "slider-layout#brands": {
+    "children": [
+      "image#brand1",
+      "image#brand2",
+      "image#brand3",
+      "image#brand4",
+      "image#brand5",
+      "image#brand6",
+      "image#brand7",
+      "image#brand8",
+      "image#brand9",
+      "image#brand10"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
       },
-      
-      "image#brand1": {
-        "props": {
-          "src": "assets/marcas-banners/all-black/Adidas-140x110.png"
-        
-        }
-      },
-      "image#brand2": {
-        "props": {
-          "src": "assets/marcas-banners/all-black/Asics-140x110.png"
-        
-        }
-      },
-      "image#brand3": {
-        "props": {
-          "src": "assets/marcas-banners/all-black/Mizuno-140x110.png"
-        
-        }
-      },
-      "image#brand4": {
-        "props": {
-          "src": "assets/marcas-banners/all-black/New-balance-140x110.png"
-        
-        }
-      },
-      "image#brand5": {
-        "props": {
-          "src": "assets/marcas-banners/all-black/Nike-140x110.png"
-        
-        }
-      },
-      "image#brand6": {
-        "props": {
-          "src": "assets/marcas-banners/all-black/Olympikus-140x110.png"
-        
-        }
-      },
-      "image#brand7": {
-        "props": {
-          "src": "assets/marcas-banners/all-black/Penalty-140x110.png"
-        
-        }
-      },
-      "image#brand8": {
-        "props": {
-          "src": "assets/marcas-banners/all-black/Puma-140x110.png"
-        
-        }
-      },
-      "image#brand9": {
-        "props": {
-          "src": "assets/marcas-banners/all-black/Rainha-140x110.png"
-        
-        }
-      },
-      "image#brand10": {
-        "props": {
-          "src": "assets/marcas-banners/all-black/Topper-140x110.png"
-        
-        }
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
       }
+    }
+  },
+  "image#brand1": {
+    "props": {
+      "src": "assets/marcas-banners/all-black/Adidas-140x110.png",
+      "width": 140,
+      "height": 110
+    }
+  },
+  "image#brand2": {
+    "props": {
+      "src": "assets/marcas-banners/all-black/Asics-140x110.png",
+      "width": 140,
+      "height": 110
+    }
+  },
+  "image#brand3": {
+    "props": {
+      "src": "assets/marcas-banners/all-black/Mizuno-140x110.png",
+      "width": 140,
+      "height": 110
+    }
+  },
+  "image#brand4": {
+    "props": {
+      "src": "assets/marcas-banners/all-black/New-balance-140x110.png",
+      "width": 140,
+      "height": 110
+    }
+  },
+  "image#brand5": {
+    "props": {
+      "src": "assets/marcas-banners/all-black/Nike-140x110.png",
+      "width": 140,
+      "height": 110
+    }
+  },
+  "image#brand6": {
+    "props": {
+      "src": "assets/marcas-banners/all-black/Olympikus-140x110.png",
+      "width": 140,
+      "height": 110
+    }
+  },
+  "image#brand7": {
+    "props": {
+      "src": "assets/marcas-banners/all-black/Penalty-140x110.png",
+      "width": 140,
+      "height": 110
+    }
+  },
+  "image#brand8": {
+    "props": {
+      "src": "assets/marcas-banners/all-black/Puma-140x110.png",
+      "width": 140,
+      "height": 110
+    }
+  },
+  "image#brand9": {
+    "props": {
+      "src": "assets/marcas-banners/all-black/Rainha-140x110.png",
+      "width": 140,
+      "height": 110
+    }
+  },
+  "image#brand10": {
+    "props": {
+      "src": "assets/marcas-banners/all-black/Topper-140x110.png",
+      "width": 140,
+      "height": 110
+    }
+  }
 }

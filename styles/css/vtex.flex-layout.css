@@ -105,10 +105,11 @@
 }
 
 .flexCol--summary-cottom {
-  max-width: 258px;
+  max-width: 220px;
   margin: 0 auto;
   justify-content: end;
   z-index: 100;
+  padding-bottom: 10px;
   height: auto;
 }
 
@@ -156,6 +157,7 @@
   }
 
   .flexRowContent--gigbanner {
+    margin-top: 96px;
     margin: 0px;
   }
 
@@ -176,4 +178,12 @@
     height: 190px !important;
   }
  
+}
+
+.flexRowContent--brand-slider {
+  margin-bottom: 20px;
+}
+
+.flexRow--instagram-iframe {
+  max-height: 300px;
 }

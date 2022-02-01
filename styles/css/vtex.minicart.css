@@ -39,6 +39,11 @@
   padding: 20px;
 }
 
+.minicartTitle {
+  text-transform: uppercase;
+}
+
+
 .closeIconButton {
   background-image: url(/arquivos/X-gray.svg);
   background-size: 25px;

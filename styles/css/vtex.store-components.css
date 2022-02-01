@@ -112,7 +112,6 @@
   padding: 4px 14px;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 10px;
 }
 
 .price_sellingPriceContainer {
@@ -168,4 +167,9 @@
 .productImagesThumb {
   border: 1px solid #e0e0e0;
   padding: 10px;
+}
+
+.imageElement--carousel {
+  display: block;
+  height: 100%;
 }
