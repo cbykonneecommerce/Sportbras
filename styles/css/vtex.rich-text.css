@@ -69,6 +69,7 @@
 }
 
 :global(.vtex-rich-text-0-x-image--footer-politicas-list) {
+  /*margin-right: 10px;*/
   margin-right: 10px;
 }
 
