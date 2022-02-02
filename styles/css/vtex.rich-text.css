@@ -144,6 +144,11 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .paragraph--footer-politicas-list {
+   
+    margin: 0px 10px;
+  }
   .wrapper--InstitutionalText {
     padding-right: 0px;
   }
