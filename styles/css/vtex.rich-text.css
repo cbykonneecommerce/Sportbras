@@ -130,6 +130,11 @@
   :global(.vtex-rich-text-0-x-container--footer-sobre) {
     justify-content: left !important;
   }
+
+  :global(.vtex-rich-text-0-x-image--footer-politicas-list) {
+    /*margin-right: 10px;*/
+    margin-right: 30px;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -189,6 +194,6 @@
   }
 }
 
-.strong--troca-gratis {
+/*.strong--troca-gratis {
   margin-left: 25px;
-}
+}*/
