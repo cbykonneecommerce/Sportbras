@@ -5,17 +5,12 @@
     },
     "children": [
       "flex-layout.row#newsletterRow",
-      "flex-layout.row#footer-container-politicas-desktop",
+      "responsive-layout.desktop#politicas",
+      "responsive-layout.tablet#politicas",
+      "responsive-layout.phone#politicas",
       "flex-layout.row#footer-container-0-desktop",
       "flex-layout.row#footer-container-1-desktop"
     ]
-  },
-
-  "flex-layout.row#footer-container-politicas-desktop": {
-    "props": {
-      "blockClass": "footer__politicas"
-    },
-    "children": ["slider-layout#politicas"]
   },
 
   "flex-layout.row#footer-container-0-desktop": {

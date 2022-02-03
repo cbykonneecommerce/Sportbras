@@ -76,4 +76,8 @@
   .listPrice {
     font-size: 12px;
   }
+
+  .sellingPrice {
+    margin-bottom: 0px;
+  }
 }

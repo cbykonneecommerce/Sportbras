@@ -16,3 +16,9 @@ letter-spacing: 0em;
 .itemListItem {
     font-family: "Intelo", sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+    .biggy-autocomplete {
+        flex-direction: column;
+    }
+}

@@ -56,24 +56,46 @@
   font-family: "";
   height: 56px;
   letter-spacing: 0.2px;
-  font-family: "DINPro-Medium", sans-serif;
+  font-family: "Intelo", sans-serif;
   display: block;
+  font-weight: bol;
   overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {
-  :global(.vtex-product-summary-2-x-containerNormal):hover {
-    box-shadow: none;
+  .containerNormal {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+  }
+
+  .nameContainer {
+    min-height: unset;
   }
 
   .productBrand {
-    height: 42px;
+    height: 40px;
+    padding: 0px 20px;
     font-size: 12px;
   }
 
   .containerNormal :global(.vtex-button) {
     margin: 4px auto;
 
+  }
+
+  .imageNormal {
+    max-height: 130px !important;
+  }
+
+  .containerNormal :global(.vtex-button) {
+    min-height: 22px;
+    max-height: 22px;
+    font-size: 12px;
+    max-width: 137px;
+    margin: 0 auto;
+  }
+
+  .containerNormal :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-size: 12px;
   }
 }
 

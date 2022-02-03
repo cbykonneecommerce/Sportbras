@@ -3,6 +3,10 @@
   background-color: #E4E4E4;
 }
 
+.sliderLayoutContainer--carousel-policies {
+  padding: 20px 0px;
+}
+
 .sliderTrackContainer--carousel-policies {
   max-width: 1200px;
   margin: 0 auto;
@@ -14,12 +18,25 @@
 
 @media screen and (min-width: 1025px) {
   .slideChildrenContainer--slider-shelf--default {
-    padding: 10px;
+    padding: 0px 10px 10px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .slide--slider-shelf--default {
     margin: 0px 10px;
+  }
+
+  .sliderLayoutContainer--carousel-policies {
+    padding: 20px;
+  }
+
+  .slideChildrenContainer--brands-slider :global(.vtex-store-components-3-x-imageElement) {
+    max-width: 108px;
+    max-height: 86px;
+  }
+
+  .sliderTrackContainer--slider-shelf--default {
+    padding-bottom: 10px;
   }
 }

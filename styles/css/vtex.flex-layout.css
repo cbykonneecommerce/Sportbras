@@ -48,7 +48,7 @@
 }
 
 .flexRow--footer__content {
-  padding: 65px 0px;
+  padding: 51px 0px 30px;
 }
 
 .flexCol--footer__content-col {
@@ -147,8 +147,33 @@
   width: 100%;
 }
 
-.flexRowContent--brand-slider{
-  padding-top: 20px;
+.flexRow--instagram-iframe {
+  max-height: 300px;
+}
+
+
+.flexRowContent--politicas-container {
+  justify-content: space-between;
+}
+
+.flexRowContent--politicas-container .stretchChildrenWidth,
+.flexRowContent--politica-item--container .stretchChildrenWidth {
+  width: auto !important;
+}
+
+.flexRow--politicas-container {
+  background: #E4E4E4;
+  padding: 20px 0px;
+}
+
+/* AJUSTES DE QA CONFORME O FIGMA*/
+
+.flexRow--brand-slider {
+  margin-top: 33px;
+}
+
+.flexRow--gigbanner {
+  margin-top: 96px;
 }
 
 @media screen and (max-width: 768px) {
@@ -167,23 +192,35 @@
 
   .flexCol--summary-cottom {
     margin: 0 auto;
+    padding: 0px 10px 10px;
   }
 
   .flexRow--gigbanner{
     margin-top: 71px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
 
   .flexRowContent--instagram-iframe :global(.vtex-sandbox-iframe){
     height: 190px !important;
   }
- 
-}
 
-.flexRowContent--brand-slider {
-  margin-bottom: 20px;
-}
+  .flexRow--brand-slider {
+    margin-top: 11px;
+  }
 
-.flexRow--instagram-iframe {
-  max-height: 300px;
+  .flexRow--brand-slider :global(.vtex-store-components-3-x-container) {
+    padding: 0px;
+  }
+
+  .flexRow--footer__content {
+    margin-top: 46px;
+  }
+
+  .flexColChild--footer__content-col--mobile-1 {
+    margin-top: 53px;
+  }
+
+  .flexRow--footer__copyright {
+    display: none;
+  }
 }

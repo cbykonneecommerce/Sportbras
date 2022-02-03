@@ -4,7 +4,9 @@
       "list-context.image-list#bannersprincipais",
       "__fold__",
       /* "flex-layout.row#promos",*/
-      "slider-layout#politicas",
+      "responsive-layout.desktop#politicas",
+      "responsive-layout.tablet#politicas",
+      "responsive-layout.phone#politicas",
       "flex-layout.row#brands",
       "__fold__.experimentalLazyImages",
       "flex-layout.row#novidades-title",
@@ -60,7 +62,6 @@
   "flex-layout.row#brands": {
     "title": "Slider marcas",
     "props": {
-      "marginTop": 5,
       "blockClass": "brand-slider"
     },
     "children": [
@@ -80,7 +81,10 @@
       "font": "t-heading-2",
       "textPosition": "LEFT",
       "textAlign": "LEFT",
-      "blockClass": "sectorTitle"
+      "blockClass": [
+        "sectorTitle",
+        "novidades"
+      ]
     }
   },
 
@@ -97,7 +101,10 @@
       "font": "t-heading-2",
       "textPosition": "LEFT",
       "textAlign": "LEFT",
-      "blockClass": "sectorTitle"
+      "blockClass": [
+        "sectorTitle",
+        "promocoes-loja"
+      ]
     }
   },
   "flex-layout.row#novidades-shelf": {
@@ -136,7 +143,10 @@
       "font": "t-heading-2",
       "textPosition": "LEFT",
       "textAlign": "LEFT",
-      "blockClass": "sectorTitle"
+      "blockClass": [
+        "sectorTitle",
+        "ofertas"
+      ]
     }
   },
   "flex-layout.row#novidades2-shelf": {
@@ -186,7 +196,10 @@
       "font": "t-heading-2",
       "textPosition": "LEFT",
       "textAlign": "LEFT",
-      "blockClass": "sectorTitle"
+      "blockClass": [
+        "sectorTitle",
+        "mais-vendidos"
+      ]
     }
   },
   "flex-layout.row#mais-vendidos-shelf": {
@@ -218,7 +231,10 @@
       "font": "t-heading-2",
       "textPosition": "LEFT",
       "textAlign": "LEFT",
-      "blockClass": "sectorTitle"
+      "blockClass": [
+        "sectorTitle",
+        "instatram--title"
+      ]
     }
   },
   "flex-layout.row#insta": {

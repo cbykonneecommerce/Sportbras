@@ -1,9 +1,10 @@
 .searchResultContainer {
-  padding: 0px;
+  padding: 0px 1.5rem;
 }
 
 :global(.vtex-checkbox__inner-container) {
   border-color: #ea002a;
+  border-width: 1px !important;
 }
 .filterTitle {
   color: #333;
@@ -47,10 +48,6 @@
     text-align: center;
     margin-left: 14em;
     margin-top: 2em;
-  }
-
-  .gallery {
-    padding-left: 20px;
   }
 }
 
@@ -96,8 +93,6 @@
 
 .galleryItem--normal {
   padding: 0px;
-  margin-bottom: 12px;
-  margin-top: 12px;
 }
 
 :global(.vtex-search-result-3-x-filterPopupTitle){
@@ -111,4 +106,51 @@
 
 :global(.vtex-search-result-3-x-progressBarFiller){
   background-color: #D92F2F;
+}
+
+.filterTitleSpan {
+  font-family: "Intelo", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.filterItem :global(.vtex-checkbox__label) {
+  font-family: "Intelo", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #515151;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.galleryItem {
+  max-width: unset !important;
+}
+
+.gallery :global(.vtex-product-summary-2-x-containerNormal) {
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    padding: 0px !important;
+  }
+
+  .searchResultContainer {
+    padding: 0px;
+  }
 }

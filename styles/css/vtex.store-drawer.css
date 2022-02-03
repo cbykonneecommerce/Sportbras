@@ -17,3 +17,7 @@
 .closeIconContainer--menu-mobile{
     justify-content: end;
 }
+
+.menuIcon--menu-mobile {
+    overflow: visible !important;
+}

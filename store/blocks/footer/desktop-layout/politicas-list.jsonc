@@ -1,4 +1,16 @@
 {
+
+  
+  "responsive-layout.desktop#politicas": {
+    "children": ["flex-layout.row#politicas"]
+  },
+  "responsive-layout.tablet#politicas": {
+    "children": ["slider-layout#politicas"]
+  },
+  "responsive-layout.phone#politicas": {
+    "children": ["slider-layout#politicas"]
+  },
+
   "slider-layout#politicas": {
     "props": {
       "itemsPerPage": {
@@ -18,27 +30,105 @@
       "rich-text#politica4"
     ]
   },
+
+  "flex-layout.row#politicas": {
+    "props": {
+      "blockClass": [
+        "politicas-container"
+      ]
+    },
+    "children": [
+      "flex-layout.row#politica-1",
+      "flex-layout.row#politica-2",   
+      "flex-layout.row#politica-3",   
+      "flex-layout.row#politica-4"   
+    ]
+  },
+
+  "flex-layout.row#politica-1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": [
+        "politica-item--container"
+      ]
+    },
+    "children": [
+      "rich-text#politica1"
+    ]
+  },
+
+  "flex-layout.row#politica-2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": [
+        "politica-item--container"
+      ]
+    },
+    "children": [
+      "rich-text#politica2"
+    ]
+  },
+
+  "flex-layout.row#politica-3": {
+    "props": {
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": [
+        "politica-item--container"
+      ]
+    },
+    "children": [
+      "rich-text#politica3"
+    ]
+  },
+
+  "flex-layout.row#politica-4": {
+    "props": {
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": [
+        "politica-item--container",
+        "politica-4"
+      ]
+    },
+    "children": [
+      "rich-text#politica4"
+    ]
+  },
+
   "rich-text#politica1": {
     "props": {
-      "text": "![RETIRE NA LOJA](/arquivos/melhores-precos.svg) **MELHORES PREÇOS**",
+      "text": "**MELHORES PREÇOS**",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",
-      "blockClass": "footer-politicas-list"
+      "blockClass": [
+        "footer-politicas-list",
+        "melhores-precos"
+      ]
     }
   },
   "rich-text#politica2": {
     "props": {
-      "text": "![PARCELE EM ATÉ 3X](/arquivos/parcelamentos.svg) **PARCELE EM ATÉ 6X**",
+      "text": "**PARCELE EM ATÉ 6X**",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",
-      "blockClass": "footer-politicas-list"
+      "blockClass": [
+        "footer-politicas-list",
+        "politica-parcelamentos"
+      ]
     }
   },
   "rich-text#politica3": {
     "props": {
-      "text": "![30 DIAS PARA TROCA](/arquivos/b3.svg) **TROCA GRÁTIS**",
+      "text": "**TROCA GRÁTIS**",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",
@@ -50,11 +140,14 @@
   },
   "rich-text#politica4": {
     "props": {
-      "text": "![ATENDIMENTO ONLINE](/arquivos/melhores-marcas.svg) **MELHORES MARCAS**",
+      "text": "**MELHORES MARCAS**",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",
-      "blockClass": "footer-politicas-list"
+      "blockClass": [
+        "footer-politicas-list",
+        "politica-melhores-marcas"
+      ]
     }
   }
 }

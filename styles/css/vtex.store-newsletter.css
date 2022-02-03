@@ -16,10 +16,10 @@ margin-top: 8px;
 
 :global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button){
     border-color: none !important;
-    font-family: "DINPro", sans-serif;
+    font-family: "Intelo", sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 26px;
     letter-spacing: 0em;
     text-align: center;
@@ -78,6 +78,15 @@ margin-top: 8px;
 
     :global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button){
         width: 66%;
+     }
+
+     .newsletterTitle {
+         margin: 0px;
+         padding: 0px;
+     }
+
+     .emailInputContainer {
+         margin-top: 19px;
      }
 }
 

@@ -346,7 +346,7 @@
       "product-summary.shelf"
     ],
     "props": {
-      "maxItemsPerRow": {
+      "itemsPerRow": {
         "desktop": 4,
         "mobile": 2
       }

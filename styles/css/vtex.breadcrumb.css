@@ -1,5 +1,10 @@
 .link {
-  text-transform: uppercase;
+  font-family: "Intelo", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #adadad;
 }
 
 .caretIcon {
@@ -7,7 +12,7 @@
 }
 
 .container {
-  margin-top: 34px;
+  margin-top: 32px;
   align-items: center;
   display: flex;
   margin-bottom: 10px;
@@ -16,6 +21,13 @@
 .arrow {
   display: flex;
   align-items: center;
+}
+
+.homeIcon {
+  overflow: visible !important;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
 }
 
 .arrow::before {

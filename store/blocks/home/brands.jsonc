@@ -13,6 +13,7 @@
       "image#brand10"
     ],
     "props": {
+      "blockClass": ["brands-slider"],
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 4,

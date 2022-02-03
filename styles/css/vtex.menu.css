@@ -32,9 +32,11 @@ margin-top: -7px;
   margin: 0px;
 }
 
-:global(.vtex-menu-2-x-styledLinkContainer--menu-footer) {
-  padding-bottom: 1rem;
-  margin-left: 0;
+.styledLinkContainer--menu-footer {
+  margin: 0px 0px 12px;
+  padding: 0px;
+  color: #4f4f4f;
+  font-family: "Intelo", sans-serif;
 }
 
 .styledLinkContent--allCategoryBlock {
@@ -179,7 +181,11 @@ margin: 0;
   }
 
   .menuItem--linkList-footer-toggle :global(.vtex-menu-2-x-styledLinkContainer){
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+  }
+
+  .styledLinkContent--linkList-footer-toggle {
+    font-size: 20px;
   }
 }
 

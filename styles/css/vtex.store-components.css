@@ -112,6 +112,8 @@
   padding: 4px 14px;
   text-transform: uppercase;
   font-weight: bold;
+  font-family: "Intelo", sans-serif;
+  font-size: 10px;
 }
 
 .price_sellingPriceContainer {
@@ -131,14 +133,17 @@
   :global(.vtex-search-2-x-biggy-autocomplete-wrapper){
     width: 95vw;
   }
+
+  .discountInsideContainer {
+    padding: 2px 5px;
+    font-size: 8px;
+  }
 }
 
 @media (min-width: 900px) {
   :global(.vtex-store-components-3-x-productBrand) {
     font-size: 30px !important;
   }
-
- 
 }
 
 
@@ -172,4 +177,70 @@
 .imageElement--carousel {
   display: block;
   height: 100%;
+}
+
+:global(.vtex-product-summary-2-x-price_listPriceLabel),
+:global(.vtex-product-summary-2-x-price_listPriceContainer),
+:global(.vtex-store-components-3-x-listPriceValue) {
+  font-family: "Intelo", sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #909090;
+}
+
+:global(.vtex-product-summary-2-x-price_sellingPriceLabel) {
+  font-family: "Intelo", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+
+:global(.vtex-product-summary-2-x-price_sellingPrice) {
+  font-family: "StretchPro", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+
+:global(.vtex-search-2-x-biggy-autocomplete-wrapper) :global(.vtex-product-summary-2-x-price_sellingPriceContainer) {
+  font-size: 0px;
+  padding: 0px;
+}
+
+:global(.vtex-search-2-x-biggy-autocomplete-wrapper) :global(.vtex-product-summary-2-x-buyButtonText) {
+  font-size: 0px;
+}
+
+:global(.vtex-search-2-x-biggy-autocomplete-wrapper) :global(.vtex-product-summary-2-x-buyButtonText)::before {
+  content: "COMPRAR";
+  font-family: "StretchPro", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+    color: #fff;
+}
+
+:global(.vtex-search-2-x-biggy-autocomplete-wrapper) :global(.vtex-product-summary-2-x-priceContainer) {
+  padding: 0px;
+}
+
+:global(.vtex-store-components-3-x-listPriceValue) {
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 768px) {
+.searchBarContainer {
+  padding-bottom: 10px;
+}
 }
