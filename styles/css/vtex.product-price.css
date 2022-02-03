@@ -20,7 +20,9 @@
 .listPrice {
   text-align: left;
   min-height: 16px;
-  color: #bdbdbd;
+  color: #909090;
+  font-family: "Intelo", sans-serif;
+  font-weight: 400;
 }
 
 .listPrice::before {

@@ -1,6 +1,6 @@
 .link {
   font-family: "Intelo", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 19px;
   letter-spacing: 0em;
   text-align: center;
@@ -15,7 +15,8 @@
   margin-top: 32px;
   align-items: center;
   display: flex;
-  margin-bottom: 10px;
+  padding: 0px;
+  margin-bottom: 21px;
 }
 
 .arrow {
@@ -45,6 +46,13 @@
 @media screen and (max-width: 768px) {
   .term,
   .link {
-    font-size: 12px;
+    font-size: 9px;
+    color: #979899;
+    line-height: normal;
+  }
+
+  .container {
+    margin-top: 21px;
+    margin-bottom: 19px;
   }
 }

@@ -137,6 +137,7 @@
       "flex-layout.col#content"
     ],
     "props": {
+      "blockClass": ["filter-and-content"],
       "preventHorizontalStretch": true,
       "fullWidth": true
     }
@@ -164,6 +165,11 @@
     }
   },
   "flex-layout.row#searchinfo": {
+    "props": {
+      "blockClass": [
+        "product-count"
+      ]
+    },
     "children": [
       "flex-layout.col#productCount",
       "flex-layout.col#orderby"
@@ -195,6 +201,7 @@
   },
   "flex-layout.row#fetchmore": {
     "props": {
+      "blockClass":["show-more-bottom"],
       "marginTop": 3
     },
     "children": [
@@ -279,6 +286,13 @@
       "blockClass": "filterMobileCol"
     }
   },
+
+  "filter-navigator.v3": {
+    "props": {
+      "initiallyCollapsed": true
+    }
+  },
+
   "flex-layout.col#switcherMobile": {
     "children": [
       "search-layout-switcher"

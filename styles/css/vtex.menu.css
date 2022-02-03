@@ -72,6 +72,7 @@ margin-top: -7px;
 
 .submenuWrapper--main-menu-row-desk {
   background-color: #F2F2F2;
+  z-index: 10000;
 }
 
 .menuContainerNav--category-menu-mobile,

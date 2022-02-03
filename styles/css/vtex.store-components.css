@@ -240,7 +240,17 @@
 }
 
 @media screen and (max-width: 768px) {
-.searchBarContainer {
-  padding-bottom: 10px;
-}
+  .searchBarContainer {
+    padding-bottom: 10px;
+  }
+
+  .productNameContainer {
+    font-size: 17px; 
+  }
+  .price_sellingPrice--pdp {
+    font-size: 30px;
+    color: #555555;
+    font-family: "StretchPro";
+    padding: 0px;
+  }
 }

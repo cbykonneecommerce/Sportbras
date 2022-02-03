@@ -40,4 +40,8 @@
   .sliderTrackContainer--slider-shelf--default {
     padding-bottom: 10px;
   }
+  .sliderLayoutContainer--slider-shelf--default {
+    padding: 0px !important;
+    padding-bottom: 10px;
+  }
 }
