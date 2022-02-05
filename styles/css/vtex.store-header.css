@@ -30,7 +30,9 @@
   padding-left: 0px;
 }
 
-
+:global(.vtex-reviews-and-ratings-2-x-loginLink) {
+  padding-left: 0px;
+}
 
 :global(.vtex-address-form__postalCode) {
   padding-bottom: 0px;
