@@ -116,6 +116,7 @@
       "sku-selector",
       "product-quantity",
       "add-to-cart-button",
+      "custom-shipping-placeholder",
       "shipping-simulator",
       "availability-subscriber"
     ]
@@ -210,8 +211,7 @@
       "flex-layout.col#description"
     ],
     "props": {
-      "marginTop": 7,
-      "marginBottom": 7
+      "blockClass": ["product-description"]
     }
   },
   "flex-layout.col#description":{
@@ -243,6 +243,7 @@
   },
   "rich-text#descriptionTitle": {
     "props": {
+      "blockClass": "accordion-label",
       "text": "Descrição"
     }
   },

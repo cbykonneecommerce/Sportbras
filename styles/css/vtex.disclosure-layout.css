@@ -59,11 +59,21 @@
     padding-right: 12px;
   }
 
+  .trigger--store-spec :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 18px;
+    font-family:'Intelo', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282828;
+  }
+
+  .content--answer {
+    font-size: 14px;
+  }
+
 }
-
-
-
-
 
 .content--answer--visible{
   padding-bottom: 2em;

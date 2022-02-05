@@ -1,0 +1,19 @@
+.productBrandName  {
+    font-family: 'Intelo', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #9f9f9f;
+}
+
+.productName {
+    font-family: 'Intelo', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+    font-weight: bold;
+}

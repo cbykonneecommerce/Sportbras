@@ -3,7 +3,7 @@
 }*/
 
 .skuSelectorSubcontainer {
-  margin-bottom: 5px;
+  margin: 0px;
 }
 
 .sellingPrice {
@@ -13,9 +13,11 @@
   display: inline-block;
 }
 
+.price_listPrice--pdp,
+.price_listPriceLabel--pdp,
 :global(.vtex-store-components-3-x-listPrice) {
   font-family: "Intelo", sans-serif;
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 :global(.vtex-store-components-3-x-listPriceLabel),
@@ -23,6 +25,30 @@
   font-size: 14pt;
   padding: 0px;
   margin-right: 5px;
+}
+
+.skuSelectorItem--selected .skuSelectorItemTextValue {
+  color: #000 !important;
+}
+
+.skuSelectorItemTextValue {
+  color: #bdbdbd;
+  font-family: 'Intelo', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.skuSelectorName {
+  font-family: 'Intelo', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-weight: normal;
+  color: #9f9f9f;
 }
 
 :global(.vtex-store-components-3-x-price_sellingPriceLabel) {
@@ -80,8 +106,7 @@
   border-radius: 0;
 }
 .shippingContainer {
-  margin-top: 39px;
-  margin-bottom: 37px;
+  margin-bottom: 0px;
 }
 
 .productDescriptionTitle {
@@ -104,7 +129,12 @@
 }
 
 :global(.vtex-store-components-3-x-skuSelectorTextContainer) {
-  margin-top: 1em;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.skuSelectorOptionsList {
+  margin: 0px;
 }
 
 .discountInsideContainer {
@@ -252,5 +282,41 @@
     color: #555555;
     font-family: "StretchPro";
     padding: 0px;
+  }
+}
+
+.shippingContainer :global(.vtex-input__label) {
+  color: #4f4f4f;
+  font-family: 'Intelo', sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: normal;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.shippingContainer :global(.vtex-input-prefix__group) {
+  border: 2px solid #BDBDBD;
+  border-radius: 3px;
+}
+
+.shippingContainer :global(.vtex-button) {
+  padding: 0px;
+  font-family: 'Intelo', sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#979899;
+}
+
+
+@media screen and (min-width: 769px) {
+  .skuSelectorTextContainer {
+    margin-top: 26px;
+  }
+
+  .shippingContainer {
+    margin-top: 26px;
   }
 }

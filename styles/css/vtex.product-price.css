@@ -30,17 +30,21 @@
   font-size: 14px;
 }
 
+.savings {
+  display: none;
+}
+
 .installments--pdp-installments {
   position: relative;
   top: -5px;
-  margin-left: 28px;
 }
 
 .installments--pdp-installments {
   font-weight: bold;
   font-family: "Intelo", sans-serif;
   font-size: 17px;
-  color: #555555;
+  color: #282828;
+  font-weight: 200;
 }
 
 .savings {

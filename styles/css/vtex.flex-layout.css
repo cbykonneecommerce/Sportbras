@@ -254,5 +254,23 @@
     margin: 0px;
     padding: 0px;
   }
-  
+
+  .flexColChild--product-content-section :global(.vtex-button) {
+    padding: 10px;
+    font-size: 23px;
+  }
+
+  .flexColChild--product-content-section :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-size: 23px;
+  }
+
+  .flexRowContent--product-description {
+    margin-top: 27px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .flexRowContent--product-price--details .stretchChildrenWidth {
+    width: auto !important;
+  }
 }

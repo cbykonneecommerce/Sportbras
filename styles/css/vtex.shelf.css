@@ -23,3 +23,10 @@
     margin: 0px 12px;
   }
 }
+
+@media screen and (min-width: 769px) {
+  .container--related--shelf {
+    margin-top: 100px;
+    padding-top: 0px;
+  }
+}

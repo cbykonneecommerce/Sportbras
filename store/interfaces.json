@@ -1,5 +1,8 @@
 {
   "custom-collapsible": {
     "component": "CustomCollapsible"
+  },
+  "custom-shipping-placeholder": {
+    "component": "ShippingContainerPlaceholder"
   }
 }

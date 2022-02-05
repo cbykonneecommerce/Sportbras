@@ -10,3 +10,53 @@
     width: 32%;
     padding: 7px 0px;
 }
+
+:global(.vtex_my-authentication_loginSessionsBox_title),
+:global(.vtex_my-authentication_maskedPassword_title),
+.menuLink,
+:global(.vtex-account_menu-link),
+.newsletterContainerTitle,
+.dataEntryChildren,
+.dataEntryLabel {
+    font-family: 'Intelo', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: bold;
+    color: #515151;
+}
+
+:global(.vtex_my-authentication_loginSessionsBox_title),
+:global(.vtex_my-authentication_maskedPassword_title),
+.menuLink,
+:global(.vtex-account_menu-link),
+.newsletterContainerTitle,
+.dataEntryLabel {
+    text-transform: uppercase;
+}
+
+:global(.vtex-account_menu-link){
+    border: none !important;
+}
+
+.dataEntryChildren {
+    font-weight: normal;
+}
+
+.userGreeting,
+:global(.vtex_my-authentication_box_footer) :global(.vtex-button),
+.boxContainerFooter :global(.vtex-button) {
+    font-family: 'Intelo', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: bold;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 2px;
+}
+
+:global(.vtex_my-authentication_box_footer) :global(.vtex-button) {
+    background-color: #DB0D15;
+    color: #fff;
+}

@@ -9,3 +9,18 @@
 .specificationName{
     font-weight: bold;
 }
+
+.quantitySelectorContainer {
+    margin: 35px 0px 23px;
+}
+
+:global(.vtex-numeric-stepper__minus-button__text),
+:global(.vtex-numeric-stepper__plus-button__text),
+:global(.vtex-numeric-stepper__input) {
+    font-family: 'Intelo', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #9f9f9f;
+} 
