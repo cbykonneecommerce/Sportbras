@@ -1,32 +1,32 @@
 
 @font-face {
   font-family: 'Intelo';
-  src: url('/arquivos/Intelo-Regular.ttf.css'); 
+  src: url('https://sportbras.vteximg.com.br/arquivos/Intelo-Regular.ttf.css'); 
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Intelo';
-  src: url('/arquivos/Intelo-Bold.ttf.css'); 
+  src: url('https://sportbras.vteximg.com.br/arquivos/Intelo-Bold.ttf.css'); 
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'Intelo';
-  src: url('/arquivos/Intelo-Light.ttf.css'); 
+  src: url('https://sportbras.vteximg.com.br/arquivos/Intelo-Light.ttf.css'); 
   font-weight: 200;
 }
 
 @font-face {
   font-family: 'StretchPro';
-  src: url('/arquivos/2tretchPro.ttf.css'); 
-  font-weight: 'norm2l';
+  src: url('https://sportbras.vteximg.com.br/arquivos/2tretchPro.ttf.css'); 
+  font-weight: 'normal';
 }
 
 @font-face {
   font-family: 'StretchPro';
-  src: url('/arquivos/2tretchPro.ttf.css'); 
-  font-weight: 'bo2d';
+  src: url('https://sportbras.vteximg.com.br/arquivos/2tretchPro.ttf.css'); 
+  font-weight: 'bold';
 }
 
 
@@ -55,10 +55,11 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-  padding: 30px 0px;
-  border-bottom: 1px solid #808082;
+  padding: 30px 0px !important;
+  border-bottom: 1px solid #808080;
   max-width: unset;
   width: 100%;
+  background-color: #fff;
 }
 // cart
 
@@ -107,7 +108,7 @@ table.table.cart-items {
         tr {
           th {
             font-family: 'Intelo', sans-serif;
-            font-size: 18px;
+            font-size: 21px;
             font-style: normal;
             font-weight: normal;
             line-height: 25px;
@@ -126,10 +127,7 @@ table.table.cart-items {
     }
 
     tr.product-item {
-      td {
-        padding: 20px 0px;
-      }
-
+    
       .icon-remove:before {
         content: 'X';
         font-family: 'Intelo', sans-serif;
@@ -148,39 +146,47 @@ table.table.cart-items {
       }
 
       td.product-name {
+
         a {
+          display: block;
           font-family: 'Intelo', sans-serif;
-          font-size: 15px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 22px;
+          font-size: 16px;
+          font-weight: normal;
+          line-height: 21px;
           letter-spacing: 0em;
           text-align: left;
           color: #4f4f4f;
-          text-decoration: none !important;
+          margin-bottom: 4px;
         }
       }
 
       td.shipping-date,
       td.product-price {
+
+        .old-product-price,
         span {
-          font-family: 'Raleway', sans-serif;
-          font-size: 14px;
+          font-family: 'Intelo', sans-serif;
+          font-size: 16px;
           font-style: normal;
-          font-weight: 300;
+          font-weight: normal;
           line-height: 19px;
           letter-spacing: 0em;
           text-align: left;
         }
+
+        .old-product-price {
+          color: #808080;
+        }
+
       }
 
       td.quantity-price {
         span.total-price,
         span.total-selling-price {
-          font-family: 'Raleway', sans-serif;
-          font-size: 14px;
+          font-family: 'Intelo', sans-serif;
+          font-size: 16px;
           font-style: normal;
-          font-weight: 300;
+          font-weight: normal;
           color: #4f4f4f;
           line-height: 19px;
           letter-spacing: 0em;
@@ -197,6 +203,10 @@ table.table.cart-items {
           width: 100%;
           height: 100%;
           max-width: unset;
+          border: 1px solid #DEDEDE;
+          box-sizing: border-box;
+          border-radius: 5px;
+          max-width: 99px;
 
           @media screen and (max-width: 768px) {
             max-width: 60px;
@@ -206,7 +216,7 @@ table.table.cart-items {
 
       td.quantity {
         input {
-          font-family: 'Raleway', sans-serif;
+          font-family: 'Intelo', sans-serif;
           font-size: 18px;
           font-style: normal;
           font-weight: 300;
@@ -230,12 +240,29 @@ table.table.cart-items {
   }
 }
 
+tbody.totalizers-list {
+  td.info {
+    text-align: left !important;
+    width: 100%;
+  }
+}
+
+td.info {
+  text-align: left !important;
+}
+
 .summary-template-holder {
+  border: none !important;
+
+  .cart-more-options {
+    margin: 0px;
+  }
+
   div#shipping-preview-container h2 {
     font-family: 'Intelo', sans-serif;
     font-size: 25px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
@@ -247,33 +274,25 @@ table.table.cart-items {
     justify-content: flex-start;
     margin-bottom: 40px;
     margin-top: 40px;
-
-    &::after {
-      content: 'Veja as opções de entrega para seus ítens.';
-      font-family: 'Intelo', sans-serif;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 24px;
-      letter-spacing: 0em;
-      text-align: left;
-      display: flex;
-      white-space: nowrap;
-      margin-top: 10px;
-    }
   }
 
   .summary-totalizers.cart-totalizers {
     a#cart-link-coupon-add,
     p.coupon-data {
-      text-align: right;
       font-family: 'Intelo', sans-serif;
-      font-size: 15px;
+      font-size: 17px;
       font-style: normal;
-      font-weight: 300;
+      font-weight: 200;
       line-height: 20px;
-      text-decoration: underline;
+      letter-spacing: 0em;
+      text-align: left;
       color: #4f4f4f;
+      display: block;
+      width: 100%;
+      text-align: right;
+      text-decoration: underline;
+      white-space: nowrap;
+      margin: 0px;
     }
 
     table.table {
@@ -290,6 +309,7 @@ table.table.cart-items {
         }
         td.monetary {
           text-align: right;
+          white-space: nowrap;
         }
       }
     }
@@ -300,11 +320,12 @@ table.table.cart-items {
         font-size: 22px;
         font-family: 'Intelo', sans-serif;
         font-style: normal;
-        font-weight: 400;
+        font-weight: normal;
         line-height: 26px;
         letter-spacing: 0em;
       }
 
+  
       td.monetary {
         width: 100%;
       }
@@ -313,6 +334,51 @@ table.table.cart-items {
         display: none;
       }
     }
+
+    tfoot {
+      td.monetary,
+      td.info {
+        color: #D20A11;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.coupon.summary-coupon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 55px !important;
+
+  @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  a#go-back-link {
+    font-family: 'Intelo', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #4f4f4f;
+    display: block;
+    width: 100%;
+    text-align: right;
+    text-decoration: underline;
+    margin-right: 23px;
+    white-space: nowrap;
+
+    @media screen and (max-width: 768px) {
+      margin: 0px;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+
   }
 }
 
@@ -361,28 +427,37 @@ div#shipping-preview-container {
     display: flex;
   }
 
-  p.input.ship-postalCode.required.text {
+  .vtex-shipping-preview-0-x-postalCodeForgotten {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-width: 300px;
+    align-items: flex-end;
+  }
 
-    label {
+  p.input.ship-postalCode {
+
+
+    &::before {
+      content: "CEP";
       font-family: 'Intelo', sans-serif;
       font-size: 16px;
       font-style: normal;
-      font-weight: 400;
       letter-spacing: 0em;
       text-align: left;
       display: flex;
       white-space: nowrap;
       width: 100%;
       margin-bottom: 15px;
+      color: #4f4f4f;
+      font-weight: bold;
+    }
+
+    width: 100%;
+
+    label {
+      display: none;
     }
 
     input {
-      height: 50px;
+      height: 40px;
       width: 100%;
       padding: 10px;
       font-family: 'Intelo', sans-serif;
@@ -393,8 +468,11 @@ div#shipping-preview-container {
       letter-spacing: 0em;
       text-align: left;
       display: flex;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 4px;
+      max-width: 172px;
     }
-
     small {
       a {
         display: none;
@@ -403,15 +481,17 @@ div#shipping-preview-container {
   }
 
   button#cart-shipping-calculate {
-    font-size: 0px;
-    padding: 23px;
-    position: relative;
-    top: 17px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='21' viewBox='0 0 18 21' fill='%23fff'%3E%3Cpath d='M0.488828 20.525V15.665L11.5138 10.535L0.488828 5.36V0.5L17.0938 8.465V12.56L0.488828 20.525Z' fill='%23F2F2F2'/%3E%3C/svg%3E");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-color: #D20A11;
+    height: 40px;
+    margin-left: 12px;
+    color: #31719F;
+    font-family: 'Intelo', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+      border: 1px solid #31719F;
+  box-sizing: border-box;
+  border-radius: 4px;
   }
 
   p.srp-description {
@@ -428,15 +508,23 @@ a#cart-to-orderform {
   color: #fff;
   border: none;
   width: 100%;
-  min-width: 240px;
-  font-size: 12px;
-  font-family: 'StretchPro', sans-serif;
-  font-weight: normal;
+  min-width: 320px;
+  font-size: 0px;
+  font-family: 'Intelo', sans-serif;
+  font-weight: bold;
   line-height: 26px;
   letter-spacing: 0em;
   text-transform: uppercase;
   text-transform: uppercase;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::before {
+    content: "FINALIZAR COMPRA";
+    font-size: 20px;
+  }
 }
 
 // checkout steps
@@ -448,6 +536,7 @@ a#cart-to-orderform {
   max-width: 1320px;
   margin: 0 auto;
   align-items: center;
+  margin-bottom: 60px;
 
   @media screen and (max-width: 768px) {
     padding: 10px;
@@ -466,6 +555,7 @@ a#cart-to-orderform {
     margin: 0px;
     min-width: 57px;
     border: none;
+    position: relative;
   }
   .step--line {
     width: 100%;
@@ -473,8 +563,26 @@ a#cart-to-orderform {
     background: #bcc4bf;
   }
 
+  span.step-label {
+    color: #BCC4BF;
+    font-family: Arial;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 14px;
+      letter-spacing: 0em;
+      text-align: left;
+      position: absolute;
+      bottom: -20px;
+  }
+
   .active {
     background: #D20A11;
+
+    span.step-label {
+      color: #4f4f4f;
+    }
+
   }
 }
 
@@ -491,13 +599,15 @@ h1#orderform-title {
 
   .orderform-template {
     div#client-profile-data {
+
+      border: none  !important;
+
       label.checkbox.newsletter-label {
         display: none !important;
       }
 
       .client-profile-data {
-        background: rgba(200, 200, 200, 0.2);
-        border: 1px solid #dedede;
+        background-color: #fff;
 
         @media screen and (max-width: 768px) {
           padding: 10px;
@@ -514,9 +624,9 @@ h1#orderform-title {
           p.client-profile-email,
           label {
             font-family: 'Intelo', sans-serif;
-            font-size: 11px;
+            font-size: 16px;
             font-style: normal;
-            font-weight: 300;
+            font-weight: normal;
             line-height: 13px;
             color: #4f4f4f;
             letter-spacing: 0em;
@@ -526,7 +636,7 @@ h1#orderform-title {
           input {
             height: 41px;
             font-family: 'Intelo', sans-serif;
-            font-size: 15px;
+            font-size: 14px;
             font-style: normal;
             font-weight: 300;
             line-height: 13px;
@@ -574,14 +684,14 @@ h1#orderform-title {
             background: #D20A11;
             color: #fff;
             font-family: 'Intelo', sans-serif;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
+            font-size: 12px;
+            font-weight: normal;
             line-height: 17px;
             letter-spacing: 0em;
             min-width: 183px;
             border: none;
             text-align: center;
+            text-transform: uppercase;
           }
         }
 
@@ -597,9 +707,10 @@ h1#orderform-title {
         }
 
         p.client-notice.notice {
-          font-size: 15px;
+          font-size: 13px;
           font-style: normal;
-          font-weight: 400;
+          font-weight: 200;
+          font-family: "Intelo", sans-serif;
           line-height: 14px;
           letter-spacing: 0em;
           color: #4f4f4f;
@@ -614,9 +725,9 @@ h1#orderform-title {
           span {
             font-family: 'Intelo', sans-serif;
             font-size: 20px;
-            font-style: normal;
+            font-style: bold;
             color: #4f4f4f;
-            font-weight: 400;
+            font-weight: normal;
             line-height: 26px;
             letter-spacing: 0em;
             text-align: left;
@@ -629,8 +740,8 @@ h1#orderform-title {
 
 div#shipping-data {
   .step {
-    background: rgba(200, 200, 200, 0.2);
-    border: 1px solid #dedede;
+    background: #fff;
+    border: none !important;
 
     @media screen and (max-width: 768px) {
       padding: 10px;
@@ -704,9 +815,8 @@ div#shipping-data {
       font-family: 'StretchPro', sans-serif;
       font-size: 12px;
       font-style: normal;
-      font-weight: 400;
-      line-height: 17px;
-      letter-spacing: 0em;
+      font-weight: normal;
+      text-transform: uppercase;
       min-width: 183px;
       border: none;
       text-align: center;
@@ -714,17 +824,37 @@ div#shipping-data {
   }
 }
 
+.vtex-omnishipping-1-x-leanShippingGroupList {
+  background-color: #fff !important;
+}
+
+span.quantity.badge {
+  background-color: #000;
+  color: #fff;
+  font-family: "Intelo", sans-serif;
+  width: 15px;
+  height: 15px;
+}
+
 a#open-shipping {
-  border: 2px solid #bdbdbd;
   font-family: 'Intelo', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10px;
-  line-height: 12px;
-  color: #4f4f4f;
+  background: #D20A11;
+  color: #fff;
+  border: none;
+  text-decoration: none !important;
 }
 
 .cart-fixed {
+
+  @media screen and (min-width: 768px) {
+    max-width: 300px;
+  }
+
+  width: 100%;
+
   h2 {
     font-family: 'Intelo', sans-serif;
     font-size: 18px;
@@ -783,13 +913,12 @@ p.payment-submit-wrap {
     border-radius: 4px;
 
     span {
-      font-family: 'StretchPro', sans-serif;
+      font-family: 'Intelo', sans-serif;
       color: #fff;
-      font-size: 12px;
-      font-style: bold;
-      font-weight: 400;
-      line-height: 17px;
+      font-size: 14px;
+      font-weight: normal;
       letter-spacing: 0em;
+      text-transform: uppercase;
     }
 
     &:disabled,
@@ -811,7 +940,7 @@ div#payment-data {
   }
 
   .step {
-    border: 1px solid #dedede;
+    border: none !important;
 
     @media screen and (max-width: 768px) {
       padding: 10px;
@@ -828,12 +957,12 @@ div#payment-data {
 
   .required.payment-group-list-btn {
     a {
-      border: 2px solid #dedede;
+      border: 1px solid #dedede;
       border-radius: 4px;
       padding: 10px;
       margin: 10px 0px 0px;
 
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Intelo', sans-serif;
       font-size: 15px;
       font-style: normal;
       font-weight: 400;
@@ -863,6 +992,18 @@ div#payment-data {
   }
 }
 
+.accordion-toggle .link-box-edit {
+  background-color: #fff !important;
+  border: none;
+  top: 0px;
+  right: 0px;
+  box-shadow: none !important;
+}
+
+.icon-edit::before {
+  color: #D20A11;
+}
+
 span.SecurityEnvironmentIcon {
   display: flex;
   flex-direction: column;
@@ -885,12 +1026,12 @@ span.SecurityEnvironmentIcon {
   label.FormFieldLabel {
     font-family: 'Intelo', sans-serif;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     line-height: 14px;
     letter-spacing: 0em;
     text-align: left;
     color: #4f4f4f;
+    margin: 0px 0px 10px;
   }
 
   input {
@@ -903,7 +1044,7 @@ span.SecurityEnvironmentIcon {
     letter-spacing: 0em;
     text-align: center;
     color: #4f4f4f;
-    border: 2px solid #dedede;
+    border: 1px solid #dedede;
     border-radius: 5px;
     height: 44px;
     width: 100%;
@@ -912,7 +1053,7 @@ span.SecurityEnvironmentIcon {
 
   p.ChangeNumberOfPayments {
     a {
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Intelo', sans-serif;
       font-size: 15px;
       font-style: normal;
       font-weight: 400;
@@ -996,12 +1137,21 @@ span.SecurityEnvironmentIcon {
 
 .cart-template.mini-cart {
   background: #fff;
-  border: 1px solid #dedede;
+  border: none !important;
+  max-width: 300px;
+  box-shadow: none !important;
 
   .cart-fixed {
     padding: 15px;
     height: auto !important;
     background-color: #fff;
+    padding-bottom: 0px;
+
+    img {
+      border: 1px solid #DEDEDE;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
 
     li.hproduct {
       padding-bottom: 30px;
@@ -1009,10 +1159,9 @@ span.SecurityEnvironmentIcon {
     }
 
     span.fn.product-name {
-      font-family: 'Raleway', sans-serif;
-      font-size: 15px;
-      font-style: normal;
-      font-weight: 700;
+      font-family: 'Intelo', sans-serif;
+      font-size: 12px;
+      font-weight: normal;
       line-height: 18px;
       letter-spacing: 0em;
       text-align: left;
@@ -1041,21 +1190,23 @@ span.SecurityEnvironmentIcon {
         display: none;
       }
 
+      tfoot {
+        td {
+          text-align: left;
+          width: 100%;
+        }
+      }
+
       td {
         font-family: 'Intelo', sans-serif;
         font-size: 18px !important;
         font-style: normal;
-        font-weight: 400;
-        line-height: 22px;
+        font-weight: normal;
         letter-spacing: 0em;
         color: #828282;
       }
     }
   }
-}
-
-.container.container-main.container-cart .summary-template-holder {
-  background: transparent;
 }
 
 fieldset.box-client-info-pj {
@@ -1070,6 +1221,10 @@ form.form-page.client-pre-email {
       top: 5px;
     }
   }
+}
+
+svg.srp-icon-radio-selected.db path {
+  fill: #000;
 }
 
 // Pre ewmail
@@ -1130,7 +1285,101 @@ fieldset.pre-email.row-fluid {
 }
 }
 
-
 // compra
 
 div#app-container { background-color: #fff }
+
+.container.container-main {
+  width: 100% !important;
+  padding: 0px 20px;
+  max-width: 1200px;
+}
+
+.box-client-info {
+  p.client-phone,
+  p.client-last-name {
+    max-width: 47%;
+  }
+
+  p.client-document,
+  p.client-first-name {
+    max-width: 49%;
+  }
+}
+
+.form-step.box-info {
+  font-family: "Intelo", sans-serif;
+  color: #4f4f4f;
+}
+
+.box-step.box-info.shipping-summary-placeholder {
+  font-family: "Intelo", sans-serif;
+  color: #4f4f4f;
+}
+
+svg.vtex-omnishipping-1-x-svg path {
+  fill: #D20A11;
+}
+
+.vtex-omnishipping-1-x-leanShippingOptionActive {
+  background-color: #fff !important;
+}
+
+a#force-shipping-fields {
+  color: #D20A11;
+}
+
+.vtex-omnishipping-1-x-addressSummaryActive .address-summary {
+  background: #fff !important;
+  padding: 15px !important;
+}
+
+p.vtex-omnishipping-1-x-shippingSectionTitle.delivery-address-title {
+  display: none;
+}
+
+.accordion-inner.shipping-container {
+  label {
+    font-family: "Intelo", sans-serif;
+    color: #4f4f4f;
+    font-size: 16px;
+  }
+}
+
+p.link.link-gift-card {
+  position: initial !important;
+}
+
+form.form-step {
+
+  .steps-view {
+    @media screen and (min-width: 768px) {
+      width: 75% !important;
+    }
+  }
+}
+
+label.srp-shipping-current-single {
+  background-color: #fff;
+  border-radius: 1px solid #dedede;
+}
+
+
+.summary-discount-descriptions {
+  table.table {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  tbody.totalizers-list {
+    td {
+      display: flex !important;
+      align-items: center;
+    }
+  }
+}
+
+
+tbody.totalizers-list {
+
+}

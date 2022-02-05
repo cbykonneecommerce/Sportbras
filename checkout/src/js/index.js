@@ -62,7 +62,7 @@
       addBlockWhenComplement();
     });
 
-    $(window).on('ready hashchange', function() {
+    $(window).on('ready hashchange', function () {
       addBlockWhenComplement();
     });
   }
@@ -100,3 +100,9 @@
   init();
 
 })();
+
+$(document).ready(function() {
+  setTimeout(() => {
+    $('.coupon.summary-coupon').prepend(`<a href='/' id='go-back-link'>Escolher mais produtos</a>`)
+  }, 3000)
+})
