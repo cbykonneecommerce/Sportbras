@@ -62,6 +62,7 @@
         "vtex.menu@2.x:menu#category-menu-01"
       ],
       "props": {
+        "sticky": true,
         "blockClass": "main-menu"
       }
     },

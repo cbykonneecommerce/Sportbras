@@ -91,6 +91,7 @@
   
   "flex-layout.col#footer-1-box-copy":{
     "props":{
+      "blockClass": ["copy-container"],
       "width":"90%"
     },
     "children":[

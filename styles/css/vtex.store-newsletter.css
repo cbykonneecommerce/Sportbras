@@ -91,7 +91,7 @@ margin-top: 8px;
 }
 
 @media screen and (min-width: 768px) {
-    .nameInputContainer--newsletterInput {
+    .emailInputContainer {
         margin-right: 2rem;
     }
 }

@@ -101,7 +101,6 @@
 
 .brandName--search {
   font-size: 12px;
-  white-space: nowrap;
   width: 115px;
   text-overflow: ellipsis;
 }

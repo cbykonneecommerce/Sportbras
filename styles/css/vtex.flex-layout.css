@@ -278,8 +278,19 @@
   }
 }
 
+.flexColChild--product-content-section :global(.vtex-reviews-and-ratings-2-x-summaryContainer),
+.flexColChild--product-content-section :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
+  margin-bottom: 34px;
+}
+
 @media screen and (min-width: 769px) {
   .flexRowContent--product-price--details .stretchChildrenWidth {
     width: auto !important;
   }
+
+  .flexColChild--copy-container {
+    display: flex;
+    align-items: center;
+  }
+
 }

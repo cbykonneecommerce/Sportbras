@@ -222,7 +222,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 20px;
+  margin-right: 40px;
 
 }
 
@@ -309,4 +309,5 @@
       margin: 0px !important;
       padding: 0px;
     }
+ 
 }
