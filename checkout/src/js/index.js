@@ -103,6 +103,9 @@
 
 $(document).ready(function() {
   setTimeout(() => {
-    $('.coupon.summary-coupon').prepend(`<a href='/' id='go-back-link'>Escolher mais produtos</a>`)
+
+    const linkToHome = "<a href='/' id='go-back-link'>Escolher mais produtos</a>"
+    $('.coupon.summary-coupon').prepend(linkToHome)
+    $('div#shipping-preview-container').prepend(linkToHome)
   }, 3000)
 })
