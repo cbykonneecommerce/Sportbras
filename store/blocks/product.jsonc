@@ -121,6 +121,7 @@
       "availability-subscriber"
     ]
   },
+
   "flex-layout.row#product-price-details": {
     "props": {
       "blockClass": [
@@ -142,6 +143,7 @@
   },
   "sku-selector": {
     "props": {
+      "initialSelection": "empty",
       "hideImpossibleCombinations": true,
       "showValueForVariation": "all",
       "maxItems": 10,
