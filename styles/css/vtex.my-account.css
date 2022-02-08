@@ -60,3 +60,17 @@
     background-color: #DB0D15;
     color: #fff;
 }
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.userGreeting {
+    text-align: left;
+}
+
+:global(.vtex-pageHeader__title ) {
+    text-transform: uppercase;
+}

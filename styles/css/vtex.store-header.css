@@ -70,3 +70,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+:global(.vtex-slider-layout-0-x-caretIcon) {
+  color: #000 !important;
+}

@@ -319,4 +319,8 @@
   .shippingContainer {
     margin-top: 26px;
   }
+
+  .productImageTag--main {
+    max-height: 400px !important;
+  }
 }

@@ -21,6 +21,11 @@
   font-size: 12px;
 }
 
+.minicartCheckoutButton {
+  position: relative;
+  top: -10px;
+}
+
 .openIconContainer,
 .minicartContainer :global(.vtex-button__label) {
   padding-right: 0px;

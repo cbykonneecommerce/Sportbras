@@ -164,7 +164,8 @@
   },
   "flex-layout.row#productbanners": {
     "props":{
-      "marginBottom": 8
+      "marginBottom": 8,
+      "blockClass": ["banner-product"]
     },
     "children": [
       "flex-layout.col#banner1",

@@ -198,7 +198,16 @@
 }
 
 
+.flexColChild--product-content-section :global(.vtex-reviews-and-ratings-2-x-summaryButtonContainer) {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
+
+  .flexRow--promos :global(.vtex-store-components-3-x-container) {
+    padding: 0px;
+  }
+
   .flexRow--footer__content {
     padding: 0px;
   }
@@ -256,7 +265,7 @@
   }
 
   .flexColChild--product-content-section :global(.vtex-button) {
-    padding: 10px;
+    padding: 6px;
     font-size: 23px;
   }
 
