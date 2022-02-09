@@ -405,6 +405,27 @@ div#shipping-preview-container {
       letter-spacing: 0em;
       text-align: left;
       display: flex;
+
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+
+    h2::after {
+      content: "Veja as opções de entrega para seus ítens com todos os prazos e valores.";
+      font-family: "Intelo";
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #4f4f4f;
+      font-weight: normal !important;
+      margin-top: 10px;
+      display: block;
+    }
+
+    .srp-data.mt4 {
+      display: none !important;
     }
   }
 
@@ -653,6 +674,7 @@ h1#orderform-title {
             border-radius: 4px;
             text-align: center;
             width: 100% !important;
+            margin-left: 0px;
           }
 
           input[type='checkbox'] {
@@ -916,21 +938,6 @@ a#open-shipping {
       }
     }
   }
-}
-
-label[for='client-first-name'],
-label[for='client-last-name'] {
-  font-size: 0px !important;
-}
-
-label[for='client-first-name']::before {
-  content: "Nome";
-  font-size: 16px !important;
-}
-
-label[for='client-last-name']::before {
-  content: "Sobrenome";
-  font-size: 16px !important;
 }
 
 p.payment-submit-wrap {
@@ -1416,6 +1423,77 @@ label.srp-shipping-current-single {
 
 // mobile custom
 @media screen and (max-width: 768px) {
+
+  p.client-last-name {
+    margin-left: 13px;
+  }
+
+  .payment-confirmation-wrap {
+    border: none !important;
+  }
+
+  .cart-fixed h2 {
+    font-size: 20px;
+  }
+
+  .emailInfo {
+    width: 100% !important;
+    position: relative;
+    top: 120px;
+  }
+
+  //email
+  h3.client-pre-email-h {
+
+    span {
+      text-align: center !important;
+      font-size: 23px !important;
+      line-height: 30px;
+    }
+
+    small {
+      font-weight: 200;
+      margin-top: 9px;
+      font-size: 20px;
+    }
+  }
+
+  .client-email.input {
+    margin-top: 24px;
+
+    input#client-pre-email {
+      padding: 20px;
+      height: auto;
+      border-radius: 0px;
+      max-width: 340px;
+      font-family: "Intelo", sans-serif;
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #808080;
+    }
+
+    button#btn-client-pre-email {
+      min-width: 240px;
+      background: #FF0000 !important;
+      margin-top: 30px;
+      height: 68px !important;
+
+
+      span {
+        font-family: "StretchPro", sans-serif;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;      
+        display: block;
+      }
+    }
+
+  }
+
   body#checkoutMainContainer {
     padding: 0pc;
     background-color: #fff;
@@ -1505,6 +1583,7 @@ label.srp-shipping-current-single {
         td.product-price {
           position: absolute;
           right: 0px;
+          top: unset !important;
           bottom: 0px;
         }
 
@@ -1540,9 +1619,13 @@ label.srp-shipping-current-single {
       font-size: 16px;
       margin-top: 43px;
       margin-bottom: 9px;
-    }
 
-    @media screen and (min-width: 768px) {
+      @media screen and (max-width: 768px) {
+        margin-bottom: 0px !important;
+      }  
+    }   
+
+    @media screen and (min-width: 769px) {
       a#go-back-link {
         display: none;
       }
@@ -1558,7 +1641,7 @@ label.srp-shipping-current-single {
     }
 
     .coupon.summary-coupon {
-      margin: 9px 0px 28px;
+      margin: 9px 0px 10px;
     }
 
     p.coupon-data {
@@ -1662,7 +1745,7 @@ label.srp-shipping-current-single {
       background-color: #fff;
     }
 
-    p.client-email.text.required {
+    p.client-email {
       span {
         width: 100%;
         border: 2px solid #E0E0E0;
@@ -1714,10 +1797,6 @@ label.srp-shipping-current-single {
       float: left !important;
     }
     
-    label {
-      font-size: 13px !important;
-    }
-  
     p.client-document,
     p.client-first-name {
       max-width: 49%;
@@ -1805,13 +1884,14 @@ label.srp-shipping-current-single {
   .App.iframe-credit-card-payment-group {
     label {
       font-family: "Intelo", sans-serif;
-    font-size: 18px;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-bottom: 9px;
-    display: block;
-    color: #4f4f4f;
+      font-size: 18px;
+      line-height: 14px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 9px;
+      display: block;
+      color: #4f4f4f;
+      margin: 15px 0px !important;
   }
 
   input {
@@ -1825,11 +1905,12 @@ label.srp-shipping-current-single {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0em;
-    text-align: left;
     color: #4f4f4f;
     max-width: unset;
+    text-align: center;
   }
 
+  input#address-toggle-1,
   input#address-toggle-0 {
     max-width: 15px;
   }
@@ -1899,4 +1980,30 @@ a.payment-group-item {
       border: 2px solid #fff;
     }
   }
+}
+
+
+label[for='client-first-name'],
+label[for='client-last-name'] {
+  font-size: 0px !important;
+}
+
+label[for='client-first-name']::before {
+  content: "Nome";
+  font-size: 16px !important;
+}
+
+label[for='client-last-name']::before {
+  content: "Sobrenome";
+  font-size: 16px !important;
+}
+
+label[for="address-toggle-1"],
+label[for="address-toggle-0"] {
+  font-family: "Intelo", sans-serif !important;
+  font-size: 12px !important;
+  line-height: 11px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+  color: #4f4f4f !important;
 }

@@ -41,6 +41,10 @@
   .sliderLeftArrow--slider-shelf--default {
     left: -10px !important;
   }
+
+  .sliderRightArrow--brands-slider {
+    right: 10px;
+  }
 }
 
 .caretIcon,

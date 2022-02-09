@@ -74,4 +74,8 @@
   .openIconContainer :global(.vtex-button__label) {
     padding: 0px;
   }
+
+  .minicartCheckoutButton :global(.vtex-button__label) {
+    font-size: 14px;
+  }
 }

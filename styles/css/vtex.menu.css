@@ -188,6 +188,9 @@ margin-top: -7px;
   .styledLinkContent--linkList-footer-toggle {
     font-size: 20px;
   }
+  .menuItem--linkList-footer-toggle--isOpen {
+    padding-bottom: 20px;
+  }
 }
 
 @media (min-width: 760px) and (max-width: 1100px) {
