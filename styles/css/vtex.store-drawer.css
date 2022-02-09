@@ -21,3 +21,7 @@
 .menuIcon--menu-mobile {
     overflow: visible !important;
 }
+
+.openIconContainer--menu-mobile {
+    padding-right: 16px;
+}

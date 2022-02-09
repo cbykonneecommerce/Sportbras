@@ -10,7 +10,6 @@
 .sliderTrackContainer--carousel-policies {
   max-width: 1270px;
   margin: 0 auto;
-  padding: 23px 0px;
 }
 
 .paginationDotsContainer--carousel {
@@ -44,6 +43,11 @@
     padding: 0px !important;
     padding-bottom: 10px;
   }
+}
+
+.caretIcon,
+.caretIcon--slider-shelf--default {
+  overflow: visible !important;
 }
 
 /* alinhamento com container */

@@ -64,6 +64,8 @@
   .installments--pdp-installments {
     top: 0px;
     margin-left: 0px;
+    font-size: 12px;
+    color: #282828;
   }
 
   .sellingPriceValue {
@@ -85,4 +87,5 @@
   .sellingPrice {
     margin-bottom: 0px;
   }
+
 }

@@ -62,7 +62,6 @@ margin-top: 8px;
     :global(.vtex-store-newsletter-1-x-formSubmitContainer){
         text-align: center;
         width: 100%;
-        margin-top: 23px;
     }
 
     .newsletterForm{
@@ -83,10 +82,6 @@ margin-top: 8px;
      .newsletterTitle {
          margin: 0px;
          padding: 0px;
-     }
-
-     .emailInputContainer {
-         margin-top: 19px;
      }
 }
 

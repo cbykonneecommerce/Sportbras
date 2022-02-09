@@ -13,6 +13,7 @@
       // "menu-item#col1-all--mob"
     ],
     "props": {
+      "open": true,
       "orientation": "vertical",
       "blockClass": "submenu"
     }

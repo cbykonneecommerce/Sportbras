@@ -276,6 +276,30 @@
   .flexRowContent--product-description {
     margin-top: 27px;
   }
+
+  .flexRowContent--social-container :global(.vtex-rich-text-0-x-container) {
+    margin-top: 46px;
+  }
+
+  .flexColChild--powered-container {
+    margin-top: 46px;
+  }
+
+  .flexRow--product-description :global(.vtex-store-components-3-x-container) {
+    padding: 0px;
+  }
+
+  .flexRow--banner-product .flexCol--banner-prod {
+    margin: 0px;
+  }
+
+  .flexRow--Institutionalrow {
+    padding: 0px 15px;
+  }
+
+  .flexRowContent--Institutionalrow {
+    margin-top: 10px;
+  }
 }
 
 .flexColChild--product-content-section :global(.vtex-reviews-and-ratings-2-x-summaryContainer),

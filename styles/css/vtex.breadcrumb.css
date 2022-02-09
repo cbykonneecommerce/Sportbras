@@ -49,10 +49,27 @@
     font-size: 9px;
     color: #979899;
     line-height: normal;
+    white-space: nowrap;
   }
 
   .container {
     margin-top: 21px;
     margin-bottom: 19px;
+    overflow-x: scroll;
   }
+
+  .container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  .container::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  /* Handle on hover */
+  .container::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+  }
+
 }

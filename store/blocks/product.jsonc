@@ -1,17 +1,39 @@
 {
   "store.product": {
+    "props": {
+      "blockClass": ["pdp"]
+    },
+    "children": [
+      "flex-layout.row#pdp"
+    ]
+  },
+
+  "flex-layout.row#pdp": {
+    "props": {
+      "blockClass": ["pdp-container"]
+    },
+    "children": [
+      "flex-layout.col#pdp"
+    ]
+  },
+
+  "flex-layout.col#pdp": {
+    "props": {
+      "blockClass": [
+        "pdp-col"
+      ]
+    },
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-name",
       "flex-layout.row#product-main",
       "__fold__",
       "flex-layout.row#description",
-      //"flex-layout.row#specs",
-     // "flex-layout.row#reviews",
       "flex-layout.row#relatedshelf",
       "flex-layout.row#productbanners"
     ]
   },
+
   "rich-text#avaliacoes-text": {
     "title": "Avaliações Texto",
     "props": {

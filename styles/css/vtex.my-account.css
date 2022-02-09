@@ -74,3 +74,29 @@
 :global(.vtex-pageHeader__title ) {
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+    .menu {
+        padding: 15px;
+    }
+
+    :global(.vtex-account_menu-link) {
+        padding-left: 0px;
+    }
+
+    :global(.vtex-pageHeader__title) {
+        font-size: 24px;
+    }
+
+    :global(.vtex-pageHeader__container) {
+        padding-bottom: 0px;
+    }
+
+    :global(.vtex-pageHeader-link__container) :global(.vtex-button) {
+        font-weight: bold;
+    }
+
+    :global(.vtex-account__page-body) {
+        padding: 10px 20px;
+    }
+}

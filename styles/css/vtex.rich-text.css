@@ -63,6 +63,7 @@
 
 .headingLevel2--InstitutionalTitle {
   text-transform: uppercase;
+  color: #ED1B34;
 }
 .wrapper--InstitutionalText {
   padding-right: 60px;
@@ -96,7 +97,7 @@
 
 .paragraph--InstitutionalTitle,
 .headingLevel2--InstitutionalTitle {
-  color: #515151;
+  color: #ED1B34;
   font-family: "StretchPro";
 }
 
@@ -194,7 +195,35 @@
 
   .paragraph--menu-institucional-dropdown{
     margin: 10px;
+    font-family: "Intelo", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
   }
+
+  .paragraph--payment__image,
+  .paragraph--social__image {
+    margin-bottom: 0px;
+  }
+
+  .paragraph--vtex,
+  .paragraph--powered__title,
+  .paragraph--cbyk {
+    margin: 0px;
+  }
+
+  .headingLevel2--InstitutionalTitle {
+    font-size: 18px;
+    margin: 28px 0px;
+  }
+
+  .container--menu-institucional-dropdown {
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='12' viewBox='0 0 17 12' fill='none'%3E%3Cpath d='M2 2L8.74072 9.44704L15 2' stroke='%23ED1B34' stroke-width='3'/%3E%3C/svg%3E");
+  }
+
 }
 
 /*.strong--troca-gratis {
@@ -272,7 +301,7 @@
 
 @media screen and (max-width: 768px) {
     .paragraph--footer-politicas-list::before {
-      margin: 0px;
+      margin-right: 20px;
     }
 
     .paragraph--politica-parcelamentos::before {
@@ -282,6 +311,10 @@
     .paragraph--melhores-precos::before,
     .paragraph--politica-melhores-marcas::before {
       margin-right: 20px;
+    }
+
+    .paragraph--politica-melhores-marcas::before {
+      width: 35px;
     }
 
     .paragraph--novidades {
@@ -306,8 +339,9 @@
     }
 
     .paragraph--newsletterTitle {
-      margin: 0px !important;
       padding: 0px;
+      margin-bottom: 19px;
     }
- 
+
+    .container--footer-sobre {}
 }

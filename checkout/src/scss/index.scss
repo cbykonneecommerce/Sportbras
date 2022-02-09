@@ -43,6 +43,7 @@ body {
 }
 
 body#checkoutMainContainer {
+  padding-top: 0px;
   background: rgba(242, 242, 242, 0.7);
 }
 
@@ -71,7 +72,7 @@ table.table.cart-items {
       line-height: 25px;
       letter-spacing: 0em;
       text-align: left;
-      font-weight: normal;
+      font-weight: bold;
       color: #4f4f4f;
     }
   }
@@ -104,13 +105,19 @@ table.table.cart-items {
     }
 
     table.table.cart-items {
+
+      .product-price {
+        position: relative;
+        top: -10px;
+      }
+
       thead {
         tr {
           th {
             font-family: 'Intelo', sans-serif;
             font-size: 21px;
             font-style: normal;
-            font-weight: normal;
+            font-weight: bold;
             line-height: 25px;
             letter-spacing: 0em;
             text-align: left;
@@ -1052,6 +1059,7 @@ span.SecurityEnvironmentIcon {
   }
 }
 
+.App.iframe-debit-card-payment-group,
 .App.iframe-credit-card-payment-group {
   label.FormFieldLabel {
     font-family: 'Intelo', sans-serif;
@@ -1533,6 +1541,13 @@ label.srp-shipping-current-single {
       margin-top: 43px;
       margin-bottom: 9px;
     }
+
+    @media screen and (min-width: 768px) {
+      a#go-back-link {
+        display: none;
+      }
+    }
+
   }
 
   .forms.coupon-column.summary-coupon-wrap {
@@ -1749,36 +1764,9 @@ label.srp-shipping-current-single {
   }
 
   div#payment-data {
-
-    a.payment-group-item {
-
-      position: relative;
-
-      &::after {
-        content: "";
-        position: absolute;
-        left: 15px;
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        outline: 2px solid #D20A11;
-        top: 17px;
-      }
-
-      span.payment-group-item-text {
-        padding-left: 45px !important;
-      }
-
-      &.active {
-        &::after {
-          background-color: #D20A11;
-          border: 2px solid #fff;
-        }
-      }
-    }
-
     background: #f4f4f4;
 
+    .App.iframe-debit-card-payment-group,
     .App.iframe-credit-card-payment-group,
     .required.payment-group-list-btn,
     .step.accordion-group.store-country-BRA {
@@ -1813,7 +1801,7 @@ label.srp-shipping-current-single {
     }
   }
 
-
+  .App.iframe-debit-card-payment-group,
   .App.iframe-credit-card-payment-group {
     label {
       font-family: "Intelo", sans-serif;
@@ -1843,9 +1831,8 @@ label.srp-shipping-current-single {
   }
 
   input#address-toggle-0 {
-    max-width: 30px;
+    max-width: 15px;
   }
-
   }
 
   div#app-container {
@@ -1870,4 +1857,46 @@ label.srp-shipping-current-single {
     max-width: unset !important;
   }
 
+}
+
+@media screen and (min-width: 768px) {
+  div#shipping-preview-container {
+    #go-back-link {display: none;}
+  }
+}
+
+.App.iframe-debit-card-payment-group,
+.App.iframe-credit-card-payment-group {
+  padding: 15px;
+}
+
+a.payment-group-item {
+
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    outline: 2px solid #D20A11;
+    top: 17px;
+  }
+
+  span.payment-group-item-text {
+    padding-left: 45px !important;
+  }
+
+  span {
+    white-space: nowrap;
+  }
+
+  &.active {
+    &::after {
+      background-color: #D20A11;
+      border: 2px solid #fff;
+    }
+  }
 }

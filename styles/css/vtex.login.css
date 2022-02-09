@@ -1,6 +1,16 @@
+.box {
+    right:  unset !important;
+    left: 0px !important;
+}
+
 .profileIcon{
     width: 30px;
     height: 30px;
+}
+
+.options {
+    min-width: unset !important;
+    width: 100% !important;
 }
 
 :global(.vtex-login-2-x-label){
@@ -40,6 +50,10 @@
         left: -10px;
         top: 7px;
     }    
+}
+
+.arrowUp {
+    left: 15px;
 }
 
 .accountOptions :global(.vtex-login-2-x-button),

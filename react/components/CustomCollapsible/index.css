@@ -27,44 +27,42 @@
 .customCollapsibleContainerButtonSubItem--custom,
 .customCollapsibleContainerButton--custom {
   width: 100%;
-  background-color: #ebebeb;
+  background-color: #DBDBDB;
   border: none;
   padding: 30px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'StretchPro';
+  font-family: 'Intelo', sans-serif;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
-  color: #333;
-  border-top: 1px solid #dedede;
+  color: #3f3f40;
+  border-top: 1px solid #CFCFCF;
   text-align: left;
+  font-weight: bold;
 }
 
 .customCollapsibleContainerButtonSubItem--custom {
   margin-bottom: 0px;
-  border: 1px solid #dedede;
+  border: 1px solid #CFCFCF;
   background-color: #ebebeb;
   font-size: 16px;
   padding: 15px 30px;
 }
 
-.customCollapsibleContainerItemParent {
-  margin-bottom: 10px;
-}
-
 .customCollapsibleContainerText {
   padding: 15px 30px;
   margin: 0px;
-  border-left: 1px solid #dedede;
-  border-right: 1px solid #dedede;
-  border-bottom: 1px solid #dedede;
+  border-left: 1px solid #CFCFCF;
+  border-right: 1px solid #CFCFCF;
+  border-bottom: 1px solid #CFCFCF;
   color: #6f6f6f;
   font-family: 'Intelo', sans-serif;
   letter-spacing: 0.15px;
-  font-size: 16px;
+  font-size: 20px;
   color: #4f4f44;
+  background-color: #F9F9F9;
 }
 
 @media screen and (max-width: 768px) {
@@ -74,5 +72,9 @@
 
   .customCollapsibleContainerButtonSubItem--custom {
     font-size: 12px;
+  }
+
+  .customCollapsibleContainerText {
+    font-size: 14px;
   }
 }

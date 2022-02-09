@@ -54,3 +54,18 @@
   background-size: 25px;
   background-repeat: no-repeat;
 }
+
+.minicartQuantityBadge {
+  background-color: #8C171A;
+}
+
+@media screen and (max-width: 768px) {
+
+  .openIconContainer {
+    padding-left: 0px;
+  }
+
+  .openIconContainer :global(.vtex-button__label) {
+    padding: 0px;
+  }
+}

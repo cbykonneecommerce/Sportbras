@@ -24,6 +24,10 @@
   }
 }
 
+.caretIcon--related--shelf {
+  overflow: visible !important;
+}
+
 @media screen and (min-width: 769px) {
   .container--related--shelf {
     margin-top: 100px;

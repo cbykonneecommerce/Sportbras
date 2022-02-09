@@ -167,14 +167,14 @@ margin-top: -7px;
 
   .styledLinkContainer--submenu--inst{
     margin: 0;
+    padding: 0px;
   }
   .styledLinkContent--submenu--inst{
     color: #9D9D9D;
     border: 2px solid #9D9D9D;
-border-radius: 2px;
-padding: 13px 12px;
-margin: 0;
-    margin-top: -7px;
+    border-radius: 2px;
+    padding: 13px 12px;
+    margin: 0;
   }
 
   .menuItem--linkList-footer-toggle :global(.vtex-menu-2-x-styledLink){
@@ -194,4 +194,8 @@ margin: 0;
   .styledLinkContent--submenu--inst {
     font-size: 11px;
   }
+}
+
+.menuItem--submenu--inst .styledLinkContainer {
+  margin: 0px;
 }
