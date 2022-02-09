@@ -281,6 +281,7 @@
 
   .gallery :global(.vtex-add-to-cart-button-0-x-buttonText) {
     font-size: 12px;
+    line-height: normal !important;
   }
 
   .gallery :global(.vtex-product-summary-2-x-containerNormal) {

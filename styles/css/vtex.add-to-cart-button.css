@@ -2,4 +2,5 @@
     font-family: "StretchPro", sans-serif;
     font-size: 18px;
     letter-spacing: 0.22px;
+    line-height: normal !important;
 }

@@ -202,6 +202,20 @@
   display: none;
 }
 
+.flexRowContent--banner-product {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.flexRowContent--banner-product .flexCol--banner-prod {
+  margin: 0px;
+}
+
+.flexRow--banner-product .stretchChildrenWidth {
+  width: 100% !important;
+}
+
 @media screen and (max-width: 768px) {
 
   .flexRow--promos :global(.vtex-store-components-3-x-container) {
@@ -215,6 +229,11 @@
   .flexRowContent--gigbanner {
     margin-top: 96px;
     margin: 0px;
+  }
+
+  .flexRowContent--banner-product {
+    display: flex;
+    flex-direction: column;
   }
 
   .flexRow--brand-slider :global(.vtex-store-components-3-x-imageElement) {

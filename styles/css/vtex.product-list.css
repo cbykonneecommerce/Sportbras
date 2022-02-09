@@ -6,6 +6,7 @@
     text-align: left;
     text-transform: uppercase;
     color: #9f9f9f;
+    font-weight: bold;
 }
 
 .productName {
@@ -16,4 +17,39 @@
     text-align: left;
     color: #515151;
     font-weight: bold;
+}
+
+.quantityDropdownContainer :global(.vtex-dropdown__container) {
+    border: 2px solid #BDBDBD;
+border-radius: 3px
+}
+
+.productVariationsItem {
+    font-family: "Intelo", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9f9f9f;
+    font-weight: bold;
+    margin-top: 9px;
+}
+
+.price {
+    font-family: "Intelo", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+    font-weight: bold;
+}
+
+.productPriceCurrency .currencyContainer {
+    font-family: "Intelo", sans-serif;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+    color: #9f9f9f;
 }

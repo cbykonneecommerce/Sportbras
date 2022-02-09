@@ -229,6 +229,7 @@
 
 :global(.vtex-search-2-x-biggy-autocomplete-wrapper) :global(.vtex-product-summary-2-x-buyButtonText) {
   font-size: 0px;
+  line-height: normal !important;
 }
 
 :global(.vtex-search-2-x-biggy-autocomplete-wrapper) :global(.vtex-product-summary-2-x-buyButtonText)::before {

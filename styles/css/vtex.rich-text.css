@@ -2,7 +2,6 @@
   content: url("/arquivos/title-img.png");
   position: relative;
   z-index: 100;
-  left: 10px;
   top: 14px;
 }
 
@@ -119,6 +118,9 @@
   text-transform: uppercase;
   margin-bottom: 36px;
   margin-top: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .paragraph--copyright__text {

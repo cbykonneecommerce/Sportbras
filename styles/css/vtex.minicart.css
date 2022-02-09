@@ -18,7 +18,8 @@
 
 .minicartCheckoutButton :global(.vtex-button__label) {
   font-family: "StretchPro", sans-serif;
-  font-size: 12px;
+  font-size: 18px;
+  white-space: nowrap;
 }
 
 .minicartCheckoutButton {
@@ -57,6 +58,11 @@
 
 .minicartQuantityBadge {
   background-color: #8C171A;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  padding: 16px;
+  border-radius: 0px;
 }
 
 @media screen and (max-width: 768px) {
