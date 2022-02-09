@@ -1180,6 +1180,14 @@ span.SecurityEnvironmentIcon {
   }
 }
 
+.mini-cart .summary-template-holder {
+  background-color: #fff;
+
+  .summary {
+    background-color: #fff;
+  }
+}
+
 .cart-template.mini-cart {
   background: #fff;
   border: none !important;
@@ -1419,6 +1427,10 @@ label.srp-shipping-current-single {
       align-items: center;
     }
   }
+}
+
+.cart-fixed h2 {
+  border: none !important;
 }
 
 // mobile custom
