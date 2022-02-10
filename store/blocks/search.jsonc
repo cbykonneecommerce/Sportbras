@@ -76,6 +76,7 @@
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result",
+      "flex-layout.row#fetchmore",
       "search-products-progress-bar",
       "flex-layout.row#promos-search",
       "flex-layout.row#promocoesimg"
@@ -155,9 +156,7 @@
   "flex-layout.col#content": {
     "children": [
       "flex-layout.row#searchinfo",
-      "flex-layout.row#fetchprevious",
-      "flex-layout.row#products",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#products"
     ],
     "props": {
       "width": "grow",

@@ -326,6 +326,20 @@
   margin-bottom: 34px;
 }
 
+.flexRowContent--footer__copyright,
+.flexRowContent--footer__content {
+  justify-content: space-between;
+}
+
+.flexRowContent--footer__copyright .stretchChildrenWidth,
+.flexRowContent--footer__content .stretchChildrenWidth {
+  width: auto !important;
+}
+
+.flexRow--instagram-iframe :global(.vtex-store-components-3-x-container) {
+  max-width: 1240px;
+}
+
 @media screen and (min-width: 769px) {
   .flexRowContent--product-price--details .stretchChildrenWidth {
     width: auto !important;

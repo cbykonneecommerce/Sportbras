@@ -54,6 +54,10 @@ margin-top: 8px;
         min-width: 230px;
         border-radius: 0px;
     }
+
+    .formSubmitContainer :global(.vtex-button__label) {
+        padding: 0px;
+    }
  
 }
 

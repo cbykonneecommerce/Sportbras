@@ -53,8 +53,7 @@
 }
 
 .progressBarContainer {
-  margin-left: 15%;
-  margin-top: 0px !important;
+  margin: 0px !important;
 }
 
 /*:global(.vtex-search-result-3-x-filter__container--cor-){
