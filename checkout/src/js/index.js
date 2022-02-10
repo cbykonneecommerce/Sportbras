@@ -107,5 +107,5 @@ $(document).ready(function() {
     const linkToHome = "<a href='/' id='go-back-link'>Escolher mais produtos</a>"
     $('.coupon.summary-coupon').prepend(linkToHome)
     $('div#shipping-preview-container').prepend(linkToHome)
-  }, 3000)
+  }, 3500)
 })

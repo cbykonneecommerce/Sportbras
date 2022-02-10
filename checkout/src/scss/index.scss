@@ -29,6 +29,18 @@
   font-weight: 'bold';
 }
 
+@font-face {
+  font-family: 'Gotham';
+  src: url('https://sportbras.vteximg.com.br/arquivos/GothamMedium.ttf.css'); 
+  font-weight: 'bold';
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('https://sportbras.vteximg.com.br/arquivos/Gotham-Thin.otf.css'); 
+  font-weight: 200;
+}
+
 
 // Reset css
 
@@ -93,11 +105,8 @@ table.table.cart-items {
 
   .cart {
     background: #fff;
-    border: 1px solid #bdbdbd;
-    padding: 20px 49px 20px 60px;
-    -webkit-box-shadow: 19px 18px 31px -2px rgba(222, 222, 222, 1);
-    -moz-box-shadow: 19px 18px 31px -2px rgba(222, 222, 222, 1);
-    box-shadow: 19px 18px 31px -2px rgba(222, 222, 222, 1);
+    border: 2px solid #bdbdbd;
+    padding: 41px 20px 20px 61px;
     margin-top: 20px;
 
     @media screen and (max-width: 768px) {
@@ -108,7 +117,6 @@ table.table.cart-items {
 
       .product-price {
         position: relative;
-        top: -10px;
       }
 
       thead {
@@ -188,6 +196,7 @@ table.table.cart-items {
       }
 
       td.quantity-price {
+        text-align: left;
         span.total-price,
         span.total-selling-price {
           font-family: 'Intelo', sans-serif;
@@ -326,6 +335,7 @@ td.info {
         font-weight: normal;
         line-height: 26px;
         letter-spacing: 0em;
+        padding-left: 0px;
       }
 
   
@@ -343,9 +353,14 @@ td.info {
       td.info {
         color: #ED1C24;
         font-weight: bold;
+        padding-left: 0px;
       }
     }
   }
+}
+
+.full-cart .summary-totalizers .empty {
+  display: none;
 }
 
 .coupon.summary-coupon {
@@ -929,7 +944,7 @@ a#open-shipping {
       td {
         text-align: right;
         font-size: 22px;
-        font-family: Hind, sans-serif;
+        font-family: "Intelo", sans-serif;
         font-style: normal;
         font-weight: 400;
         line-height: 26px;
@@ -1526,7 +1541,7 @@ label.srp-shipping-current-single {
 
       a {
         img {
-          max-width: 300px;
+          max-width: 230px;
         }
       }
 
@@ -1597,6 +1612,20 @@ label.srp-shipping-current-single {
           right: 0px;
           top: unset !important;
           bottom: 0px;
+
+          &::before {
+            content: "Preço";
+            font-family: "Gotham", sans-serif;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;            
+            font-weight: 200;
+            margin-right: 9px;
+            color: #BF0811;
+            opacity: 0.8;
+          }
+
         }
 
         td.product-name {
@@ -1744,9 +1773,11 @@ label.srp-shipping-current-single {
   }
 
   .cart-links-bottom {
+    margin-top: 36px;
     a#cart-to-orderform {
       padding: 19px;
       font-weight: normal;
+      margin-top: 0px;
     }
   }
 
