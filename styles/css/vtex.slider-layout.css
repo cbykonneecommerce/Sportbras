@@ -57,6 +57,10 @@
     padding: 0px 10px 10px;
   }
 
+  .sliderLeftArrow {
+    left: -7px;
+  }
+
   /* alinhamento com container */
 .sliderArrows,
 .sliderRightArrow--slider-shelf--default,
