@@ -182,7 +182,7 @@
 }
 
 .galleryItem :global(.vtex-product-summary-2-x-productBrand) {
-  max-height: 35px;
+  max-height: 50px;
 }
 
 .galleryItem :global(.vtex-button) {
@@ -297,5 +297,9 @@
 
   .container--layout :global(.vtex-flex-layout-0-x-flexRow--promos) {
     margin-bottom: 43px;
+  }
+
+  .totalProducts--layout {
+    padding-left: 0px;
   }
 }

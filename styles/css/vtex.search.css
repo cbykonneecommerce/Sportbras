@@ -26,7 +26,14 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .biggy-autocomplete-wrapper {
+        width: 100vw !important;
+    }
+
     .biggy-autocomplete {
-        flex-direction: column;
+        flex-direction: column !important;
+        left: -23px !important;
+        top: 5px;
     }
 }

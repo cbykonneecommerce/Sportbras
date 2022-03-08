@@ -58,7 +58,6 @@
   letter-spacing: 0.2px;
   font-family: "Intelo", sans-serif;
   display: block;
-  font-weight: bol;
   overflow: hidden;
 }
 
@@ -94,6 +93,10 @@
   .containerNormal :global(.vtex-add-to-cart-button-0-x-buttonText) {
     font-size: 12px;
     line-height: normal !important;
+  }
+
+  .productBrand {
+    padding-top: 3px !important;
   }
 }
 

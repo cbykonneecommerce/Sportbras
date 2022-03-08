@@ -22,7 +22,7 @@
   }
 
   .sliderLayoutContainer--carousel-policies {
-    padding: 20px;
+    padding: 20px 10px;
   }
 
   .slideChildrenContainer--brands-slider :global(.vtex-store-components-3-x-imageElement) {

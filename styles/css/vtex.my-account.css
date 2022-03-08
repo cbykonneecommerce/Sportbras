@@ -77,7 +77,16 @@
 
 @media screen and (max-width: 768px) {
     .menu {
-        padding: 15px;
+        padding: 1.5rem;
+    }
+
+    .menuLink {
+        padding-left: 0px;
+    }
+
+    :global(.vtex-pageHeader__container) {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
     }
 
     :global(.vtex-account_menu-link) {

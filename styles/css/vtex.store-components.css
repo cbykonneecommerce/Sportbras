@@ -144,7 +144,7 @@
   font-weight: bold;
   font-family: "Intelo", sans-serif;
   font-size: 14px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .price_sellingPriceContainer {
@@ -255,6 +255,7 @@
 @media screen and (max-width: 768px) {
   .searchBarContainer {
     padding-bottom: 10px;
+    margin-top: 1px;
   }
 
   .productNameContainer {
@@ -360,3 +361,38 @@
     margin-top: 10px;
   }
 }
+
+.skuSelectorOptionsList {
+  display: flex;
+}
+
+.skuSelectorItem--2gg {
+  order: 6;
+}
+
+.skuSelectorItem--3gg {
+  order: 7;
+}
+
+.skuSelectorItem--g {
+  order: 5;
+}
+
+.skuSelectorItem--gg {
+  order: 4;
+
+}
+
+.skuSelectorItem--m {
+  order: 3;
+}
+
+.skuSelectorItem--p {
+  order: 2;
+}
+
+.skuSelectorItem--pp {
+  order: 1;
+}
+
+

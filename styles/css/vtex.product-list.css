@@ -17,6 +17,8 @@
     text-align: left;
     color: #515151;
     font-weight: bold;
+    position: relative;
+    padding-top: 3px;
 }
 
 .quantityDropdownContainer :global(.vtex-dropdown__container) {

@@ -36,7 +36,7 @@
         }
     },
     "blocks": [
-        "vtex.menu@2.x:submenu.accordion#acessorios-submenu-block-mob"
+        // "vtex.menu@2.x:submenu.accordion#acessorios-submenu-block-mob"
     ]
 },
 
@@ -62,14 +62,14 @@
 
         "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/calcados",
             "noFollow": true,
             "tagTitle": "CALÇADOS",
             "text": "CALÇADOS"
         }
     },
     "blocks": [
-        "vtex.menu@2.x:submenu.accordion#calcados-submenu-block-mob"
+        // "vtex.menu@2.x:submenu.accordion#calcados-submenu-block-mob"
     ]
 },
 
@@ -92,14 +92,14 @@
 
         "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/criancas",
             "noFollow": true,
             "tagTitle": "CRIANÇAS",
             "text": "CRIANÇAS"
         }
     },
     "blocks": [
-        "vtex.menu@2.x:submenu.accordion#crianças-submenu-block-mob"
+        // "vtex.menu@2.x:submenu.accordion#crianças-submenu-block-mob"
     ]
 },
 
@@ -123,14 +123,14 @@
 
         "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/homens",
             "noFollow": true,
             "tagTitle": "HOMENS",
             "text": "HOMENS"
         }
     },
     "blocks": [
-        "vtex.menu@2.x:submenu.accordion#homens-submenu-block-mob"
+        // "vtex.menu@2.x:submenu.accordion#homens-submenu-block-mob"
     ]
 },
 
@@ -155,14 +155,14 @@
 
         "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/marcas",
             "noFollow": true,
             "tagTitle": "MARCAS",
             "text": "MARCAS"
         }
     },
     "blocks": [
-        "vtex.menu@2.x:submenu.accordion#marcas-submenu-block-mob"
+        // "vtex.menu@2.x:submenu.accordion#marcas-submenu-block-mob"
     ]
 },
 
@@ -187,14 +187,14 @@
 
         "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/mulheres",
             "noFollow": true,
             "tagTitle": "MULHERES",
             "text": "MULHERES"
         }
     },
     "blocks": [
-        "vtex.menu@2.x:submenu.accordion#mulheres-submenu-block-mob"
+        // "vtex.menu@2.x:submenu.accordion#mulheres-submenu-block-mob"
     ]
 },
 
@@ -218,14 +218,14 @@
 
         "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/roupas",
             "noFollow": true,
             "tagTitle": "ROUPAS",
             "text": "ROUPAS"
         }
     },
     "blocks": [
-        "vtex.menu@2.x:submenu.accordion#roupas-submenu-block-mob"
+        // "vtex.menu@2.x:submenu.accordion#roupas-submenu-block-mob"
     ]
 },
 
