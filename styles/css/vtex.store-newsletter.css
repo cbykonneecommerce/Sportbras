@@ -11,7 +11,12 @@
 
 
 .formSubmitContainer{
-margin-top: 8px;
+    margin-top: 8px;
+}
+@media (max-width: 700px) {
+    .formSubmitContainer{
+        margin-top: 40px;
+    }
 }
 
 :global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button){
@@ -42,6 +47,8 @@ margin-top: 8px;
         margin-top: 10px;   
         max-width: 100%;
         justify-content: flex-end;
+        height: 93px;
+        align-items: center;
     }
 
     .nameInputContainer,  :global(.vtex-store-newsletter-1-x-emailInputContainer){

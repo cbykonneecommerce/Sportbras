@@ -35,7 +35,7 @@
   justify-content: space-between;
   font-family: 'Intelo', sans-serif;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 15px;
   cursor: pointer;
   color: #3f3f40;
   border-top: 1px solid #CFCFCF;
@@ -47,7 +47,7 @@
   margin-bottom: 0px;
   border: 1px solid #CFCFCF;
   background-color: #ebebeb;
-  font-size: 20px;
+  font-size: 12px;
   padding: 15px 30px;
 }
 
@@ -60,7 +60,7 @@
   color: #6f6f6f;
   font-family: 'Intelo', sans-serif;
   letter-spacing: 0.15px;
-  font-size: 20px;
+  font-size: 10px;
   color: #4f4f44;
   background-color: #F9F9F9;
 }
