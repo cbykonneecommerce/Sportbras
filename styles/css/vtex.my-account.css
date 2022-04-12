@@ -27,6 +27,12 @@
     color: #515151;
 }
 
+@media (max-width: 700px) {
+    .dataEntryChildren {
+        font-size: 14px;
+    }
+}
+
 :global(.vtex_my-authentication_loginSessionsBox_title),
 :global(.vtex_my-authentication_maskedPassword_title),
 .menuLink,
